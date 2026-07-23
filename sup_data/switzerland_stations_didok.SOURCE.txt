@@ -1,0 +1,6 @@
+Dataset: Service Points (Didok) — Swiss public transport stops
+Source: Federal Office of Transport (FOT/BAV), via opentransportdata.swiss
+Downloaded from: https://data.sbb.ch/explore/dataset/dienststellen-gemass-opentransportdataswiss/
+Direct export URL: https://data.sbb.ch/api/explore/v2.1/catalog/datasets/dienststellen-gemass-opentransportdataswiss/exports/csv?limit=-1
+Retrieved: 2026-07-23
+License: opendata.swiss open use terms, attribution required (OPEN-BY) — https://opendata.swiss/terms-of-use#terms_by
