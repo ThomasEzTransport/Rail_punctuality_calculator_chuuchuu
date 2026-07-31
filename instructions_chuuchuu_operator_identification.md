@@ -676,6 +676,7 @@ SET operator = 'Govolta'
 WHERE "routeType" = 'GV';
 ```
 
+
 **IC** — counts observed (no operator-assignment rule was provided for this breakdown yet — pending):
 - DB Fernverkehr AG: 9143
 - Schweizerische Bundesbahnen, DB Fernverkehr AG: 513
@@ -686,3 +687,587 @@ WHERE "routeType" = 'GV';
 - DB Fernverkehr AG, Österreichische Bundesbahnen, Ceske Drahy, PKP Intercity: 30
 - PKP Intercity, Ceske Drahy, Österreichische Bundesbahnen, DB Fernverkehr AG: 30
 - Snälltåget: 10
+
+```sql
+UPDATE delay_records
+SET operator = 'SBB'
+WHERE agency = 'DB'
+  AND "routeType" = 'IC'
+  AND "routeNumber" IN (
+    '180','182','184','186','188','280','282','284','380','388','480','482','484','486','488',
+    '1082','1180','181','183','185','187','281','283','285','389','1089'
+  );
+
+UPDATE delay_records
+SET operator = 'PKP Intercity'
+WHERE agency = 'DB'
+  AND "routeType" = 'IC'
+  AND "routeNumber" IN ('132','134','407','417');
+
+UPDATE delay_records
+SET operator = 'OEBB'
+WHERE agency = 'DB'
+  AND "routeType" = 'IC'
+  AND "routeNumber" IN ('406','416');
+
+UPDATE delay_records
+SET operator = 'DSB'
+WHERE agency = 'DB'
+  AND "routeType" = 'IC'
+  AND CAST("routeNumber" AS INTEGER) BETWEEN 5751 AND 5767;
+
+UPDATE delay_records
+SET operator = 'DB Fernverkehr AG'
+WHERE agency = 'DB'
+  AND "routeType" = 'IC'
+  AND "routeNumber" NOT IN (
+    '180','182','184','186','188','280','282','284','380','388','480','482','484','486','488',
+    '1082','1180','181','183','185','187','281','283','285','389','1089',
+    '132','134','407','417',
+    '406','416'
+  )
+  AND CAST("routeNumber" AS INTEGER) NOT BETWEEN 5751 AND 5767;
+  ```
+
+  ICE already covered
+
+NJ already covered
+
+RE	DB Regio AG Mitte SÜWEX	96
+
+RJ, RJX, TGV, WB already covered
+
+### **GTFSDE agency**
+
+```sql
+SELECT TRIM("routeType") AS routetype,
+       COALESCE(operator, '(NULL)') AS operator,
+       COUNT(*) AS cnt
+FROM delay_records
+WHERE UPPER(TRIM(agency)) = 'GTFSDE'
+  AND date > '2026-05-04'
+GROUP BY TRIM("routeType"), operator
+ORDER BY cnt DESC, routetype, operator;
+
+  ```
+
+EC	(NULL)	286
+EC	DB Fernverkehr AG	201
+EC	Ceske Drahy	4
+ECE	(NULL)	368
+ECE	DB Fernverkehr AG	278
+ECE	Dänische Staatsbahnen	5
+EN	(NULL)	15
+EN	ÖBB	15
+
+EC, ECE, EN should be excluded from analysis (already covered by DB)
+
+FEX	(NULL)	1609
+FEX	800151 DB Regio AG Nordost	1473
+FEX	Albtal-Verkehrs-Gesellschaft	52
+
+Which FEX trains are DB?
+```sql
+UPDATE delay_records
+SET operator = 'DB'
+WHERE agency = 'GTFSDE'
+  AND "routeType" = 'FEX'
+  AND CAST("routeNumber" AS INTEGER) BETWEEN 21800 AND 21969;
+  ```
+
+  ```jsx
+  AND CAST("routeNumber" AS INTEGER) BETWEEN 21800 AND 21969;
+```
+
+MEX	(NULL)	18259
+MEX	DB Regio Stuttgart	6824
+MEX	Arverio Baden-Württemberg GmbH	5745
+MEX	8006D6 DB Regio AG Baden-Württemberg	1319
+MEX	SWEG Bahn Stuttgart	138
+
+Which MEX are DB and which are Arverio?
+
+```sql
+UPDATE delay_records
+SET operator = 'DB'
+WHERE agency = 'GTFSDE'
+  AND "routeType" = 'MEX'
+  AND (
+    CAST("routeNumber" AS INTEGER) BETWEEN 17500 AND 17570
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 19200 AND 19399
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 19500 AND 19699
+  );
+
+UPDATE delay_records
+SET operator = 'Arverio'
+WHERE agency = 'GTFSDE'
+  AND "routeType" = 'MEX'
+  AND (
+    CAST("routeNumber" AS INTEGER) BETWEEN 19100 AND 19199
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 19400 AND 19499
+  );
+```
+
+NRB	(NULL)	90
+NRB	DB RegioNetz Verkehrs GmbH Südostbayernbahn	83
+NRB	800430 DB RegioNetz Verkehrs GmbH Erzgebirgsbahn	2
+
+All NRB are DB RegioNetz
+
+```sql
+UPDATE delay_records
+SET operator = 'DB'
+WHERE agency = 'GTFSDE'
+  AND "routeType" = 'NRB';
+```
+Which RB are DB and which are Arverio?
+
+```sql
+UPDATE delay_records
+SET operator = 'Arverio'
+WHERE agency = 'GTFSDE'
+  AND "routeType" = 'RB'
+  AND (
+    CAST("routeNumber" AS INTEGER) BETWEEN 57000 AND 57344
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 78901 AND 78975
+  );
+  ```
+
+  For DB Regio, assigning based on RB + Routenumber alone is not sufficient given the major range overlaps. Instead, per region, get the stopIds that are served by RB of the respective operator:
+```sql
+  SELECT DISTINCT "deutscheBahnStopId"
+FROM delay_records
+WHERE agency = 'GTFSDE'
+  AND "routeType" = 'RB'
+  AND operator LIKE '%DB Regio AG Nordost'
+ORDER BY "deutscheBahnStopId";
+```
+
+Then together with the number ranges for RB trains for this operator, only assign DB to RB trains with those numbers at those stops:
+
+```sql
+UPDATE delay_records
+SET operator = 'DB'
+WHERE agency = 'GTFSDE'
+  AND "routeType" = 'RB'
+  AND "deutscheBahnStopId" IN (
+    '331064','360304','5100082','5100083','5100096','5100222','5101281','5102886',
+    '5189954','5193610','8010016','8010018','8010036','8010041','8010051','8010053',
+    '8010066','8010069','8010072','8010073','8010079','8010089','8010093','8010099',
+    '8010100','8010103','8010113','8010176','8010183','8010193','8010215','8010255',
+    '8010279','8010280','8010285','8010300','8010304','8010308','8010322','8010324',
+    '8010327','8010338','8010355','8010357','8010373','8010377','8010381','8010389',
+    '8010392','8010395','8010396','8010403','8010404','8010405','8010406','8011031',
+    '8011078','8011093','8011098','8011102','8011108','8011109','8011114','8011140',
+    '8011155','8011160','8011162','8011167','8011179','8011188','8011201','8011270',
+    '8011286','8011306','8011318','8011319','8011320','8011334','8011340','8011414',
+    '8011419','8011421','8011425','8011471','8011540','8011542','8011563','8011667',
+    '8011695','8011729','8011735','8011749','8011778','8011797','8011889','8011901',
+    '8011944','8011945','8011991','8011992','8011995','8012006','8012065','8012084',
+    '8012086','8012089','8012096','8012108','8012127','8012169','8012215','8012253',
+    '8012315','8012316','8012329','8012341','8012377','8012445','8012469','8012479',
+    '8012482','8012503','8012582','8012583','8012584','8012609','8012617','8012621',
+    '8012650','8012666','8012681','8012713','8012729','8012785','8012806','8012818',
+    '8012819','8012840','8012841','8012892','8012903','8012934','8012941','8012962',
+    '8012963','8013021','8013040','8013105','8013106','8013132','8013133','8013160',
+    '8013161','8013183','8013185','8013267','8013272','8013305','8013339','8013340',
+    '8013341','8013350','8013368','8013385','8013406','8013470','8013475','8013481',
+    '8013483','8013487','8013489','8013490','8017349','8079084','8079604','8079629',
+    '8080170','8080190','8080260','8080370','8080710','8081220','8081688','8087026',
+    '8087027','936003'
+  )
+  AND (
+    -- 800151
+    CAST("routeNumber" AS INTEGER) BETWEEN 5383 AND 5395
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 5830 AND 5841
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 18100 AND 18166
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 18238 AND 18275
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 18300 AND 18341
+    OR "routeNumber" IN ('18451','18480')
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 93250 AND 93252
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 93268 AND 93270
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 94740 AND 94775
+    -- 800153
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 18700 AND 18737
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 18748 AND 18749
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 18800 AND 18869
+    -- 800156
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 13030 AND 13037
+    -- 800159
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 18000 AND 18048
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 18080 AND 18084
+    -- 800161
+    OR "routeNumber" = '3648'
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 18550 AND 18599
+    -- 800163
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 13100 AND 13149
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 13221 AND 13269
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 18740 AND 18745
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 18870 AND 18899
+    -- 800166
+    OR "routeNumber" = '18086'
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 18345 AND 18372
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 18420 AND 18445
+  );
+
+```
+
+Which RE are DB and which are Arverio?
+
+```sql
+UPDATE delay_records
+SET operator = 'Arverio'
+WHERE agency = 'GTFSDE'
+  AND "routeType" = 'RE'
+  AND (
+    CAST("routeNumber" AS INTEGER) BETWEEN 57006 AND 57347
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 78900 AND 78984
+  );
+```
+
+For DB Regio, assigning based on RB + Routenumber alone is not sufficient given the major range overlaps. Instead, per region, get the stopIds that are served by RB of the respective operator:
+
+```sql
+SELECT DISTINCT "deutscheBahnStopId"
+FROM delay_records
+WHERE agency = 'GTFSDE'
+  AND "routeType" = 'RB'
+  AND operator LIKE '%DB Regio AG Nordost'
+ORDER BY "deutscheBahnStopId";
+```
+
+Then together with the number ranges for RB trains for this operator, only assign DB to RB trains with those numbers at those stops, for example:
+
+```sql
+UPDATE delay_records
+SET operator = 'DB'
+WHERE agency = 'GTFSDE'
+  AND "routeType" = 'RE'
+  AND "deutscheBahnStopId" IN (
+    '8000042','8000124','8000131','8000156','8000189','8000191','8000218','8000229',
+    '8000236','8000244','8000264','8000265','8000275','8000295','8000323','8000369',
+    '8000373','8000383','8000423','8000471','8000599','8000649','8000668','8000681',
+    '8000736','8001132','8001366','8001618','8001707','8001883','8002021','8002137',
+    '8002342','8002380','8002632','8002685','8002883','8002931','8003101','8003235',
+    '8003726','8003759','8003932','8004094','8004095','8004215','8004219','8004577',
+    '8004658','8005013','8005077','8005229','8005494','8005578','8005592','8005714',
+    '8005736','8006083','8006137','8006661','8070097','8700271','8700439'
+  )
+  AND (
+    -- 801518
+    "routeNumber" IN ('38632','38710')
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 38761 AND 38770
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 38784 AND 38799
+    -- 801526
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 4280 AND 4299
+    -- 801539
+    OR "routeNumber" = '38112'
+    -- 8015A6
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 13324 AND 13334
+    -- 8015FR
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 86381 AND 86391
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 88824 AND 88873
+  );
+```
+
+RS	(NULL)	20941
+RS	Südwestdeutsche Verkehrs-AG	7113
+RS	NordWestBahn	5035
+RS	8007DU DB Regio AG Bayern	1751
+RS	800622 DB Regio AG Baden-Württemberg	584
+RS	800622 DB ZugBus Regionalverkehr Alb-Bodensee	499
+RS	SNCF	3
+
+Which RS are DB?
+
+```sql
+UPDATE delay_records
+SET operator = 'DB'
+WHERE agency = 'GTFSDE'
+  AND "routeType" = 'RS'
+  AND (
+    CAST("routeNumber" AS INTEGER) BETWEEN 32600 AND 32677
+    OR CAST("routeNumber" AS INTEGER) BETWEEN 57440 AND 57798
+  );
+```
+
+Which S are DB?
+
+Same exercise as for RB and S:
+U	(NULL)	268
+U	800417 DB Regio AG Südost	180
+
+```sql
+UPDATE delay_records
+SET operator = 'DB'
+WHERE agency = 'GTFSDE'
+  AND "routeType" = 'U'
+  AND (
+    CAST("routeNumber" AS INTEGER) BETWEEN 28000 AND 28014
+    OR CAST("routeNumber" AS INTEGER) = 28023
+  );
+```
+
+Leftover train numbers without operator for EC, IC, ECE, EN
+
+```sql
+SELECT
+  agency,
+  "routeType",
+  "routeNumber",
+  COUNT(*) AS cnt
+FROM delay_records
+WHERE operator IS NULL
+  AND "routeType" IN ('EC', 'IC', 'ECE', 'EN')
+  AND agency IN ('DB', 'OEBB', 'SBB', 'GTFSDE', 'IT', 'FR', 'HU', 'PL')
+GROUP BY agency, "routeType", "routeNumber"
+ORDER BY cnt DESC, agency, "routeType", "routeNumber";
+
+
+SELECT
+  "routeType",
+  COALESCE(operator::text, '(NULL)') AS operator,
+  STRING_AGG(DISTINCT "routeNumber", ', ' ORDER BY "routeNumber") AS route_numbers
+FROM delay_records
+WHERE agency = 'OEBB'
+  AND "routeType" IN ('EC', 'IC', 'ECE', 'EN')
+  AND date > '2026-05-04'
+GROUP BY "routeType", operator
+ORDER BY "routeType", operator;
+
+```
+
+Update OEBB records:
+
+
+```sql
+-- DB Fernverkehr AG → operator 'DB'
+UPDATE delay_records
+SET operator = 'DB'
+WHERE agency = 'OEBB'
+  AND (
+    ("routeType" = 'EC' AND "routeNumber" IN (
+      '115', '1281', '190', '192', '194', '196', '198', '213',
+      '80', '81', '94', '96', '98'
+    ))
+    OR
+    ("routeType" = 'IC' AND "routeNumber" IN ('406', '416'))
+  );
+
+-- Nahreisezug → operator 'OEBB'
+UPDATE delay_records
+SET operator = 'OEBB'
+WHERE agency = 'OEBB'
+  AND (
+    ("routeType" = 'EC' AND "routeNumber" IN (
+      '100', '102', '106', '114', '140', '141', '142', '143', '144', '145',
+      '146', '147', '148', '149', '164', '202', '204', '206', '212', '214',
+      '290', '337', '340', '341', '342', '343', '462', '463', '70', '71',
+      '78', '79'
+    ))
+    OR
+    ("routeType" = 'EN' AND "routeNumber" IN (
+      '40237', '40414', '40462', '40465', '40467', '414', '50237'
+    ))
+    OR
+    ("routeType" = 'IC' AND "routeNumber" IN (
+      '1110', '1111', '1112', '1113', '1115', '1118', '1119', '1135', '1136',
+      '1138', '1142', '1143', '1151', '1244', '1249', '350', '351', '354',
+      '407', '460', '532', '533', '534', '535', '536', '537', '538', '540',
+      '541', '542', '543', '544', '545', '546', '547', '548', '549', '558',
+      '559', '640', '641', '642', '643', '644', '645', '646', '647', '648',
+      '649', '651', '740', '741', '742', '743', '744', '745', '746', '747',
+      '748', '749', '756', '759', '790', '791', '792', '793', '794', '795',
+      '796', '797', '798', '799', '840', '841', '842', '843', '847', '848',
+      '850', '890', '891', '896', '897', '898', '899'
+    ))
+  );
+
+-- PKP Intercity → keep label 'PKP Intercity'
+UPDATE delay_records
+SET operator = 'PKP Intercity'
+WHERE agency = 'OEBB'
+  AND (
+    ("routeType" = 'EC' AND "routeNumber" IN (
+      '101', '103', '107', '203', '205', '207'
+    ))
+    OR
+    ("routeType" = 'EN' AND "routeNumber" IN (
+      '40406', '40407', '40416', '40417'
+    ))
+    OR
+    ("routeType" = 'IC' AND "routeNumber" IN ('207', '417'))
+  );
+
+-- Schweizerische Bundesbahnen SBB → operator 'SBB'
+UPDATE delay_records
+SET operator = 'SBB'
+WHERE agency = 'OEBB'
+  AND "routeType" = 'EC'
+  AND "routeNumber" IN (
+    '163', '191', '193', '195', '197', '199', '95', '97', '99'
+  );
+```
+
+
+Update EN trains for agency DB - assume local national operator per country:
+
+Update EN trains for agency DB - assume local national operator per country:
+
+```sql
+UPDATE delay_records
+SET operator = CASE UPPER(TRIM(stopcountry))
+  WHEN 'DE' THEN 'DB'
+  WHEN 'AT' THEN 'OEBB'
+  WHEN 'CH' THEN 'SBB'
+  WHEN 'PL' THEN 'PKP Intercity'
+  WHEN 'CZ' THEN 'CD'
+  ELSE operator
+END
+WHERE agency = 'DB'
+  AND "routeType" = 'EN'
+  AND operator IS NULL;
+```
+
+Same for trains in agency OEBB and SBB - assume local national operator per country: 
+
+```sql
+UPDATE delay_records
+SET operator = CASE UPPER(TRIM(stopcountry))
+  WHEN 'DE' THEN 'DB'
+  WHEN 'AT' THEN 'OEBB'
+  WHEN 'CH' THEN 'SBB'
+  WHEN 'PL' THEN 'PKP Intercity'
+  WHEN 'CZ' THEN 'CD'
+  WHEN 'IT' THEN 'Trenitalia'
+  ELSE operator
+END
+WHERE agency = 'OEBB'
+  AND "routeType" IN ('EN', 'EC', 'IC', 'ECE')
+  AND operator IS NULL;
+```
+
+Same for EC trains in Italy
+
+```sql
+UPDATE delay_records
+SET operator = CASE UPPER(TRIM(stopcountry))
+  WHEN 'IT' THEN 'Trenitalia'
+  WHEN 'FR' THEN 'Trenitalia'
+  ELSE operator
+END
+WHERE agency = 'IT'
+  AND "routeType" IN ('EC')
+  AND operator IS NULL;
+```
+
+HOW POPULATE LONG DISTANCE COLUMN
+For these operators, the routetypes that are long distance trains can be set with a hardcoded flag.
+
+For other operators, a similar check can be done.
+
+Similarly, we could break this down into more categories, like high speed, medium distance and commuter.
+
+| Operator          | Included routetypes |
+| ÖBB               | EC, ECE, RJ, RJX, IC, NJ, IR, D, Nightjet |
+| DB                | ICE, IC, EC, ECE, IR |
+| SBB               | EC, IC, IR |
+| SNCF              | TGV InOui, TGV Lyria, Ouigo, Intercités, Intercités de nuit, INTERCITES, INTERCITES DE NUIT, LYR, TGV, OUI, OUIGO, OGO, OTC, Ouigo Train Classic |
+| Trenitalia        | Frecciarossa, Frecciargento, Frecciabianca, Intercity, Intercity notte, EXP, IR, IC, ICN, FR, FB, FA |
+| MAV               | EC, IC, Ex, EN, G, Gy |
+| PKP Intercity     | EC, IC, EIC, EIP, TLK |
+| Flixtrain         | FLX |
+| Westbahn          | WB |
+| NS                | ECC, EC, EuroCity, Eurocity Direct, IC, Intercity, ICD, Intercity direct |
+| NMBS              | ECD, EuroCity, EuroCity Direct, IC |
+| DSB               | ECE, IC, ICL, IR |
+| Other             | EN, IC |
+| European Sleeper  | ES, European Sleeper |
+| Eurostar          | EST, EUR, Eurostar |
+| GoVolta           | GV, GoVolta GoVolta, GoVolta |
+| Italo             | Italo |
+
+```jsx
+UPDATE delay_records
+SET longdistance = 1
+WHERE UPPER(TRIM("routeType")) IN (
+  'D',
+  'EC',
+  'ECC',
+  'ECD',
+  'ECE',
+  'EIC',
+  'EIP',
+  'EX',
+  'EXP',
+  'EN',
+  'ES',
+  'EST',
+  'EUR',
+  'EUROCITY',
+  'EUROCITY DIRECT',
+  'EUROPEAN SLEEPER',
+  'EUROSTAR',
+  'FA',
+  'FB',
+  'FLX',
+  'FR',
+  'G',
+  'GV',
+  'GOVOLTA GOVOLTA',
+  'GY',
+  'IC',
+  'ICD',
+  'ICE',
+  'ICL',
+  'ICN',
+  'INTERCITES',
+  'INTERCITES DE NUIT',
+  'IR',
+  'INTERCITY',
+  'INTERCITY DIRECT',
+  'ITALO',
+  'LYR',
+  'LYRIA',
+  'NJ',
+  'NACHTTREIN',
+  'NIGHTJET',
+  'OGO',
+  'OTC',
+  'OUI',
+  'OUIGO',
+  'OUIGO TRAIN CLASSIC',
+  'RJ',
+  'RJX',
+  'TGV',
+  'TGV INOUI',
+  'TLK',
+  'WB'
+);
+```
+
+
+
+More tips for country attribution: 
+
+## Populate stopcountry column
+
+Ensure to check if dbID has 7 numbers
+
+```jsx
+UPDATE delay_records
+SET stopcountry = CASE SUBSTR(deutscheBahnStopId, 1, 2)
+  WHEN '10' THEN 'FI' WHEN '20' THEN 'RU' WHEN '21' THEN 'BY' WHEN '22' THEN 'UA' WHEN '23' THEN 'MD'
+  WHEN '24' THEN 'LT' WHEN '25' THEN 'LV' WHEN '26' THEN 'EE' WHEN '27' THEN 'KZ' WHEN '28' THEN 'GE'
+  WHEN '41' THEN 'AL' WHEN '44' THEN 'BA' WHEN '49' THEN 'BA' WHEN '50' THEN 'BA' WHEN '51' THEN 'PL'
+  WHEN '52' THEN 'BG' WHEN '53' THEN 'RO' WHEN '54' THEN 'CZ' WHEN '55' THEN 'HU' WHEN '56' THEN 'SK'
+  WHEN '57' THEN 'AZ' WHEN '58' THEN 'AM' WHEN '60' THEN 'IE' WHEN '62' THEN 'ME' WHEN '65' THEN 'MK'
+  WHEN '70' THEN 'GB' WHEN '71' THEN 'ES' WHEN '72' THEN 'RS' WHEN '73' THEN 'GR' WHEN '74' THEN 'SE'
+  WHEN '75' THEN 'TR' WHEN '76' THEN 'NO' WHEN '78' THEN 'HR' WHEN '79' THEN 'SI' WHEN '80' THEN 'DE'
+  WHEN '81' THEN 'AT' WHEN '82' THEN 'LU' WHEN '83' THEN 'IT' WHEN '84' THEN 'NL' WHEN '85' THEN 'CH'
+  WHEN '86' THEN 'DK' WHEN '87' THEN 'FR' WHEN '88' THEN 'BE' WHEN '90' THEN 'EG' WHEN '91' THEN 'TN'
+  WHEN '92' THEN 'DZ' WHEN '93' THEN 'MA' WHEN '94' THEN 'PT' WHEN '95' THEN 'IL' WHEN '96' THEN 'IR'
+END
+WHERE LENGTH(deutscheBahnStopId) = 7
+  AND deutscheBahnStopId GLOB '[0-9][0-9][0-9][0-9][0-9][0-9][0-9]';
+```
