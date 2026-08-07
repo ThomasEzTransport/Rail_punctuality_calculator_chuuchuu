@@ -5,6 +5,8 @@ Reference notes for populating the `operator` (and related `routeType`/service-t
 ## Populate operator column
 
 ### For Highspeed services
+Instructions on how to operator values and service type to records.
+
 
 ```sql
 UPDATE delay_records
@@ -30,22 +32,54 @@ WHERE "routeType" IN (
 );
 ```
 
-### For night train services
+### **For night train services**
 
-- `NJ` or `Nightjet`: **OEBB**
-- `ES` or `European Sleeper`: **European Sleeper**
-- `EN`: depends on route number (see table below)
+NJ or Nightjet: ‘OEBB’
 
-| Route number(s) | Operator | Route |
+ES or European Sleeper: ‘European Sleeper’
+
+EN
+
+| Routenumber | Operator | Route |
 | --- | --- | --- |
-| 344, 345, 346, 13471, 13472 | SJ | SJ Berlin - Malmö - Stockholm |
-| 40465, 40414, 40237, 414, 415 | HZ | Euronight Zagreb - Stuttgart/Zurich |
-| 406, 407, 40417, 40416, 40407, 1276, 1277 | PKP | Euronight Warsaw - Munich |
-| 40458, 40459, 443, 442 | Ceske Drahy | Breclav - Vienna / Praha - Zurich |
-| 40462, 40467, 50237, 50462, 40476, 40457, 40406, 462, 476, 477, 463 | MAV | Euronight (Budapest - Berlin/Zurich/Stuttgart)* |
-| 294 (NJ), 295 (NJ), 13485 (NJ), 233 (NJ) | OEBB | |
+| 344
+345
+346
+13471
+13472 | SJ | SJ Berlin - Malmö - Stockholm |
+| 40465
+40414
+40237
+414
+415 | HZ | Euronight Zagreb - Stuttgart/Zurich |
+| 406
+407
+40417
+40416
+40407
+1276
+1277 | PKP | Euronight Warsaw - Munich |
+| 40458
+40459
+443
+442 | Ceske Drahy | Breclav - Vienna / Praha - Zurich |
+| 40462
+40467
+50237
+50462
+40476
+40457
+40406
+462
+476
+477
+463 | MAV | Euronight (Budapest - Berlin/Zurich/Stuttgart)* |
+| 294 (NJ)
+295 (NJ)
+13485 (NJ)
+233 (NJ) | OEBB |  |
 
-Transform `EN` into `NJ` routes:
+Transform EN into NJ routes:
 
 ```sql
 UPDATE delay_records
@@ -91,23 +125,53 @@ WHERE UPPER(TRIM("routeType")) = 'EN'
   );
 ```
 
-**No information on operator for these `EN` route numbers:**
+- No information on operator for these EN numbers:
+    
+    1415 
+    
+    1153 1152 Bratislava – Vienna – Graz – Maribor – Split
+    50476
+    323
+    
+    13400
+    13403
+    13451
+    13408
+    13401
+    13402
+    13404
+    13406
+    13420
+    13405
+    13409
+    13417
+    
+    93701
+    
+    319
+    
+    580
+    230
+    320
+    
+    34834
+    91641
+    91505
+    32
+    
+    277
+    37501
+    89843
+    89962
+    11799
+    
+    28565
+    28960
+    370
+    20159
+    
 
-```
-1415
-1153, 1152 (Bratislava – Vienna – Graz – Maribor – Split)
-50476
-323
-13400, 13403, 13451, 13408, 13401, 13402, 13404, 13406, 13420, 13405, 13409, 13417
-93701
-319
-580, 230, 320
-34834, 91641, 91505, 32
-277, 37501, 89843, 89962, 11799
-28565, 28960, 370, 20159
-```
-
-### Railjet (ÖBB or CD?)
+### **Railjet (ÖBB or CD?)**
 
 Based on this list: https://www.vagonweb.cz/razeni/razeni.php?zeme=ČD&kategorie=RJ&rok=2026
 
@@ -134,7 +198,7 @@ END
 WHERE UPPER(TRIM("routeType")) = 'RJ';
 ```
 
-### Easy operator cases
+### **Easy operator cases**
 
 Agency = PL then operator = PKP Intercity
 
@@ -198,7 +262,7 @@ WHERE UPPER(TRIM(agency)) = 'FR'
   );
 ```
 
-### SBB agency
+### **SBB agency**
 
 List all routetypes per operator in current record collection:
 
@@ -213,7 +277,7 @@ GROUP BY TRIM("routeType"), operator
 ORDER BY cnt DESC, routetype, operator;
 ```
 
-**IC, EC:** always if they're inside Switzerland
+IC, EC: always if they’re inside Switzerland
 
 ```sql
 UPDATE delay_records
@@ -222,7 +286,7 @@ WHERE "routeType" IN ('IC', 'EC')
   AND stopcountry = 'CH';
 ```
 
-**IR:** sometimes depending on routenumber
+IR: sometimes depending on routenumber
 
 Analyse routenumber / operator connection in current delay records:
 
@@ -267,7 +331,7 @@ WHERE agency = 'SBB'
   );
 ```
 
-**R:** sometimes
+R: sometimes
 
 ```sql
 UPDATE delay_records
@@ -300,7 +364,7 @@ WHERE agency = 'SBB'
   );
 ```
 
-**RE:** sometimes
+RE: sometimes
 
 ```sql
 UPDATE delay_records
@@ -329,7 +393,7 @@ WHERE agency = 'SBB'
   );
 ```
 
-**S:** sometimes
+S: sometimes
 
 ```sql
 UPDATE delay_records
@@ -381,7 +445,7 @@ WHERE agency = 'SBB'
   );
 ```
 
-**SN:** sometimes
+SN: sometimes
 
 ```sql
 UPDATE delay_records
@@ -400,16 +464,19 @@ WHERE agency = 'SBB'
       '13818','13830','13831','13832','13834','13835','13836','13837','13838','13839',
       '13840','13841','13842','13843','13844','13845','13846','13847','13849'
     )
+
     -- SBB GmbH Grenzverkehr outliers
     OR "routeNumber" IN ('87795','87797')
   );
 ```
 
-- **PE:** no
-- **ICE:** no
-- **RB:** no
+PE: no
 
-### OEBB agency
+ICE: no
+
+RB: no
+
+### **OEBB agency**
 
 ```sql
 SELECT TRIM("routeType") AS routetype,
@@ -422,9 +489,12 @@ GROUP BY TRIM("routeType"), operator
 ORDER BY cnt DESC, routetype, operator;
 ```
 
-'Nahreisezug' seems to be the wrong name for ÖBB as operator.
+‘Nahreisezug’ seems to be the wrong name for ÖBB as operator
 
-**CJX, D, ER, IR:** always ÖBB
+CJX: always ÖBB
+D: always ÖBB
+ER: always ÖBB
+IR: always ÖBB
 
 ```sql
 UPDATE delay_records
@@ -433,7 +503,10 @@ WHERE "routeType" IN ('CJX', 'D', 'ER', 'IR')
   AND stopcountry = 'AT';
 ```
 
-**EC** — counts observed: Nahreisezug 2232, DB Fernverkehr AG 788, PKP Intercity 581, Schweizerische Bundesbahnen SBB 560
+EC	Nahreisezug	2232
+EC	DB Fernverkehr AG	788
+EC	PKP Intercity	581
+EC	Schweizerische Bundesbahnen SBB	560
 
 Find routenumber/operator patterns for EC:
 
@@ -483,7 +556,7 @@ WHERE stopcountry = 'AT'
   AND "routeNumber" IN (
     '101','103','107','203','205','207'
   );
-
+  
 UPDATE delay_records
 SET operator = 'OEBB'
 WHERE stopcountry = 'AT'
@@ -498,9 +571,11 @@ WHERE stopcountry = 'AT'
   );
 ```
 
-**EN:** already covered (see night train services section)
+EN: already covered
 
-**IC** — counts observed: Nahreisezug 4887, DB Fernverkehr AG 295, PKP Intercity 159
+IC	Nahreisezug	4887
+IC	DB Fernverkehr AG	295
+IC	PKP Intercity	159
 
 ```sql
 UPDATE delay_records
@@ -522,13 +597,19 @@ WHERE stopcountry = 'AT'
   AND "routeNumber" NOT IN ('406','416','207','417');
 ```
 
-**ICE:** already covered
+ICE: already covered
 
-**NJ:** already covered
+NJ: already covered
 
-**Os** — counts observed: Ceske Drahy 1161, Nahreisezug 99. Treating `Os` as Ceske Drahy exclusively.
+Os	Ceske Drahy	1161
+Os	Nahreisezug	99
 
-**R** — counts observed: Nahreisezug 18105, Stern & Hafferl Verkehrsgesellschaft mbH 3793, SAD Nahverkehr AG/SAD Transporto locale 188, Raaberbahn AG | Raab-Oedenburg-Ebenfurter Eisenbahn AG 114
+Treating Os as CD exclusively
+
+R	Nahreisezug	18105
+R	Stern & Hafferl Verkehrsgesellschaft mbH	3793
+R	SAD Nahverkehr AG/SAD Transporto locale	188
+R	Raaberbahn AG | Raab-Oedenburg-Ebenfurter Eisenbahn AG	114
 
 ```sql
 UPDATE delay_records
@@ -539,9 +620,13 @@ WHERE stopcountry = 'AT'
   AND CAST("routeNumber" AS INTEGER) NOT BETWEEN 8000 AND 8200;
 ```
 
-**RB** — counts observed: DB Regio AG Bayern 379, DB RegioNetz Verkehrs GmbH Südostbayernbahn 30
+RB	DB Regio AG Bayern	379
+RB	DB RegioNetz Verkehrs GmbH Südostbayernbahn	30
 
-**REX** — counts observed: Nahreisezug 48555, Raaberbahn AG | Raab-Oedenburg-Ebenfurter Eisenbahn AG 4238, GKB - Graz-Köflacher Bahn und Busbetrieb GmbH 924, Montafonerbahn AG 56
+REX	Nahreisezug	48555
+REX	Raaberbahn AG | Raab-Oedenburg-Ebenfurter Eisenbahn AG	4238
+REX	GKB - Graz-Köflacher Bahn und Busbetrieb GmbH	924
+REX	Montafonerbahn AG	56
 
 ```sql
 UPDATE delay_records
@@ -553,9 +638,13 @@ WHERE stopcountry = 'AT'
   AND CAST("routeNumber" AS INTEGER) NOT BETWEEN 7600 AND 7900;
 ```
 
-**RJ, RJX:** already covered
+RJ, RJX: already covered
 
-**S** — counts observed: Nahreisezug 126961, GKB - Graz-Köflacher Bahn und Busbetrieb GmbH 4935, Montafonerbahn AG 1885, Stern & Hafferl Verkehrsgesellschaft mbH 1615, THURBO 289
+S	Nahreisezug	126961
+S	GKB - Graz-Köflacher Bahn und Busbetrieb GmbH	4935
+S	Montafonerbahn AG	1885
+S	Stern & Hafferl Verkehrsgesellschaft mbH	1615
+S	THURBO	289
 
 ```sql
 UPDATE delay_records
@@ -572,9 +661,9 @@ WHERE stopcountry = 'AT'
   );
 ```
 
-**UEX** — counts observed: Urlaubs-Express 10
+UEX	Urlaubs-Express	10
 
-**WB:** always Westbahn
+WB: always Westbahn
 
 ```sql
 UPDATE delay_records
@@ -582,7 +671,7 @@ SET operator = 'Westbahn'
 WHERE "routeType" IN ('WB')
 ```
 
-### DB agency
+### **DB agency**
 
 ```sql
 SELECT TRIM("routeType") AS routetype,
@@ -595,18 +684,17 @@ GROUP BY TRIM("routeType"), operator
 ORDER BY cnt DESC, routetype, operator;
 ```
 
-**EC** — counts observed:
-- PKP Intercity, DB Fernverkehr AG: 196
-- DB Fernverkehr AG, PKP Intercity: 180
-- Schweizerische Bundesbahnen, Österreichische Bundesbahnen, DB Fernverkehr AG: 173
-- Österreichische Bundesbahnen, DB Fernverkehr AG: 66
-- Schweizerische Bundesbahnen, DB Fernverkehr AG, Ceske Drahy: 60
-- DB Fernverkehr AG: 54
-- Ceske Drahy, DB Fernverkehr AG, Schweizerische Bundesbahnen: 37
-- DB Fernverkehr AG, Österreichische Bundesbahnen, HZPP: 36
-- DB Fernverkehr AG, Österreichische Bundesbahnen: 30
-- Trenitalia, Schweizerische Bundesbahnen, DB Fernverkehr AG: 18
-- Österreichische Bundesbahnen, Schweizerische Bundesbahnen: 5
+EC	PKP Intercity, DB Fernverkehr AG	196
+EC	DB Fernverkehr AG, PKP Intercity	180
+EC	Schweizerische Bundesbahnen, Österreichische Bundesbahnen, DB Fernverkehr AG	173
+EC	Österreichische Bundesbahnen, DB Fernverkehr AG	66
+EC	Schweizerische Bundesbahnen, DB Fernverkehr AG, Ceske Drahy	60
+EC	DB Fernverkehr AG	54
+EC	Ceske Drahy, DB Fernverkehr AG, Schweizerische Bundesbahnen	37
+EC	DB Fernverkehr AG, Österreichische Bundesbahnen, HZPP	36
+EC	DB Fernverkehr AG, Österreichische Bundesbahnen	30
+EC	Trenitalia, Schweizerische Bundesbahnen, DB Fernverkehr AG	18
+EC	Österreichische Bundesbahnen, Schweizerische Bundesbahnen	5
 
 ```sql
 UPDATE delay_records
@@ -617,7 +705,7 @@ WHERE agency = 'DB'
     '231','247','249','41','43','431','45','47','49','55','57','59',
     '230','246','248','40','42','430','44','46','48','54','56','58'
   );
-
+  
 UPDATE delay_records
 SET operator = 'SBB'
 WHERE agency = 'DB'
@@ -625,12 +713,12 @@ WHERE agency = 'DB'
   AND "routeNumber" IN (
     '150','191','193','195','197','199','95','97','99','458','459'
   );
-
+ 
 UPDATE delay_records
 SET operator = 'OEBB'
 WHERE agency = 'DB'
   AND "routeType" = 'EC'
-  AND "routeNumber" IN ('213','115','114','212','290');
+  AND "routeNumber" IN ('213','115','114','212','290'); 
 
 UPDATE delay_records
 SET operator = 'DB'
@@ -644,11 +732,10 @@ WHERE agency = 'DB'
   );
 ```
 
-**ECE** — counts observed:
-- DB Fernverkehr AG: 242
-- DB Fernverkehr AG, Österreichische Bundesbahnen, Schweizerische Bundesbahnen: 164
-- Dänische Staatsbahnen, DB Fernverkehr AG: 47
-- DB Fernverkehr AG, Schweizerische Bundesbahnen: 24
+ECE	DB Fernverkehr AG	242
+ECE	DB Fernverkehr AG, Österreichische Bundesbahnen, Schweizerische Bundesbahnen	164
+ECE	Dänische Staatsbahnen, DB Fernverkehr AG	47
+ECE	DB Fernverkehr AG, Schweizerische Bundesbahnen	24
 
 ```sql
 UPDATE delay_records
@@ -656,7 +743,7 @@ SET operator = 'SBB'
 WHERE agency = 'DB'
   AND "routeType" = 'ECE'
   AND "routeNumber" IN ('190','192','194','196','198','94','96','98','151');
-
+  
 UPDATE delay_records
 SET operator = 'DB Fernverkehr AG'
 WHERE agency = 'DB'
@@ -666,9 +753,9 @@ WHERE agency = 'DB'
   );
 ```
 
-**EN, ES, EUR, EST, FLX:** already covered
+EN, ES, EUR, EST, FLX already covered
 
-**GV:** always Govolta
+Always assign GV to Govolta
 
 ```sql
 UPDATE delay_records
@@ -676,17 +763,15 @@ SET operator = 'Govolta'
 WHERE "routeType" = 'GV';
 ```
 
-
-**IC** — counts observed (no operator-assignment rule was provided for this breakdown yet — pending):
-- DB Fernverkehr AG: 9143
-- Schweizerische Bundesbahnen, DB Fernverkehr AG: 513
-- DB Fernverkehr AG, Schweizerische Bundesbahnen: 292
-- DB Regio AG Mitte SÜWEX: 80
-- PKP Intercity, DB Fernverkehr AG: 55
-- Dänische Staatsbahnen: 46
-- DB Fernverkehr AG, Österreichische Bundesbahnen, Ceske Drahy, PKP Intercity: 30
-- PKP Intercity, Ceske Drahy, Österreichische Bundesbahnen, DB Fernverkehr AG: 30
-- Snälltåget: 10
+IC	DB Fernverkehr AG	9143
+IC	Schweizerische Bundesbahnen, DB Fernverkehr AG	513
+IC	DB Fernverkehr AG, Schweizerische Bundesbahnen	292
+IC	DB Regio AG Mitte SÜWEX	80
+IC	PKP Intercity, DB Fernverkehr AG	55
+IC	Dänische Staatsbahnen	46
+IC	DB Fernverkehr AG, Österreichische Bundesbahnen, Ceske Drahy, PKP Intercity	30
+IC	PKP Intercity, Ceske Drahy, Österreichische Bundesbahnen, DB Fernverkehr AG	30
+IC	Snälltåget	10
 
 ```sql
 UPDATE delay_records
@@ -727,9 +812,9 @@ WHERE agency = 'DB'
     '406','416'
   )
   AND CAST("routeNumber" AS INTEGER) NOT BETWEEN 5751 AND 5767;
-  ```
+```
 
-  ICE already covered
+ICE already covered
 
 NJ already covered
 
@@ -748,8 +833,7 @@ WHERE UPPER(TRIM(agency)) = 'GTFSDE'
   AND date > '2026-05-04'
 GROUP BY TRIM("routeType"), operator
 ORDER BY cnt DESC, routetype, operator;
-
-  ```
+```
 
 EC	(NULL)	286
 EC	DB Fernverkehr AG	201
@@ -767,15 +851,12 @@ FEX	800151 DB Regio AG Nordost	1473
 FEX	Albtal-Verkehrs-Gesellschaft	52
 
 Which FEX trains are DB?
+
 ```sql
 UPDATE delay_records
 SET operator = 'DB'
 WHERE agency = 'GTFSDE'
   AND "routeType" = 'FEX'
-  AND CAST("routeNumber" AS INTEGER) BETWEEN 21800 AND 21969;
-  ```
-
-  ```jsx
   AND CAST("routeNumber" AS INTEGER) BETWEEN 21800 AND 21969;
 ```
 
@@ -820,6 +901,7 @@ SET operator = 'DB'
 WHERE agency = 'GTFSDE'
   AND "routeType" = 'NRB';
 ```
+
 Which RB are DB and which are Arverio?
 
 ```sql
@@ -831,11 +913,12 @@ WHERE agency = 'GTFSDE'
     CAST("routeNumber" AS INTEGER) BETWEEN 57000 AND 57344
     OR CAST("routeNumber" AS INTEGER) BETWEEN 78901 AND 78975
   );
-  ```
+```
 
-  For DB Regio, assigning based on RB + Routenumber alone is not sufficient given the major range overlaps. Instead, per region, get the stopIds that are served by RB of the respective operator:
+For DB Regio, assigning based on RB + Routenumber alone is not sufficient given the major range overlaps. Instead, per region, get the stopIds that are served by RB of the respective operator:
+
 ```sql
-  SELECT DISTINCT "deutscheBahnStopId"
+SELECT DISTINCT "deutscheBahnStopId"
 FROM delay_records
 WHERE agency = 'GTFSDE'
   AND "routeType" = 'RB'
@@ -909,8 +992,23 @@ WHERE agency = 'GTFSDE'
     OR CAST("routeNumber" AS INTEGER) BETWEEN 18345 AND 18372
     OR CAST("routeNumber" AS INTEGER) BETWEEN 18420 AND 18445
   );
-
 ```
+
+- [x]  DB Regio AG Nordost
+- [x]  DB Regio AG Nord
+- [x]  DB Regio AG NRW
+- [x]  DB Regio AG Südost
+- [x]  DB RegioNetz Verkehrs GmbH Erzgebirgsbahn
+- [x]  DB Regio AG Oberweisbacher Berg+Schwa
+- [x]  DB RegioNetz Mitte
+- [x]  DB RegioNetz Verkehrs GmbH Kurhessenbahn
+- [x]  DB Regio AG Mitte Region Hessen
+- [x]  DB RegioNetz Verkehrs GmbH Westfrankenbahn
+- [x]  DB Regio AG Baden-Württemberg
+- [x]  DB Regio AG Bayern
+- [x]  DB Regio AG Mitte Region Südwest
+- [x]  DB Regio Stuttgart
+- [x]  DB RegioNetz Verkehrs GmbH Südostbayernbahn
 
 Which RE are DB and which are Arverio?
 
@@ -970,6 +1068,23 @@ WHERE agency = 'GTFSDE'
   );
 ```
 
+Tackled operator-stopid combinations for RE:
+
+- [x]  DB Regio AG Nordost
+- [x]  DB Regio AG Nord
+- [x]  DB Regio AG NRW
+- [x]  DB Regio AG Südost
+- [x]  DB RegioNetz Verkehrs GmbH Kurhessenbahn
+- [x]  DB Regio AG Mitte Region Hessen
+- [x]  DB Regio AG Mitte
+- [x]  DB RegioNetz Verkehrs GmbH Westfrankenbahn
+- [x]  DB Regio AG Baden-Württemberg
+- [x]  DB Regio AG Bayern
+- [x]  DB Regio AG Mitte Region Südwest
+- [x]  DB Regio AG NRW (second)
+- [x]  Db Regio Südostbayernbahn
+- [x]  DB Regio Stuttgart
+
 RS	(NULL)	20941
 RS	Südwestdeutsche Verkehrs-AG	7113
 RS	NordWestBahn	5035
@@ -994,6 +1109,18 @@ WHERE agency = 'GTFSDE'
 Which S are DB?
 
 Same exercise as for RB and S:
+
+- [x]  DB Regio AG Nordost
+- [x]  DB Regio AG NRW
+- [x]  DB Regio AG Südost
+- [x]  DB Regio AG Mitte Region Hessen
+- [x]  DB Regio AG Baden-Württemberg
+- [x]  DB Regio AG S-Bahn Stuttgart
+- [x]  DB Regio AG Bayern
+- [x]  DB Regio AG Mitte Region Südwest
+- [x]  S Bahn Berlin GmbH
+- [x]  S Bahn Hamburg
+
 U	(NULL)	268
 U	800417 DB Regio AG Südost	180
 
@@ -1008,7 +1135,7 @@ WHERE agency = 'GTFSDE'
   );
 ```
 
-Leftover train numbers without operator for EC, IC, ECE, EN
+### **Leftover train numbers without operator for EC, IC, ECE, EN**
 
 ```sql
 SELECT
@@ -1022,8 +1149,9 @@ WHERE operator IS NULL
   AND agency IN ('DB', 'OEBB', 'SBB', 'GTFSDE', 'IT', 'FR', 'HU', 'PL')
 GROUP BY agency, "routeType", "routeNumber"
 ORDER BY cnt DESC, agency, "routeType", "routeNumber";
+```
 
-
+```sql
 SELECT
   "routeType",
   COALESCE(operator::text, '(NULL)') AS operator,
@@ -1034,11 +1162,9 @@ WHERE agency = 'OEBB'
   AND date > '2026-05-04'
 GROUP BY "routeType", operator
 ORDER BY "routeType", operator;
-
 ```
 
-Update OEBB records:
-
+**Update OEBB records:**
 
 ```sql
 -- DB Fernverkehr AG → operator 'DB'
@@ -1109,9 +1235,6 @@ WHERE agency = 'OEBB'
   );
 ```
 
-
-Update EN trains for agency DB - assume local national operator per country:
-
 Update EN trains for agency DB - assume local national operator per country:
 
 ```sql
@@ -1161,33 +1284,35 @@ WHERE agency = 'IT'
   AND operator IS NULL;
 ```
 
-HOW POPULATE LONG DISTANCE COLUMN
+# Populate longdistance column
+
 For these operators, the routetypes that are long distance trains can be set with a hardcoded flag.
 
 For other operators, a similar check can be done.
 
 Similarly, we could break this down into more categories, like high speed, medium distance and commuter.
 
-| Operator          | Included routetypes |
-| ÖBB               | EC, ECE, RJ, RJX, IC, NJ, IR, D, Nightjet |
-| DB                | ICE, IC, EC, ECE, IR |
-| SBB               | EC, IC, IR |
-| SNCF              | TGV InOui, TGV Lyria, Ouigo, Intercités, Intercités de nuit, INTERCITES, INTERCITES DE NUIT, LYR, TGV, OUI, OUIGO, OGO, OTC, Ouigo Train Classic |
-| Trenitalia        | Frecciarossa, Frecciargento, Frecciabianca, Intercity, Intercity notte, EXP, IR, IC, ICN, FR, FB, FA |
-| MAV               | EC, IC, Ex, EN, G, Gy |
-| PKP Intercity     | EC, IC, EIC, EIP, TLK |
-| Flixtrain         | FLX |
-| Westbahn          | WB |
-| NS                | ECC, EC, EuroCity, Eurocity Direct, IC, Intercity, ICD, Intercity direct |
-| NMBS              | ECD, EuroCity, EuroCity Direct, IC |
-| DSB               | ECE, IC, ICL, IR |
-| Other             | EN, IC |
-| European Sleeper  | ES, European Sleeper |
-| Eurostar          | EST, EUR, Eurostar |
-| GoVolta           | GV, GoVolta GoVolta, GoVolta |
-| Italo             | Italo |
+| Operator | Included routetypes |
+| --- | --- |
+| ÖBB | EC, ECE, RJ, RJX, IC, NJ, IR, D, Nightjet |
+| DB | ICE, IC, EC, ECE, IR |
+| SBB | EC, IC, IR |
+| SNCF | TGV InOui, TGV Lyria, Ouigo, Intercités, Intercités de nuit, INTERCITES, INTERCITES DE NUIT, LYR, TGV, OUI, OUIGO, OGO, OTC, Ouigo Train Classic |
+| Trenitalia | Frecciarossa, Frecciargento, Frecciabianca, Intercity, Intercity notte, EXP, IR, IC, ICN, FR, FB, FA |
+| MAV | EC, IC, Ex, EN, G, Gy |
+| PKP Intercity | EC, IC, EIC, EIP, TLK |
+| Flixtrain | FLX |
+| Westbahn | WB |
+| NS | ECC, EC, EuroCity, Eurocity Direct, IC, Intercity, ICD, Intercity direct |
+| NMBS | ECD, EuroCity, EuroCity Direct, IC |
+| DSB | ECE, IC, ICL, IR |
+| Other | EN, IC |
+| European Sleeper | ES, European Sleeper |
+| Eurostar | EST, EUR, Eurostar |
+| GoVolta | GV, GoVolta GoVolta, GoVolta |
+| Italo | Italo |
 
-```jsx
+```sql
 UPDATE delay_records
 SET longdistance = 1
 WHERE UPPER(TRIM("routeType")) IN (
@@ -1246,15 +1371,13 @@ WHERE UPPER(TRIM("routeType")) IN (
 );
 ```
 
-
-
-More tips for country attribution: 
+### 
 
 ## Populate stopcountry column
 
 Ensure to check if dbID has 7 numbers
 
-```jsx
+```sql
 UPDATE delay_records
 SET stopcountry = CASE SUBSTR(deutscheBahnStopId, 1, 2)
   WHEN '10' THEN 'FI' WHEN '20' THEN 'RU' WHEN '21' THEN 'BY' WHEN '22' THEN 'UA' WHEN '23' THEN 'MD'
