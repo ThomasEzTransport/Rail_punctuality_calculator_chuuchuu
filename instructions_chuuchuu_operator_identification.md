@@ -262,6 +262,18 @@ WHERE UPPER(TRIM(agency)) = 'FR'
   );
 ```
 
+**T&E observation (not from the data provider):** agency FR also reports `CAR TER` (rail-replacement coach service under the TER brand) and `TRAMTRAIN` routeTypes, neither covered by the list above. T&E has confirmed both are SNCF services, so they're included in the operator assignment.
+
+```sql
+UPDATE delay_records
+SET operator = 'SNCF'
+WHERE UPPER(TRIM(agency)) = 'FR'
+  AND UPPER(TRIM("routeType")) IN (
+    'CAR TER',
+    'TRAMTRAIN'
+  );
+```
+
 ### **SBB agency**
 
 List all routetypes per operator in current record collection:
