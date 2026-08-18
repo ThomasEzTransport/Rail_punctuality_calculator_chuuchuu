@@ -1,0 +1,158 @@
+﻿stopName,stopName_slug,country,sncf_station_label,match_source,match_note,auto_match_score
+Antwerpen-Centraal,antwerpen-centraal,Belgium,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Brussels Midi / Zuid,brussels-midi-zuid,Belgium,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Bruxelles Midi,bruxelles-midi,Belgium,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Liege-Guillemins,liege-guillemins,Belgium,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Agen,agen,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Aix-en-Provence TGV,aix-en-provence-tgv,France,AIX EN PROVENCE TGV,auto,,1.0
+Aix-en-Provence-TGV,aix-en-provence-tgv,France,AIX EN PROVENCE TGV,auto,,1.0
+Aix-les-Bains le Revard,aix-les-bains-le-revard,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.2857142857142857
+Ancenis,ancenis,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Angers Saint-Laud,angers-saint-laud,France,ANGERS SAINT LAUD,auto,,1.0
+Annecy,annecy,France,ANNECY,auto,,1.0
+Annemasse,annemasse,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Antibes,antibes,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Arcachon,arcachon,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Arras,arras,France,ARRAS,auto,,1.0
+Avignon Centre,avignon-centre,France,,manual,"different station from Avignon TGV (~4km apart), not in the SNCF file",0.5
+Avignon-TGV,avignon-tgv,France,AVIGNON TGV,auto,,1.0
+Aéroport Charles de Gaulle 2 TGV,aeroport-charles-de-gaulle-2-tgv,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.2857142857142857
+Bar-le-Duc,bar-le-duc,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.4
+Bayonne,bayonne,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Belfort - Montbéliard TGV,belfort-montbeliard-tgv,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.4
+Bellegarde,bellegarde,France,BELLEGARDE (AIN),manual,"same station, SNCF appends the department",0.6666666666666666
+Besançon Viotte,besancon-viotte,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.3333333333333333
+Bordeaux Saint-Jean,bordeaux-saint-jean,France,BORDEAUX ST JEAN,auto,,1.0
+Boulogne sur Mer,boulogne-sur-mer,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Bourg-Saint-Maurice,bourg-saint-maurice,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.4
+Brest,brest,France,BREST,auto,,1.0
+Béziers,beziers,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Calais Ville,calais-ville,France,,manual,not in the SNCF file; auto-matched only on the generic word VILLE,0.5
+Chambéry - Challes-les-Eaux,chambery-challes-les-eaux,France,CHAMBERY CHALLES LES EAUX,auto,,1.0
+Chambéry-Challes-les-Eaux,chambery-challes-les-eaux,France,CHAMBERY CHALLES LES EAUX,auto,,1.0
+Champagne-Ardenne TGV,champagne-ardenne-tgv,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.4
+Charleville-Mézières,charleville-mezieres,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Cherbourg,cherbourg,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Châlons-en-Champagne,chalons-en-champagne,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.2857142857142857
+Colmar,colmar,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Dax,dax,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Dijon,dijon,France,DIJON VILLE,manual,same station,0.6666666666666666
+Disneyland Paris (Marne-la-Vallée Chessy),disneyland-paris-marne-la-vallee-chessy,France,MARNE LA VALLEE,manual,same station,0.6666666666666666
+Douai,douai,France,DOUAI,auto,,1.0
+Dunkerque,dunkerque,France,DUNKERQUE,auto,,1.0
+Grenoble,grenoble,France,GRENOBLE,auto,,1.0
+Hazebrouck,hazebrouck,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Hendaye,hendaye,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Hyères,hyeres,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+La Baule-Escoublac,la-baule-escoublac,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.3333333333333333
+La Roche-sur-Yon,la-roche-sur-yon,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.2857142857142857
+La Rochelle,la-rochelle,France,LA ROCHELLE VILLE,auto,,0.8
+Lamballe,lamballe,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Lannion,lannion,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Le Croisic,le-croisic,France,,manual,not in the SNCF file; auto-matched only on the generic word LE,0.5
+Le Havre,le-havre,France,,manual,not in the SNCF file; auto-matched only on the generic word LE,0.5
+Le Mans,le-mans,France,LE MANS,auto,,1.0
+Lens,lens,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Les Sables-d'Olonne,les-sables-d-olonne,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.25
+Libourne,libourne,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Lille Europe,lille-europe,France,LILLE,manual,SNCF reports Lille as a single city-level label,0.6666666666666666
+Lille Flandres,lille-flandres,France,LILLE,manual,SNCF reports Lille as a single city-level label,0.6666666666666666
+Lorient,lorient,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Lorraine TGV,lorraine-tgv,France,,manual,not in the SNCF file; auto-matched only on the generic word TGV,0.5
+Lourdes,lourdes,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Lyon Part Dieu,lyon-part-dieu,France,LYON PART DIEU,auto,,1.0
+Lyon Perrache,lyon-perrache,France,,manual,"different station from Lyon Part-Dieu, not in the SNCF file",0.5
+Lyon-Part-Dieu,lyon-part-dieu,France,LYON PART DIEU,auto,,1.0
+Lyon-Perrache-Voyageurs,lyon-perrache-voyageurs,France,,manual,"different station from Lyon Part-Dieu, not in the SNCF file",0.5
+Lyon-St-Exupéry-TGV,lyon-st-exupery-tgv,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.3333333333333333
+Mantes-la-Jolie,mantes-la-jolie,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.3333333333333333
+Marne-la-Vallée Chessy,marne-la-vallee-chessy,France,MARNE LA VALLEE,auto,,0.8571428571428571
+Marseille Saint-Charles,marseille-saint-charles,France,MARSEILLE ST CHARLES,auto,,1.0
+Marseille-St-Charles,marseille-st-charles,France,MARSEILLE ST CHARLES,auto,,1.0
+Metz,metz,France,METZ,auto,,1.0
+Miramas,miramas,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Modane,modane,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Montpellier Saint-Roch,montpellier-saint-roch,France,MONTPELLIER,manual,same station (the historic city-centre one),0.5
+Montpellier Sud de France,montpellier-sud-de-france,France,,manual,"different, newer TGV station from Montpellier Saint-Roch, not in the SNCF file",0.4
+Morlaix,morlaix,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Mulhouse,mulhouse,France,MULHOUSE VILLE,manual,same station,0.6666666666666666
+Mâcon - Loché TGV,macon-loche-tgv,France,MACON LOCHE,auto,,0.8
+Nancy,nancy,France,NANCY,auto,,1.0
+Nantes,nantes,France,NANTES,auto,,1.0
+Nice-Ville,nice-ville,France,NICE VILLE,auto,,1.0
+Nîmes Centre,nimes-centre,France,NIMES,manual,same station,0.6666666666666666
+Nîmes Pont du Gard,nimes-pont-du-gard,France,,manual,"different, newer TGV station from Nimes Centre, not in the SNCF file",0.4
+Paris Austerlitz,paris-austerlitz,France,,manual,"different Paris terminus, not in the SNCF file",0.5
+Paris Est,paris-est,France,PARIS EST,auto,,1.0
+Paris Gare de Lyon Hall 1 - 2,paris-gare-de-lyon-hall-1-2,France,PARIS LYON,auto,,0.8
+Paris Gare du Nord,paris-gare-du-nord,France,PARIS NORD,auto,,0.8
+Paris Montparnasse Hall 1 - 2,paris-montparnasse-hall-1-2,France,PARIS MONTPARNASSE,auto,,1.0
+Paris Montparnasse Vaugirard,paris-montparnasse-vaugirard,France,PARIS VAUGIRARD,manual,Vaugirard is a distinct annex to Gare Montparnasse -- chuuchuu already has 'Paris Montparnasse Hall 1 - 2' for the main hall,0.8
+Paris-Gare-de-Lyon,paris-gare-de-lyon,France,PARIS LYON,auto,,0.8
+Perpignan,perpignan,France,PERPIGNAN,auto,,1.0
+Poitiers,poitiers,France,POITIERS,auto,,1.0
+Quimper,quimper,France,QUIMPER,auto,,1.0
+Rang-du-Fliers - Verton - Berck,rang-du-fliers-verton-berck,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Reims,reims,France,REIMS,auto,,1.0
+Remiremont,remiremont,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Rennes,rennes,France,RENNES,auto,,1.0
+Roubaix,roubaix,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Saint-Brieuc,saint-brieuc,France,,manual,not in the SNCF file; auto-matched only on SAINT,0.5
+Saint-Dié-des-Vosges,saint-die-des-vosges,France,,manual,not in the SNCF file; auto-matched only on SAINT/DES,0.5
+Saint-Gervais-les-Bains-Le Fayet,saint-gervais-les-bains-le-fayet,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.25
+Saint-Jean-de-Luz - Ciboure,saint-jean-de-luz-ciboure,France,,manual,not in the SNCF file; auto-matched only on SAINT/JEAN,0.5
+Saint-Jean-de-Maurienne Arvan,saint-jean-de-maurienne-arvan,France,,manual,not in the SNCF file; auto-matched only on SAINT/JEAN,0.5
+Saint-Malo,saint-malo,France,ST MALO,auto,,1.0
+Saint-Michel - Valloire,saint-michel-valloire,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.4
+Saint-Nazaire,saint-nazaire,France,,manual,not in the SNCF file; auto-matched only on SAINT,0.5
+Saint-Pierre-des-Corps,saint-pierre-des-corps,France,ST PIERRE DES CORPS,auto,,1.0
+Saint-Étienne Châteaucreux,saint-etienne-chateaucreux,France,SAINT ETIENNE CHATEAUCREUX,auto,,1.0
+Saumur,saumur,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Sedan,sedan,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Strasbourg,strasbourg,France,STRASBOURG,auto,,1.0
+Tarbes,tarbes,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Thionville,thionville,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Toulon,toulon,France,TOULON,auto,,1.0
+Toulouse Matabiau,toulouse-matabiau,France,TOULOUSE MATABIAU,auto,,1.0
+Tourcoing,tourcoing,France,TOURCOING,auto,,1.0
+Tours,tours,France,TOURS,auto,,1.0
+Unknown,unknown,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Valence TGV Rhône-Alpes Sud,valence-tgv-rhone-alpes-sud,France,VALENCE ALIXAN TGV,manual,"same station, fuller chuuchuu name",0.5
+Valence Ville,valence-ville,France,,manual,"different station from Valence TGV, not in the SNCF file",0.5
+Valence-TGV,valence-tgv,France,VALENCE ALIXAN TGV,auto,,0.8
+Valenciennes,valenciennes,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Vannes,vannes,France,VANNES,auto,,1.0
+Vendôme - Villiers-sur-Loir,vendome-villiers-sur-loir,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Évian-les-Bains,evian-les-bains,France,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.2857142857142857
+Aachen Hbf,aachen-hbf,Germany,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Berlin Hbf-Lehrter Bahnhof Nord,berlin-hbf-lehrter-bahnhof-nord,Germany,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.2857142857142857
+Berlin Ostbahnhof,berlin-ostbahnhof,Germany,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Berlin-Gesundbrunnen,berlin-gesundbrunnen,Germany,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Berlin-Spandau,berlin-spandau,Germany,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Cologne Hbf,cologne-hbf,Germany,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Dortmund Hbf,dortmund-hbf,Germany,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Dusseldorf Hbf,dusseldorf-hbf,Germany,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Essen Hbf,essen-hbf,Germany,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Francfort sur le Main,francfort-sur-le-main,Germany,FRANCFORT,manual,same city; extra words diluted the auto score,0.4
+Freiburg (Breisgau) Hbf,freiburg-breisgau-hbf,Germany,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Karlsruhe Hbf,karlsruhe-hbf,Germany,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Mannheim Hbf,mannheim-hbf,Germany,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Munich,munich,Germany,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Stuttgart Hbf,stuttgart-hbf,Germany,STUTTGART,manual,same station,0.6666666666666666
+MILANO PORTA GARIBALDI,milano-porta-garibaldi,Italy,ITALIE,manual,SNCF reports all Italian destinations as a single country-level label,0.0
+Milano Centrale,milano-centrale,Italy,ITALIE,manual,SNCF reports all Italian destinations as a single country-level label,0.0
+Milano Certosa,milano-certosa,Italy,ITALIE,manual,SNCF reports all Italian destinations as a single country-level label,0.0
+Oulx Cesana Claviere Sestriere,oulx-cesana-claviere-sestriere,Italy,ITALIE,manual,SNCF reports all Italian destinations as a single country-level label,0.0
+Bettembourg,bettembourg,Luxembourg,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Bettembourg Gare,bettembourg-gare,Luxembourg,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Luxembourg,luxembourg,Luxembourg,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Amsterdam Centraal,amsterdam-centraal,Netherlands,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Rotterdam Centraal,rotterdam-centraal,Netherlands,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Schiphol Airport,schiphol-airport,Netherlands,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Barcelone-Sants,barcelone-sants,Spain,BARCELONA,manual,spelling variant (FR Barcelone / SNCF Barcelona),0.6666666666666666
+Basel SBB,basel-sbb,Switzerland,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.0
+Geneve,geneve,Switzerland,GENEVE,auto,,1.0
+Genève Cornavin,geneve-cornavin,Switzerland,GENEVE,manual,Cornavin is Geneva's main station,0.6666666666666666
+Lausanne,lausanne,Switzerland,LAUSANNE,auto,,1.0
+Zuerich HB,zuerich-hb,Switzerland,ZURICH,manual,spelling variant (DE Zuerich / FR Zurich),0.6666666666666666
+London St Pancras Int'l,london-st-pancras-int-l,United Kingdom,,unmatched,"no SNCF equivalent found (outside SNCF's TGV/Lyria reporting scope, or a country/brand this file doesn't cover)",0.4
