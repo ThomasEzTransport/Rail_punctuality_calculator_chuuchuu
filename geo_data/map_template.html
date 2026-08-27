@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Chuuchuu stations on the French rail network (RFN)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+  :root {
+    color-scheme: light;
+    --page:           #f9f9f7;
+    --surface-1:      #fcfcfb;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --border:         rgba(11,11,11,0.10);
+    --series-line:    #898781;
+    --series-select:  #2a78d6;
+    --series-highlight: #d6482a;
+    /* Status scale (fixed, never themed -- same steps in light & dark, see palette.md) */
+    --delay-good:     #0ca30c;
+    --delay-warning:  #fab219;
+    --delay-serious:  #ec835a;
+    --delay-critical: #d03b3b;
+    --delay-nodata:   #898781;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --page:           #0d0d0d;
+      --surface-1:      #1a1a19;
+      --text-primary:   #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted:     #898781;
+      --border:         rgba(255,255,255,0.10);
+      --series-line:    #8a8a86;
+      --series-select:  #3987e5;
+      --series-highlight: #ff6a45;
+    }
+  }
+  [data-theme="dark"] {
+    color-scheme: dark;
+    --page:           #0d0d0d;
+    --surface-1:      #1a1a19;
+    --text-primary:   #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted:     #898781;
+    --border:         rgba(255,255,255,0.10);
+    --series-line:    #8a8a86;
+    --series-select:  #3987e5;
+    --series-highlight: #ff6a45;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; height: 100%;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: var(--page);
+    color: var(--text-primary);
+  }
+  #wrap { position: relative; width: 100%; height: 100%; overflow: hidden; }
+  #map { width: 100%; height: 100%; background: var(--surface-1); }
+  .panel {
+    position: absolute; top: 14px; left: 14px; z-index: 1000;
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px;
+    padding: 12px 14px; width: 300px; max-width: calc(100vw - 28px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    max-height: calc(100vh - 28px); overflow-y: auto;
+  }
+  .panel h1 { font-size: 15px; margin: 0 0 4px; font-weight: 650; }
+  .panel p { font-size: 12px; color: var(--text-secondary); margin: 0 0 8px; line-height: 1.5; }
+  .legend { font-size: 12px; color: var(--text-secondary); margin-bottom: 10px; }
+  .legend-item { display: flex; align-items: center; gap: 6px; margin-top: 4px; }
+  .swatch-line { width: 16px; height: 2px; background: var(--series-line); border-radius: 1px; opacity: 0.7; }
+  .swatch-line.hl { background: var(--series-highlight); opacity: 1; height: 3px; }
+  .swatch-line.dashed {
+    background: repeating-linear-gradient(to right, var(--series-highlight) 0 4px, transparent 4px 8px);
+    height: 3px; opacity: 1;
+  }
+  .swatch-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--delay-nodata); flex: none; }
+  .swatch-dot.ring { background: var(--delay-warning); box-shadow: 0 0 0 2px var(--series-select); }
+  .legend-scale-title { margin-top: 10px; font-size: 11px; }
+  .delay-scale-bar {
+    height: 8px; border-radius: 4px; margin-top: 5px;
+    background: linear-gradient(to right,
+      var(--delay-good) 0%, var(--delay-warning) 33.33%,
+      var(--delay-serious) 66.66%, var(--delay-critical) 100%);
+  }
+  .delay-scale-labels { display: flex; justify-content: space-between; font-size: 10px; color: var(--text-muted); margin-top: 3px; }
+  .icv-scale-bar {
+    height: 8px; border-radius: 4px; margin-top: 5px;
+    background: linear-gradient(to right,
+      #1e1037 0%, #2d1851 8.33%, #3b1f6b 16.67%, #492785 25%, #582e9f 33.33%,
+      #6636b9 41.67%, #7747ca 50%, #8a61d1 58.33%, #9e7bd9 66.67%, #b195e0 75%,
+      #c4afe8 83.33%, #d7c9ef 91.67%, #ebe3f7 100%);
+  }
+  .hint { margin-top: 8px; font-size: 11px; color: var(--text-muted); }
+  .filters { border-top: 1px solid var(--border); padding-top: 10px; margin-top: 10px; }
+  .filter-group { margin-bottom: 10px; }
+  .filter-group:last-child { margin-bottom: 0; }
+  .filter-group label { display: block; font-size: 11px; font-weight: 650; color: var(--text-secondary); margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.02em; }
+  .filter-row { display: flex; gap: 6px; }
+  .filter-row input {
+    flex: 1; min-width: 0; font-size: 13px; padding: 6px 8px; border-radius: 6px;
+    border: 1px solid var(--border); background: var(--page); color: var(--text-primary);
+  }
+  .filter-row button {
+    font-size: 12px; padding: 6px 9px; border-radius: 6px; border: 1px solid var(--border);
+    background: var(--page); color: var(--text-primary); cursor: pointer; flex: none;
+  }
+  .filter-row button:hover { background: var(--border); }
+  .filter-row button[aria-pressed="true"] {
+    background: var(--series-select); border-color: var(--series-select); color: #fff;
+  }
+  .filter-row button.full-width { flex: 1; }
+  .filter-status { font-size: 11px; color: var(--text-muted); margin-top: 4px; min-height: 14px; }
+  .leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    background: var(--surface-1); color: var(--text-primary);
+  }
+  .leaflet-tooltip {
+    background: var(--surface-1); color: var(--text-primary); border: 1px solid var(--border);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15); font-size: 12px; padding: 4px 8px;
+  }
+  .leaflet-tooltip-top::before { border-top-color: var(--border); }
+  .leaflet-control-attribution { background: var(--surface-1) !important; color: var(--text-secondary) !important; }
+  .leaflet-control-attribution a { color: var(--text-secondary) !important; }
+  .leaflet-bar a { background: var(--surface-1) !important; color: var(--text-primary) !important; border-color: var(--border) !important; }
+  .popup-name { font-weight: 650; margin-bottom: 2px; }
+  .popup-row { font-size: 12px; color: var(--text-secondary); }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <div id="map"></div>
+  <div class="panel">
+    <h1>Chuuchuu stations on the RFN network</h1>
+    <p id="statsLine">Loading…</p>
+    <div class="legend">
+      <div class="legend-item" id="plainTrackLegend"><span class="swatch-line"></span> Track (RFN geometry, all lines)</div>
+      <div class="legend-item"><span class="swatch-line hl"></span> Selected line</div>
+      <div class="legend-item"><span class="swatch-line dashed"></span> Selected train's route</div>
+      <div class="legend-item"><span class="swatch-dot"></span> No arrival-delay data</div>
+      <div class="legend-item"><span class="swatch-dot ring"></span> Highlighted by a filter</div>
+      <div class="legend-scale-title">Station color = average arrival delay</div>
+      <div class="delay-scale-bar"></div>
+      <div class="delay-scale-labels"><span>0 min</span><span>2</span><span>4</span><span>&ge;6 min</span></div>
+      <div class="legend-scale-title" id="icvLegendTitle" style="display:none">Track color = ICV (indice de consistance de la voie)</div>
+      <div class="icv-scale-bar" id="icvScaleBar" style="display:none"></div>
+      <div class="delay-scale-labels" id="icvScaleLabels" style="display:none"><span>0</span><span>50</span><span>100</span></div>
+    </div>
+    <div class="filters">
+      <div class="filter-group">
+        <label for="icvToggle">Track layer</label>
+        <div class="filter-row">
+          <button type="button" id="icvToggle" class="full-width" aria-pressed="false">Show ICV per tron&ccedil;on</button>
+        </div>
+        <div class="filter-status" id="icvStatus"></div>
+      </div>
+      <div class="filter-group">
+        <label for="lineInput">Highlight a line (code_ligne)</label>
+        <div class="filter-row">
+          <input type="text" id="lineInput" list="lineList" placeholder="e.g. 590000 or a line name" autocomplete="off">
+          <button type="button" id="lineClear">Clear</button>
+        </div>
+        <datalist id="lineList"></datalist>
+        <div class="filter-status" id="lineStatus"></div>
+      </div>
+      <div class="filter-group">
+        <label for="stationInput">Highlight a station</label>
+        <div class="filter-row">
+          <input type="text" id="stationInput" list="stationList" placeholder="Station name" autocomplete="off">
+          <button type="button" id="stationClear">Clear</button>
+        </div>
+        <datalist id="stationList"></datalist>
+        <div class="filter-status" id="stationStatus"></div>
+      </div>
+      <div class="filter-group">
+        <label for="routeInput">Highlight a train (originalRoute)</label>
+        <div class="filter-row">
+          <input type="text" id="routeInput" list="routeList" placeholder="Type ≥2 chars, e.g. INTERCITES 3604" autocomplete="off">
+          <button type="button" id="routeClear">Clear</button>
+        </div>
+        <datalist id="routeList"></datalist>
+        <div class="filter-status" id="routeStatus"></div>
+      </div>
+    </div>
+    <div class="hint">Scroll to zoom, drag to pan. Hover or click a track for its line number; click a station for details. Map tiles © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors — requires internet access.</div>
+  </div>
+</div>
+
+<script>
+const DATA = /*__DATA__*/;
+
+const map = L.map('map', { preferCanvas: true, zoomControl: false }).setView([46.8, 2.5], 6);
+L.control.zoom({ position: 'bottomright' }).addTo(map);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+const renderer = L.canvas({ padding: 0.5 });
+
+const LINE_COLOR = getComputedStyle(document.documentElement).getPropertyValue('--series-line').trim() || '#898781';
+const LINE_HL_COLOR = getComputedStyle(document.documentElement).getPropertyValue('--series-highlight').trim() || '#d6482a';
+const SELECT_RING_COLOR = getComputedStyle(document.documentElement).getPropertyValue('--series-select').trim() || '#2a78d6';
+const DELAY_NODATA_COLOR = getComputedStyle(document.documentElement).getPropertyValue('--delay-nodata').trim() || '#898781';
+
+// Average arrival delay is a quality/status signal (like an error rate), not a neutral
+// magnitude -- so it's colored with the fixed good/warning/serious/critical status scale
+// (see palette.md), continuously interpolated between anchors, rather than a generic
+// sequential ramp. The tail is clipped at 6 min (~p95 of station-level means, cap chosen
+// so the ~1% of stations with extreme outlier averages don't wash out the other 99%).
+const DELAY_ANCHORS = [
+  { sec: 0,   rgb: [12, 163, 12] },   // --delay-good
+  { sec: 120, rgb: [250, 178, 25] },  // --delay-warning
+  { sec: 240, rgb: [236, 131, 90] },  // --delay-serious
+  { sec: 360, rgb: [208, 59, 59] },   // --delay-critical (cap, ~6 min)
+];
+function delayColor(sec) {
+  if (sec == null) return DELAY_NODATA_COLOR;
+  const clamped = Math.max(0, Math.min(sec, DELAY_ANCHORS[DELAY_ANCHORS.length - 1].sec));
+  for (let i = 0; i < DELAY_ANCHORS.length - 1; i++) {
+    const a = DELAY_ANCHORS[i], b = DELAY_ANCHORS[i + 1];
+    if (clamped <= b.sec) {
+      const t = (clamped - a.sec) / (b.sec - a.sec);
+      const rgb = a.rgb.map((c, i2) => Math.round(c + (b.rgb[i2] - c) * t));
+      return 'rgb(' + rgb.join(',') + ')';
+    }
+  }
+  const last = DELAY_ANCHORS[DELAY_ANCHORS.length - 1].rgb;
+  return 'rgb(' + last.join(',') + ')';
+}
+function formatDelay(s) {
+  if (s.avg_delay_sec == null) return 'No delay data';
+  const minutes = (s.avg_delay_sec / 60).toFixed(1);
+  return minutes + ' min avg (' + s.n_delay_samples.toLocaleString() + ' arrivals)';
+}
+
+// ICV (indice de consistance de la voie) is a neutral 0-100 magnitude, not a
+// documented good/bad status signal, so it takes a single-hue sequential ramp
+// rather than the status scale used for delay above. Purple, low->high ICV maps
+// dark->light (0 = darkest, 100 = lightest), per request.
+const ICV_RAMP_RGB = ['#1e1037','#2d1851','#3b1f6b','#492785','#582e9f','#6636b9',
+  '#7747ca','#8a61d1','#9e7bd9','#b195e0','#c4afe8','#d7c9ef','#ebe3f7'].map(hex => [
+    parseInt(hex.slice(1, 3), 16), parseInt(hex.slice(3, 5), 16), parseInt(hex.slice(5, 7), 16)
+  ]);
+function icvColor(icv) {
+  if (icv == null) return DELAY_NODATA_COLOR;
+  const t = Math.max(0, Math.min(icv, 100)) / 100;
+  const pos = t * (ICV_RAMP_RGB.length - 1);
+  const i0 = Math.floor(pos), i1 = Math.min(ICV_RAMP_RGB.length - 1, i0 + 1);
+  const frac = pos - i0;
+  const a = ICV_RAMP_RGB[i0], b = ICV_RAMP_RGB[i1];
+  const rgb = a.map((c, idx) => Math.round(c + (b[idx] - c) * frac));
+  return 'rgb(' + rgb.join(',') + ')';
+}
+
+// --- track geometry, grouped by code_ligne for fast highlight lookups ---
+const linesByCode = new Map();
+const lineLayers = [];
+DATA.lines.forEach(part => {
+  const latlngs = part.coords.map(([lon, lat]) => [lat, lon]);
+  const visual = L.polyline(latlngs, {
+    renderer, color: LINE_COLOR, weight: 1.4, opacity: 0.55, interactive: false
+  }).addTo(map);
+  visual._codeLigne = part.code_ligne;
+  visual._part = part;
+  lineLayers.push(visual);
+  if (!linesByCode.has(part.code_ligne)) linesByCode.set(part.code_ligne, []);
+  linesByCode.get(part.code_ligne).push(visual);
+
+  const lineName = DATA.line_names[part.code_ligne];
+  const label = lineName ? part.code_ligne + ' — ' + lineName : part.code_ligne;
+
+  // A wide, invisible line carries the hover/click interaction -- the visible
+  // track stays a thin 1.4px stroke, but a ~24px hit target is a lot easier to
+  // land on than the stroke itself (see interaction.md's pinpoint-hover anti-pattern).
+  const hit = L.polyline(latlngs, {
+    renderer, opacity: 0, weight: 14, interactive: true
+  }).addTo(map);
+  hit.bindTooltip(escapeHtml(label), { sticky: true, direction: 'top' });
+  hit.bindPopup(
+    '<div class="popup-name">' + escapeHtml(label) + '</div>' +
+    '<div class="popup-row">Segment (tronçon): ' + (part.rg_troncon ?? 'n/a') + '</div>' +
+    '<div class="popup-row">ICV: ' + (part.icv != null ? part.icv : 'n/a') + '</div>' +
+    '<div class="popup-row">Speed limit: ' + (part.vitesse != null ? part.vitesse + ' km/h' : 'n/a') + '</div>'
+  );
+  hit.on('mouseover', () => {
+    const style = lineStyleFor(visual);
+    visual.setStyle({ color: style.color, weight: style.weight + 2, opacity: Math.max(style.opacity, 0.9) });
+    visual.bringToFront();
+  });
+  hit.on('mouseout', () => visual.setStyle(lineStyleFor(visual)));
+});
+
+// --- stations ---
+const stationLayers = [];
+const stationsByName = new Map();
+const stationsByDbId = new Map();
+DATA.stations.forEach(s => {
+  const marker = L.circleMarker([s.lat, s.lon], {
+    renderer, radius: 3, weight: 0, fillOpacity: 0.85, fillColor: delayColor(s.avg_delay_sec)
+  }).addTo(map);
+  const lineLabel = s.code_ligne
+    ? (DATA.line_names[s.code_ligne] ? s.code_ligne + ' — ' + DATA.line_names[s.code_ligne] : s.code_ligne)
+    : (s.candidates.length ? 'ambiguous: ' + s.candidates.join(', ') : 'no line match');
+  marker.bindPopup(
+    '<div class="popup-name">' + escapeHtml(s.name) + '</div>' +
+    '<div class="popup-row">UIC: ' + (s.uic ?? 'n/a') + '</div>' +
+    '<div class="popup-row">Line: ' + escapeHtml(lineLabel) + '</div>' +
+    '<div class="popup-row">' + escapeHtml(formatDelay(s)) + '</div>'
+  );
+  marker._station = s;
+  stationLayers.push(marker);
+  const key = s.name + (s.uic ? ' (' + s.uic + ')' : '');
+  stationsByName.set(key, marker);
+  stationsByDbId.set(s.db_id, marker);
+});
+
+function escapeHtml(str) {
+  return String(str).replace(/[&<>"']/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
+}
+
+document.getElementById('statsLine').textContent =
+  DATA.stations.length + ' stations matched to coordinates, over ' + DATA.lines.length + ' track segments across ' +
+  Object.keys(DATA.line_names).length + ' RFN lines (simplified ~50 m tolerance), and ' +
+  Object.keys(DATA.routes).length + ' train routes. Colored by average arrival delay.';
+
+// --- line datalist (code_ligne + name, sorted by code) ---
+const lineListEl = document.getElementById('lineList');
+const codes = Array.from(linesByCode.keys()).filter(Boolean).sort();
+codes.forEach(code => {
+  const opt = document.createElement('option');
+  const name = DATA.line_names[code];
+  opt.value = name ? (code + ' — ' + name) : code;
+  lineListEl.appendChild(opt);
+});
+
+// --- station datalist ---
+const stationListEl = document.getElementById('stationList');
+Array.from(stationsByName.keys()).sort((a, b) => a.localeCompare(b)).forEach(key => {
+  const opt = document.createElement('option');
+  opt.value = key;
+  stationListEl.appendChild(opt);
+});
+
+function parseLineCode(raw) {
+  const text = raw.trim();
+  if (!text) return null;
+  const dash = text.indexOf(' — ');
+  const candidate = dash >= 0 ? text.slice(0, dash) : text;
+  return linesByCode.has(candidate) ? candidate : null;
+}
+
+let activeLineCode = null;
+let activeStation = null;
+let icvMode = false;
+let activeRoute = null;
+let activeRouteIds = null;
+let routeLine = null;
+
+// The selected line (from the line filter) always stays legible, in either mode --
+// but in ICV mode it keeps its true ICV color (just bolder + fully opaque) instead
+// of being overridden to the flat highlight color, so selecting a line doesn't hide
+// the one piece of information the ICV toggle exists to show.
+function lineStyleFor(layer) {
+  const isActive = activeLineCode && layer._codeLigne === activeLineCode;
+  const dimmed = !!activeLineCode && !isActive;
+  if (icvMode) {
+    return {
+      color: icvColor(layer._part.icv),
+      weight: isActive ? 5 : 2.6,
+      opacity: dimmed ? 0.25 : (isActive ? 1 : 0.85)
+    };
+  }
+  if (isActive) return { color: LINE_HL_COLOR, weight: 4.2, opacity: 1 };
+  return { color: LINE_COLOR, weight: 2, opacity: dimmed ? 0.15 : 0.55 };
+}
+function refreshLineStyles() {
+  lineLayers.forEach(layer => {
+    layer.setStyle(lineStyleFor(layer));
+    if (activeLineCode && layer._codeLigne === activeLineCode) layer.bringToFront();
+  });
+}
+
+function applyHighlight() {
+  refreshLineStyles();
+  const anyFilterActive = !!activeLineCode || !!activeRoute;
+  stationLayers.forEach(marker => {
+    const s = marker._station;
+    const onLine = activeLineCode && (s.code_ligne === activeLineCode || s.candidates.includes(activeLineCode));
+    const onRoute = activeRouteIds && activeRouteIds.has(s.db_id);
+    const isSelectedStation = activeStation === marker;
+    // Fill color always encodes avg arrival delay; highlighting is a separate
+    // ring + radius encoding so the two meanings don't collide on one channel.
+    // Precedence when several filters are active at once: an explicitly selected
+    // station wins, then route membership, then line membership.
+    if (isSelectedStation) {
+      marker.setStyle({ radius: 8, weight: 2.5, color: SELECT_RING_COLOR, fillOpacity: 1 });
+      marker.bringToFront();
+    } else if (onRoute) {
+      marker.setStyle({ radius: 6, weight: 2, color: SELECT_RING_COLOR, fillOpacity: 1 });
+      marker.bringToFront();
+    } else if (onLine) {
+      marker.setStyle({ radius: 4.5, weight: 1.5, color: SELECT_RING_COLOR, fillOpacity: 1 });
+      marker.bringToFront();
+    } else {
+      marker.setStyle({
+        radius: 3,
+        weight: 0,
+        fillOpacity: anyFilterActive ? 0.12 : 0.85
+      });
+    }
+  });
+}
+
+const lineInput = document.getElementById('lineInput');
+const lineStatus = document.getElementById('lineStatus');
+document.getElementById('lineClear').addEventListener('click', () => {
+  lineInput.value = ''; activeLineCode = null; lineStatus.textContent = ''; applyHighlight();
+});
+lineInput.addEventListener('input', () => {
+  const code = parseLineCode(lineInput.value);
+  if (!code) {
+    activeLineCode = null;
+    lineStatus.textContent = lineInput.value.trim() ? 'No line matches that.' : '';
+    applyHighlight();
+    return;
+  }
+  activeLineCode = code;
+  const layers = linesByCode.get(code) || [];
+  lineStatus.textContent = layers.length + ' segment(s) highlighted.';
+  applyHighlight();
+  if (layers.length) {
+    const bounds = L.latLngBounds(layers.flatMap(l => l.getLatLngs()));
+    map.fitBounds(bounds, { padding: [40, 40] });
+  }
+});
+
+const stationInput = document.getElementById('stationInput');
+const stationStatus = document.getElementById('stationStatus');
+document.getElementById('stationClear').addEventListener('click', () => {
+  stationInput.value = ''; activeStation = null; stationStatus.textContent = ''; applyHighlight();
+});
+stationInput.addEventListener('input', () => {
+  const key = stationInput.value.trim();
+  const marker = stationsByName.get(key);
+  if (!marker) {
+    activeStation = null;
+    stationStatus.textContent = key ? 'No station matches that.' : '';
+    applyHighlight();
+    return;
+  }
+  activeStation = marker;
+  stationStatus.textContent = 'Station highlighted.';
+  applyHighlight();
+  map.setView(marker.getLatLng(), Math.max(map.getZoom(), 11));
+  marker.openPopup();
+});
+
+const icvToggle = document.getElementById('icvToggle');
+const icvStatus = document.getElementById('icvStatus');
+const icvLegendTitle = document.getElementById('icvLegendTitle');
+const icvScaleBar = document.getElementById('icvScaleBar');
+const icvScaleLabels = document.getElementById('icvScaleLabels');
+const plainTrackLegend = document.getElementById('plainTrackLegend');
+icvToggle.addEventListener('click', () => {
+  icvMode = !icvMode;
+  icvToggle.setAttribute('aria-pressed', String(icvMode));
+  icvToggle.textContent = icvMode ? 'Hide ICV, show plain track' : 'Show ICV per tronçon';
+  icvStatus.textContent = icvMode ? 'Track color now shows ICV (0–100).' : '';
+  icvLegendTitle.style.display = icvMode ? '' : 'none';
+  icvScaleBar.style.display = icvMode ? '' : 'none';
+  icvScaleLabels.style.display = icvMode ? '' : 'none';
+  plainTrackLegend.style.display = icvMode ? 'none' : '';
+  refreshLineStyles();
+});
+
+// --- route ("train") filter -------------------------------------------------
+// originalRoute has ~32k distinct values (vs. ~639 lines / ~3186 stations), so
+// unlike the line/station datalists above, this one is NOT fully pre-populated --
+// options are computed on the fly from the current input (min 2 chars, capped at
+// 50 matches) to keep page load and typing responsive.
+const routeNamesSorted = Object.keys(DATA.routes).sort((a, b) => a.localeCompare(b));
+const routeListEl = document.getElementById('routeList');
+const routeInput = document.getElementById('routeInput');
+const routeStatus = document.getElementById('routeStatus');
+
+function updateRouteDatalist(query) {
+  routeListEl.replaceChildren();
+  if (query.length < 2) return;
+  const q = query.toLowerCase();
+  let count = 0;
+  for (const name of routeNamesSorted) {
+    if (name.toLowerCase().includes(q)) {
+      const opt = document.createElement('option');
+      opt.value = name;
+      routeListEl.appendChild(opt);
+      if (++count >= 50) break;
+    }
+  }
+}
+
+function setActiveRoute(routeName) {
+  activeRoute = routeName;
+  activeRouteIds = routeName ? new Set(DATA.routes[routeName]) : null;
+  if (routeLine) { map.removeLayer(routeLine); routeLine = null; }
+  if (routeName) {
+    const latlngs = DATA.routes[routeName]
+      .map(id => stationsByDbId.get(id))
+      .filter(Boolean)
+      .map(m => m.getLatLng());
+    if (latlngs.length >= 2) {
+      routeLine = L.polyline(latlngs, {
+        color: LINE_HL_COLOR, weight: 3, opacity: 0.9, dashArray: '2 8', interactive: false
+      }).addTo(map);
+      map.fitBounds(routeLine.getBounds(), { padding: [40, 40] });
+    }
+  }
+  applyHighlight();
+}
+
+document.getElementById('routeClear').addEventListener('click', () => {
+  routeInput.value = '';
+  routeListEl.replaceChildren();
+  routeStatus.textContent = '';
+  setActiveRoute(null);
+});
+routeInput.addEventListener('input', () => {
+  const value = routeInput.value.trim();
+  updateRouteDatalist(value);
+  if (Object.prototype.hasOwnProperty.call(DATA.routes, value)) {
+    routeStatus.textContent = DATA.routes[value].length + ' station(s) on this route.';
+    setActiveRoute(value);
+  } else {
+    routeStatus.textContent = value.length >= 2 ? 'No exact match yet — pick from the list.' : '';
+    setActiveRoute(null);
+  }
+});
+</script>
+</body>
+</html>
