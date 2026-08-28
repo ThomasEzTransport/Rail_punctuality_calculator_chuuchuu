@@ -6,6 +6,9 @@ Reads:
   - intermediate_outputs/data_chuuchuu_french_lines.parquet
         -> per-stop-event code_ligne match (output of 6_Chuuchuu_data_test_line_matching.ipynb)
   - sup_data/stations.csv                -> station lon/lat/uic
+  - intermediate_outputs/network_routing_legs.parquet
+  - intermediate_outputs/network_routing_segment_traffic.parquet
+        -> shortest-path-per-leg + segment_id->code_ligne (output of 7_Chuuchuu_network_routing.ipynb)
 
 Writes:
   - geo_data/map_data.json
@@ -17,6 +20,8 @@ import json
 
 import geopandas as gpd
 import pandas as pd
+
+intermediate_outputs_dir = "intermediate_outputs"
 
 SIMPLIFY_TOLERANCE_DEG = 0.0005  # roughly 50 m at French latitudes
 
@@ -144,11 +149,114 @@ for route_name, seq in modal_sequences.items():
 
 print(f"{len(routes)} / {len(modal_sequences)} routes exported (>=2 mapped stations)")
 
+# --- Trains ("verify a specific run"): (route, distinct real stop-sequence) -> ----
+# {stations, lines, legs}, for visually checking notebook 7's network-routing output.
+# Keyed by distinct sequence rather than raw journey_id/date: two runs of the same
+# route stopping at exactly the same stations always route through the same RFN
+# segments, so journey_id/date would add ~857k near-duplicate entries for zero
+# extra information. Collapsing to distinct (route, sequence) pairs gives far fewer
+# entries (~1.4x the route count above) while still surfacing every real detour /
+# holiday-schedule variant that the "modal sequence" above deliberately hides.
+variant_counts = (
+    journey_sequences.rename(columns={"db_id_str": "seq"})
+    .groupby(["originalRoute", "seq"])
+    .size()
+    .rename("n_occurrences")
+    .reset_index()
+    .sort_values(["originalRoute", "n_occurrences"], ascending=[True, False])
+)
+variant_counts["variant_rank"] = variant_counts.groupby("originalRoute").cumcount() + 1
+variant_counts["n_variants"] = variant_counts.groupby("originalRoute")["originalRoute"].transform("size")
+
+leg_routing = pd.read_parquet(
+    f"{intermediate_outputs_dir}/network_routing_legs.parquet",
+    columns=["stop_lo", "stop_hi", "routing_status", "segment_ids", "path_coords"],
+)
+routed_legs = leg_routing[leg_routing["routing_status"] == "routed"].copy()
+routed_legs["stop_lo"] = routed_legs["stop_lo"].astype("Int64").astype(str)
+routed_legs["stop_hi"] = routed_legs["stop_hi"].astype("Int64").astype(str)
+leg_to_segments = {(row.stop_lo, row.stop_hi): row.segment_ids for row in routed_legs.itertuples()}
+
+segment_traffic = pd.read_parquet(
+    f"{intermediate_outputs_dir}/network_routing_segment_traffic.parquet",
+    columns=["segment_id", "code_ligne"],
+).dropna(subset=["code_ligne"])
+segment_to_line = {int(row.segment_id): str(int(row.code_ligne)) for row in segment_traffic.itertuples()}
+
+# Real routed-path geometry per unique leg (deduplicated once at the network level,
+# not per train -- many trains/routes share the same physical hop). A train's
+# highlighted path is then just a lookup of its ordered `legs` keys into this table,
+# rather than each of the ~44k trains embedding its own copy of the geometry.
+# Highlighting the exact traveled path (instead of the whole code_ligne, the map's
+# original approach) matters because a leg's shortest path can run through only a
+# short stretch of a long line -- and, per a route/straight-line-distance check, a
+# real subset of legs (~2% of leg-rows) are also implausible network-graph-artifact
+# detours (station pairs a few km apart routed hundreds of km) that a whole-line
+# highlight would have hidden entirely. Seeing the real path surfaces those directly.
+leg_paths = {}
+for row in routed_legs.itertuples():
+    coords = row.path_coords
+    if coords is None or len(coords) < 2:
+        continue
+    lo, hi = sorted((row.stop_lo, row.stop_hi))
+    leg_paths[f"{lo}|{hi}"] = [[round(float(x), 5), round(float(y), 5)] for x, y in coords]
+
+trains = {}
+for row in variant_counts.itertuples():
+    seq = row.seq
+    filtered = [db_id for db_id in seq if db_id in resolved_ids]
+    if len(filtered) < 2:
+        continue
+
+    # Candidate lines + routed legs come from the FULL real stop-to-stop sequence
+    # (every actual leg the train ran), not the coordinate-filtered `filtered` list
+    # above -- a station missing coordinates can still anchor a routed leg on either
+    # side of it. `legs` lists EVERY real hop, including ones with no routed path
+    # geometry (leg_key absent from leg_paths) -- the JS side needs that placeholder
+    # to tell "no route data for this hop" apart from "hop doesn't exist", so it can
+    # draw an actual gap instead of a misleading straight line bridging over it.
+    # Kept in NATURAL travel order (stop_a|stop_b, not sorted lo|hi) -- leg_paths
+    # geometry is always stored lo->hi regardless of which way a train actually
+    # traveled it, so the JS side needs the real direction to know when to reverse
+    # a leg's coordinates before stitching it onto the next one.
+    candidate_lines = set()
+    leg_keys = []
+    for stop_a, stop_b in zip(seq, seq[1:]):
+        lo, hi = sorted((stop_a, stop_b))
+        leg_keys.append(f"{stop_a}|{stop_b}")
+        for segment_id in leg_to_segments.get((lo, hi), ()):
+            code = segment_to_line.get(int(segment_id))
+            if code is not None:
+                candidate_lines.add(code)
+
+    key = row.originalRoute if row.n_variants == 1 else (
+        f"{row.originalRoute} · variant {row.variant_rank}/{row.n_variants} ({row.n_occurrences} runs)"
+    )
+    trains[key] = {"stations": filtered, "lines": sorted(candidate_lines), "legs": leg_keys}
+
+def _canonical_leg_key(key):
+    a, b = key.split("|")
+    return f"{a}|{b}" if a <= b else f"{b}|{a}"
+
+
+print(f"{len(trains)} / {len(variant_counts)} train stop-sequences exported (>=2 mapped stations)")
+n_with_lines = sum(1 for t in trains.values() if t["lines"])
+n_with_path = sum(1 for t in trains.values() if any(_canonical_leg_key(k) in leg_paths for k in t["legs"]))
+n_fully_routed = sum(
+    1 for t in trains.values() if t["legs"] and all(_canonical_leg_key(k) in leg_paths for k in t["legs"])
+)
+print(f"{n_with_lines} / {len(trains)} have at least one candidate line from network routing")
+print(f"{n_with_path} / {len(trains)} have at least one hop with routed path geometry")
+print(f"{n_fully_routed} / {len(trains)} have every real hop routed (no gaps)")
+print(f"{len(leg_paths)} unique routed-leg geometries exported")
+
 data = {
     "lines": lines,
     "line_names": line_names,
     "stations": stations,
     "routes": routes,
+    "trains": trains,
+    "leg_paths": leg_paths,
 }
 
 with open("geo_data/map_data.json", "w", encoding="utf-8") as f:

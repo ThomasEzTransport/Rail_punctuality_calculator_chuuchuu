@@ -67,6 +67,15 @@
     box-shadow: 0 4px 16px rgba(0,0,0,0.15);
     max-height: calc(100vh - 28px); overflow-y: auto;
   }
+  .panel-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+  .panel.collapsed { padding: 8px 10px; width: auto; }
+  .panel.collapsed > *:not(.panel-head) { display: none; }
+  .panel.collapsed .panel-head { margin: 0; }
+  .panel-toggle {
+    font-size: 11px; padding: 4px 8px; border-radius: 6px; border: 1px solid var(--border);
+    background: var(--page); color: var(--text-secondary); cursor: pointer; flex: none; white-space: nowrap;
+  }
+  .panel-toggle:hover { background: var(--border); }
   .panel h1 { font-size: 15px; margin: 0 0 4px; font-weight: 650; }
   .panel p { font-size: 12px; color: var(--text-secondary); margin: 0 0 8px; line-height: 1.5; }
   .legend { font-size: 12px; color: var(--text-secondary); margin-bottom: 10px; }
@@ -133,12 +142,16 @@
 <div id="wrap">
   <div id="map"></div>
   <div class="panel">
-    <h1>Chuuchuu stations on the RFN network</h1>
+    <div class="panel-head">
+      <h1>Chuuchuu stations on the RFN network</h1>
+      <button type="button" id="panelToggle" class="panel-toggle" aria-pressed="false">Hide</button>
+    </div>
     <p id="statsLine">Loading…</p>
     <div class="legend">
       <div class="legend-item" id="plainTrackLegend"><span class="swatch-line"></span> Track (RFN geometry, all lines)</div>
       <div class="legend-item"><span class="swatch-line hl"></span> Selected line</div>
-      <div class="legend-item"><span class="swatch-line dashed"></span> Selected train's route</div>
+      <div class="legend-item"><span class="swatch-line dashed"></span> Selected route (modal path)</div>
+      <div class="legend-item"><span class="swatch-line hl"></span> Verified train's actual routed path (network-routing output)</div>
       <div class="legend-item"><span class="swatch-dot"></span> No arrival-delay data</div>
       <div class="legend-item"><span class="swatch-dot ring"></span> Highlighted by a filter</div>
       <div class="legend-scale-title">Station color = average arrival delay</div>
@@ -182,6 +195,15 @@
         </div>
         <datalist id="routeList"></datalist>
         <div class="filter-status" id="routeStatus"></div>
+      </div>
+      <div class="filter-group">
+        <label for="trainInput">Verify a specific train (stop sequence + candidate lines)</label>
+        <div class="filter-row">
+          <input type="text" id="trainInput" list="trainList" placeholder="Type ≥2 chars, e.g. INTERCITES 3604" autocomplete="off">
+          <button type="button" id="trainClear">Clear</button>
+        </div>
+        <datalist id="trainList"></datalist>
+        <div class="filter-status" id="trainStatus"></div>
       </div>
     </div>
     <div class="hint">Scroll to zoom, drag to pan. Hover or click a track for its line number; click a station for details. Map tiles © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors — requires internet access.</div>
@@ -323,8 +345,9 @@ function escapeHtml(str) {
 
 document.getElementById('statsLine').textContent =
   DATA.stations.length + ' stations matched to coordinates, over ' + DATA.lines.length + ' track segments across ' +
-  Object.keys(DATA.line_names).length + ' RFN lines (simplified ~50 m tolerance), and ' +
-  Object.keys(DATA.routes).length + ' train routes. Colored by average arrival delay.';
+  Object.keys(DATA.line_names).length + ' RFN lines (simplified ~50 m tolerance), ' +
+  Object.keys(DATA.routes).length + ' train routes, and ' + Object.keys(DATA.trains).length +
+  ' verifiable train stop-sequences. Colored by average arrival delay.';
 
 // --- line datalist (code_ligne + name, sorted by code) ---
 const lineListEl = document.getElementById('lineList');
@@ -358,18 +381,28 @@ let icvMode = false;
 let activeRoute = null;
 let activeRouteIds = null;
 let routeLine = null;
+let activeTrainKey = null;
+let activeTrainIds = null;
+let trainPathLayers = [];
 
 // The selected line (from the line filter) always stays legible, in either mode --
 // but in ICV mode it keeps its true ICV color (just bolder + fully opaque) instead
 // of being overridden to the flat highlight color, so selecting a line doesn't hide
-// the one piece of information the ICV toggle exists to show.
+// the one piece of information the ICV toggle exists to show. A verified train's
+// path is drawn as its own overlay (see setActiveTrain) rather than highlighting
+// whole code_ligne layers here -- a leg's routed path often covers only a short
+// stretch of a long line, so a whole-line highlight badly overstated a train's
+// real footprint (confirmed by a route-length-vs-straight-line-distance check
+// that also caught real network-routing-graph detour bugs a whole-line highlight
+// would have hidden).
 function lineStyleFor(layer) {
   const isActive = activeLineCode && layer._codeLigne === activeLineCode;
   const dimmed = !!activeLineCode && !isActive;
   if (icvMode) {
+    // +15% over the pre-existing 2.6 / 5 weights, per request.
     return {
       color: icvColor(layer._part.icv),
-      weight: isActive ? 5 : 2.6,
+      weight: isActive ? 5.75 : 2.99,
       opacity: dimmed ? 0.25 : (isActive ? 1 : 0.85)
     };
   }
@@ -385,18 +418,23 @@ function refreshLineStyles() {
 
 function applyHighlight() {
   refreshLineStyles();
-  const anyFilterActive = !!activeLineCode || !!activeRoute;
+  const anyFilterActive = !!activeLineCode || !!activeRoute || !!activeTrainKey;
   stationLayers.forEach(marker => {
     const s = marker._station;
     const onLine = activeLineCode && (s.code_ligne === activeLineCode || s.candidates.includes(activeLineCode));
     const onRoute = activeRouteIds && activeRouteIds.has(s.db_id);
+    const onTrain = activeTrainIds && activeTrainIds.has(s.db_id);
     const isSelectedStation = activeStation === marker;
     // Fill color always encodes avg arrival delay; highlighting is a separate
     // ring + radius encoding so the two meanings don't collide on one channel.
     // Precedence when several filters are active at once: an explicitly selected
-    // station wins, then route membership, then line membership.
+    // station wins, then a verified train's exact stops, then route membership,
+    // then line membership.
     if (isSelectedStation) {
       marker.setStyle({ radius: 8, weight: 2.5, color: SELECT_RING_COLOR, fillOpacity: 1 });
+      marker.bringToFront();
+    } else if (onTrain) {
+      marker.setStyle({ radius: 6, weight: 2, color: SELECT_RING_COLOR, fillOpacity: 1 });
       marker.bringToFront();
     } else if (onRoute) {
       marker.setStyle({ radius: 6, weight: 2, color: SELECT_RING_COLOR, fillOpacity: 1 });
@@ -458,6 +496,14 @@ stationInput.addEventListener('input', () => {
   marker.openPopup();
 });
 
+const panelEl = document.querySelector('.panel');
+const panelToggle = document.getElementById('panelToggle');
+panelToggle.addEventListener('click', () => {
+  const collapsed = panelEl.classList.toggle('collapsed');
+  panelToggle.setAttribute('aria-pressed', String(collapsed));
+  panelToggle.textContent = collapsed ? 'Show' : 'Hide';
+});
+
 const icvToggle = document.getElementById('icvToggle');
 const icvStatus = document.getElementById('icvStatus');
 const icvLegendTitle = document.getElementById('icvLegendTitle');
@@ -512,7 +558,7 @@ function setActiveRoute(routeName) {
       .map(m => m.getLatLng());
     if (latlngs.length >= 2) {
       routeLine = L.polyline(latlngs, {
-        color: LINE_HL_COLOR, weight: 3, opacity: 0.9, dashArray: '2 8', interactive: false
+        renderer, color: LINE_HL_COLOR, weight: 3, opacity: 0.9, dashArray: '2 8', interactive: false
       }).addTo(map);
       map.fitBounds(routeLine.getBounds(), { padding: [40, 40] });
     }
@@ -535,6 +581,124 @@ routeInput.addEventListener('input', () => {
   } else {
     routeStatus.textContent = value.length >= 2 ? 'No exact match yet — pick from the list.' : '';
     setActiveRoute(null);
+  }
+});
+
+// --- train ("verify a specific run") filter ---------------------------------
+// DATA.trains is keyed by (originalRoute, distinct real stop-sequence) rather than
+// raw journey_id/date: two runs of the same route on different dates that stop at
+// exactly the same stations always route through the same RFN segments, so keying
+// on journey_id/date would add ~857k near-duplicate entries for zero extra
+// information -- collapsing to distinct sequences gives ~44.5k entries instead,
+// small enough to stay embedded in this single offline file (see
+// build_map_data.py). Same on-the-fly datalist pattern as the route filter above,
+// for the same reason.
+//
+// Each train's `legs` is an ordered list of keys into the shared DATA.leg_paths
+// table (deduplicated once at the network level, not per train) -- the actual
+// node-by-node path notebook 7's network-routing step found for that stop-to-stop
+// hop. Drawing this real path, instead of highlighting the whole code_ligne it
+// touches (the map's original approach), matters for two reasons: a leg's shortest
+// path often covers only a short stretch of a long line, so a whole-line highlight
+// badly overstated a train's real footprint; and a route-length-vs-straight-line
+// check found a real subset of legs (~2% of leg-rows) are implausible detours --
+// station pairs a few km apart routed hundreds of km, a network-graph artifact a
+// whole-line highlight would have hidden. `legs` lists EVERY real hop, including
+// ones with no entry in DATA.leg_paths (the router couldn't resolve them) -- those
+// are drawn as an actual gap rather than a straight-line guess bridging over them,
+// which would misrepresent the very thing this filter exists to verify.
+const trainKeysSorted = Object.keys(DATA.trains).sort((a, b) => a.localeCompare(b));
+const trainListEl = document.getElementById('trainList');
+const trainInput = document.getElementById('trainInput');
+const trainStatus = document.getElementById('trainStatus');
+
+function updateTrainDatalist(query) {
+  trainListEl.replaceChildren();
+  if (query.length < 2) return;
+  const q = query.toLowerCase();
+  let count = 0;
+  for (const key of trainKeysSorted) {
+    if (key.toLowerCase().includes(q)) {
+      const opt = document.createElement('option');
+      opt.value = key;
+      trainListEl.appendChild(opt);
+      if (++count >= 50) break;
+    }
+  }
+}
+
+// Concatenates consecutive routed legs into as few polylines as possible, breaking
+// into a new one at each gap (a hop with no path_coords) so a routing gap reads as
+// an actual break on the map rather than a straight line jumping over it.
+//
+// Each train.legs entry is "stopA|stopB" in the train's real travel direction, but
+// DATA.leg_paths is keyed by the sorted "lo|hi" pair (deduplicated once per unique
+// hop regardless of which trains travel it, and in which direction) and its
+// coordinates always run lo->hi. A hop traveled hi->lo needs its coordinate array
+// reversed before stitching, or consecutive legs won't connect end-to-start and the
+// merged line will zigzag between unrelated points.
+function canonicalLegKey(legKey) {
+  const [a, b] = legKey.split('|');
+  return a <= b ? legKey : b + '|' + a;
+}
+function buildTrainPathSegments(train) {
+  const segments = [];
+  let current = [];
+  train.legs.forEach(legKey => {
+    const [a, b] = legKey.split('|');
+    const coords = DATA.leg_paths[canonicalLegKey(legKey)];
+    if (!coords) {
+      if (current.length >= 2) segments.push(current);
+      current = [];
+      return;
+    }
+    const ordered = a <= b ? coords : coords.slice().reverse();
+    const latlngs = ordered.map(([lon, lat]) => [lat, lon]);
+    current = current.length ? current.concat(latlngs) : latlngs;
+  });
+  if (current.length >= 2) segments.push(current);
+  return segments;
+}
+
+function setActiveTrain(key) {
+  activeTrainKey = key;
+  const train = key ? DATA.trains[key] : null;
+  activeTrainIds = train ? new Set(train.stations) : null;
+  trainPathLayers.forEach(layer => map.removeLayer(layer));
+  trainPathLayers = [];
+  if (train) {
+    const segments = buildTrainPathSegments(train);
+    trainPathLayers = segments.map(latlngs => L.polyline(latlngs, {
+      renderer, color: LINE_HL_COLOR, weight: 4, opacity: 0.9, interactive: false
+    }).addTo(map));
+    const allPoints = segments.flat();
+    if (allPoints.length >= 2) {
+      map.fitBounds(L.latLngBounds(allPoints), { padding: [40, 40] });
+    }
+  }
+  applyHighlight();
+}
+
+document.getElementById('trainClear').addEventListener('click', () => {
+  trainInput.value = '';
+  trainListEl.replaceChildren();
+  trainStatus.textContent = '';
+  setActiveTrain(null);
+});
+trainInput.addEventListener('input', () => {
+  const value = trainInput.value.trim();
+  updateTrainDatalist(value);
+  if (Object.prototype.hasOwnProperty.call(DATA.trains, value)) {
+    const train = DATA.trains[value];
+    const nHops = train.legs.length;
+    const nDrawn = train.legs.filter(k => DATA.leg_paths[canonicalLegKey(k)]).length;
+    trainStatus.textContent = train.stations.length + ' station(s) shown, ' +
+      nDrawn + ' / ' + nHops + ' real hop(s) with a routed path drawn' +
+      (nDrawn < nHops ? ' (rest: no route data for that hop).' : '.');
+    setActiveTrain(value);
+  } else {
+    trainStatus.textContent = value.length >= 2 ? 'No exact match yet — pick from the list.' : '';
+    setActiveTrain(null);
   }
 });
 </script>
