@@ -69,3 +69,4 @@ SBB,8501014,,Mies,Switzerland,"Real Swiss village, canton Fribourg; id coinciden
 NMBS,8800605,,Olen,Belgium,"Real Belgian town, Antwerp province; id coincidentally identical to PL's Olecko (8800605) which is a different physical stop"
 FR,8706832,,Babinière,France,Real French stop; id coincidentally identical to PL's Babiak (8706832) which is a different physical stop
 IT,,S13132,STATTE,Italy,"Careful not to be confused with Statte in Belgium (near Huy, Wallonia); this Italian stop has no deutscheBahnStopId, so it is matched via originalStopId instead"
+OEBB,315603,,"Hauptbahnhof (Obere Bahnhofstraße), Passau",Germany,"Passau, Bavaria; served by an OEBB cross-border route from Austria, but the town itself is German"
