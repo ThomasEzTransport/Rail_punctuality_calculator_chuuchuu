@@ -1,0 +1,84 @@
+operator,route_type_LD
+OBB,EC
+OBB,ECE
+OBB,RJ
+OBB,RJX
+OBB,IC
+OBB,NJ
+OBB,IR
+OBB,D
+OBB,Nightjet
+DB,ICE
+DB,IC
+DB,EC
+DB,ECE
+DB,IR
+SBB,EC
+SBB,IC
+SBB,IR
+SNCF,TGV InOui
+SNCF,TGV Lyria
+SNCF,Ouigo
+SNCF,Intercites
+SNCF,Intercites de nuit
+SNCF,INTERCITES
+SNCF,INTERCITES DE NUIT
+SNCF,LYR
+SNCF,TGV
+SNCF,OUI
+SNCF,OUIGO
+SNCF,OGO
+SNCF,OTC
+SNCF,Ouigo Train Classic
+Trenitalia,Frecciarossa
+Trenitalia,Frecciargento
+Trenitalia,Frecciabianca
+Trenitalia,Intercity
+Trenitalia,Intercity notte
+Trenitalia,EXP
+Trenitalia,IR
+Trenitalia,IC
+Trenitalia,ICN
+Trenitalia,FR
+Trenitalia,FB
+Trenitalia,FA
+MAV,EC
+MAV,IC
+MAV,Ex
+MAV,EN
+MAV,G
+MAV,Gy
+PKP Intercity,EC
+PKP Intercity,IC
+PKP Intercity,EIC
+PKP Intercity,EIP
+PKP Intercity,TLK
+Flixtrain,FLX
+Westbahn,WB
+NS,ECC
+NS,EC
+NS,EuroCity
+NS,Eurocity Direct
+NS,IC
+NS,Intercity
+NS,ICD
+NS,Intercity direct
+NMBS,ECD
+NMBS,EuroCity
+NMBS,EuroCity Direct
+NMBS,IC
+DSB,ECE
+DSB,IC
+DSB,ICL
+DSB,IR
+Other,EN
+Other,IC
+European Sleeper,ES
+European Sleeper,European Sleeper
+Eurostar,EST
+Eurostar,EUR
+Eurostar,Eurostar
+GoVolta,GV
+GoVolta,GoVolta GoVolta
+GoVolta,GoVolta
+Italo,Italo
