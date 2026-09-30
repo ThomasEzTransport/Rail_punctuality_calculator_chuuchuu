@@ -1,0 +1,2246 @@
+routeType,routeNumber,operators,operatorCount,records
+IR,707,Schweizerische Bundesbahnen SBB,1,231
+IR,711,Schweizerische Bundesbahnen SBB,1,230
+IR,715,Schweizerische Bundesbahnen SBB,1,231
+IR,716,Schweizerische Bundesbahnen SBB,1,231
+IR,719,Schweizerische Bundesbahnen SBB,1,222
+IR,720,Schweizerische Bundesbahnen SBB,1,231
+IR,723,Schweizerische Bundesbahnen SBB,1,231
+IR,724,Schweizerische Bundesbahnen SBB,1,231
+IR,728,Schweizerische Bundesbahnen SBB,1,231
+IR,732,Schweizerische Bundesbahnen SBB,1,231
+IR,746,Schweizerische Bundesbahnen SBB,1,228
+IR,749,Schweizerische Bundesbahnen SBB,1,341
+IR,1117,Rhätische Bahn,1,1950
+IR,1120,Rhätische Bahn,1,1968
+IR,1121,Rhätische Bahn,1,1784
+IR,1124,Rhätische Bahn,1,1970
+IR,1125,Rhätische Bahn,1,1934
+IR,1128,Rhätische Bahn,1,1784
+IR,1129,Rhätische Bahn,1,1661
+IR,1132,Rhätische Bahn,1,1701
+IR,1133,Rhätische Bahn,1,1744
+IR,1136,Rhätische Bahn,1,1666
+IR,1137,Rhätische Bahn,1,1500
+IR,1140,Rhätische Bahn,1,1625
+IR,1141,Rhätische Bahn,1,1881
+IR,1144,Rhätische Bahn,1,1937
+IR,1145,Rhätische Bahn,1,1780
+IR,1148,Rhätische Bahn,1,1797
+IR,1149,Rhätische Bahn,1,1777
+IR,1152,Rhätische Bahn,1,1974
+IR,1153,Rhätische Bahn,1,1952
+IR,1156,Rhätische Bahn,1,1784
+IR,1157,Rhätische Bahn,1,1940
+IR,1160,Rhätische Bahn,1,1979
+IR,1161,Rhätische Bahn,1,1942
+IR,1164,Rhätische Bahn,1,1983
+IR,1165,Rhätische Bahn,1,1929
+IR,1168,Rhätische Bahn,1,1981
+IR,1169,Rhätische Bahn,1,2083
+IR,1651,Schweizerische Bundesbahnen SBB,1,602
+IR,1652,Schweizerische Bundesbahnen SBB,1,602
+IR,1653,Schweizerische Bundesbahnen SBB,1,602
+IR,1654,Schweizerische Bundesbahnen SBB,1,602
+IR,1656,Schweizerische Bundesbahnen SBB,1,602
+IR,1658,Schweizerische Bundesbahnen SBB,1,595
+IR,1662,Schweizerische Bundesbahnen SBB,1,203
+IR,1671,Schweizerische Bundesbahnen SBB,1,588
+IR,1673,Schweizerische Bundesbahnen SBB,1,798
+IR,1674,Schweizerische Bundesbahnen SBB,1,595
+IR,1675,Schweizerische Bundesbahnen SBB,1,595
+IR,1676,Schweizerische Bundesbahnen SBB,1,203
+IR,1677,Schweizerische Bundesbahnen SBB,1,791
+IR,1678,Schweizerische Bundesbahnen SBB,1,595
+IR,1702,Schweizerische Bundesbahnen SBB,1,2083
+IR,1704,Schweizerische Bundesbahnen SBB,1,2024
+IR,1705,Schweizerische Bundesbahnen SBB,1,2085
+IR,1706,Schweizerische Bundesbahnen SBB,1,2542
+IR,1707,Schweizerische Bundesbahnen SBB,1,2275
+IR,1708,Schweizerische Bundesbahnen SBB,1,2396
+IR,1709,Schweizerische Bundesbahnen SBB,1,2414
+IR,1710,Schweizerische Bundesbahnen SBB,1,2399
+IR,1711,Schweizerische Bundesbahnen SBB,1,2323
+IR,1712,Schweizerische Bundesbahnen SBB,1,2312
+IR,1713,Schweizerische Bundesbahnen SBB,1,2399
+IR,1714,Schweizerische Bundesbahnen SBB,1,2130
+IR,1715,Schweizerische Bundesbahnen SBB,1,2377
+IR,1716,Schweizerische Bundesbahnen SBB,1,2283
+IR,1717,Schweizerische Bundesbahnen SBB,1,2384
+IR,1718,Schweizerische Bundesbahnen SBB,1,2317
+IR,1719,Schweizerische Bundesbahnen SBB,1,2362
+IR,1720,Schweizerische Bundesbahnen SBB,1,2384
+IR,1721,Schweizerische Bundesbahnen SBB,1,2416
+IR,1722,Schweizerische Bundesbahnen SBB,1,2326
+IR,1723,Schweizerische Bundesbahnen SBB,1,2285
+IR,1724,Schweizerische Bundesbahnen SBB,1,2196
+IR,1725,Schweizerische Bundesbahnen SBB,1,2421
+IR,1726,Schweizerische Bundesbahnen SBB,1,2374
+IR,1727,Schweizerische Bundesbahnen SBB,1,2419
+IR,1728,Schweizerische Bundesbahnen SBB,1,2385
+IR,1729,Schweizerische Bundesbahnen SBB,1,2404
+IR,1730,Schweizerische Bundesbahnen SBB,1,2363
+IR,1731,Schweizerische Bundesbahnen SBB,1,2556
+IR,1732,Schweizerische Bundesbahnen SBB,1,2210
+IR,1733,Schweizerische Bundesbahnen SBB,1,2314
+IR,1734,Schweizerische Bundesbahnen SBB,1,2656
+IR,1735,Schweizerische Bundesbahnen SBB,1,2413
+IR,1736,Schweizerische Bundesbahnen SBB,1,2515
+IR,1737,Schweizerische Bundesbahnen SBB,1,2478
+IR,1738,Schweizerische Bundesbahnen SBB,1,2561
+IR,1739,Schweizerische Bundesbahnen SBB,1,2722
+IR,1741,Schweizerische Bundesbahnen SBB,1,2910
+IR,1743,Schweizerische Bundesbahnen SBB,1,2141
+IR,1745,(none),0,90
+IR,1756,Schweizerische Bundesbahnen SBB,1,888
+IR,1757,Schweizerische Bundesbahnen SBB,1,1049
+IR,1758,Schweizerische Bundesbahnen SBB,1,1068
+IR,1759,Schweizerische Bundesbahnen SBB,1,1073
+IR,1760,Schweizerische Bundesbahnen SBB,1,1078
+IR,1761,Schweizerische Bundesbahnen SBB,1,1083
+IR,1762,Schweizerische Bundesbahnen SBB,1,1077
+IR,1763,Schweizerische Bundesbahnen SBB,1,1082
+IR,1764,Schweizerische Bundesbahnen SBB,1,1076
+IR,1765,Schweizerische Bundesbahnen SBB,1,1074
+IR,1766,Schweizerische Bundesbahnen SBB,1,1076
+IR,1767,Schweizerische Bundesbahnen SBB,1,1082
+IR,1768,Schweizerische Bundesbahnen SBB,1,1059
+IR,1769,Schweizerische Bundesbahnen SBB,1,1082
+IR,1770,Schweizerische Bundesbahnen SBB,1,1053
+IR,1771,Schweizerische Bundesbahnen SBB,1,1057
+IR,1772,Schweizerische Bundesbahnen SBB,1,939
+IR,1773,Schweizerische Bundesbahnen SBB,1,918
+IR,1774,Schweizerische Bundesbahnen SBB,1,1077
+IR,1775,Schweizerische Bundesbahnen SBB,1,1082
+IR,1776,Schweizerische Bundesbahnen SBB,1,1077
+IR,1777,Schweizerische Bundesbahnen SBB,1,1082
+IR,1778,Schweizerische Bundesbahnen SBB,1,1077
+IR,1779,Schweizerische Bundesbahnen SBB,1,1082
+IR,1780,Schweizerische Bundesbahnen SBB,1,1065
+IR,1781,Schweizerische Bundesbahnen SBB,1,1070
+IR,1782,Schweizerische Bundesbahnen SBB,1,1077
+IR,1783,Schweizerische Bundesbahnen SBB,1,1078
+IR,1784,Schweizerische Bundesbahnen SBB,1,1074
+IR,1785,Schweizerische Bundesbahnen SBB,1,1078
+IR,1786,Schweizerische Bundesbahnen SBB,1,1071
+IR,1787,Schweizerische Bundesbahnen SBB,1,1082
+IR,1788,Schweizerische Bundesbahnen SBB,1,1069
+IR,1789,Schweizerische Bundesbahnen SBB,1,967
+IR,1791,Schweizerische Bundesbahnen SBB,1,888
+IR,1793,Schweizerische Bundesbahnen SBB,1,894
+IR,1804,Schweizerische Bundesbahnen SBB,1,2685
+IR,1805,Schweizerische Bundesbahnen SBB,1,2824
+IR,1806,Schweizerische Bundesbahnen SBB,1,2524
+IR,1807,Schweizerische Bundesbahnen SBB,1,2213
+IR,1808,Schweizerische Bundesbahnen SBB,1,2538
+IR,1809,Schweizerische Bundesbahnen SBB,1,2399
+IR,1810,Schweizerische Bundesbahnen SBB,1,2399
+IR,1811,Schweizerische Bundesbahnen SBB,1,2386
+IR,1812,Schweizerische Bundesbahnen SBB,1,2379
+IR,1813,Schweizerische Bundesbahnen SBB,1,2386
+IR,1814,Schweizerische Bundesbahnen SBB,1,2379
+IR,1815,Schweizerische Bundesbahnen SBB,1,2382
+IR,1816,Schweizerische Bundesbahnen SBB,1,2373
+IR,1817,Schweizerische Bundesbahnen SBB,1,2383
+IR,1818,Schweizerische Bundesbahnen SBB,1,2372
+IR,1819,Schweizerische Bundesbahnen SBB,1,2357
+IR,1820,Schweizerische Bundesbahnen SBB,1,2372
+IR,1821,Schweizerische Bundesbahnen SBB,1,2386
+IR,1822,Schweizerische Bundesbahnen SBB,1,2378
+IR,1823,Schweizerische Bundesbahnen SBB,1,2382
+IR,1824,Schweizerische Bundesbahnen SBB,1,2386
+IR,1825,Schweizerische Bundesbahnen SBB,1,2386
+IR,1826,Schweizerische Bundesbahnen SBB,1,2379
+IR,1827,Schweizerische Bundesbahnen SBB,1,2386
+IR,1828,Schweizerische Bundesbahnen SBB,1,2386
+IR,1829,Schweizerische Bundesbahnen SBB,1,2386
+IR,1830,Schweizerische Bundesbahnen SBB,1,2380
+IR,1831,Schweizerische Bundesbahnen SBB,1,2383
+IR,1832,Schweizerische Bundesbahnen SBB,1,2365
+IR,1833,Schweizerische Bundesbahnen SBB,1,2383
+IR,1834,Schweizerische Bundesbahnen SBB,1,2006
+IR,1835,Schweizerische Bundesbahnen SBB,1,2357
+IR,1836,Schweizerische Bundesbahnen SBB,1,1991
+IR,1837,Schweizerische Bundesbahnen SBB,1,1964
+IR,1838,Schweizerische Bundesbahnen SBB,1,815
+IR,1839,Schweizerische Bundesbahnen SBB,1,2099
+IR,1840,Schweizerische Bundesbahnen SBB,1,1792
+IR,1841,Schweizerische Bundesbahnen SBB,1,1799
+IR,1842,(none),0,120
+IR,1853,BLS AG (bls),1,1068
+IR,1854,BLS AG (bls),1,1078
+IR,1855,BLS AG (bls),1,1062
+IR,1856,BLS AG (bls),1,1068
+IR,1857,BLS AG (bls),1,1089
+IR,1858,BLS AG (bls),1,1068
+IR,1859,BLS AG (bls),1,1088
+IR,1860,BLS AG (bls),1,752
+IR,1861,BLS AG (bls),1,1088
+IR,1862,BLS AG (bls),1,1088
+IR,1863,BLS AG (bls),1,1068
+IR,1864,BLS AG (bls),1,1082
+IR,1865,BLS AG (bls),1,1049
+IR,1866,BLS AG (bls),1,1062
+IR,1867,BLS AG (bls),1,980
+IR,1868,BLS AG (bls),1,906
+IR,1869,BLS AG (bls),1,1033
+IR,1870,BLS AG (bls),1,1081
+IR,1871,BLS AG (bls),1,758
+IR,1872,BLS AG (bls),1,1088
+IR,1873,BLS AG (bls),1,1068
+IR,1874,BLS AG (bls),1,1088
+IR,1875,BLS AG (bls),1,1068
+IR,1876,BLS AG (bls),1,1068
+IR,1877,BLS AG (bls),1,1088
+IR,1878,BLS AG (bls),1,1056
+IR,1879,BLS AG (bls),1,1088
+IR,1880,BLS AG (bls),1,1088
+IR,1881,BLS AG (bls),1,1083
+IR,1882,BLS AG (bls),1,1082
+IR,1883,BLS AG (bls),1,1055
+IR,1884,BLS AG (bls),1,1084
+IR,1885,BLS AG (bls),1,1056
+IR,1886,BLS AG (bls),1,1027
+IR,1887,BLS AG (bls),1,1055
+IR,1888,BLS AG (bls),1,1001
+IR,1900,Schweizerische Bundesbahnen SBB,1,368
+IR,1902,Schweizerische Bundesbahnen SBB,1,358
+IR,1904,Schweizerische Bundesbahnen SBB,1,902
+IR,1910,Schweizerische Bundesbahnen SBB,1,360
+IR,1929,Schweizerische Bundesbahnen SBB,1,801
+IR,1943,Schweizerische Bundesbahnen SBB,1,252
+IR,1945,Schweizerische Bundesbahnen SBB,1,102
+IR,1956,Schweizerische Bundesbahnen SBB,1,1422
+IR,1957,Schweizerische Bundesbahnen SBB,1,1438
+IR,1958,Schweizerische Bundesbahnen SBB,1,1433
+IR,1959,Schweizerische Bundesbahnen SBB,1,1418
+IR,1960,Schweizerische Bundesbahnen SBB,1,1441
+IR,1961,Schweizerische Bundesbahnen SBB,1,1424
+IR,1962,Schweizerische Bundesbahnen SBB,1,1444
+IR,1963,Schweizerische Bundesbahnen SBB,1,1439
+IR,1964,Schweizerische Bundesbahnen SBB,1,1444
+IR,1965,Schweizerische Bundesbahnen SBB,1,1432
+IR,1966,Schweizerische Bundesbahnen SBB,1,1436
+IR,1967,Schweizerische Bundesbahnen SBB,1,1423
+IR,1968,Schweizerische Bundesbahnen SBB,1,1428
+IR,1969,Schweizerische Bundesbahnen SBB,1,1429
+IR,1970,Schweizerische Bundesbahnen SBB,1,1332
+IR,1971,Schweizerische Bundesbahnen SBB,1,1392
+IR,1972,Schweizerische Bundesbahnen SBB,1,1348
+IR,1973,Schweizerische Bundesbahnen SBB,1,1188
+IR,1974,Schweizerische Bundesbahnen SBB,1,1420
+IR,1975,Schweizerische Bundesbahnen SBB,1,1402
+IR,1976,Schweizerische Bundesbahnen SBB,1,1449
+IR,1977,Schweizerische Bundesbahnen SBB,1,1379
+IR,1978,Schweizerische Bundesbahnen SBB,1,1449
+IR,1979,Schweizerische Bundesbahnen SBB,1,1432
+IR,1980,Schweizerische Bundesbahnen SBB,1,1449
+IR,1981,Schweizerische Bundesbahnen SBB,1,1440
+IR,1982,Schweizerische Bundesbahnen SBB,1,1444
+IR,1983,Schweizerische Bundesbahnen SBB,1,1439
+IR,1984,Schweizerische Bundesbahnen SBB,1,1231
+IR,1985,Schweizerische Bundesbahnen SBB,1,1422
+IR,1986,Schweizerische Bundesbahnen SBB,1,1427
+IR,1987,Schweizerische Bundesbahnen SBB,1,1434
+IR,1988,Schweizerische Bundesbahnen SBB,1,1402
+IR,1989,Schweizerische Bundesbahnen SBB,1,1371
+IR,1990,Schweizerische Bundesbahnen SBB,1,1408
+IR,1991,Schweizerische Bundesbahnen SBB,1,1397
+IR,1992,Schweizerische Bundesbahnen SBB,1,1393
+IR,1993,Schweizerische Bundesbahnen SBB,1,1358
+IR,1995,Schweizerische Bundesbahnen SBB,1,1395
+IR,2006,Schweizerische Südostbahn (sob),1,1396
+IR,2008,Schweizerische Südostbahn (sob),1,1237
+IR,2009,Schweizerische Südostbahn (sob),1,1156
+IR,2010,Schweizerische Südostbahn (sob),1,2202
+IR,2011,Schweizerische Südostbahn (sob),1,1244
+IR,2012,Schweizerische Südostbahn (sob),1,2189
+IR,2013,Schweizerische Südostbahn (sob),1,1258
+IR,2014,Schweizerische Südostbahn (sob),1,2189
+IR,2015,Schweizerische Südostbahn (sob),1,2228
+IR,2016,Schweizerische Südostbahn (sob),1,2189
+IR,2017,Schweizerische Südostbahn (sob),1,2205
+IR,2018,Schweizerische Südostbahn (sob),1,2169
+IR,2019,Schweizerische Südostbahn (sob),1,2204
+IR,2020,Schweizerische Südostbahn (sob),1,2176
+IR,2021,Schweizerische Südostbahn (sob),1,2203
+IR,2022,Schweizerische Südostbahn (sob),1,2191
+IR,2023,Schweizerische Südostbahn (sob),1,2190
+IR,2024,Schweizerische Südostbahn (sob),1,2176
+IR,2025,Schweizerische Südostbahn (sob),1,2151
+IR,2026,Schweizerische Südostbahn (sob),1,2201
+IR,2027,Schweizerische Südostbahn (sob),1,2192
+IR,2028,Schweizerische Südostbahn (sob),1,2201
+IR,2029,Schweizerische Südostbahn (sob),1,2205
+IR,2030,Schweizerische Südostbahn (sob),1,2201
+IR,2031,Schweizerische Südostbahn (sob),1,2205
+IR,2032,Schweizerische Südostbahn (sob),1,2203
+IR,2033,Schweizerische Südostbahn (sob),1,2216
+IR,2034,Schweizerische Südostbahn (sob),1,2188
+IR,2035,Schweizerische Südostbahn (sob),1,2215
+IR,2036,Schweizerische Südostbahn (sob),1,1776
+IR,2037,Schweizerische Südostbahn (sob),1,2216
+IR,2038,Schweizerische Südostbahn (sob),1,1976
+IR,2039,Schweizerische Südostbahn (sob),1,2217
+IR,2040,Schweizerische Südostbahn (sob),1,2734
+IR,2041,Schweizerische Südostbahn (sob),1,1544
+IR,2042,Schweizerische Südostbahn (sob),1,1035
+IR,2043,Schweizerische Südostbahn (sob),1,1734
+IR,2044,Schweizerische Südostbahn (sob),1,1437
+IR,2045,Schweizerische Südostbahn (sob),1,3039
+IR,2046,Schweizerische Südostbahn (sob),1,364
+IR,2055,Schweizerische Bundesbahnen SBB,1,2151
+IR,2057,Schweizerische Bundesbahnen SBB,1,2162
+IR,2058,Schweizerische Bundesbahnen SBB,1,2505
+IR,2059,Schweizerische Bundesbahnen SBB,1,2148
+IR,2060,Schweizerische Bundesbahnen SBB,1,2161
+IR,2061,Schweizerische Bundesbahnen SBB,1,2172
+IR,2062,Schweizerische Bundesbahnen SBB,1,2173
+IR,2063,Schweizerische Bundesbahnen SBB,1,2161
+IR,2064,Schweizerische Bundesbahnen SBB,1,2173
+IR,2065,Schweizerische Bundesbahnen SBB,1,2148
+IR,2066,Schweizerische Bundesbahnen SBB,1,2173
+IR,2067,Schweizerische Bundesbahnen SBB,1,2159
+IR,2068,Schweizerische Bundesbahnen SBB,1,2173
+IR,2069,Schweizerische Bundesbahnen SBB,1,2157
+IR,2070,Schweizerische Bundesbahnen SBB,1,2149
+IR,2071,Schweizerische Bundesbahnen SBB,1,2016
+IR,2072,Schweizerische Bundesbahnen SBB,1,1909
+IR,2073,Schweizerische Bundesbahnen SBB,1,2088
+IR,2074,Schweizerische Bundesbahnen SBB,1,2161
+IR,2075,Schweizerische Bundesbahnen SBB,1,2148
+IR,2076,Schweizerische Bundesbahnen SBB,1,2161
+IR,2077,Schweizerische Bundesbahnen SBB,1,2172
+IR,2078,Schweizerische Bundesbahnen SBB,1,2173
+IR,2079,Schweizerische Bundesbahnen SBB,1,2173
+IR,2080,Schweizerische Bundesbahnen SBB,1,2161
+IR,2081,Schweizerische Bundesbahnen SBB,1,2173
+IR,2082,Schweizerische Bundesbahnen SBB,1,2173
+IR,2083,Schweizerische Bundesbahnen SBB,1,2170
+IR,2084,Schweizerische Bundesbahnen SBB,1,2173
+IR,2085,Schweizerische Bundesbahnen SBB,1,2160
+IR,2086,Schweizerische Bundesbahnen SBB,1,2159
+IR,2088,Schweizerische Bundesbahnen SBB,1,2107
+IR,2106,Schweizerische Bundesbahnen SBB,1,957
+IR,2107,Schweizerische Bundesbahnen SBB,1,948
+IR,2108,Schweizerische Bundesbahnen SBB,1,688
+IR,2109,Schweizerische Bundesbahnen SBB,1,707
+IR,2110,Schweizerische Bundesbahnen SBB,1,958
+IR,2111,Schweizerische Bundesbahnen SBB,1,957
+IR,2112,Schweizerische Bundesbahnen SBB,1,976
+IR,2113,Schweizerische Bundesbahnen SBB,1,725
+IR,2114,Schweizerische Bundesbahnen SBB,1,958
+IR,2115,Schweizerische Bundesbahnen SBB,1,951
+IR,2116,Schweizerische Bundesbahnen SBB,1,943
+IR,2117,Rhätische Bahn/Schweizerische Bundesbahnen SBB,2,990
+IR,2118,Schweizerische Bundesbahnen SBB,1,698
+IR,2119,Schweizerische Bundesbahnen SBB,1,674
+IR,2120,Schweizerische Bundesbahnen SBB,1,947
+IR,2121,Rhätische Bahn/Schweizerische Bundesbahnen SBB,2,930
+IR,2122,Schweizerische Bundesbahnen SBB,1,947
+IR,2123,Schweizerische Bundesbahnen SBB,1,934
+IR,2124,Rhätische Bahn/Schweizerische Bundesbahnen SBB,2,696
+IR,2125,Schweizerische Bundesbahnen SBB,1,969
+IR,2126,Schweizerische Bundesbahnen SBB,1,939
+IR,2127,Schweizerische Bundesbahnen SBB,1,958
+IR,2128,Schweizerische Bundesbahnen SBB,1,545
+IR,2129,Rhätische Bahn/Schweizerische Bundesbahnen SBB,2,563
+IR,2130,Schweizerische Bundesbahnen SBB,1,933
+IR,2131,Schweizerische Bundesbahnen SBB,1,935
+IR,2132,Rhätische Bahn/Schweizerische Bundesbahnen SBB,2,947
+IR,2133,Schweizerische Bundesbahnen SBB,1,978
+IR,2134,Schweizerische Bundesbahnen SBB,1,930
+IR,2135,Schweizerische Bundesbahnen SBB,1,922
+IR,2136,Schweizerische Bundesbahnen SBB,1,532
+IR,2137,Schweizerische Bundesbahnen SBB,1,539
+IR,2138,Schweizerische Bundesbahnen SBB,1,532
+IR,2139,Schweizerische Bundesbahnen SBB,1,566
+IR,2140,Rhätische Bahn/Schweizerische Bundesbahnen SBB,2,208
+IR,2145,Rhätische Bahn,1,6
+IR,2148,Rhätische Bahn,1,26
+IR,2152,Rhätische Bahn,1,10
+IR,2153,Rhätische Bahn,1,1
+IR,2155,Schweizerische Bundesbahnen SBB,1,1601
+IR,2156,Rhätische Bahn,1,10
+IR,2157,Rhätische Bahn/Schweizerische Bundesbahnen SBB,2,561
+IR,2158,Schweizerische Bundesbahnen SBB,1,1067
+IR,2159,Schweizerische Bundesbahnen SBB,1,880
+IR,2160,Rhätische Bahn/Schweizerische Bundesbahnen SBB,2,1100
+IR,2161,Rhätische Bahn/Schweizerische Bundesbahnen SBB,2,1083
+IR,2162,Schweizerische Bundesbahnen SBB,1,1085
+IR,2163,Schweizerische Bundesbahnen SBB,1,1085
+IR,2164,Rhätische Bahn/Schweizerische Bundesbahnen SBB,2,1095
+IR,2165,Rhätische Bahn/Schweizerische Bundesbahnen SBB,2,1090
+IR,2166,Schweizerische Bundesbahnen SBB,1,1085
+IR,2167,Schweizerische Bundesbahnen SBB,1,1085
+IR,2168,Rhätische Bahn/Schweizerische Bundesbahnen SBB,2,1085
+IR,2169,Rhätische Bahn/Schweizerische Bundesbahnen SBB,2,1119
+IR,2170,Schweizerische Bundesbahnen SBB,1,1067
+IR,2171,Schweizerische Bundesbahnen SBB,1,1073
+IR,2172,Schweizerische Bundesbahnen SBB,1,911
+IR,2173,Schweizerische Bundesbahnen SBB,1,983
+IR,2174,Schweizerische Bundesbahnen SBB,1,1079
+IR,2175,Schweizerische Bundesbahnen SBB,1,1024
+IR,2176,Schweizerische Bundesbahnen SBB,1,1073
+IR,2177,Schweizerische Bundesbahnen SBB,1,1073
+IR,2178,Schweizerische Bundesbahnen SBB,1,1085
+IR,2179,Schweizerische Bundesbahnen SBB,1,1085
+IR,2180,Schweizerische Bundesbahnen SBB,1,1079
+IR,2181,Schweizerische Bundesbahnen SBB,1,1085
+IR,2182,Schweizerische Bundesbahnen SBB,1,1085
+IR,2183,Schweizerische Bundesbahnen SBB,1,1080
+IR,2184,Schweizerische Bundesbahnen SBB,1,1079
+IR,2185,Schweizerische Bundesbahnen SBB,1,1085
+IR,2186,Schweizerische Bundesbahnen SBB,1,1084
+IR,2187,Schweizerische Bundesbahnen SBB,1,1079
+IR,2188,Schweizerische Bundesbahnen SBB,1,1086
+IR,2189,Schweizerische Bundesbahnen SBB,1,1073
+IR,2190,Schweizerische Bundesbahnen SBB,1,914
+IR,2191,Schweizerische Bundesbahnen SBB,1,965
+IR,2192,Schweizerische Bundesbahnen SBB,1,918
+IR,2193,Schweizerische Bundesbahnen SBB,1,910
+IR,2194,Schweizerische Bundesbahnen SBB,1,546
+IR,2201,Schweizerische Südostbahn (sob),1,1980
+IR,2203,Schweizerische Südostbahn (sob),1,1991
+IR,2205,Schweizerische Südostbahn (sob),1,1991
+IR,2206,Schweizerische Südostbahn (sob),1,1978
+IR,2207,Schweizerische Südostbahn (sob),1,2002
+IR,2208,Schweizerische Südostbahn (sob),1,1976
+IR,2209,Schweizerische Südostbahn (sob),1,2002
+IR,2210,Schweizerische Südostbahn (sob),1,1999
+IR,2211,Schweizerische Südostbahn (sob),1,2002
+IR,2212,Schweizerische Südostbahn (sob),1,1997
+IR,2213,Schweizerische Südostbahn (sob),1,1980
+IR,2214,Schweizerische Südostbahn (sob),1,1987
+IR,2215,Schweizerische Südostbahn (sob),1,1661
+IR,2216,Schweizerische Südostbahn (sob),1,1973
+IR,2217,Schweizerische Südostbahn (sob),1,2002
+IR,2218,Schweizerische Südostbahn (sob),1,1948
+IR,2219,Schweizerische Südostbahn (sob),1,2002
+IR,2220,Schweizerische Südostbahn (sob),1,1851
+IR,2221,Schweizerische Südostbahn (sob),1,1991
+IR,2222,Schweizerische Südostbahn (sob),1,1957
+IR,2223,Schweizerische Südostbahn (sob),1,2003
+IR,2224,Schweizerische Südostbahn (sob),1,1999
+IR,2225,Schweizerische Südostbahn (sob),1,2003
+IR,2226,Schweizerische Südostbahn (sob),1,1997
+IR,2227,Schweizerische Südostbahn (sob),1,2002
+IR,2228,Schweizerische Südostbahn (sob),1,1998
+IR,2229,Schweizerische Südostbahn (sob),1,2002
+IR,2230,Schweizerische Südostbahn (sob),1,1999
+IR,2231,Schweizerische Südostbahn (sob),1,1968
+IR,2232,Schweizerische Südostbahn (sob),1,1996
+IR,2234,Schweizerische Südostbahn (sob),1,1987
+IR,2236,Schweizerische Südostbahn (sob),1,1952
+IR,2252,Schweizerische Bundesbahnen SBB,1,1251
+IR,2254,Schweizerische Bundesbahnen SBB,1,1238
+IR,2256,Schweizerische Bundesbahnen SBB,1,1217
+IR,2257,Schweizerische Bundesbahnen SBB,1,1224
+IR,2258,Schweizerische Bundesbahnen SBB,1,1245
+IR,2259,Schweizerische Bundesbahnen SBB,1,1238
+IR,2260,Schweizerische Bundesbahnen SBB,1,1252
+IR,2261,Schweizerische Bundesbahnen SBB,1,1252
+IR,2262,Schweizerische Bundesbahnen SBB,1,1217
+IR,2263,Schweizerische Bundesbahnen SBB,1,1252
+IR,2264,Schweizerische Bundesbahnen SBB,1,1252
+IR,2265,Schweizerische Bundesbahnen SBB,1,1252
+IR,2266,Schweizerische Bundesbahnen SBB,1,1189
+IR,2267,Schweizerische Bundesbahnen SBB,1,1231
+IR,2268,Schweizerische Bundesbahnen SBB,1,1077
+IR,2269,Schweizerische Bundesbahnen SBB,1,1245
+IR,2270,Schweizerische Bundesbahnen SBB,1,1217
+IR,2271,Schweizerische Bundesbahnen SBB,1,1175
+IR,2272,Schweizerische Bundesbahnen SBB,1,1231
+IR,2273,Schweizerische Bundesbahnen SBB,1,1196
+IR,2274,Schweizerische Bundesbahnen SBB,1,1245
+IR,2275,Schweizerische Bundesbahnen SBB,1,1243
+IR,2276,Schweizerische Bundesbahnen SBB,1,1245
+IR,2277,Schweizerische Bundesbahnen SBB,1,1231
+IR,2278,Schweizerische Bundesbahnen SBB,1,1245
+IR,2279,Schweizerische Bundesbahnen SBB,1,1238
+IR,2280,Schweizerische Bundesbahnen SBB,1,1238
+IR,2281,Schweizerische Bundesbahnen SBB,1,1245
+IR,2282,Schweizerische Bundesbahnen SBB,1,1245
+IR,2283,Schweizerische Bundesbahnen SBB,1,1252
+IR,2284,Schweizerische Bundesbahnen SBB,1,1245
+IR,2285,Schweizerische Bundesbahnen SBB,1,1245
+IR,2286,Schweizerische Bundesbahnen SBB,1,1231
+IR,2287,Schweizerische Bundesbahnen SBB,1,1238
+IR,2288,Schweizerische Bundesbahnen SBB,1,1188
+IR,2289,Schweizerische Bundesbahnen SBB,1,1252
+IR,2290,Schweizerische Bundesbahnen SBB,1,1195
+IR,2291,Schweizerische Bundesbahnen SBB,1,1228
+IR,2292,Schweizerische Bundesbahnen SBB,1,362
+IR,2304,Schweizerische Südostbahn (sob),1,391
+IR,2306,Schweizerische Bundesbahnen SBB,1,473
+IR,2307,Schweizerische Südostbahn (sob),1,2000
+IR,2308,Schweizerische Südostbahn (sob),1,1905
+IR,2311,Schweizerische Südostbahn (sob),1,3776
+IR,2312,Schweizerische Südostbahn (sob),1,3195
+IR,2315,Schweizerische Südostbahn (sob),1,3749
+IR,2316,Schweizerische Südostbahn (sob),1,3753
+IR,2319,Schweizerische Südostbahn (sob),1,3748
+IR,2320,Schweizerische Südostbahn (sob),1,3733
+IR,2323,Schweizerische Südostbahn (sob),1,3756
+IR,2324,Schweizerische Südostbahn (sob),1,3719
+IR,2326,Schweizerische Südostbahn (sob),1,96
+IR,2327,Schweizerische Südostbahn (sob),1,3753
+IR,2328,Schweizerische Südostbahn (sob),1,3710
+IR,2330,Schweizerische Südostbahn (sob),1,96
+IR,2331,Schweizerische Südostbahn (sob),1,3752
+IR,2332,Schweizerische Südostbahn (sob),1,3731
+IR,2335,Schweizerische Südostbahn (sob),1,3180
+IR,2336,Schweizerische Südostbahn (sob),1,3657
+IR,2339,Schweizerische Südostbahn (sob),1,1564
+IR,2340,Schweizerische Südostbahn (sob),1,3940
+IR,2343,Schweizerische Südostbahn (sob),1,575
+IR,2344,Schweizerische Bundesbahnen SBB,1,336
+IR,2347,Schweizerische Südostbahn (sob),1,771
+IR,2350,Schweizerische Südostbahn (sob),1,1932
+IR,2351,Schweizerische Südostbahn (sob),1,2093
+IR,2352,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,842
+IR,2353,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3803
+IR,2354,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,1567
+IR,2355,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,2450
+IR,2356,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3448
+IR,2357,Schweizerische Bundesbahnen SBB,1,625
+IR,2358,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3490
+IR,2359,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3451
+IR,2360,Schweizerische Südostbahn (sob),1,3545
+IR,2361,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3491
+IR,2362,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3457
+IR,2363,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3420
+IR,2364,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3466
+IR,2365,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3448
+IR,2366,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3424
+IR,2367,Schweizerische Südostbahn (sob),1,3449
+IR,2368,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3485
+IR,2369,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3444
+IR,2370,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3413
+IR,2371,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3493
+IR,2372,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3447
+IR,2373,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3461
+IR,2374,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3490
+IR,2375,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3513
+IR,2376,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3443
+IR,2377,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3499
+IR,2378,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3501
+IR,2379,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3421
+IR,2380,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3309
+IR,2381,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3449
+IR,2382,Schweizerische Bundesbahnen SBB,1,151
+IR,2383,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3388
+IR,2384,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3314
+IR,2385,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,3419
+IR,2386,Schweizerische Bundesbahnen SBB,1,126
+IR,2387,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,815
+IR,2388,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,2660
+IR,2389,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,830
+IR,2390,Schweizerische Bundesbahnen SBB,1,1009
+IR,2391,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,2324
+IR,2392,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,2382
+IR,2393,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,2505
+IR,2394,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,2413
+IR,2395,Schweizerische Südostbahn (sob),1,2262
+IR,2396,Schweizerische Südostbahn (sob),1,2431
+IR,2397,Schweizerische Südostbahn (sob),1,224
+IR,2398,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,2215
+IR,2399,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,830
+IR,2405,Schweizerische Südostbahn (sob),1,964
+IR,2409,Schweizerische Südostbahn (sob),1,3658
+IR,2410,Schweizerische Südostbahn (sob),1,1798
+IR,2413,Schweizerische Südostbahn (sob),1,3624
+IR,2414,Schweizerische Südostbahn (sob),1,3096
+IR,2417,Schweizerische Südostbahn (sob),1,3627
+IR,2418,Schweizerische Südostbahn (sob),1,3638
+IR,2421,Schweizerische Südostbahn (sob),1,3632
+IR,2422,Schweizerische Südostbahn (sob),1,3625
+IR,2425,Schweizerische Südostbahn (sob),1,3637
+IR,2426,Schweizerische Südostbahn (sob),1,3637
+IR,2428,Schweizerische Südostbahn (sob),1,96
+IR,2429,Schweizerische Südostbahn (sob),1,3632
+IR,2430,Schweizerische Südostbahn (sob),1,3636
+IR,2433,Schweizerische Südostbahn (sob),1,3072
+IR,2434,Schweizerische Südostbahn (sob),1,3636
+IR,2437,Schweizerische Südostbahn (sob),1,3078
+IR,2438,Schweizerische Südostbahn (sob),1,3401
+IR,2441,Schweizerische Südostbahn (sob),1,1495
+IR,2442,Schweizerische Südostbahn (sob),1,3652
+IR,2456,Schweizerische Bundesbahnen SBB,1,1224
+IR,2457,Schweizerische Bundesbahnen SBB,1,504
+IR,2458,Schweizerische Bundesbahnen SBB,1,1359
+IR,2459,Schweizerische Bundesbahnen SBB,1,1428
+IR,2460,Schweizerische Bundesbahnen SBB,1,1397
+IR,2461,Schweizerische Bundesbahnen SBB,1,1436
+IR,2462,Schweizerische Bundesbahnen SBB,1,1397
+IR,2463,Schweizerische Bundesbahnen SBB,1,1452
+IR,2464,Schweizerische Bundesbahnen SBB,1,1397
+IR,2465,Schweizerische Bundesbahnen SBB,1,1436
+IR,2466,Schweizerische Bundesbahnen SBB,1,1397
+IR,2467,Schweizerische Bundesbahnen SBB,1,1452
+IR,2468,Schweizerische Bundesbahnen SBB,1,1389
+IR,2469,Schweizerische Bundesbahnen SBB,1,1444
+IR,2470,Schweizerische Bundesbahnen SBB,1,1360
+IR,2471,Schweizerische Bundesbahnen SBB,1,1404
+IR,2472,Schweizerische Bundesbahnen SBB,1,1161
+IR,2473,Schweizerische Bundesbahnen SBB,1,1236
+IR,2474,Schweizerische Bundesbahnen SBB,1,1391
+IR,2475,Schweizerische Bundesbahnen SBB,1,1436
+IR,2476,Schweizerische Bundesbahnen SBB,1,1398
+IR,2477,Schweizerische Bundesbahnen SBB,1,1436
+IR,2478,Schweizerische Bundesbahnen SBB,1,1383
+IR,2479,Schweizerische Bundesbahnen SBB,1,1428
+IR,2480,Schweizerische Bundesbahnen SBB,1,1395
+IR,2481,Schweizerische Bundesbahnen SBB,1,1443
+IR,2482,Schweizerische Bundesbahnen SBB,1,1390
+IR,2483,Schweizerische Bundesbahnen SBB,1,1452
+IR,2484,Schweizerische Bundesbahnen SBB,1,1390
+IR,2485,Schweizerische Bundesbahnen SBB,1,1451
+IR,2486,Schweizerische Bundesbahnen SBB,1,1390
+IR,2487,Schweizerische Bundesbahnen SBB,1,1444
+IR,2488,Schweizerische Bundesbahnen SBB,1,476
+IR,2489,Schweizerische Bundesbahnen SBB,1,1444
+IR,2490,Schweizerische Bundesbahnen SBB,1,292
+IR,2491,Schweizerische Bundesbahnen SBB,1,312
+IR,2493,Schweizerische Bundesbahnen SBB,1,241
+IR,2503,Schweizerische Bundesbahnen SBB,1,215
+IR,2504,Schweizerische Bundesbahnen SBB,1,1570
+IR,2505,Schweizerische Bundesbahnen SBB,1,975
+IR,2506,Schweizerische Bundesbahnen SBB,1,1683
+IR,2507,Schweizerische Bundesbahnen SBB,1,1424
+IR,2508,Schweizerische Bundesbahnen SBB,1,2116
+IR,2509,Schweizerische Bundesbahnen SBB,1,1884
+IR,2510,Schweizerische Bundesbahnen SBB,1,2116
+IR,2511,Schweizerische Bundesbahnen SBB,1,2124
+IR,2512,Schweizerische Bundesbahnen SBB,1,2112
+IR,2513,Schweizerische Bundesbahnen SBB,1,2124
+IR,2514,Schweizerische Bundesbahnen SBB,1,2112
+IR,2515,Schweizerische Bundesbahnen SBB,1,2100
+IR,2516,Schweizerische Bundesbahnen SBB,1,2112
+IR,2517,Schweizerische Bundesbahnen SBB,1,2101
+IR,2518,Schweizerische Bundesbahnen SBB,1,2100
+IR,2519,Schweizerische Bundesbahnen SBB,1,2101
+IR,2520,Schweizerische Bundesbahnen SBB,1,2124
+IR,2521,Schweizerische Bundesbahnen SBB,1,2088
+IR,2522,Schweizerische Bundesbahnen SBB,1,2112
+IR,2523,Schweizerische Bundesbahnen SBB,1,2100
+IR,2524,Schweizerische Bundesbahnen SBB,1,2112
+IR,2525,Schweizerische Bundesbahnen SBB,1,2100
+IR,2526,Schweizerische Bundesbahnen SBB,1,2112
+IR,2527,Schweizerische Bundesbahnen SBB,1,2112
+IR,2528,Schweizerische Bundesbahnen SBB,1,2113
+IR,2529,Schweizerische Bundesbahnen SBB,1,2112
+IR,2530,Schweizerische Bundesbahnen SBB,1,2112
+IR,2531,Schweizerische Bundesbahnen SBB,1,2112
+IR,2532,Schweizerische Bundesbahnen SBB,1,2109
+IR,2533,Schweizerische Bundesbahnen SBB,1,2112
+IR,2534,Schweizerische Bundesbahnen SBB,1,1673
+IR,2535,Schweizerische Bundesbahnen SBB,1,2112
+IR,2536,Schweizerische Bundesbahnen SBB,1,1440
+IR,2537,Schweizerische Bundesbahnen SBB,1,2112
+IR,2538,Schweizerische Bundesbahnen SBB,1,1229
+IR,2539,Schweizerische Bundesbahnen SBB,1,1588
+IR,2540,Schweizerische Bundesbahnen SBB,1,1424
+IR,2541,Schweizerische Bundesbahnen SBB,1,898
+IR,2542,Schweizerische Bundesbahnen SBB,1,1290
+IR,2543,Schweizerische Bundesbahnen SBB,1,1185
+IR,2562,Schweizerische Bundesbahnen SBB,1,1759
+IR,2564,Schweizerische Bundesbahnen SBB,1,1074
+IR,2565,Schweizerische Bundesbahnen SBB,1,743
+IR,2566,Schweizerische Bundesbahnen SBB,1,805
+IR,2567,Schweizerische Bundesbahnen SBB,1,684
+IR,2568,Schweizerische Bundesbahnen SBB,1,805
+IR,2569,Schweizerische Bundesbahnen SBB,1,686
+IR,2570,Schweizerische Bundesbahnen SBB,1,756
+IR,2571,Schweizerische Bundesbahnen SBB,1,741
+IR,2575,Schweizerische Bundesbahnen SBB,1,717
+IR,2576,Schweizerische Bundesbahnen SBB,1,643
+IR,2580,Schweizerische Bundesbahnen SBB,1,750
+IR,2581,Schweizerische Bundesbahnen SBB,1,1069
+IR,2582,Schweizerische Bundesbahnen SBB,1,1086
+IR,2587,Schweizerische Bundesbahnen SBB,1,1062
+IR,2588,Schweizerische Bundesbahnen SBB,1,1086
+IR,2589,Schweizerische Bundesbahnen SBB,1,1064
+IR,2590,Schweizerische Bundesbahnen SBB,1,1088
+IR,2591,Schweizerische Bundesbahnen SBB,1,1082
+IR,2592,Schweizerische Bundesbahnen SBB,1,1083
+IR,2593,Schweizerische Bundesbahnen SBB,1,1073
+IR,2594,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,1002
+IR,2596,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,924
+IR,2599,Schweizerische Bundesbahnen SBB,1,855
+IR,2610,Schweizerische Bundesbahnen SBB,1,534
+IR,2611,Schweizerische Bundesbahnen SBB,1,498
+IR,2612,Schweizerische Bundesbahnen SBB,1,540
+IR,2613,Schweizerische Bundesbahnen SBB,1,537
+IR,2614,Schweizerische Bundesbahnen SBB,1,543
+IR,2615,Schweizerische Bundesbahnen SBB,1,539
+IR,2616,Schweizerische Bundesbahnen SBB,1,546
+IR,2617,Schweizerische Bundesbahnen SBB,1,546
+IR,2618,Schweizerische Bundesbahnen SBB,1,540
+IR,2619,Schweizerische Bundesbahnen SBB,1,504
+IR,2620,Schweizerische Bundesbahnen SBB,1,543
+IR,2621,Schweizerische Bundesbahnen SBB,1,519
+IR,2622,Schweizerische Bundesbahnen SBB,1,534
+IR,2623,Schweizerische Bundesbahnen SBB,1,522
+IR,2624,Schweizerische Bundesbahnen SBB,1,453
+IR,2625,Schweizerische Bundesbahnen SBB,1,426
+IR,2626,Schweizerische Bundesbahnen SBB,1,522
+IR,2627,Schweizerische Bundesbahnen SBB,1,509
+IR,2628,Schweizerische Bundesbahnen SBB,1,540
+IR,2629,Schweizerische Bundesbahnen SBB,1,510
+IR,2630,Schweizerische Bundesbahnen SBB,1,543
+IR,2631,Schweizerische Bundesbahnen SBB,1,522
+IR,2632,Schweizerische Bundesbahnen SBB,1,543
+IR,2633,Schweizerische Bundesbahnen SBB,1,547
+IR,2634,Schweizerische Bundesbahnen SBB,1,546
+IR,2635,Schweizerische Bundesbahnen SBB,1,546
+IR,2636,Schweizerische Bundesbahnen SBB,1,542
+IR,2637,Schweizerische Bundesbahnen SBB,1,539
+IR,2638,Schweizerische Bundesbahnen SBB,1,543
+IR,2639,Schweizerische Bundesbahnen SBB,1,502
+IR,2640,Schweizerische Bundesbahnen SBB,1,542
+IR,2641,Schweizerische Bundesbahnen SBB,1,522
+IR,2642,Schweizerische Bundesbahnen SBB,1,544
+IR,2643,Schweizerische Bundesbahnen SBB,1,527
+IR,2644,Schweizerische Bundesbahnen SBB,1,546
+IR,2645,Schweizerische Bundesbahnen SBB,1,517
+IR,2647,Schweizerische Bundesbahnen SBB,1,1281
+IR,2662,Schweizerische Bundesbahnen SBB,1,378
+IR,2687,Schweizerische Bundesbahnen SBB,1,81
+IR,2689,Schweizerische Bundesbahnen SBB,1,87
+IR,2806,BLS AG (bls),1,741
+IR,2808,BLS AG (bls),1,1059
+IR,2809,BLS AG (bls),1,1064
+IR,2810,BLS AG (bls),1,1064
+IR,2811,BLS AG (bls),1,1064
+IR,2812,BLS AG (bls),1,1070
+IR,2813,BLS AG (bls),1,1070
+IR,2814,BLS AG (bls),1,1076
+IR,2815,BLS AG (bls),1,1076
+IR,2816,BLS AG (bls),1,1076
+IR,2817,BLS AG (bls),1,1076
+IR,2818,BLS AG (bls),1,1076
+IR,2819,BLS AG (bls),1,1076
+IR,2820,BLS AG (bls),1,1058
+IR,2821,BLS AG (bls),1,1052
+IR,2822,BLS AG (bls),1,884
+IR,2823,BLS AG (bls),1,901
+IR,2824,BLS AG (bls),1,1016
+IR,2825,BLS AG (bls),1,1013
+IR,2826,BLS AG (bls),1,1076
+IR,2827,BLS AG (bls),1,1064
+IR,2828,BLS AG (bls),1,1076
+IR,2829,BLS AG (bls),1,1076
+IR,2830,BLS AG (bls),1,1070
+IR,2831,BLS AG (bls),1,1070
+IR,2832,BLS AG (bls),1,1076
+IR,2833,BLS AG (bls),1,1072
+IR,2834,BLS AG (bls),1,1070
+IR,2835,BLS AG (bls),1,1070
+IR,2836,BLS AG (bls),1,1070
+IR,2837,BLS AG (bls),1,1070
+IR,2838,BLS AG (bls),1,1070
+IR,2839,BLS AG (bls),1,1076
+IR,2840,BLS AG (bls),1,888
+IR,2841,BLS AG (bls),1,1070
+IR,2842,BLS AG (bls),1,1046
+IR,2845,BLS AG (bls),1,1053
+IR,2846,BLS AG (bls),1,330
+IR,2847,BLS AG (bls),1,1074
+IR,2849,BLS AG (bls),1,342
+IR,2956,Zentralbahn,1,1901
+IR,2958,Zentralbahn,1,1185
+IR,2959,Zentralbahn,1,1186
+IR,2960,Zentralbahn,1,1185
+IR,2961,Zentralbahn,1,1185
+IR,2962,Zentralbahn,1,1192
+IR,2963,Zentralbahn,1,1192
+IR,2964,Zentralbahn,1,1199
+IR,2965,Zentralbahn,1,1199
+IR,2966,Zentralbahn,1,1192
+IR,2967,Zentralbahn,1,1199
+IR,2968,Zentralbahn,1,1199
+IR,2969,Zentralbahn,1,1197
+IR,2970,Zentralbahn,1,1199
+IR,2971,Zentralbahn,1,1176
+IR,2972,Zentralbahn,1,1038
+IR,2973,Zentralbahn,1,985
+IR,2974,Zentralbahn,1,1127
+IR,2975,Zentralbahn,1,1120
+IR,2976,Zentralbahn,1,1201
+IR,2977,Zentralbahn,1,1200
+IR,2978,Zentralbahn,1,1200
+IR,2979,Zentralbahn,1,1200
+IR,2980,Zentralbahn,1,1193
+IR,2981,Zentralbahn,1,1199
+IR,2982,Zentralbahn,1,1191
+IR,2983,Zentralbahn,1,1199
+IR,2984,Zentralbahn,1,1197
+IR,2985,Zentralbahn,1,1191
+IR,2986,Zentralbahn,1,1176
+IR,2987,Zentralbahn,1,1190
+IR,2988,Zentralbahn,1,1172
+IR,2989,Zentralbahn,1,1197
+IR,2990,Zentralbahn,1,1169
+IR,2991,Zentralbahn,1,1168
+IR,2993,Zentralbahn,1,1179
+IR,3013,Schweizerische Bundesbahnen SBB,1,96
+IR,3015,Schweizerische Bundesbahnen SBB,1,58
+IR,3016,Schweizerische Bundesbahnen SBB,1,68
+IR,3017,Schweizerische Bundesbahnen SBB,1,218
+IR,3022,Schweizerische Bundesbahnen SBB,1,232
+IR,3024,Schweizerische Bundesbahnen SBB,1,54
+IR,3025,Schweizerische Bundesbahnen SBB,1,20
+IR,3026,Schweizerische Bundesbahnen SBB,1,58
+IR,3029,Schweizerische Bundesbahnen SBB,1,300
+IR,3030,Schweizerische Bundesbahnen SBB,1,298
+IR,3032,Schweizerische Bundesbahnen SBB,1,98
+IR,3080,Zentralbahn,1,1124
+IR,3081,Zentralbahn,1,346
+IR,3082,Zentralbahn,1,325
+IR,3083,Zentralbahn,1,303
+IR,3084,Zentralbahn,1,1410
+IR,3085,Zentralbahn,1,986
+IR,3086,Zentralbahn,1,1400
+IR,3087,Zentralbahn,1,980
+IR,3088,Zentralbahn,1,420
+IR,3089,Zentralbahn,1,423
+IR,3107,Schweizerische Südostbahn (sob),1,275
+IR,3108,Schweizerische Bundesbahnen SBB,1,6
+IR,3110,Schweizerische Bundesbahnen SBB,1,12
+IR,3113,Schweizerische Bundesbahnen SBB,1,6
+IR,3114,Schweizerische Bundesbahnen SBB,1,12
+IR,3116,Schweizerische Bundesbahnen SBB,1,6
+IR,3122,Schweizerische Bundesbahnen SBB,1,6
+IR,3124,Schweizerische Bundesbahnen SBB,1,18
+IR,3130,(none),0,6
+IR,3131,Schweizerische Bundesbahnen SBB,1,24
+IR,3132,Schweizerische Bundesbahnen SBB,1,6
+IR,3163,(none),0,9
+IR,3183,(none),0,9
+IR,3188,(none),0,18
+IR,3192,(none),0,18
+IR,3194,(none),0,18
+IR,3196,(none),0,18
+IR,3206,BLS AG (bls),1,894
+IR,3207,BLS AG (bls),1,1599
+IR,3208,BLS AG (bls),1,1608
+IR,3209,BLS AG (bls),1,1608
+IR,3210,BLS AG (bls),1,1608
+IR,3211,BLS AG (bls),1,882
+IR,3212,BLS AG (bls),1,1615
+IR,3213,BLS AG (bls),1,1608
+IR,3214,BLS AG (bls),1,1624
+IR,3215,BLS AG (bls),1,1615
+IR,3216,BLS AG (bls),1,1624
+IR,3217,BLS AG (bls),1,1624
+IR,3218,BLS AG (bls),1,1624
+IR,3219,BLS AG (bls),1,1624
+IR,3220,BLS AG (bls),1,1615
+IR,3221,BLS AG (bls),1,1615
+IR,3222,BLS AG (bls),1,1390
+IR,3223,BLS AG (bls),1,1597
+IR,3224,BLS AG (bls),1,1570
+IR,3225,BLS AG (bls),1,1453
+IR,3226,BLS AG (bls),1,1606
+IR,3227,BLS AG (bls),1,1591
+IR,3228,BLS AG (bls),1,1624
+IR,3229,BLS AG (bls),1,1624
+IR,3230,BLS AG (bls),1,1615
+IR,3231,BLS AG (bls),1,1624
+IR,3232,BLS AG (bls),1,620
+IR,3233,BLS AG (bls),1,1615
+IR,3234,BLS AG (bls),1,1624
+IR,3235,BLS AG (bls),1,1624
+IR,3236,BLS AG (bls),1,1624
+IR,3237,BLS AG (bls),1,1615
+IR,3238,BLS AG (bls),1,1566
+IR,3239,BLS AG (bls),1,1608
+IR,3240,BLS AG (bls),1,1556
+IR,3241,BLS AG (bls),1,1560
+IR,3242,BLS AG (bls),1,1558
+IR,3243,BLS AG (bls),1,1374
+IR,3244,BLS AG (bls),1,1566
+IR,3245,BLS AG (bls),1,1336
+IR,3251,Schweizerische Bundesbahnen SBB,1,1951
+IR,3252,Schweizerische Bundesbahnen SBB,1,1625
+IR,3253,Schweizerische Bundesbahnen SBB,1,1964
+IR,3254,Schweizerische Bundesbahnen SBB,1,1602
+IR,3255,Schweizerische Bundesbahnen SBB,1,2458
+IR,3256,Schweizerische Bundesbahnen SBB,1,2697
+IR,3257,Schweizerische Bundesbahnen SBB,1,2677
+IR,3258,Schweizerische Bundesbahnen SBB,1,2712
+IR,3259,Schweizerische Bundesbahnen SBB,1,2662
+IR,3260,Schweizerische Bundesbahnen SBB,1,2712
+IR,3261,Schweizerische Bundesbahnen SBB,1,2631
+IR,3262,Schweizerische Bundesbahnen SBB,1,2697
+IR,3263,Schweizerische Bundesbahnen SBB,1,2504
+IR,3264,Schweizerische Bundesbahnen SBB,1,2712
+IR,3265,Schweizerische Bundesbahnen SBB,1,2477
+IR,3266,Schweizerische Bundesbahnen SBB,1,2712
+IR,3267,Schweizerische Bundesbahnen SBB,1,2547
+IR,3268,Schweizerische Bundesbahnen SBB,1,2667
+IR,3269,Schweizerische Bundesbahnen SBB,1,2617
+IR,3270,Schweizerische Bundesbahnen SBB,1,2637
+IR,3271,Schweizerische Bundesbahnen SBB,1,2667
+IR,3272,Schweizerische Bundesbahnen SBB,1,2697
+IR,3273,Schweizerische Bundesbahnen SBB,1,2604
+IR,3274,Schweizerische Bundesbahnen SBB,1,2713
+IR,3275,Schweizerische Bundesbahnen SBB,1,2680
+IR,3276,Schweizerische Bundesbahnen SBB,1,2714
+IR,3277,Schweizerische Bundesbahnen SBB,1,2698
+IR,3278,Schweizerische Bundesbahnen SBB,1,2712
+IR,3279,Schweizerische Bundesbahnen SBB,1,2638
+IR,3280,Schweizerische Bundesbahnen SBB,1,2697
+IR,3281,Schweizerische Bundesbahnen SBB,1,2572
+IR,3282,Schweizerische Bundesbahnen SBB,1,2713
+IR,3283,Schweizerische Bundesbahnen SBB,1,1422
+IR,3284,Schweizerische Bundesbahnen SBB,1,2648
+IR,3285,Schweizerische Bundesbahnen SBB,1,1566
+IR,3286,Schweizerische Bundesbahnen SBB,1,2642
+IR,3287,Schweizerische Bundesbahnen SBB,1,1453
+IR,3288,Schweizerische Bundesbahnen SBB,1,2668
+IR,3289,Schweizerische Bundesbahnen SBB,1,1517
+IR,3290,Schweizerische Bundesbahnen SBB,1,1614
+IR,3292,Schweizerische Bundesbahnen SBB,1,910
+IR,3293,Schweizerische Bundesbahnen SBB,1,1598
+IR,3318,BLS AG (bls),1,515
+IR,3320,BLS AG (bls),1,513
+IR,3321,BLS AG (bls),1,521
+IR,3322,BLS AG (bls),1,531
+IR,3323,BLS AG (bls),1,523
+IR,3324,BLS AG (bls),1,528
+IR,3325,BLS AG (bls),1,530
+IR,3326,BLS AG (bls),1,530
+IR,3327,BLS AG (bls),1,528
+IR,3328,BLS AG (bls),1,530
+IR,3329,BLS AG (bls),1,533
+IR,3330,BLS AG (bls),1,533
+IR,3331,BLS AG (bls),1,531
+IR,3332,BLS AG (bls),1,534
+IR,3333,BLS AG (bls),1,536
+IR,3334,BLS AG (bls),1,536
+IR,3335,BLS AG (bls),1,534
+IR,3336,BLS AG (bls),1,534
+IR,3337,BLS AG (bls),1,536
+IR,3338,BLS AG (bls),1,533
+IR,3339,BLS AG (bls),1,531
+IR,3340,BLS AG (bls),1,531
+IR,3341,BLS AG (bls),1,533
+IR,3342,BLS AG (bls),1,536
+IR,3343,BLS AG (bls),1,531
+IR,3344,BLS AG (bls),1,525
+IR,3345,BLS AG (bls),1,532
+IR,3346,BLS AG (bls),1,464
+IR,3347,BLS AG (bls),1,471
+IR,3348,BLS AG (bls),1,459
+IR,3349,BLS AG (bls),1,443
+IR,3350,BLS AG (bls),1,452
+IR,3351,BLS AG (bls),1,442
+IR,3352,BLS AG (bls),1,482
+IR,3353,BLS AG (bls),1,439
+IR,3354,BLS AG (bls),1,533
+IR,3355,BLS AG (bls),1,531
+IR,3356,BLS AG (bls),1,534
+IR,3357,BLS AG (bls),1,530
+IR,3358,BLS AG (bls),1,536
+IR,3359,BLS AG (bls),1,531
+IR,3360,BLS AG (bls),1,534
+IR,3361,BLS AG (bls),1,531
+IR,3362,BLS AG (bls),1,533
+IR,3363,BLS AG (bls),1,534
+IR,3364,BLS AG (bls),1,531
+IR,3365,BLS AG (bls),1,536
+IR,3366,BLS AG (bls),1,536
+IR,3367,BLS AG (bls),1,531
+IR,3368,BLS AG (bls),1,534
+IR,3369,BLS AG (bls),1,533
+IR,3370,BLS AG (bls),1,536
+IR,3371,BLS AG (bls),1,534
+IR,3372,BLS AG (bls),1,531
+IR,3373,BLS AG (bls),1,533
+IR,3374,BLS AG (bls),1,533
+IR,3375,BLS AG (bls),1,531
+IR,3376,BLS AG (bls),1,528
+IR,3377,BLS AG (bls),1,533
+IR,3378,BLS AG (bls),1,530
+IR,3379,BLS AG (bls),1,531
+IR,3380,BLS AG (bls),1,534
+IR,3381,BLS AG (bls),1,533
+IR,3384,BLS AG (bls),1,531
+IR,3385,BLS AG (bls),1,533
+IR,3387,Schweizerische Bundesbahnen SBB,1,138
+IR,3388,BLS AG (bls),1,533
+IR,3389,BLS AG (bls),1,530
+IR,3392,BLS AG (bls),1,222
+IR,3393,BLS AG (bls),1,540
+IR,3397,BLS AG (bls),1,397
+IR,3410,Schweizerische Südostbahn (sob),1,20
+IR,3412,Schweizerische Bundesbahnen SBB,1,6
+IR,3422,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,16
+IR,3424,Schweizerische Südostbahn (sob),1,10
+IR,3426,Schweizerische Südostbahn (sob),1,10
+IR,3430,Schweizerische Bundesbahnen SBB/Schweizerische Südostbahn (sob),2,16
+IR,3432,Schweizerische Südostbahn (sob),1,10
+IR,3434,Schweizerische Bundesbahnen SBB,1,19
+IR,3438,Schweizerische Südostbahn (sob),1,161
+IR,3440,Schweizerische Südostbahn (sob),1,165
+IR,3441,Schweizerische Südostbahn (sob),1,55
+IR,3443,Schweizerische Südostbahn (sob),1,127
+IR,3445,(none),0,8
+IR,10292,Schweizerische Bundesbahnen SBB,1,7
+IR,10490,Schweizerische Bundesbahnen SBB,1,8
+IR,16822,Schweizerische Südostbahn (sob),1,540
+IR,16823,Schweizerische Südostbahn (sob),1,378
+IR,16827,Schweizerische Südostbahn (sob),1,540
+IR,30006,Zentralbahn,1,12
+IR,30008,Zentralbahn,1,9
+IR,30038,Schweizerische Bundesbahnen SBB,1,2
+IR,30039,Schweizerische Bundesbahnen SBB,1,8
+IR,30040,Schweizerische Bundesbahnen SBB,1,16
+IR,30042,BLS AG (bls)/Schweizerische Bundesbahnen SBB,2,19
+IR,30044,BLS AG (bls),1,9
+IR,30045,Schweizerische Südostbahn (sob),1,48
+IR,30046,Schweizerische Bundesbahnen SBB,1,2
+IR,30057,Schweizerische Bundesbahnen SBB,1,7
+IR,30063,Schweizerische Bundesbahnen SBB,1,7
+IR,30071,Schweizerische Bundesbahnen SBB,1,7
+IR,30073,Schweizerische Bundesbahnen SBB,1,7
+IR,30079,Schweizerische Bundesbahnen SBB,1,6
+IR,30085,(none),0,2
+IR,30086,(none),0,3
+IR,30102,Schweizerische Bundesbahnen SBB,1,8
+IR,30106,Schweizerische Bundesbahnen SBB,1,6
+IR,30130,Schweizerische Bundesbahnen SBB,1,7
+IR,30139,(none),0,7
+IR,30208,BLS AG (bls),1,8
+IR,30209,BLS AG (bls),1,8
+IR,30210,BLS AG (bls),1,8
+IR,30211,BLS AG (bls),1,8
+IR,30212,BLS AG (bls),1,8
+IR,30213,BLS AG (bls),1,8
+IR,30214,BLS AG (bls),1,8
+IR,30215,BLS AG (bls),1,8
+IR,30216,BLS AG (bls),1,8
+IR,30217,BLS AG (bls),1,8
+IR,30218,BLS AG (bls),1,8
+IR,30219,BLS AG (bls),1,8
+IR,30220,BLS AG (bls),1,8
+IR,30221,BLS AG (bls),1,8
+IR,30222,BLS AG (bls),1,8
+IR,30223,BLS AG (bls),1,8
+IR,30224,BLS AG (bls),1,8
+IR,30225,BLS AG (bls),1,8
+IR,30226,BLS AG (bls),1,13
+IR,30227,BLS AG (bls),1,8
+IR,30228,BLS AG (bls),1,8
+IR,30229,BLS AG (bls),1,8
+IR,30230,BLS AG (bls),1,8
+IR,30231,BLS AG (bls),1,8
+IR,30232,BLS AG (bls),1,8
+IR,30233,BLS AG (bls),1,8
+IR,30234,BLS AG (bls),1,8
+IR,30235,BLS AG (bls),1,8
+IR,30236,BLS AG (bls),1,8
+IR,30237,BLS AG (bls),1,8
+IR,30238,BLS AG (bls),1,8
+IR,30239,BLS AG (bls),1,8
+IR,30240,BLS AG (bls),1,9
+IR,30241,BLS AG (bls),1,10
+IR,30242,BLS AG (bls),1,24
+IR,30245,BLS AG (bls),1,15
+IR,30247,BLS AG (bls),1,15
+IR,30255,Schweizerische Bundesbahnen SBB,1,28
+IR,30257,Schweizerische Bundesbahnen SBB,1,29
+IR,30261,Schweizerische Bundesbahnen SBB,1,9
+IR,30265,Schweizerische Bundesbahnen SBB,1,104
+IR,30271,Schweizerische Bundesbahnen SBB,1,15
+IR,30273,Schweizerische Bundesbahnen SBB,1,73
+IR,30286,Schweizerische Bundesbahnen SBB,1,120
+IR,30346,Schweizerische Bundesbahnen SBB,1,9
+IR,30362,Schweizerische Bundesbahnen SBB,1,14
+IR,30393,Schweizerische Südostbahn (sob),1,20
+IR,30398,Schweizerische Bundesbahnen SBB,1,20
+IR,30402,Schweizerische Bundesbahnen SBB,1,16
+IR,30492,Schweizerische Südostbahn (sob),1,16
+IR,30498,Schweizerische Südostbahn (sob),1,25
+IR,30502,Schweizerische Bundesbahnen SBB,1,24
+IR,30503,Schweizerische Bundesbahnen SBB,1,4
+IR,30515,Schweizerische Bundesbahnen SBB,1,11
+IR,30517,Schweizerische Bundesbahnen SBB,1,11
+IR,30519,Schweizerische Bundesbahnen SBB,1,11
+IR,30521,Schweizerische Bundesbahnen SBB,1,11
+IR,30542,Schweizerische Bundesbahnen SBB,1,24
+IR,30598,Schweizerische Südostbahn (sob),1,10
+IR,30611,Schweizerische Bundesbahnen SBB,1,3
+IR,30615,Schweizerische Bundesbahnen SBB,1,9
+IR,30619,Schweizerische Bundesbahnen SBB,1,12
+IR,30621,Schweizerische Bundesbahnen SBB,1,3
+IR,30629,Schweizerische Bundesbahnen SBB,1,18
+IR,30639,Schweizerische Bundesbahnen SBB,1,6
+IR,30643,Schweizerische Bundesbahnen SBB,1,15
+IR,30645,Schweizerische Bundesbahnen SBB,1,12
+IR,30705,Schweizerische Bundesbahnen SBB,1,12
+IR,30724,Schweizerische Bundesbahnen SBB,1,2
+IR,30732,Schweizerische Bundesbahnen SBB,1,14
+IR,30736,Schweizerische Bundesbahnen SBB,1,10
+IR,30738,(none),0,3
+IR,30743,Schweizerische Bundesbahnen SBB,1,2
+IR,30806,Schweizerische Bundesbahnen SBB,1,7
+IR,30809,Schweizerische Bundesbahnen SBB,1,21
+IR,30817,Schweizerische Bundesbahnen SBB,1,14
+IR,30821,Schweizerische Bundesbahnen SBB,1,14
+IR,30833,Schweizerische Bundesbahnen SBB,1,14
+IR,30838,Schweizerische Bundesbahnen SBB,1,6
+IR,30840,Schweizerische Bundesbahnen SBB,1,23
+IR,30843,Schweizerische Bundesbahnen SBB,1,12
+IR,30844,Schweizerische Bundesbahnen SBB,1,24
+IR,30845,Schweizerische Bundesbahnen SBB,1,11
+IR,30846,Schweizerische Bundesbahnen SBB,1,12
+IR,30847,Schweizerische Bundesbahnen SBB,1,2
+IR,30851,Schweizerische Bundesbahnen SBB,1,2
+IR,30887,BLS AG (bls)/Schweizerische Bundesbahnen SBB,2,16
+IR,30896,BLS AG (bls),1,18
+IR,30905,Schweizerische Bundesbahnen SBB,1,11
+IR,30938,Schweizerische Bundesbahnen SBB,1,11
+IR,30943,Schweizerische Bundesbahnen SBB,1,17
+IR,30995,Schweizerische Bundesbahnen SBB,1,2
+IR,31001,Schweizerische Bundesbahnen SBB,1,11
+IR,31009,Schweizerische Südostbahn (sob),1,21
+IR,31013,Schweizerische Südostbahn (sob),1,6
+IR,31031,Schweizerische Bundesbahnen SBB,1,3
+IR,31032,Schweizerische Südostbahn (sob),1,16
+IR,31060,Schweizerische Südostbahn (sob),1,12
+IR,31062,Schweizerische Südostbahn (sob),1,12
+IR,31064,Schweizerische Südostbahn (sob),1,18
+IR,31066,Schweizerische Südostbahn (sob),1,17
+IR,31080,Schweizerische Bundesbahnen SBB,1,7
+IR,31087,Schweizerische Bundesbahnen SBB,1,5
+IR,31088,Schweizerische Bundesbahnen SBB,1,8
+IR,31107,Schweizerische Bundesbahnen SBB,1,6
+IR,31109,Schweizerische Südostbahn (sob),1,19
+IR,31111,Schweizerische Südostbahn (sob),1,15
+IR,31113,Schweizerische Südostbahn (sob),1,30
+IR,31114,Schweizerische Bundesbahnen SBB,1,6
+IR,31115,Schweizerische Südostbahn (sob),1,12
+IR,31116,Schweizerische Bundesbahnen SBB,1,6
+IR,31117,Schweizerische Südostbahn (sob),1,24
+IR,31127,Schweizerische Südostbahn (sob),1,8
+IR,31128,Schweizerische Südostbahn (sob),1,3
+IR,31129,Schweizerische Südostbahn (sob),1,2
+IR,31130,Schweizerische Südostbahn (sob),1,6
+IR,31131,Schweizerische Südostbahn (sob),1,6
+IR,31138,Schweizerische Südostbahn (sob),1,3
+IR,31143,Schweizerische Südostbahn (sob),1,6
+IR,31146,Schweizerische Südostbahn (sob),1,42
+IR,31147,Schweizerische Südostbahn (sob),1,9
+IR,31148,Schweizerische Südostbahn (sob),1,21
+IR,31163,Schweizerische Bundesbahnen SBB,1,2
+IR,31165,Schweizerische Bundesbahnen SBB,1,2
+IR,31167,Schweizerische Bundesbahnen SBB,1,2
+IR,31198,Schweizerische Südostbahn (sob),1,18
+IR,31234,Schweizerische Südostbahn (sob),1,30
+IR,31239,Schweizerische Südostbahn (sob),1,6
+IR,31248,Schweizerische Südostbahn (sob),1,12
+IR,31255,Schweizerische Bundesbahnen SBB,1,14
+IR,31257,Schweizerische Bundesbahnen SBB,1,14
+IR,31263,Schweizerische Bundesbahnen SBB,1,59
+IR,31265,Schweizerische Bundesbahnen SBB,1,15
+IR,31269,Schweizerische Bundesbahnen SBB,1,30
+IR,31275,Schweizerische Bundesbahnen SBB,1,30
+IR,31283,Schweizerische Bundesbahnen SBB,1,9
+IR,31369,Schweizerische Südostbahn (sob),1,14
+IR,31389,Schweizerische Bundesbahnen SBB,1,5
+IR,31399,Schweizerische Bundesbahnen SBB,1,5
+IR,31402,(none),0,8
+IR,31428,(none),0,6
+IR,31438,Schweizerische Bundesbahnen SBB,1,8
+IR,31515,Schweizerische Bundesbahnen SBB,1,4
+IR,31517,Schweizerische Bundesbahnen SBB,1,4
+IR,31519,Schweizerische Bundesbahnen SBB,1,7
+IR,31521,Schweizerische Bundesbahnen SBB,1,4
+IR,31530,Schweizerische Bundesbahnen SBB,1,12
+IR,31542,Schweizerische Bundesbahnen SBB,1,12
+IR,31543,Schweizerische Bundesbahnen SBB,1,5
+IR,31594,Schweizerische Bundesbahnen SBB,1,6
+IR,31596,Schweizerische Bundesbahnen SBB,1,6
+IR,31639,Schweizerische Bundesbahnen SBB,1,3
+IR,31643,Schweizerische Bundesbahnen SBB,1,6
+IR,71120,Rhätische Bahn,1,10
+IR,71124,Rhätische Bahn,1,1
+IR,71128,Rhätische Bahn,1,11
+IR,71136,Rhätische Bahn,1,10
+IR,71144,Rhätische Bahn,1,10
+IR,71145,Rhätische Bahn,1,5
+IR,71148,Rhätische Bahn,1,10
+IR,71152,Rhätische Bahn,1,5
+IR,71164,Rhätische Bahn,1,10
+IR,71168,Rhätische Bahn,1,10
+PE,32,Ferrovie Autolinee Regionali Ticinesi,1,203
+PE,40,Ferrovie Autolinee Regionali Ticinesi,1,250
+PE,41,Ferrovie Autolinee Regionali Ticinesi,1,502
+PE,43,Ferrovie Autolinee Regionali Ticinesi,1,1817
+PE,47,Ferrovie Autolinee Regionali Ticinesi,1,210
+PE,53,Ferrovie Autolinee Regionali Ticinesi,1,213
+PE,54,Ferrovie Autolinee Regionali Ticinesi,1,222
+PE,61,Ferrovie Autolinee Regionali Ticinesi,1,220
+PE,64,Ferrovie Autolinee Regionali Ticinesi,1,1747
+PE,69,Ferrovie Autolinee Regionali Ticinesi,1,257
+PE,72,Ferrovie Autolinee Regionali Ticinesi,1,203
+PE,76,Ferrovie Autolinee Regionali Ticinesi,1,1735
+PE,900,Matterhorn Gotthard Bahn (fo)/Rhätische Bahn,2,709
+PE,901,Matterhorn Gotthard Bahn (fo)/Rhätische Bahn,2,561
+PE,902,Matterhorn Gotthard Bahn (fo)/Rhätische Bahn,2,1452
+PE,903,Matterhorn Gotthard Bahn (fo)/Rhätische Bahn,2,1447
+PE,904,Matterhorn Gotthard Bahn (fo)/Rhätische Bahn,2,1122
+PE,905,Matterhorn Gotthard Bahn (fo)/Rhätische Bahn,2,1447
+PE,906,Matterhorn Gotthard Bahn (fo)/Rhätische Bahn,2,561
+PE,907,Matterhorn Gotthard Bahn (fo)/Rhätische Bahn,2,705
+PE,920,Matterhorn Gotthard Bahn (fo)/Rhätische Bahn,2,425
+PE,950,Rhätische Bahn,1,1752
+PE,951,Rhätische Bahn,1,1951
+PE,952,Rhätische Bahn,1,2304
+PE,955,Rhätische Bahn,1,1513
+PE,970,Rhätische Bahn,1,80
+PE,971,Rhätische Bahn,1,837
+PE,972,Rhätische Bahn,1,1224
+PE,973,Rhätische Bahn,1,852
+PE,974,Rhätische Bahn,1,851
+PE,975,Rhätische Bahn,1,288
+PE,976,Rhätische Bahn,1,839
+PE,977,Rhätische Bahn,1,1081
+PE,978,Rhätische Bahn,1,4
+PE,2210,Montreux-Oberland Bernois,1,4984
+PE,2211,Montreux-Oberland Bernois,1,4984
+PE,2212,Montreux-Oberland Bernois,1,4984
+PE,2213,Montreux-Oberland Bernois,1,4985
+PE,2214,Montreux-Oberland Bernois,1,4957
+PE,2215,Montreux-Oberland Bernois,1,4985
+PE,2216,Montreux-Oberland Bernois,1,4984
+PE,2217,Montreux-Oberland Bernois,1,5106
+PE,2218,Montreux-Oberland Bernois,1,4984
+PE,2219,Montreux-Oberland Bernois,1,4984
+PE,2220,Montreux-Oberland Bernois,1,4956
+PE,2221,Montreux-Oberland Bernois,1,4985
+PE,2222,Montreux-Oberland Bernois,1,5013
+PE,2223,Montreux-Oberland Bernois,1,5013
+PE,2224,Montreux-Oberland Bernois,1,5012
+PE,2225,Montreux-Oberland Bernois,1,5013
+PE,2226,Montreux-Oberland Bernois,1,5013
+PE,2227,Montreux-Oberland Bernois,1,5013
+PE,2228,Montreux-Oberland Bernois,1,5136
+PE,2229,Montreux-Oberland Bernois,1,5012
+PE,2230,Montreux-Oberland Bernois,1,5012
+PE,2634,(none),0,13
+PE,2911,Zentralbahn,1,1449
+PE,2912,Zentralbahn,1,2520
+PE,2913,Zentralbahn,1,1440
+PE,2914,Zentralbahn,1,1820
+PE,2915,Zentralbahn,1,2002
+PE,2916,Zentralbahn,1,1820
+PE,2917,Zentralbahn,1,1820
+PE,2918,Zentralbahn,1,1820
+PE,2919,Zentralbahn,1,1820
+PE,2920,Zentralbahn,1,1820
+PE,2921,Zentralbahn,1,1820
+PE,2922,Zentralbahn,1,1820
+PE,2923,Zentralbahn,1,1820
+PE,2924,Zentralbahn,1,1790
+PE,2925,Zentralbahn,1,1790
+PE,2926,Zentralbahn,1,1770
+PE,2927,Zentralbahn,1,1958
+PE,2928,Zentralbahn,1,1815
+PE,2929,Zentralbahn,1,1816
+PE,2930,Zentralbahn,1,1821
+PE,2931,Zentralbahn,1,1820
+PE,2932,Zentralbahn,1,1821
+PE,2933,Zentralbahn,1,1820
+PE,2934,Zentralbahn,1,1821
+PE,2935,Zentralbahn,1,1820
+PE,2936,Zentralbahn,1,2184
+PE,2937,Zentralbahn,1,1820
+PE,2938,Zentralbahn,1,1458
+PE,2939,Zentralbahn,1,1810
+PE,2940,Zentralbahn,1,1440
+PE,2941,Zentralbahn,1,2904
+PE,2942,Zentralbahn,1,1440
+PE,2944,Zentralbahn,1,1456
+PE,2945,Zentralbahn,1,1448
+PE,3092,Schweizerische Bundesbahnen SBB,1,617
+PE,3093,Schweizerische Bundesbahnen SBB,1,622
+PE,4064,BLS AG (bls)/Montreux-Oberland Bernois,2,2497
+PE,4065,BLS AG (bls)/Montreux-Oberland Bernois,2,2469
+PE,4068,BLS AG (bls)/Montreux-Oberland Bernois,2,2471
+PE,4069,BLS AG (bls)/Montreux-Oberland Bernois,2,2457
+PE,4074,BLS AG (bls)/Montreux-Oberland Bernois,2,2434
+PE,4075,BLS AG (bls)/Montreux-Oberland Bernois,2,2423
+PE,4078,BLS AG (bls)/Montreux-Oberland Bernois,2,2467
+PE,4079,BLS AG (bls)/Montreux-Oberland Bernois,2,2459
+PE,7951,Rhätische Bahn,1,32
+PE,7952,Rhätische Bahn,1,42
+PE,12213,Montreux-Oberland Bernois,1,28
+PE,12215,Montreux-Oberland Bernois,1,28
+PE,12217,Montreux-Oberland Bernois,1,56
+PE,12219,Montreux-Oberland Bernois,1,28
+PE,12221,Montreux-Oberland Bernois,1,28
+PE,12227,Montreux-Oberland Bernois,1,28
+PE,30064,BLS AG (bls),1,48
+PE,30065,BLS AG (bls),1,24
+PE,30068,BLS AG (bls),1,88
+PE,30069,BLS AG (bls),1,24
+PE,30074,BLS AG (bls),1,32
+PE,30075,BLS AG (bls),1,80
+PE,30078,BLS AG (bls),1,32
+PE,30079,BLS AG (bls),1,64
+PE,31065,BLS AG (bls),1,32
+PE,70952,Rhätische Bahn,1,23
+PE,74064,BLS AG (bls),1,8
+PE,74065,BLS AG (bls),1,80
+PE,74068,(none),0,8
+PE,74069,BLS AG (bls),1,32
+PE,74074,BLS AG (bls),1,24
+PE,74075,BLS AG (bls),1,48
+PE,74078,BLS AG (bls),1,8
+PE,74079,BLS AG (bls),1,48
+IC,180,Schweizerische Bundesbahnen SBB,1,238
+IC,181,Schweizerische Bundesbahnen SBB,1,248
+IC,182,Schweizerische Bundesbahnen SBB,1,326
+IC,183,Schweizerische Bundesbahnen SBB,1,275
+IC,184,Schweizerische Bundesbahnen SBB,1,334
+IC,185,Schweizerische Bundesbahnen SBB,1,263
+IC,186,Schweizerische Bundesbahnen SBB,1,317
+IC,187,Schweizerische Bundesbahnen SBB,1,242
+IC,188,Schweizerische Bundesbahnen SBB,1,294
+IC,189,Schweizerische Bundesbahnen SBB,1,156
+IC,280,Schweizerische Bundesbahnen SBB,1,341
+IC,281,Schweizerische Bundesbahnen SBB,1,234
+IC,282,Schweizerische Bundesbahnen SBB,1,340
+IC,283,Schweizerische Bundesbahnen SBB,1,237
+IC,284,Schweizerische Bundesbahnen SBB,1,338
+IC,285,Schweizerische Bundesbahnen SBB,1,237
+IC,333,Schweizerische Bundesbahnen SBB,1,247
+IC,336,Schweizerische Bundesbahnen SBB,1,1183
+IC,380,Schweizerische Bundesbahnen SBB,1,219
+IC,381,Schweizerische Bundesbahnen SBB,1,231
+IC,388,Schweizerische Bundesbahnen SBB,1,94
+IC,389,Schweizerische Bundesbahnen SBB,1,240
+IC,480,Schweizerische Bundesbahnen SBB,1,205
+IC,481,Schweizerische Bundesbahnen SBB,1,248
+IC,482,Schweizerische Bundesbahnen SBB,1,170
+IC,483,Schweizerische Bundesbahnen SBB,1,236
+IC,484,Schweizerische Bundesbahnen SBB,1,210
+IC,485,Schweizerische Bundesbahnen SBB,1,195
+IC,486,Schweizerische Bundesbahnen SBB,1,180
+IC,487,Schweizerische Bundesbahnen SBB,1,234
+IC,488,Schweizerische Bundesbahnen SBB,1,206
+IC,489,Schweizerische Bundesbahnen SBB,1,249
+IC,504,Schweizerische Bundesbahnen SBB,1,909
+IC,505,Schweizerische Bundesbahnen SBB,1,900
+IC,506,Schweizerische Bundesbahnen SBB,1,1420
+IC,507,Schweizerische Bundesbahnen SBB,1,1742
+IC,508,Schweizerische Bundesbahnen SBB,1,1574
+IC,509,Schweizerische Bundesbahnen SBB,1,2400
+IC,510,Schweizerische Bundesbahnen SBB,1,2226
+IC,511,Schweizerische Bundesbahnen SBB,1,2242
+IC,512,Schweizerische Bundesbahnen SBB,1,2234
+IC,513,Schweizerische Bundesbahnen SBB,1,2242
+IC,514,Schweizerische Bundesbahnen SBB,1,2241
+IC,515,Schweizerische Bundesbahnen SBB,1,2229
+IC,516,Schweizerische Bundesbahnen SBB,1,2228
+IC,517,Schweizerische Bundesbahnen SBB,1,2229
+IC,518,Schweizerische Bundesbahnen SBB,1,2224
+IC,519,Schweizerische Bundesbahnen SBB,1,2229
+IC,520,Schweizerische Bundesbahnen SBB,1,2230
+IC,521,Schweizerische Bundesbahnen SBB,1,2242
+IC,522,Schweizerische Bundesbahnen SBB,1,2244
+IC,523,Schweizerische Bundesbahnen SBB,1,2229
+IC,524,Schweizerische Bundesbahnen SBB,1,2231
+IC,525,Schweizerische Bundesbahnen SBB,1,2231
+IC,526,Schweizerische Bundesbahnen SBB,1,2227
+IC,527,Schweizerische Bundesbahnen SBB,1,2231
+IC,528,Schweizerische Bundesbahnen SBB,1,2231
+IC,529,Schweizerische Bundesbahnen SBB,1,2232
+IC,530,Schweizerische Bundesbahnen SBB,1,2231
+IC,531,Schweizerische Bundesbahnen SBB,1,2232
+IC,532,Schweizerische Bundesbahnen SBB,1,2231
+IC,533,Schweizerische Bundesbahnen SBB,1,2052
+IC,534,Schweizerische Bundesbahnen SBB,1,2231
+IC,535,Schweizerische Bundesbahnen SBB,1,1576
+IC,536,Schweizerische Bundesbahnen SBB,1,2223
+IC,537,Schweizerische Bundesbahnen SBB,1,1583
+IC,538,Schweizerische Bundesbahnen SBB,1,2233
+IC,539,Schweizerische Bundesbahnen SBB,1,1575
+IC,540,Schweizerische Bundesbahnen SBB,1,1777
+IC,541,Schweizerische Bundesbahnen SBB,1,1837
+IC,542,Schweizerische Bundesbahnen SBB,1,1407
+IC,543,Schweizerische Bundesbahnen SBB,1,2098
+IC,551,Schweizerische Bundesbahnen SBB,1,234
+IC,552,Schweizerische Bundesbahnen SBB,1,50
+IC,553,Schweizerische Bundesbahnen SBB,1,229
+IC,556,Schweizerische Bundesbahnen SBB,1,743
+IC,557,Schweizerische Bundesbahnen SBB,1,704
+IC,558,Schweizerische Bundesbahnen SBB,1,822
+IC,559,Schweizerische Bundesbahnen SBB,1,860
+IC,560,Schweizerische Bundesbahnen SBB,1,826
+IC,561,Schweizerische Bundesbahnen SBB,1,682
+IC,562,Schweizerische Bundesbahnen SBB,1,636
+IC,563,Schweizerische Bundesbahnen SBB,1,865
+IC,564,Schweizerische Bundesbahnen SBB,1,818
+IC,565,Schweizerische Bundesbahnen SBB,1,500
+IC,566,Schweizerische Bundesbahnen SBB,1,500
+IC,567,Schweizerische Bundesbahnen SBB,1,709
+IC,568,Schweizerische Bundesbahnen SBB,1,823
+IC,569,Schweizerische Bundesbahnen SBB,1,627
+IC,570,Schweizerische Bundesbahnen SBB,1,492
+IC,571,Schweizerische Bundesbahnen SBB,1,688
+IC,572,Schweizerische Bundesbahnen SBB,1,596
+IC,573,Schweizerische Bundesbahnen SBB,1,496
+IC,574,Schweizerische Bundesbahnen SBB,1,496
+IC,575,Schweizerische Bundesbahnen SBB,1,822
+IC,576,Schweizerische Bundesbahnen SBB,1,864
+IC,577,Schweizerische Bundesbahnen SBB,1,500
+IC,578,Schweizerische Bundesbahnen SBB,1,678
+IC,579,Schweizerische Bundesbahnen SBB,1,865
+IC,580,Schweizerische Bundesbahnen SBB,1,704
+IC,581,Schweizerische Bundesbahnen SBB,1,836
+IC,582,Schweizerische Bundesbahnen SBB,1,610
+IC,583,Schweizerische Bundesbahnen SBB,1,865
+IC,584,Schweizerische Bundesbahnen SBB,1,825
+IC,585,Schweizerische Bundesbahnen SBB,1,709
+IC,586,Schweizerische Bundesbahnen SBB,1,713
+IC,587,Schweizerische Bundesbahnen SBB,1,806
+IC,589,Schweizerische Bundesbahnen SBB,1,1083
+IC,591,Schweizerische Bundesbahnen SBB,1,221
+IC,595,Schweizerische Bundesbahnen SBB,1,10
+IC,597,Schweizerische Bundesbahnen SBB,1,40
+IC,604,Schweizerische Bundesbahnen SBB,1,195
+IC,606,Schweizerische Bundesbahnen SBB,1,1104
+IC,607,Schweizerische Bundesbahnen SBB,1,1604
+IC,608,Schweizerische Bundesbahnen SBB,1,1261
+IC,610,Schweizerische Bundesbahnen SBB,1,1279
+IC,611,Schweizerische Bundesbahnen SBB,1,1273
+IC,612,Schweizerische Bundesbahnen SBB,1,1268
+IC,613,Schweizerische Bundesbahnen SBB,1,1252
+IC,615,Schweizerische Bundesbahnen SBB,1,1274
+IC,616,Schweizerische Bundesbahnen SBB,1,1270
+IC,617,Schweizerische Bundesbahnen SBB,1,966
+IC,618,Schweizerische Bundesbahnen SBB,1,1251
+IC,619,Schweizerische Bundesbahnen SBB,1,1244
+IC,620,Schweizerische Bundesbahnen SBB,1,1239
+IC,622,Schweizerische Bundesbahnen SBB,1,968
+IC,623,Schweizerische Bundesbahnen SBB,1,1265
+IC,624,Schweizerische Bundesbahnen SBB,1,1258
+IC,625,Schweizerische Bundesbahnen SBB,1,1268
+IC,626,Schweizerische Bundesbahnen SBB,1,1272
+IC,627,Schweizerische Bundesbahnen SBB,1,1280
+IC,628,Schweizerische Bundesbahnen SBB,1,1272
+IC,629,Schweizerische Bundesbahnen SBB,1,1279
+IC,632,Schweizerische Bundesbahnen SBB,1,1275
+IC,633,Schweizerische Bundesbahnen SBB,1,1268
+IC,634,Schweizerische Bundesbahnen SBB,1,1274
+IC,635,Schweizerische Bundesbahnen SBB,1,1276
+IC,637,Schweizerische Bundesbahnen SBB,1,1078
+IC,638,Schweizerische Bundesbahnen SBB,1,903
+IC,639,Schweizerische Bundesbahnen SBB,1,165
+IC,640,Schweizerische Bundesbahnen SBB,1,766
+IC,641,Schweizerische Bundesbahnen SBB,1,543
+IC,642,Schweizerische Bundesbahnen SBB,1,106
+IC,643,Schweizerische Bundesbahnen SBB,1,930
+IC,644,Schweizerische Bundesbahnen SBB,1,267
+IC,645,Schweizerische Bundesbahnen SBB,1,175
+IC,646,Schweizerische Bundesbahnen SBB,1,696
+IC,648,Schweizerische Bundesbahnen SBB,1,724
+IC,649,Schweizerische Bundesbahnen SBB,1,294
+IC,659,Schweizerische Bundesbahnen SBB,1,1110
+IC,663,Schweizerische Bundesbahnen SBB,1,1065
+IC,664,Schweizerische Bundesbahnen SBB,1,1381
+IC,667,Schweizerische Bundesbahnen SBB,1,1061
+IC,668,Schweizerische Bundesbahnen SBB,1,1035
+IC,671,Schweizerische Bundesbahnen SBB,1,1026
+IC,672,Schweizerische Bundesbahnen SBB,1,1021
+IC,675,Schweizerische Bundesbahnen SBB,1,1027
+IC,680,Schweizerische Bundesbahnen SBB,1,1051
+IC,683,Schweizerische Bundesbahnen SBB,1,1025
+IC,684,Schweizerische Bundesbahnen SBB,1,1047
+IC,687,Schweizerische Bundesbahnen SBB,1,1386
+IC,688,Schweizerische Bundesbahnen SBB,1,1052
+IC,691,Schweizerische Bundesbahnen SBB,1,1329
+IC,692,Schweizerische Bundesbahnen SBB,1,1297
+IC,696,Schweizerische Bundesbahnen SBB,1,1196
+IC,701,Schweizerische Bundesbahnen SBB,1,1590
+IC,702,Schweizerische Bundesbahnen SBB,1,1194
+IC,703,Schweizerische Bundesbahnen SBB,1,1851
+IC,704,Schweizerische Bundesbahnen SBB,1,1915
+IC,705,Schweizerische Bundesbahnen SBB,1,2029
+IC,706,Schweizerische Bundesbahnen SBB,1,2669
+IC,707,Schweizerische Bundesbahnen SBB,1,2214
+IC,708,Schweizerische Bundesbahnen SBB,1,2675
+IC,709,Schweizerische Bundesbahnen SBB,1,2676
+IC,710,Schweizerische Bundesbahnen SBB,1,2684
+IC,711,Schweizerische Bundesbahnen SBB,1,2211
+IC,712,Schweizerische Bundesbahnen SBB,1,2669
+IC,713,Schweizerische Bundesbahnen SBB,1,2649
+IC,714,Schweizerische Bundesbahnen SBB,1,2669
+IC,715,Schweizerische Bundesbahnen SBB,1,2179
+IC,716,Schweizerische Bundesbahnen SBB,1,2201
+IC,717,Schweizerische Bundesbahnen SBB,1,2659
+IC,718,Schweizerische Bundesbahnen SBB,1,2670
+IC,719,Schweizerische Bundesbahnen SBB,1,2215
+IC,720,Schweizerische Bundesbahnen SBB,1,2202
+IC,721,Schweizerische Bundesbahnen SBB,1,2666
+IC,722,Schweizerische Bundesbahnen SBB,1,2670
+IC,723,Schweizerische Bundesbahnen SBB,1,2201
+IC,724,Schweizerische Bundesbahnen SBB,1,2201
+IC,725,Schweizerische Bundesbahnen SBB,1,2666
+IC,726,Schweizerische Bundesbahnen SBB,1,2681
+IC,727,Schweizerische Bundesbahnen SBB,1,2666
+IC,728,Schweizerische Bundesbahnen SBB,1,2200
+IC,729,Schweizerische Bundesbahnen SBB,1,2665
+IC,730,Schweizerische Bundesbahnen SBB,1,2645
+IC,731,Schweizerische Bundesbahnen SBB,1,2658
+IC,732,Schweizerische Bundesbahnen SBB,1,1752
+IC,733,Schweizerische Bundesbahnen SBB,1,2536
+IC,734,Schweizerische Bundesbahnen SBB,1,2219
+IC,735,Schweizerische Bundesbahnen SBB,1,2828
+IC,736,Schweizerische Bundesbahnen SBB,1,1887
+IC,737,Schweizerische Bundesbahnen SBB,1,1533
+IC,738,Schweizerische Bundesbahnen SBB,1,1788
+IC,739,Schweizerische Bundesbahnen SBB,1,1219
+IC,740,Schweizerische Bundesbahnen SBB,1,528
+IC,757,Schweizerische Bundesbahnen SBB,1,705
+IC,758,Schweizerische Bundesbahnen SBB,1,360
+IC,760,Schweizerische Bundesbahnen SBB,1,62
+IC,761,Schweizerische Bundesbahnen SBB,1,903
+IC,762,Schweizerische Bundesbahnen SBB,1,507
+IC,763,Schweizerische Bundesbahnen SBB,1,898
+IC,764,Schweizerische Bundesbahnen SBB,1,714
+IC,765,Schweizerische Bundesbahnen SBB,1,708
+IC,768,Schweizerische Bundesbahnen SBB,1,713
+IC,769,Schweizerische Bundesbahnen SBB,1,696
+IC,770,Schweizerische Bundesbahnen SBB,1,835
+IC,772,Schweizerische Bundesbahnen SBB,1,830
+IC,773,Schweizerische Bundesbahnen SBB,1,777
+IC,775,Schweizerische Bundesbahnen SBB,1,883
+IC,776,Schweizerische Bundesbahnen SBB,1,835
+IC,779,Schweizerische Bundesbahnen SBB,1,898
+IC,780,Schweizerische Bundesbahnen SBB,1,837
+IC,781,Schweizerische Bundesbahnen SBB,1,896
+IC,782,Schweizerische Bundesbahnen SBB,1,822
+IC,786,Schweizerische Bundesbahnen SBB,1,712
+IC,787,Schweizerische Bundesbahnen SBB,1,232
+IC,788,Schweizerische Bundesbahnen SBB,1,141
+IC,789,Schweizerische Bundesbahnen SBB,1,346
+IC,790,Schweizerische Bundesbahnen SBB,1,50
+IC,791,Schweizerische Bundesbahnen SBB,1,68
+IC,792,Schweizerische Bundesbahnen SBB,1,106
+IC,793,Schweizerische Bundesbahnen SBB,1,120
+IC,794,Schweizerische Bundesbahnen SBB,1,314
+IC,795,Schweizerische Bundesbahnen SBB,1,185
+IC,798,Schweizerische Bundesbahnen SBB,1,52
+IC,802,Schweizerische Bundesbahnen SBB,1,875
+IC,803,Schweizerische Bundesbahnen SBB,1,1238
+IC,804,Schweizerische Bundesbahnen SBB,1,1127
+IC,805,Schweizerische Bundesbahnen SBB,1,1569
+IC,806,Schweizerische Bundesbahnen SBB,1,2032
+IC,807,Schweizerische Bundesbahnen SBB,1,2255
+IC,808,Schweizerische Bundesbahnen SBB,1,2092
+IC,809,Schweizerische Bundesbahnen SBB,1,2021
+IC,810,Schweizerische Bundesbahnen SBB,1,2044
+IC,811,Schweizerische Bundesbahnen SBB,1,2032
+IC,812,Schweizerische Bundesbahnen SBB,1,2086
+IC,813,Schweizerische Bundesbahnen SBB,1,2086
+IC,814,Schweizerische Bundesbahnen SBB,1,2032
+IC,815,Schweizerische Bundesbahnen SBB,1,2032
+IC,816,Schweizerische Bundesbahnen SBB,1,2074
+IC,817,Schweizerische Bundesbahnen SBB,1,2086
+IC,818,Schweizerische Bundesbahnen SBB,1,2032
+IC,819,Schweizerische Bundesbahnen SBB,1,2032
+IC,820,Schweizerische Bundesbahnen SBB,1,2084
+IC,821,Schweizerische Bundesbahnen SBB,1,2082
+IC,822,Schweizerische Bundesbahnen SBB,1,2048
+IC,823,Schweizerische Bundesbahnen SBB,1,2036
+IC,824,Schweizerische Bundesbahnen SBB,1,2091
+IC,825,Schweizerische Bundesbahnen SBB,1,2079
+IC,826,Schweizerische Bundesbahnen SBB,1,1984
+IC,827,Schweizerische Bundesbahnen SBB,1,2038
+IC,828,Schweizerische Bundesbahnen SBB,1,2087
+IC,829,Schweizerische Bundesbahnen SBB,1,2091
+IC,830,Schweizerische Bundesbahnen SBB,1,2011
+IC,831,Schweizerische Bundesbahnen SBB,1,2044
+IC,832,Schweizerische Bundesbahnen SBB,1,1410
+IC,833,Schweizerische Bundesbahnen SBB,1,1115
+IC,834,Schweizerische Bundesbahnen SBB,1,1411
+IC,835,Schweizerische Bundesbahnen SBB,1,1999
+IC,836,Schweizerische Bundesbahnen SBB,1,1573
+IC,837,Schweizerische Bundesbahnen SBB,1,1556
+IC,838,Schweizerische Bundesbahnen SBB,1,1546
+IC,839,Schweizerische Bundesbahnen SBB,1,534
+IC,840,Schweizerische Bundesbahnen SBB,1,1272
+IC,841,Schweizerische Bundesbahnen SBB,1,584
+IC,842,Schweizerische Bundesbahnen SBB,1,526
+IC,843,Schweizerische Bundesbahnen SBB,1,224
+IC,844,Schweizerische Bundesbahnen SBB,1,168
+IC,845,Schweizerische Bundesbahnen SBB,1,1240
+IC,847,Schweizerische Bundesbahnen SBB,1,436
+IC,861,Schweizerische Bundesbahnen SBB,1,993
+IC,862,Schweizerische Bundesbahnen SBB,1,893
+IC,865,Schweizerische Bundesbahnen SBB,1,987
+IC,866,Schweizerische Bundesbahnen SBB,1,1065
+IC,869,Schweizerische Bundesbahnen SBB,1,996
+IC,870,Schweizerische Bundesbahnen SBB,1,1059
+IC,873,Schweizerische Bundesbahnen SBB,1,960
+IC,874,Schweizerische Bundesbahnen SBB,1,1057
+IC,877,Schweizerische Bundesbahnen SBB,1,995
+IC,878,Schweizerische Bundesbahnen SBB,1,980
+IC,881,Schweizerische Bundesbahnen SBB,1,1003
+IC,882,Schweizerische Bundesbahnen SBB,1,1022
+IC,885,Schweizerische Bundesbahnen SBB,1,994
+IC,886,Schweizerische Bundesbahnen SBB,1,1027
+IC,889,Schweizerische Bundesbahnen SBB,1,1156
+IC,890,Schweizerische Bundesbahnen SBB,1,1028
+IC,893,Schweizerische Bundesbahnen SBB,1,772
+IC,894,Schweizerische Bundesbahnen SBB,1,1019
+IC,895,Schweizerische Bundesbahnen SBB,1,183
+IC,900,Schweizerische Bundesbahnen SBB,1,506
+IC,901,Schweizerische Bundesbahnen SBB,1,485
+IC,902,Schweizerische Bundesbahnen SBB,1,506
+IC,903,Schweizerische Bundesbahnen SBB,1,503
+IC,904,Schweizerische Bundesbahnen SBB,1,500
+IC,905,Schweizerische Bundesbahnen SBB,1,503
+IC,906,Schweizerische Bundesbahnen SBB,1,496
+IC,907,Schweizerische Bundesbahnen SBB,1,503
+IC,908,Schweizerische Bundesbahnen SBB,1,344
+IC,909,Schweizerische Bundesbahnen SBB,1,499
+IC,955,Schweizerische Bundesbahnen SBB,1,874
+IC,956,Schweizerische Bundesbahnen SBB,1,1579
+IC,957,Schweizerische Bundesbahnen SBB,1,1439
+IC,959,Schweizerische Bundesbahnen SBB,1,1401
+IC,960,Schweizerische Bundesbahnen SBB,1,1394
+IC,963,Schweizerische Bundesbahnen SBB,1,1405
+IC,964,Schweizerische Bundesbahnen SBB,1,1443
+IC,965,Schweizerische Bundesbahnen SBB,1,1443
+IC,966,Schweizerische Bundesbahnen SBB,1,1410
+IC,969,Schweizerische Bundesbahnen SBB,1,1435
+IC,970,Schweizerische Bundesbahnen SBB,1,1398
+IC,971,Schweizerische Bundesbahnen SBB,1,1395
+IC,972,Schweizerische Bundesbahnen SBB,1,1403
+IC,975,Schweizerische Bundesbahnen SBB,1,1421
+IC,976,Schweizerische Bundesbahnen SBB,1,1449
+IC,977,Schweizerische Bundesbahnen SBB,1,1444
+IC,978,Schweizerische Bundesbahnen SBB,1,1424
+IC,981,Schweizerische Bundesbahnen SBB,1,1400
+IC,982,Schweizerische Bundesbahnen SBB,1,1426
+IC,983,Schweizerische Bundesbahnen SBB,1,1400
+IC,984,Schweizerische Bundesbahnen SBB,1,1437
+IC,986,Schweizerische Bundesbahnen SBB,1,213
+IC,987,Schweizerische Bundesbahnen SBB,1,1372
+IC,988,Schweizerische Bundesbahnen SBB,1,890
+IC,989,Schweizerische Bundesbahnen SBB,1,1368
+IC,990,Schweizerische Bundesbahnen SBB,1,889
+IC,991,Schweizerische Bundesbahnen SBB,1,1038
+IC,992,Schweizerische Bundesbahnen SBB,1,871
+IC,993,Schweizerische Bundesbahnen SBB,1,423
+IC,1056,Schweizerische Bundesbahnen SBB,1,228
+IC,1057,Schweizerische Bundesbahnen SBB,1,845
+IC,1058,Schweizerische Bundesbahnen SBB,1,706
+IC,1082,Schweizerische Bundesbahnen SBB,1,69
+IC,1083,Schweizerische Bundesbahnen SBB,1,360
+IC,1085,Schweizerische Bundesbahnen SBB,1,360
+IC,1089,Schweizerische Bundesbahnen SBB,1,78
+IC,1180,Schweizerische Bundesbahnen SBB,1,162
+IC,1181,Schweizerische Bundesbahnen SBB,1,242
+IC,1184,Schweizerische Bundesbahnen SBB,1,66
+IC,1256,Schweizerische Bundesbahnen SBB,1,69
+IC,1257,Schweizerische Bundesbahnen SBB,1,75
+IC,1302,Schweizerische Bundesbahnen SBB,1,208
+IC,1303,Schweizerische Bundesbahnen SBB,1,205
+IC,1310,Schweizerische Bundesbahnen SBB,1,5
+IC,1311,Schweizerische Bundesbahnen SBB,1,5
+IC,1330,Schweizerische Bundesbahnen SBB,1,95
+IC,1339,Schweizerische Bundesbahnen SBB,1,5
+IC,1341,Schweizerische Bundesbahnen SBB,1,162
+IC,1343,Schweizerische Bundesbahnen SBB,1,20
+IC,1344,Schweizerische Bundesbahnen SBB,1,272
+IC,1345,Schweizerische Bundesbahnen SBB,1,318
+IC,1346,Schweizerische Bundesbahnen SBB,1,163
+IC,1408,Schweizerische Bundesbahnen SBB,1,230
+IC,1410,Schweizerische Bundesbahnen SBB,1,375
+IC,1411,Schweizerische Bundesbahnen SBB,1,230
+IC,1429,Schweizerische Bundesbahnen SBB,1,342
+IC,1431,Schweizerische Bundesbahnen SBB,1,374
+IC,1455,Schweizerische Bundesbahnen SBB,1,291
+IC,1462,Schweizerische Bundesbahnen SBB,1,875
+IC,1466,Schweizerische Bundesbahnen SBB,1,1113
+IC,1467,Schweizerische Bundesbahnen SBB,1,78
+IC,1474,Schweizerische Bundesbahnen SBB,1,1080
+IC,1479,Schweizerische Bundesbahnen SBB,1,1092
+IC,1482,Schweizerische Bundesbahnen SBB,1,72
+IC,1487,Schweizerische Bundesbahnen SBB,1,180
+IC,1490,Schweizerische Bundesbahnen SBB,1,234
+IC,1507,Schweizerische Bundesbahnen SBB,1,224
+IC,1510,Schweizerische Bundesbahnen SBB,1,504
+IC,1511,Schweizerische Bundesbahnen SBB,1,232
+IC,1514,Schweizerische Bundesbahnen SBB,1,500
+IC,1515,Schweizerische Bundesbahnen SBB,1,244
+IC,1518,Schweizerische Bundesbahnen SBB,1,500
+IC,1519,Schweizerische Bundesbahnen SBB,1,620
+IC,1522,Schweizerische Bundesbahnen SBB,1,220
+IC,1523,Schweizerische Bundesbahnen SBB,1,308
+IC,1526,Schweizerische Bundesbahnen SBB,1,629
+IC,1527,Schweizerische Bundesbahnen SBB,1,628
+IC,1530,Schweizerische Bundesbahnen SBB,1,634
+IC,1531,Schweizerische Bundesbahnen SBB,1,496
+IC,1534,Schweizerische Bundesbahnen SBB,1,308
+IC,1580,(none),0,3
+IC,1604,Schweizerische Bundesbahnen SBB,1,1405
+IC,1605,Schweizerische Bundesbahnen SBB,1,534
+IC,1607,Schweizerische Bundesbahnen SBB,1,1068
+IC,1608,Schweizerische Bundesbahnen SBB,1,1412
+IC,1609,Schweizerische Bundesbahnen SBB,1,1762
+IC,1610,Schweizerische Bundesbahnen SBB,1,1786
+IC,1611,Schweizerische Bundesbahnen SBB,1,1787
+IC,1612,Schweizerische Bundesbahnen SBB,1,1792
+IC,1613,Schweizerische Bundesbahnen SBB,1,1777
+IC,1614,Schweizerische Bundesbahnen SBB,1,1781
+IC,1615,Schweizerische Bundesbahnen SBB,1,1782
+IC,1616,Schweizerische Bundesbahnen SBB,1,1782
+IC,1617,Schweizerische Bundesbahnen SBB,1,1782
+IC,1618,Schweizerische Bundesbahnen SBB,1,1782
+IC,1619,Schweizerische Bundesbahnen SBB,1,1772
+IC,1620,Schweizerische Bundesbahnen SBB,1,1773
+IC,1621,Schweizerische Bundesbahnen SBB,1,1752
+IC,1622,Schweizerische Bundesbahnen SBB,1,1774
+IC,1623,Schweizerische Bundesbahnen SBB,1,1781
+IC,1624,Schweizerische Bundesbahnen SBB,1,1782
+IC,1625,Schweizerische Bundesbahnen SBB,1,1784
+IC,1626,Schweizerische Bundesbahnen SBB,1,1783
+IC,1627,Schweizerische Bundesbahnen SBB,1,1784
+IC,1628,Schweizerische Bundesbahnen SBB,1,1784
+IC,1629,Schweizerische Bundesbahnen SBB,1,1784
+IC,1630,Schweizerische Bundesbahnen SBB,1,1784
+IC,1631,Schweizerische Bundesbahnen SBB,1,1784
+IC,1632,Schweizerische Bundesbahnen SBB,1,1784
+IC,1633,Schweizerische Bundesbahnen SBB,1,1784
+IC,1634,Schweizerische Bundesbahnen SBB,1,1779
+IC,1635,Schweizerische Bundesbahnen SBB,1,1780
+IC,1636,Schweizerische Bundesbahnen SBB,1,1784
+IC,1637,Schweizerische Bundesbahnen SBB,1,1770
+IC,1638,Schweizerische Bundesbahnen SBB,1,1757
+IC,1639,Schweizerische Bundesbahnen SBB,1,1419
+IC,1640,Schweizerische Bundesbahnen SBB,1,1772
+IC,1641,Schweizerische Bundesbahnen SBB,1,1363
+IC,1642,Schweizerische Bundesbahnen SBB,1,520
+IC,1643,Schweizerische Bundesbahnen SBB,1,1314
+IC,1645,Schweizerische Bundesbahnen SBB,1,871
+IC,2345,Schweizerische Bundesbahnen SBB,1,720
+IC,2349,Schweizerische Bundesbahnen SBB,1,388
+IC,2552,(none),0,6
+IC,2553,(none),0,6
+IC,2556,(none),0,6
+IC,2557,(none),0,4
+IC,2572,(none),0,5
+IC,2573,(none),0,3
+IC,2579,(none),0,3
+IC,10057,Schweizerische Bundesbahnen SBB,1,8
+IC,10058,Schweizerische Bundesbahnen SBB,1,4
+IC,10101,Schweizerische Bundesbahnen SBB,1,14
+IC,10102,Schweizerische Bundesbahnen SBB,1,24
+IC,10104,Schweizerische Bundesbahnen SBB,1,20
+IC,10105,Schweizerische Bundesbahnen SBB,1,48
+IC,10107,Schweizerische Bundesbahnen SBB,1,29
+IC,10108,Schweizerische Bundesbahnen SBB,1,68
+IC,10263,Schweizerische Bundesbahnen SBB,1,25
+IC,10271,Schweizerische Bundesbahnen SBB,1,13
+IC,10272,Schweizerische Bundesbahnen SBB,1,24
+IC,10275,Schweizerische Bundesbahnen SBB,1,20
+IC,10277,Schweizerische Bundesbahnen SBB,1,32
+IC,10279,Schweizerische Bundesbahnen SBB,1,28
+IC,10333,Schweizerische Bundesbahnen SBB,1,5
+IC,10336,Schweizerische Bundesbahnen SBB,1,67
+IC,10350,(none),0,5
+IC,10360,Schweizerische Bundesbahnen SBB,1,110
+IC,10361,Schweizerische Bundesbahnen SBB,1,5
+IC,10363,Schweizerische Bundesbahnen SBB,1,74
+IC,10367,Schweizerische Bundesbahnen SBB,1,75
+IC,10370,Schweizerische Bundesbahnen SBB,1,115
+IC,10375,Schweizerische Bundesbahnen SBB,1,40
+IC,10377,Schweizerische Bundesbahnen SBB,1,56
+IC,10412,Schweizerische Bundesbahnen SBB,1,5
+IC,10416,Schweizerische Bundesbahnen SBB,1,5
+IC,10418,Schweizerische Bundesbahnen SBB,1,78
+IC,10422,Schweizerische Bundesbahnen SBB,1,33
+IC,10423,Schweizerische Bundesbahnen SBB,1,45
+IC,10426,Schweizerische Bundesbahnen SBB,1,33
+IC,10427,Schweizerische Bundesbahnen SBB,1,55
+IC,10430,Schweizerische Bundesbahnen SBB,1,57
+IC,10431,Schweizerische Bundesbahnen SBB,1,33
+IC,10480,Schweizerische Bundesbahnen SBB,1,136
+IC,10486,Schweizerische Bundesbahnen SBB,1,55
+IC,10488,Schweizerische Bundesbahnen SBB,1,131
+IC,10507,Schweizerische Bundesbahnen SBB,1,12
+IC,10509,Schweizerische Bundesbahnen SBB,1,20
+IC,10510,Schweizerische Bundesbahnen SBB,1,18
+IC,10511,Schweizerische Bundesbahnen SBB,1,18
+IC,10512,Schweizerische Bundesbahnen SBB,1,18
+IC,10513,Schweizerische Bundesbahnen SBB,1,18
+IC,10514,Schweizerische Bundesbahnen SBB,1,18
+IC,10515,Schweizerische Bundesbahnen SBB,1,18
+IC,10516,Schweizerische Bundesbahnen SBB,1,18
+IC,10517,Schweizerische Bundesbahnen SBB,1,18
+IC,10518,Schweizerische Bundesbahnen SBB,1,18
+IC,10519,Schweizerische Bundesbahnen SBB,1,18
+IC,10520,Schweizerische Bundesbahnen SBB,1,18
+IC,10521,Schweizerische Bundesbahnen SBB,1,18
+IC,10522,Schweizerische Bundesbahnen SBB,1,18
+IC,10523,Schweizerische Bundesbahnen SBB,1,18
+IC,10524,Schweizerische Bundesbahnen SBB,1,18
+IC,10525,Schweizerische Bundesbahnen SBB,1,18
+IC,10526,Schweizerische Bundesbahnen SBB,1,18
+IC,10527,Schweizerische Bundesbahnen SBB,1,18
+IC,10528,Schweizerische Bundesbahnen SBB,1,18
+IC,10529,Schweizerische Bundesbahnen SBB,1,27
+IC,10530,Schweizerische Bundesbahnen SBB,1,18
+IC,10531,Schweizerische Bundesbahnen SBB,1,18
+IC,10532,Schweizerische Bundesbahnen SBB,1,18
+IC,10533,Schweizerische Bundesbahnen SBB,1,18
+IC,10534,Schweizerische Bundesbahnen SBB,1,18
+IC,10536,Schweizerische Bundesbahnen SBB,1,18
+IC,10538,Schweizerische Bundesbahnen SBB,1,18
+IC,10556,Schweizerische Bundesbahnen SBB,1,8
+IC,10557,Schweizerische Bundesbahnen SBB,1,20
+IC,10559,Schweizerische Bundesbahnen SBB,1,4
+IC,10562,Schweizerische Bundesbahnen SBB,1,5
+IC,10563,Schweizerische Bundesbahnen SBB,1,12
+IC,10564,Schweizerische Bundesbahnen SBB,1,4
+IC,10567,Schweizerische Bundesbahnen SBB,1,4
+IC,10568,Schweizerische Bundesbahnen SBB,1,8
+IC,10571,Schweizerische Bundesbahnen SBB,1,4
+IC,10572,Schweizerische Bundesbahnen SBB,1,4
+IC,10575,Schweizerische Bundesbahnen SBB,1,8
+IC,10579,Schweizerische Bundesbahnen SBB,1,6
+IC,10581,Schweizerische Bundesbahnen SBB,1,12
+IC,10583,Schweizerische Bundesbahnen SBB,1,25
+IC,10584,Schweizerische Bundesbahnen SBB,1,4
+IC,10585,Schweizerische Bundesbahnen SBB,1,4
+IC,10586,Schweizerische Bundesbahnen SBB,1,4
+IC,10587,(none),0,2
+IC,10589,Schweizerische Bundesbahnen SBB,1,5
+IC,10590,(none),0,8
+IC,10649,Schweizerische Bundesbahnen SBB,1,12
+IC,10667,Schweizerische Bundesbahnen SBB,1,20
+IC,10671,Schweizerische Bundesbahnen SBB,1,6
+IC,10675,Schweizerische Bundesbahnen SBB,1,6
+IC,10703,Schweizerische Bundesbahnen SBB,1,24
+IC,10705,Schweizerische Bundesbahnen SBB,1,24
+IC,10706,Schweizerische Bundesbahnen SBB,1,63
+IC,10708,Schweizerische Bundesbahnen SBB,1,63
+IC,10709,Schweizerische Bundesbahnen SBB,1,38
+IC,10710,Schweizerische Bundesbahnen SBB,1,63
+IC,10712,Schweizerische Bundesbahnen SBB,1,63
+IC,10713,Schweizerische Bundesbahnen SBB,1,36
+IC,10714,Schweizerische Bundesbahnen SBB,1,63
+IC,10717,Schweizerische Bundesbahnen SBB,1,36
+IC,10718,Schweizerische Bundesbahnen SBB,1,63
+IC,10721,Schweizerische Bundesbahnen SBB,1,36
+IC,10722,Schweizerische Bundesbahnen SBB,1,63
+IC,10725,Schweizerische Bundesbahnen SBB,1,36
+IC,10726,Schweizerische Bundesbahnen SBB,1,63
+IC,10727,Schweizerische Bundesbahnen SBB,1,36
+IC,10729,Schweizerische Bundesbahnen SBB,1,36
+IC,10730,Schweizerische Bundesbahnen SBB,1,63
+IC,10731,Schweizerische Bundesbahnen SBB,1,36
+IC,10733,Schweizerische Bundesbahnen SBB,1,45
+IC,10734,Schweizerische Bundesbahnen SBB,1,65
+IC,10735,Schweizerische Bundesbahnen SBB,1,46
+IC,10736,Schweizerische Bundesbahnen SBB,1,59
+IC,10738,Schweizerische Bundesbahnen SBB,1,24
+IC,10757,Schweizerische Bundesbahnen SBB,1,21
+IC,10763,Schweizerische Bundesbahnen SBB,1,8
+IC,10764,Schweizerische Bundesbahnen SBB,1,5
+IC,10769,Schweizerische Bundesbahnen SBB,1,4
+IC,10770,Schweizerische Bundesbahnen SBB,1,16
+IC,10772,Schweizerische Bundesbahnen SBB,1,24
+IC,10773,Schweizerische Bundesbahnen SBB,1,8
+IC,10775,Schweizerische Bundesbahnen SBB,1,17
+IC,10776,Schweizerische Bundesbahnen SBB,1,36
+IC,10779,Schweizerische Bundesbahnen SBB,1,8
+IC,10780,Schweizerische Bundesbahnen SBB,1,16
+IC,10781,Schweizerische Bundesbahnen SBB,1,13
+IC,10782,Schweizerische Bundesbahnen SBB,1,12
+IC,10785,Schweizerische Bundesbahnen SBB,1,32
+IC,10787,Schweizerische Bundesbahnen SBB,1,24
+IC,10788,Schweizerische Bundesbahnen SBB,1,16
+IC,10792,Schweizerische Bundesbahnen SBB,1,12
+IC,10793,Schweizerische Bundesbahnen SBB,1,14
+IC,10802,Schweizerische Bundesbahnen SBB,1,25
+IC,10805,Schweizerische Bundesbahnen SBB,1,12
+IC,10806,Schweizerische Bundesbahnen SBB,1,138
+IC,10807,Schweizerische Bundesbahnen SBB,1,43
+IC,10808,Schweizerische Bundesbahnen SBB,1,30
+IC,10809,Schweizerische Bundesbahnen SBB,1,148
+IC,10810,Schweizerische Bundesbahnen SBB,1,125
+IC,10811,Schweizerische Bundesbahnen SBB,1,182
+IC,10812,Schweizerische Bundesbahnen SBB,1,30
+IC,10813,Schweizerische Bundesbahnen SBB,1,28
+IC,10814,Schweizerische Bundesbahnen SBB,1,144
+IC,10815,Schweizerische Bundesbahnen SBB,1,112
+IC,10816,Schweizerische Bundesbahnen SBB,1,30
+IC,10817,Schweizerische Bundesbahnen SBB,1,28
+IC,10818,Schweizerische Bundesbahnen SBB,1,54
+IC,10819,Schweizerische Bundesbahnen SBB,1,88
+IC,10820,Schweizerische Bundesbahnen SBB,1,30
+IC,10821,Schweizerische Bundesbahnen SBB,1,28
+IC,10822,Schweizerische Bundesbahnen SBB,1,78
+IC,10823,Schweizerische Bundesbahnen SBB,1,64
+IC,10824,Schweizerische Bundesbahnen SBB,1,30
+IC,10825,Schweizerische Bundesbahnen SBB,1,28
+IC,10826,Schweizerische Bundesbahnen SBB,1,152
+IC,10827,Schweizerische Bundesbahnen SBB,1,76
+IC,10828,Schweizerische Bundesbahnen SBB,1,30
+IC,10829,Schweizerische Bundesbahnen SBB,1,31
+IC,10830,Schweizerische Bundesbahnen SBB,1,88
+IC,10831,Schweizerische Bundesbahnen SBB,1,88
+IC,10832,Schweizerische Bundesbahnen SBB,1,14
+IC,10834,Schweizerische Bundesbahnen SBB,1,14
+IC,10835,Schweizerische Bundesbahnen SBB,1,132
+IC,10836,Schweizerische Bundesbahnen SBB,1,14
+IC,10837,Schweizerische Bundesbahnen SBB,1,17
+IC,10838,Schweizerische Bundesbahnen SBB,1,17
+IC,10842,Schweizerische Bundesbahnen SBB,1,21
+IC,10870,Schweizerische Bundesbahnen SBB,1,11
+IC,10877,Schweizerische Bundesbahnen SBB,1,6
+IC,10885,Schweizerische Bundesbahnen SBB,1,12
+IC,10900,Schweizerische Bundesbahnen SBB,1,50
+IC,10901,Schweizerische Bundesbahnen SBB,1,42
+IC,10902,Schweizerische Bundesbahnen SBB,1,42
+IC,10903,Schweizerische Bundesbahnen SBB,1,30
+IC,10904,Schweizerische Bundesbahnen SBB,1,30
+IC,10905,Schweizerische Bundesbahnen SBB,1,62
+IC,10906,Schweizerische Bundesbahnen SBB,1,30
+IC,10907,Schweizerische Bundesbahnen SBB,1,50
+IC,10908,Schweizerische Bundesbahnen SBB,1,25
+IC,10909,Schweizerische Bundesbahnen SBB,1,30
+IC,10955,Schweizerische Bundesbahnen SBB,1,19
+IC,10956,BLS AG (bls),1,6
+IC,10959,Schweizerische Bundesbahnen SBB,1,39
+IC,10960,Schweizerische Bundesbahnen SBB,1,66
+IC,10962,Schweizerische Bundesbahnen SBB,1,5
+IC,10963,Schweizerische Bundesbahnen SBB,1,53
+IC,10964,Schweizerische Bundesbahnen SBB,1,5
+IC,10965,Schweizerische Bundesbahnen SBB,1,5
+IC,10966,Schweizerische Bundesbahnen SBB,1,39
+IC,10967,Schweizerische Bundesbahnen SBB,1,5
+IC,10968,Schweizerische Bundesbahnen SBB,1,5
+IC,10969,Schweizerische Bundesbahnen SBB,1,5
+IC,10970,Schweizerische Bundesbahnen SBB,1,65
+IC,10971,Schweizerische Bundesbahnen SBB,1,26
+IC,10972,Schweizerische Bundesbahnen SBB,1,5
+IC,10973,Schweizerische Bundesbahnen SBB,1,5
+IC,10974,Schweizerische Bundesbahnen SBB,1,5
+IC,10975,Schweizerische Bundesbahnen SBB,1,26
+IC,10976,Schweizerische Bundesbahnen SBB,1,5
+IC,10977,Schweizerische Bundesbahnen SBB,1,5
+IC,10978,Schweizerische Bundesbahnen SBB,1,33
+IC,10979,Schweizerische Bundesbahnen SBB,1,5
+IC,10980,Schweizerische Bundesbahnen SBB,1,5
+IC,10981,Schweizerische Bundesbahnen SBB,1,5
+IC,10982,Schweizerische Bundesbahnen SBB,1,42
+IC,10983,Schweizerische Bundesbahnen SBB,1,20
+IC,10984,Schweizerische Bundesbahnen SBB,1,5
+IC,10986,Schweizerische Bundesbahnen SBB,1,13
+IC,10987,Schweizerische Bundesbahnen SBB,1,5
+IC,10989,Schweizerische Bundesbahnen SBB,1,5
+IC,30002,Schweizerische Bundesbahnen SBB,1,4
+IC,30006,(none),0,2
+IC,30009,Schweizerische Bundesbahnen SBB,1,8
+IC,30010,Schweizerische Bundesbahnen SBB,1,10
+IC,30011,Schweizerische Bundesbahnen SBB,1,8
+IC,30013,Schweizerische Bundesbahnen SBB,1,2
+IC,30015,Schweizerische Bundesbahnen SBB,1,10
+IC,30019,(none),0,3
+IC,30023,(none),0,3
+IC,30024,Schweizerische Bundesbahnen SBB,1,5
+IC,30026,Schweizerische Bundesbahnen SBB,1,5
+IC,30030,Schweizerische Bundesbahnen SBB,1,13
+IC,30032,Schweizerische Bundesbahnen SBB,1,12
+IC,30035,Schweizerische Bundesbahnen SBB,1,8
+IC,30053,(none),0,12
+IC,30057,Schweizerische Bundesbahnen SBB,1,16
+IC,30063,Schweizerische Bundesbahnen SBB,1,6
+IC,30064,Schweizerische Bundesbahnen SBB,1,6
+IC,30065,Schweizerische Bundesbahnen SBB,1,7
+IC,30070,Schweizerische Bundesbahnen SBB,1,2
+IC,30083,Schweizerische Bundesbahnen SBB,1,6
+IC,30084,Schweizerische Bundesbahnen SBB,1,6
+IC,30087,Schweizerische Bundesbahnen SBB,1,6
+IC,30088,Schweizerische Bundesbahnen SBB,1,6
+IC,30100,Schweizerische Bundesbahnen SBB,1,8
+IC,30104,Schweizerische Bundesbahnen SBB,1,16
+IC,30108,Schweizerische Bundesbahnen SBB,1,4
+IC,30181,(none),0,2
+IC,30183,(none),0,2
+IC,30185,(none),0,2
+IC,30187,Schweizerische Bundesbahnen SBB,1,8
+IC,30213,(none),0,2
+IC,30215,(none),0,2
+IC,30270,Schweizerische Bundesbahnen SBB,1,2
+IC,30281,(none),0,4
+IC,30283,(none),0,4
+IC,30285,(none),0,4
+IC,30311,Schweizerische Bundesbahnen SBB,1,5
+IC,30319,Schweizerische Bundesbahnen SBB,1,7
+IC,30361,Schweizerische Bundesbahnen SBB,1,5
+IC,30375,Schweizerische Bundesbahnen SBB,1,7
+IC,30381,(none),0,4
+IC,30389,(none),0,4
+IC,30402,Schweizerische Bundesbahnen SBB,1,10
+IC,30459,Schweizerische Bundesbahnen SBB,1,12
+IC,30470,Schweizerische Bundesbahnen SBB,1,14
+IC,30483,(none),0,2
+IC,30485,(none),0,2
+IC,30487,(none),0,4
+IC,30489,(none),0,4
+IC,30502,Schweizerische Bundesbahnen SBB,1,4
+IC,30510,Schweizerische Bundesbahnen SBB,1,8
+IC,30512,Schweizerische Bundesbahnen SBB,1,4
+IC,30513,Schweizerische Bundesbahnen SBB,1,4
+IC,30514,Schweizerische Bundesbahnen SBB,1,4
+IC,30516,Schweizerische Bundesbahnen SBB,1,4
+IC,30519,Schweizerische Bundesbahnen SBB,1,4
+IC,30520,Schweizerische Bundesbahnen SBB,1,4
+IC,30522,Schweizerische Bundesbahnen SBB,1,4
+IC,30523,Schweizerische Bundesbahnen SBB,1,4
+IC,30524,Schweizerische Bundesbahnen SBB,1,4
+IC,30526,Schweizerische Bundesbahnen SBB,1,4
+IC,30527,Schweizerische Bundesbahnen SBB,1,4
+IC,30530,Schweizerische Bundesbahnen SBB,1,12
+IC,30532,Schweizerische Bundesbahnen SBB,1,4
+IC,30534,Schweizerische Bundesbahnen SBB,1,4
+IC,30535,Schweizerische Bundesbahnen SBB,1,4
+IC,30536,Schweizerische Bundesbahnen SBB,1,4
+IC,30538,Schweizerische Bundesbahnen SBB,1,4
+IC,30539,Schweizerische Bundesbahnen SBB,1,4
+IC,30542,Schweizerische Bundesbahnen SBB,1,4
+IC,30543,Schweizerische Bundesbahnen SBB,1,4
+IC,30558,Schweizerische Bundesbahnen SBB,1,2
+IC,30570,Schweizerische Bundesbahnen SBB,1,4
+IC,30587,Schweizerische Bundesbahnen SBB,1,11
+IC,30646,(none),0,16
+IC,30733,Schweizerische Bundesbahnen SBB,1,18
+IC,30734,Schweizerische Bundesbahnen SBB,1,7
+IC,30738,Schweizerische Bundesbahnen SBB,1,18
+IC,30739,Schweizerische Bundesbahnen SBB,1,4
+IC,30743,(none),0,12
+IC,30745,(none),0,6
+IC,30772,Schweizerische Bundesbahnen SBB,1,8
+IC,30806,Schweizerische Bundesbahnen SBB,1,8
+IC,30809,Schweizerische Bundesbahnen SBB,1,57
+IC,30819,Schweizerische Bundesbahnen SBB,1,8
+IC,30826,Schweizerische Bundesbahnen SBB,1,8
+IC,30830,Schweizerische Bundesbahnen SBB,1,36
+IC,30835,Schweizerische Bundesbahnen SBB,1,22
+IC,30842,Schweizerische Bundesbahnen SBB,1,5
+IC,30843,Schweizerische Bundesbahnen SBB,1,12
+IC,30847,Schweizerische Bundesbahnen SBB,1,3
+IC,30857,Schweizerische Bundesbahnen SBB,1,24
+IC,30861,Schweizerische Bundesbahnen SBB,1,12
+IC,30960,Schweizerische Bundesbahnen SBB,1,16
+IC,30978,Schweizerische Bundesbahnen SBB,1,14
+IC,30983,Schweizerische Bundesbahnen SBB,1,16
+IC,30993,Schweizerische Bundesbahnen SBB,1,6
+IC,31013,Schweizerische Bundesbahnen SBB,1,10
+IC,31014,Schweizerische Bundesbahnen SBB,1,15
+IC,31015,Schweizerische Bundesbahnen SBB,1,10
+IC,31016,Schweizerische Bundesbahnen SBB,1,15
+IC,31019,Schweizerische Bundesbahnen SBB,1,10
+IC,31020,Schweizerische Bundesbahnen SBB,1,15
+IC,31022,Schweizerische Bundesbahnen SBB,1,15
+IC,31024,Schweizerische Bundesbahnen SBB,1,15
+IC,31025,Schweizerische Bundesbahnen SBB,1,18
+IC,31026,Schweizerische Bundesbahnen SBB,1,18
+IC,31027,Schweizerische Bundesbahnen SBB,1,15
+IC,31030,Schweizerische Bundesbahnen SBB,1,15
+IC,31031,Schweizerische Bundesbahnen SBB,1,10
+IC,31032,Schweizerische Bundesbahnen SBB,1,15
+IC,31033,Schweizerische Bundesbahnen SBB,1,10
+IC,31036,Schweizerische Bundesbahnen SBB,1,11
+IC,31057,Schweizerische Bundesbahnen SBB,1,16
+IC,31061,Schweizerische Bundesbahnen SBB,1,10
+IC,31063,Schweizerische Bundesbahnen SBB,1,15
+IC,31065,Schweizerische Bundesbahnen SBB,1,10
+IC,31067,Schweizerische Bundesbahnen SBB,1,10
+IC,31071,Schweizerische Bundesbahnen SBB,1,15
+IC,31083,Schweizerische Bundesbahnen SBB,1,10
+IC,31084,Schweizerische Bundesbahnen SBB,1,16
+IC,31086,Schweizerische Bundesbahnen SBB,1,15
+IC,31088,Schweizerische Bundesbahnen SBB,1,16
+IC,31089,(none),0,4
+IC,31100,Schweizerische Bundesbahnen SBB,1,21
+IC,31101,Schweizerische Bundesbahnen SBB,1,42
+IC,31106,Schweizerische Bundesbahnen SBB,1,15
+IC,31113,(none),0,5
+IC,31115,(none),0,5
+IC,31119,(none),0,5
+IC,31133,(none),0,5
+IC,31150,Schweizerische Bundesbahnen SBB,1,15
+IC,31173,Schweizerische Bundesbahnen SBB,1,10
+IC,31178,Schweizerische Bundesbahnen SBB,1,15
+IC,31181,(none),0,2
+IC,31231,(none),0,5
+IC,31271,Schweizerische Bundesbahnen SBB,1,35
+IC,31303,Schweizerische Bundesbahnen SBB,1,9
+IC,31330,Schweizerische Bundesbahnen SBB,1,5
+IC,31377,Schweizerische Bundesbahnen SBB,1,5
+IC,31402,Schweizerische Bundesbahnen SBB,1,20
+IC,31455,Schweizerische Bundesbahnen SBB,1,6
+IC,31459,(none),0,12
+IC,31462,Schweizerische Bundesbahnen SBB,1,7
+IC,31466,Schweizerische Bundesbahnen SBB,1,21
+IC,31470,Schweizerische Bundesbahnen SBB,1,18
+IC,31481,(none),0,2
+IC,31502,(none),0,8
+IC,31518,Schweizerische Bundesbahnen SBB,1,5
+IC,31792,(none),0,2
+IC,31793,(none),0,2
+IC,32950,Schweizerische Bundesbahnen SBB,1,2
+IC,32952,Schweizerische Bundesbahnen SBB,1,2
+IC,32954,Schweizerische Bundesbahnen SBB,1,2
+IC,32956,Schweizerische Bundesbahnen SBB,1,2
+IC,32958,Schweizerische Bundesbahnen SBB,1,2
+IC,32960,Schweizerische Bundesbahnen SBB,1,2
+IC,32962,Schweizerische Bundesbahnen SBB,1,2
+IC,32964,Schweizerische Bundesbahnen SBB,1,2
+IC,32966,Schweizerische Bundesbahnen SBB,1,2
+IC,32968,Schweizerische Bundesbahnen SBB,1,2
+IC,32970,Schweizerische Bundesbahnen SBB,1,2
+IC,32972,Schweizerische Bundesbahnen SBB,1,2
+IC,32974,Schweizerische Bundesbahnen SBB,1,2
+IC,32976,Schweizerische Bundesbahnen SBB,1,2
+IC,32978,Schweizerische Bundesbahnen SBB,1,2
+IC,32980,Schweizerische Bundesbahnen SBB,1,2
+EC,4,Schweizerische Bundesbahnen SBB,1,88
+EC,5,Schweizerische Bundesbahnen SBB,1,144
+EC,8,Schweizerische Bundesbahnen SBB,1,91
+EC,9,Schweizerische Bundesbahnen SBB,1,122
+EC,10,Schweizerische Bundesbahnen SBB,1,1257
+EC,11,Schweizerische Bundesbahnen SBB,1,89
+EC,12,Schweizerische Bundesbahnen SBB,1,1199
+EC,13,Schweizerische Bundesbahnen SBB,1,69
+EC,14,Schweizerische Bundesbahnen SBB,1,1210
+EC,15,Schweizerische Bundesbahnen SBB,1,44
+EC,16,Schweizerische Bundesbahnen SBB,1,1253
+EC,19,Schweizerische Bundesbahnen SBB,1,95
+EC,20,Schweizerische Bundesbahnen SBB,1,1256
+EC,21,Schweizerische Bundesbahnen SBB,1,50
+EC,22,Schweizerische Bundesbahnen SBB,1,1269
+EC,23,Schweizerische Bundesbahnen SBB,1,63
+EC,24,Schweizerische Bundesbahnen SBB,1,1267
+EC,25,Schweizerische Bundesbahnen SBB,1,86
+EC,26,Schweizerische Bundesbahnen SBB,1,730
+EC,27,Schweizerische Bundesbahnen SBB,1,88
+EC,28,Schweizerische Bundesbahnen SBB,1,1312
+EC,29,Schweizerische Bundesbahnen SBB,1,179
+EC,30,Schweizerische Bundesbahnen SBB,1,725
+EC,31,Schweizerische Bundesbahnen SBB,1,50
+EC,32,Schweizerische Bundesbahnen SBB,1,179
+EC,33,Schweizerische Bundesbahnen SBB,1,29
+EC,36,Schweizerische Bundesbahnen SBB,1,624
+EC,37,Schweizerische Bundesbahnen SBB,1,141
+EC,40,Schweizerische Bundesbahnen SBB,1,543
+EC,41,Schweizerische Bundesbahnen SBB,1,191
+EC,42,Schweizerische Bundesbahnen SBB,1,155
+EC,43,Schweizerische Bundesbahnen SBB,1,11
+EC,44,Schweizerische Bundesbahnen SBB,1,502
+EC,45,Schweizerische Bundesbahnen SBB,1,51
+EC,46,Schweizerische Bundesbahnen SBB,1,1239
+EC,47,Schweizerische Bundesbahnen SBB,1,85
+EC,60,Schweizerische Bundesbahnen SBB,1,951
+EC,61,Schweizerische Bundesbahnen SBB,1,311
+EC,62,Schweizerische Bundesbahnen SBB,1,316
+EC,63,Schweizerische Bundesbahnen SBB,1,121
+EC,64,Schweizerische Bundesbahnen SBB,1,1166
+EC,65,Schweizerische Bundesbahnen SBB,1,304
+EC,66,Schweizerische Bundesbahnen SBB,1,1323
+EC,67,Schweizerische Bundesbahnen SBB,1,280
+EC,94,Schweizerische Bundesbahnen SBB,1,654
+EC,95,Schweizerische Bundesbahnen SBB,1,109
+EC,96,Schweizerische Bundesbahnen SBB,1,727
+EC,97,Schweizerische Bundesbahnen SBB,1,270
+EC,98,Schweizerische Bundesbahnen SBB,1,732
+EC,99,Schweizerische Bundesbahnen SBB,1,258
+EC,123,Schweizerische Bundesbahnen SBB,1,27
+EC,126,Schweizerische Bundesbahnen SBB,1,700
+EC,142,Schweizerische Bundesbahnen SBB,1,527
+EC,143,Schweizerische Bundesbahnen SBB,1,538
+EC,144,Schweizerische Bundesbahnen SBB,1,199
+EC,146,Schweizerische Bundesbahnen SBB,1,247
+EC,150,Schweizerische Bundesbahnen SBB,1,489
+EC,151,Schweizerische Bundesbahnen SBB,1,88
+EC,152,Schweizerische Bundesbahnen SBB,1,323
+EC,153,Schweizerische Bundesbahnen SBB,1,34
+EC,163,Schweizerische Bundesbahnen SBB,1,21
+EC,164,Schweizerische Bundesbahnen SBB,1,312
+EC,173,Schweizerische Bundesbahnen SBB,1,63
+EC,178,Schweizerische Bundesbahnen SBB,1,1331
+EC,190,Schweizerische Bundesbahnen SBB,1,726
+EC,191,Schweizerische Bundesbahnen SBB,1,256
+EC,192,Schweizerische Bundesbahnen SBB,1,728
+EC,193,Schweizerische Bundesbahnen SBB,1,246
+EC,194,Schweizerische Bundesbahnen SBB,1,709
+EC,195,Schweizerische Bundesbahnen SBB,1,265
+EC,196,Schweizerische Bundesbahnen SBB,1,710
+EC,197,Schweizerische Bundesbahnen SBB,1,267
+EC,198,Schweizerische Bundesbahnen SBB,1,714
+EC,199,Schweizerische Bundesbahnen SBB,1,287
+EC,290,Schweizerische Bundesbahnen SBB,1,868
+EC,301,Schweizerische Bundesbahnen SBB,1,5
+EC,306,Schweizerische Bundesbahnen SBB,1,401
+EC,332,Schweizerische Bundesbahnen SBB,1,193
+EC,458,(none),0,30
+EC,459,Schweizerische Bundesbahnen SBB,1,120
+EC,2550,Schweizerische Bundesbahnen SBB,1,11
+EC,2551,(none),0,6
+EC,2554,Schweizerische Bundesbahnen SBB,1,4
+EC,2555,Schweizerische Bundesbahnen SBB,1,8
+EC,2556,Schweizerische Bundesbahnen SBB,1,3
+EC,2558,(none),0,2
+EC,2559,(none),0,4
+EC,2574,(none),0,6
+EC,2577,(none),0,3
+EC,5322,Schweizerische Bundesbahnen SBB,1,2
+EC,10030,Schweizerische Bundesbahnen SBB,1,2
+EC,13472,Schweizerische Bundesbahnen SBB,1,145
+EC,13473,Schweizerische Bundesbahnen SBB,1,60
+EC,17788,Schweizerische Bundesbahnen SBB,1,16
+EC,30040,(none),0,6
+EC,30044,Schweizerische Bundesbahnen SBB,1,12
+EC,30046,(none),0,18
+EC,30051,Schweizerische Bundesbahnen SBB,1,2
+EC,30060,Schweizerische Bundesbahnen SBB,1,16
+EC,30061,Schweizerische Bundesbahnen SBB,1,4
+EC,30064,Schweizerische Bundesbahnen SBB,1,40
+EC,30065,Schweizerische Bundesbahnen SBB,1,1
+EC,30066,Schweizerische Bundesbahnen SBB,1,16
+EC,30144,Schweizerische Bundesbahnen SBB,1,6
+EC,30150,Schweizerische Bundesbahnen SBB,1,6
+EC,30178,Schweizerische Bundesbahnen SBB,1,6
+EC,30330,Schweizerische Bundesbahnen SBB,1,7
+EC,30446,Schweizerische Bundesbahnen SBB,1,2
+EC,30459,Schweizerische Bundesbahnen SBB,1,6
+EC,30460,Schweizerische Bundesbahnen SBB,1,8
+EC,30464,Schweizerische Bundesbahnen SBB,1,18
+EC,30640,Schweizerische Bundesbahnen SBB,1,4
+EC,31010,Schweizerische Bundesbahnen SBB,1,6
+EC,31014,Schweizerische Bundesbahnen SBB,1,6
+EC,31459,(none),0,2
+EC,35950,Schweizerische Bundesbahnen SBB,1,2
+EC,35952,(none),0,44
+EC,35954,(none),0,16
+EC,35955,Schweizerische Bundesbahnen SBB,1,2
+EC,35966,Schweizerische Bundesbahnen SBB,1,6
+EC,35968,Schweizerische Bundesbahnen SBB,1,8
+EC,35970,Schweizerische Bundesbahnen SBB,1,8
+EC,35972,Schweizerische Bundesbahnen SBB,1,10
+EC,35974,Schweizerische Bundesbahnen SBB,1,12
+EC,35996,Schweizerische Bundesbahnen SBB,1,2
+EC,37264,(none),0,1

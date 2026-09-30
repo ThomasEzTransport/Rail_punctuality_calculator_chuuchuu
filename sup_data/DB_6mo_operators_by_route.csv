@@ -1,0 +1,525 @@
+routeType,routeNumber,operators,operatorCount,records
+Bus,7,(none),0,12
+Bus,8,(none),0,12
+Bus,9,(none),0,6
+Bus,10,(none),0,6
+Bus,82110,(none),0,14
+Bus,82111,(none),0,14
+Bus,82112,(none),0,12
+Bus,82113,(none),0,12
+Bus,82114,(none),0,20
+Bus,82115,(none),0,20
+Bus,82116,(none),0,14
+Bus,82117,(none),0,14
+Bus,82118,(none),0,20
+Bus,82119,(none),0,20
+Bus,82122,(none),0,18
+Bus,82123,(none),0,18
+Bus,82124,(none),0,2
+Bus,82125,(none),0,2
+Bus,82126,(none),0,12
+Bus,82127,(none),0,12
+Bus,82130,(none),0,18
+Bus,82131,(none),0,18
+Bus,82134,(none),0,12
+Bus,82135,(none),0,12
+Bus,82138,(none),0,18
+Bus,82139,(none),0,18
+Bus,82142,(none),0,18
+Bus,82143,(none),0,18
+Bus,82146,(none),0,18
+Bus,82149,(none),0,18
+Bus,82150,(none),0,18
+Bus,82154,(none),0,12
+Bus,82157,(none),0,18
+Bus,82158,(none),0,18
+Bus,82159,(none),0,18
+BUS,10001,(none),0,2
+BUS,10005,(none),0,2
+BUS,10009,(none),0,6
+BUS,10011,(none),0,6
+BUS,10013,(none),0,16
+BUS,10015,(none),0,14
+BUS,10017,(none),0,20
+BUS,10019,(none),0,14
+BUS,10021,(none),0,16
+BUS,10023,(none),0,14
+BUS,10025,(none),0,17
+BUS,10027,(none),0,14
+BUS,10029,(none),0,16
+BUS,10031,(none),0,14
+BUS,10033,(none),0,17
+BUS,10035,(none),0,12
+BUS,10037,(none),0,16
+BUS,10039,(none),0,14
+BUS,10041,(none),0,17
+BUS,10042,(none),0,14
+BUS,10044,(none),0,14
+BUS,10045,(none),0,5
+BUS,10047,(none),0,3
+BUS,10049,(none),0,17
+BUS,10053,(none),0,3
+BUS,10057,(none),0,3
+BUS,10096,DB Fernverkehr AG,1,44
+BUS,10098,DB Fernverkehr AG,1,42
+BUS,10170,DB Fernverkehr AG,1,38
+BUS,10171,(none),0,4
+BUS,10172,DB Fernverkehr AG,1,40
+BUS,10173,(none),0,4
+BUS,10174,DB Fernverkehr AG,1,54
+BUS,10175,(none),0,4
+BUS,10176,DB Fernverkehr AG,1,54
+BUS,10177,(none),0,4
+BUS,10178,DB Fernverkehr AG,1,54
+BUS,10180,(none),0,4
+BUS,10190,DB Fernverkehr AG,1,42
+BUS,10192,DB Fernverkehr AG,1,40
+BUS,10194,DB Fernverkehr AG,1,40
+BUS,10196,DB Fernverkehr AG,1,44
+BUS,10217,DB Fernverkehr AG,1,84
+BUS,10382,DB Fernverkehr AG,1,60
+BUS,10383,(none),0,4
+BUS,10457,(none),0,2
+BUS,11213,DB Fernverkehr AG,1,2
+BUS,11217,DB Fernverkehr AG,1,2
+BUS,11632,DB Fernverkehr AG,1,10
+BUS,11634,DB Fernverkehr AG,1,9
+BUS,11635,(none),0,8
+BUS,11636,(none),0,4
+BUS,11637,DB Fernverkehr AG,1,12
+BUS,11638,(none),0,4
+BUS,11639,(none),0,4
+BUS,11730,(none),0,4
+BUS,11731,DB Fernverkehr AG,1,12
+BUS,11732,(none),0,8
+BUS,11733,DB Fernverkehr AG,1,8
+BUS,11734,(none),0,8
+BUS,11735,DB Fernverkehr AG,1,12
+BUS,12032,DB Fernverkehr AG,1,42
+BUS,12034,DB Fernverkehr AG,1,85
+BUS,12035,DB Fernverkehr AG,1,60
+BUS,12036,DB Fernverkehr AG,1,90
+BUS,12037,DB Fernverkehr AG,1,85
+BUS,12038,DB Fernverkehr AG,1,100
+BUS,12039,DB Fernverkehr AG,1,100
+BUS,12430,DB Fernverkehr AG,1,100
+BUS,12431,DB Fernverkehr AG,1,105
+BUS,12432,DB Fernverkehr AG,1,90
+BUS,12433,DB Fernverkehr AG,1,75
+BUS,12434,DB Fernverkehr AG,1,95
+BUS,12435,DB Fernverkehr AG,1,95
+BUS,12436,DB Fernverkehr AG,1,32
+BUS,12437,DB Fernverkehr AG,1,108
+BUS,12438,DB Fernverkehr AG,1,70
+BUS,20001,DB Fernverkehr AG,1,4
+BUS,20003,DB Fernverkehr AG,1,4
+BUS,20005,DB Fernverkehr AG,1,2
+BUS,20007,DB Fernverkehr AG,1,4
+BUS,20009,DB Fernverkehr AG,1,4
+BUS,20011,DB Fernverkehr AG,1,4
+BUS,20013,DB Fernverkehr AG,1,4
+BUS,20015,DB Fernverkehr AG,1,4
+BUS,20017,DB Fernverkehr AG,1,4
+BUS,20019,DB Fernverkehr AG,1,4
+BUS,20021,DB Fernverkehr AG,1,4
+BUS,20023,DB Fernverkehr AG,1,4
+BUS,20025,DB Fernverkehr AG,1,4
+BUS,20027,DB Fernverkehr AG,1,4
+BUS,20029,DB Fernverkehr AG,1,4
+BUS,20031,DB Fernverkehr AG,1,4
+BUS,20033,DB Fernverkehr AG,1,4
+BUS,21632,(none),0,2
+BUS,21634,(none),0,2
+BUS,21635,(none),0,4
+BUS,21636,(none),0,2
+BUS,21637,DB Fernverkehr AG,1,6
+BUS,21638,(none),0,2
+BUS,21639,DB Fernverkehr AG,1,6
+BUS,21730,(none),0,2
+BUS,21731,DB Fernverkehr AG,1,6
+BUS,21732,(none),0,2
+BUS,21733,DB Fernverkehr AG,1,4
+BUS,21734,(none),0,4
+BUS,21735,DB Fernverkehr AG,1,6
+BUS,22032,(none),0,2
+BUS,22036,DB Fernverkehr AG,1,6
+BUS,22437,DB Fernverkehr AG,1,4
+BUS,22934,(none),0,2
+BUS,30002,DB Fernverkehr AG,1,4
+BUS,30004,DB Fernverkehr AG,1,2
+BUS,30006,DB Fernverkehr AG,1,4
+BUS,30008,DB Fernverkehr AG,1,4
+BUS,30012,DB Fernverkehr AG,1,4
+BUS,30014,DB Fernverkehr AG,1,4
+BUS,30018,DB Fernverkehr AG,1,2
+BUS,30020,DB Fernverkehr AG,1,4
+BUS,30022,DB Fernverkehr AG,1,2
+BUS,30024,DB Fernverkehr AG,1,2
+BUS,30026,DB Fernverkehr AG,1,4
+BUS,30028,DB Fernverkehr AG,1,4
+BUS,30030,DB Fernverkehr AG,1,4
+BUS,30032,DB Fernverkehr AG,1,4
+BUS,31632,(none),0,4
+BUS,31633,DB Fernverkehr AG,1,12
+BUS,32436,DB Fernverkehr AG,1,15
+BUS,40040,DB Fernverkehr AG,1,98
+BUS,40041,DB Fernverkehr AG,1,70
+BUS,40042,DB Fernverkehr AG,1,102
+BUS,40043,DB Fernverkehr AG,1,100
+BUS,40044,DB Fernverkehr AG,1,96
+BUS,40045,DB Fernverkehr AG,1,74
+BUS,40046,DB Fernverkehr AG,1,98
+BUS,40047,DB Fernverkehr AG,1,92
+BUS,40048,DB Fernverkehr AG,1,90
+BUS,40049,DB Fernverkehr AG,1,96
+BUS,40054,DB Fernverkehr AG,1,88
+BUS,40055,DB Fernverkehr AG,1,106
+BUS,40056,DB Fernverkehr AG,1,92
+BUS,40057,DB Fernverkehr AG,1,98
+BUS,40058,DB Fernverkehr AG,1,98
+BUS,40059,DB Fernverkehr AG,1,102
+BUS,40132,(none),0,26
+BUS,40230,DB Fernverkehr AG,1,90
+BUS,40231,DB Fernverkehr AG,1,100
+BUS,40246,DB Fernverkehr AG,1,92
+BUS,40247,DB Fernverkehr AG,1,106
+BUS,40248,DB Fernverkehr AG,1,78
+BUS,40249,DB Fernverkehr AG,1,76
+BUS,40430,DB Fernverkehr AG,1,52
+BUS,40431,DB Fernverkehr AG,1,74
+BUS,50070,DB Fernverkehr AG,1,159
+BUS,50073,(none),0,10
+BUS,50175,(none),0,15
+BUS,50176,DB Fernverkehr AG,1,159
+BUS,50870,DB Fernverkehr AG,1,159
+BUS,50871,(none),0,15
+BUS,50908,DB Fernverkehr AG,1,66
+BUS,50935,(none),0,15
+BUS,55102,DB Fernverkehr AG,1,2
+BUS,55106,DB Fernverkehr AG,1,2
+BUS,61101,DB Fernverkehr AG,1,26
+BUS,61105,DB Fernverkehr AG,1,18
+BUS,61109,DB Fernverkehr AG,1,12
+BUS,61113,DB Fernverkehr AG,1,30
+BUS,61117,DB Fernverkehr AG,1,8
+BUS,61119,DB Fernverkehr AG,1,16
+BUS,61121,DB Fernverkehr AG,1,24
+BUS,61125,DB Fernverkehr AG,1,8
+BUS,61127,DB Fernverkehr AG,1,8
+BUS,61129,DB Fernverkehr AG,1,21
+BUS,61133,DB Fernverkehr AG,1,16
+BUS,61135,DB Fernverkehr AG,1,8
+BUS,61137,DB Fernverkehr AG,1,27
+BUS,61143,DB Fernverkehr AG,1,14
+BUS,61145,DB Fernverkehr AG,1,24
+BUS,61147,DB Fernverkehr AG,1,3
+BUS,61149,DB Fernverkehr AG,1,16
+BUS,61151,DB Fernverkehr AG,1,8
+BUS,61153,DB Fernverkehr AG,1,24
+BUS,61159,DB Fernverkehr AG,1,22
+BUS,61161,DB Fernverkehr AG,1,12
+BUS,61170,(none),0,2
+BUS,89563,DB Fernverkehr AG,1,3
+BUS,90700,(none),0,2
+BUS,91000,DB Fernverkehr AG,1,72
+BUS,91001,DB Fernverkehr AG,1,66
+BUS,91004,DB Fernverkehr AG,1,48
+BUS,91005,DB Fernverkehr AG,1,50
+BUS,91008,DB Fernverkehr AG,1,72
+BUS,91009,DB Fernverkehr AG,1,72
+BUS,91101,DB Fernverkehr AG,1,86
+BUS,91105,DB Fernverkehr AG,1,82
+BUS,91109,DB Fernverkehr AG,1,86
+BUS,99563,DB Fernverkehr AG,1,4
+D,216,Österreichische Bundesbahnen,1,792
+D,217,Österreichische Bundesbahnen,1,682
+D,234,(none),0,114
+D,300,Snälltåget,1,463
+D,301,Snälltåget,1,516
+D,304,Snälltåget,1,58
+D,305,Snälltåget,1,49
+D,334,Snälltåget,1,86
+D,335,Snälltåget,1,27
+D,346,"Rumänische Eisenbahnen Caile Ferate Romane, MAV, Österreichische Bundesbahnen",1,96
+D,347,(none),0,217
+D,812,Österreichische Bundesbahnen,1,436
+D,816,Österreichische Bundesbahnen,1,848
+D,817,Österreichische Bundesbahnen,1,2358
+D,819,Österreichische Bundesbahnen,1,4075
+D,1100,Österreichische Bundesbahnen,1,285
+D,1101,Österreichische Bundesbahnen,1,289
+D,1122,Österreichische Bundesbahnen,1,504
+D,1123,Österreichische Bundesbahnen,1,642
+D,1130,Österreichische Bundesbahnen,1,415
+D,1133,Österreichische Bundesbahnen,1,461
+D,1140,Österreichische Bundesbahnen,1,432
+D,1141,Österreichische Bundesbahnen,1,574
+D,1144,(none),0,25
+D,1146,Österreichische Bundesbahnen,1,24
+D,1821,"Österreichische Bundesbahnen/Österreichische Bundesbahnen, Trenitalia",2,1784
+D,1823,Österreichische Bundesbahnen,1,229
+D,10300,Snälltåget,1,589
+D,10301,Snälltåget,1,1337
+D,14001,(none),0,13
+D,14082,(none),0,54
+D,14084,(none),0,72
+D,14500,(none),0,12
+D,14511,(none),0,21
+D,14512,Österreichische Bundesbahnen,1,48
+D,14513,Österreichische Bundesbahnen,1,48
+D,14514,Österreichische Bundesbahnen,1,24
+D,14515,Österreichische Bundesbahnen,1,24
+D,14517,(none),0,8
+D,14559,(none),0,6
+D,14560,(none),0,6
+D,14691,Österreichische Bundesbahnen,1,7
+D,14696,Österreichische Bundesbahnen,1,14
+D,14699,Österreichische Bundesbahnen,1,8
+D,16126,Österreichische Bundesbahnen,1,14
+D,16129,Österreichische Bundesbahnen,1,14
+D,16132,Österreichische Bundesbahnen,1,14
+D,16138,Österreichische Bundesbahnen,1,7
+D,16346,Österreichische Bundesbahnen,1,2
+D,16362,Österreichische Bundesbahnen,1,2
+D,16366,Österreichische Bundesbahnen,1,4
+D,16372,Österreichische Bundesbahnen,1,4
+D,16374,Österreichische Bundesbahnen,1,2
+D,16376,Österreichische Bundesbahnen,1,2
+D,16378,Österreichische Bundesbahnen,1,2
+D,16380,Österreichische Bundesbahnen,1,2
+D,16382,Österreichische Bundesbahnen,1,2
+D,16384,Österreichische Bundesbahnen,1,4
+D,16386,Österreichische Bundesbahnen,1,4
+D,16390,Österreichische Bundesbahnen,1,4
+D,16396,Österreichische Bundesbahnen,1,4
+D,16408,Österreichische Bundesbahnen,1,2
+D,16410,Österreichische Bundesbahnen,1,2
+D,16412,Österreichische Bundesbahnen,1,2
+D,16416,Österreichische Bundesbahnen,1,2
+D,16420,Österreichische Bundesbahnen,1,2
+D,16433,Österreichische Bundesbahnen,1,13
+D,16436,Österreichische Bundesbahnen,1,8
+D,16438,Österreichische Bundesbahnen,1,13
+D,16441,Österreichische Bundesbahnen,1,13
+D,17000,Österreichische Bundesbahnen,1,8
+D,17001,Österreichische Bundesbahnen,1,16
+D,17004,Österreichische Bundesbahnen,1,24
+D,17005,Österreichische Bundesbahnen,1,24
+D,17008,Österreichische Bundesbahnen,1,8
+D,17009,Österreichische Bundesbahnen,1,8
+D,18502,Österreichische Bundesbahnen,1,14
+D,18505,Österreichische Bundesbahnen,1,8
+D,18506,Österreichische Bundesbahnen,1,14
+D,18511,Österreichische Bundesbahnen,1,4
+D,18514,Österreichische Bundesbahnen,1,4
+D,18516,Österreichische Bundesbahnen,1,10
+D,18519,Österreichische Bundesbahnen,1,10
+D,18520,Österreichische Bundesbahnen,1,5
+D,19101,Österreichische Bundesbahnen,1,13
+D,19515,(none),0,4
+D,19780,Österreichische Bundesbahnen,1,84
+D,19781,Österreichische Bundesbahnen,1,75
+D,19782,Österreichische Bundesbahnen,1,74
+D,19812,Österreichische Bundesbahnen,1,330
+D,40007,Österreichische Bundesbahnen,1,340
+D,40749,Österreichische Bundesbahnen,1,273
+D,50347,Österreichische Bundesbahnen,1,629
+IR,510,Österreichische Bundesbahnen,1,5128
+IR,511,Österreichische Bundesbahnen,1,2322
+IR,512,Österreichische Bundesbahnen,1,5070
+IR,513,Österreichische Bundesbahnen,1,5042
+IR,514,Österreichische Bundesbahnen,1,5190
+IR,515,Österreichische Bundesbahnen,1,5100
+IR,518,Österreichische Bundesbahnen,1,5102
+IR,519,Österreichische Bundesbahnen,1,5006
+IR,573,Österreichische Bundesbahnen,1,459
+IR,575,Österreichische Bundesbahnen,1,564
+IR,577,Österreichische Bundesbahnen,1,576
+IR,580,Österreichische Bundesbahnen,1,3412
+IR,581,Österreichische Bundesbahnen,1,3433
+IR,582,Österreichische Bundesbahnen,1,3370
+IR,583,Österreichische Bundesbahnen,1,3346
+IR,584,Österreichische Bundesbahnen,1,3325
+IR,585,Österreichische Bundesbahnen,1,3455
+IR,586,Österreichische Bundesbahnen,1,3368
+IR,587,Österreichische Bundesbahnen,1,3587
+IR,588,Österreichische Bundesbahnen,1,3455
+IR,589,Österreichische Bundesbahnen,1,3501
+IR,610,Österreichische Bundesbahnen,1,5489
+IR,611,Österreichische Bundesbahnen,1,5068
+IR,612,Österreichische Bundesbahnen,1,3541
+IR,613,Österreichische Bundesbahnen,1,5296
+IR,614,Österreichische Bundesbahnen,1,2257
+IR,615,Österreichische Bundesbahnen,1,1714
+IR,616,Österreichische Bundesbahnen,1,3543
+IR,617,Österreichische Bundesbahnen,1,1670
+IR,618,Österreichische Bundesbahnen,1,4669
+IR,619,Österreichische Bundesbahnen,1,3586
+IR,671,Österreichische Bundesbahnen,1,378
+IR,673,Österreichische Bundesbahnen,1,416
+IR,677,Österreichische Bundesbahnen,1,432
+IR,679,Österreichische Bundesbahnen,1,441
+IR,680,Österreichische Bundesbahnen,1,3731
+IR,681,Österreichische Bundesbahnen,1,3478
+IR,682,Österreichische Bundesbahnen,1,476
+IR,683,Österreichische Bundesbahnen,1,467
+IR,686,Österreichische Bundesbahnen,1,3457
+IR,687,Österreichische Bundesbahnen,1,4187
+IR,688,Österreichische Bundesbahnen,1,3390
+IR,689,Österreichische Bundesbahnen,1,3500
+IR,700,Österreichische Bundesbahnen,1,2891
+IR,701,Österreichische Bundesbahnen,1,2699
+IR,702,Österreichische Bundesbahnen,1,2822
+IR,703,Österreichische Bundesbahnen,1,2700
+IR,704,Österreichische Bundesbahnen,1,2784
+IR,705,Österreichische Bundesbahnen,1,2699
+IR,706,Österreichische Bundesbahnen,1,2694
+IR,707,Österreichische Bundesbahnen,1,2717
+IR,708,Österreichische Bundesbahnen,1,2945
+IR,709,Österreichische Bundesbahnen,1,2735
+IR,710,Österreichische Bundesbahnen,1,1325
+IR,711,Österreichische Bundesbahnen,1,3975
+IR,712,Österreichische Bundesbahnen,1,1376
+IR,713,Österreichische Bundesbahnen,1,3952
+IR,714,Österreichische Bundesbahnen,1,1350
+IR,715,Österreichische Bundesbahnen,1,3901
+IR,716,Österreichische Bundesbahnen,1,1375
+IR,717,Österreichische Bundesbahnen,1,3875
+IR,718,Österreichische Bundesbahnen,1,1375
+IR,719,Österreichische Bundesbahnen,1,3976
+IR,771,Österreichische Bundesbahnen,1,397
+IR,775,Österreichische Bundesbahnen,1,423
+IR,779,Österreichische Bundesbahnen,1,432
+IR,780,Österreichische Bundesbahnen,1,2822
+IR,781,Österreichische Bundesbahnen,1,3108
+IR,782,Österreichische Bundesbahnen,1,1087
+IR,783,Österreichische Bundesbahnen,1,3533
+IR,784,Österreichische Bundesbahnen,1,1108
+IR,785,Österreichische Bundesbahnen,1,3149
+IR,786,Österreichische Bundesbahnen,1,1088
+IR,787,Österreichische Bundesbahnen,1,3583
+IR,788,Österreichische Bundesbahnen,1,3852
+IR,789,Österreichische Bundesbahnen,1,3171
+IR,800,Österreichische Bundesbahnen,1,2266
+IR,801,Österreichische Bundesbahnen,1,2770
+IR,803,Österreichische Bundesbahnen,1,726
+IR,804,Österreichische Bundesbahnen,1,2839
+IR,806,Österreichische Bundesbahnen,1,2819
+IR,807,Österreichische Bundesbahnen,1,2860
+IR,808,Österreichische Bundesbahnen,1,2837
+IR,809,Österreichische Bundesbahnen,1,2717
+IR,810,Österreichische Bundesbahnen,1,1375
+IR,811,Österreichische Bundesbahnen,1,3850
+IR,813,Österreichische Bundesbahnen,1,3907
+IR,814,Österreichische Bundesbahnen,1,2826
+IR,818,Österreichische Bundesbahnen,1,1350
+IR,873,Österreichische Bundesbahnen,1,423
+IR,877,Österreichische Bundesbahnen,1,441
+IR,880,Österreichische Bundesbahnen,1,1068
+IR,881,Österreichische Bundesbahnen,1,3191
+IR,882,Österreichische Bundesbahnen,1,476
+IR,883,Österreichische Bundesbahnen,1,440
+IR,884,Österreichische Bundesbahnen,1,1536
+IR,886,Österreichische Bundesbahnen,1,2874
+IR,887,Österreichische Bundesbahnen,1,3423
+IR,888,Österreichische Bundesbahnen,1,1089
+IR,889,Österreichische Bundesbahnen,1,3211
+IR,15511,Österreichische Bundesbahnen,1,2808
+IR,15772,Österreichische Bundesbahnen,1,980
+IR,15773,Österreichische Bundesbahnen,1,329
+IR,15776,Österreichische Bundesbahnen,1,1022
+IR,15777,Österreichische Bundesbahnen,1,315
+IR,15878,Österreichische Bundesbahnen,1,994
+IR,15879,Österreichische Bundesbahnen,1,350
+IR,18731,Österreichische Bundesbahnen,1,2
+IR,18737,Österreichische Bundesbahnen,1,4
+IR,19589,(none),0,22
+UEX,342,Urlaubs-Express,1,7
+UEX,343,Urlaubs-Express,1,7
+UEX,348,Urlaubs-Express,1,22
+UEX,349,Urlaubs-Express,1,19
+UEX,1302,Urlaubs-Express,1,6
+UEX,1303,(none),0,5
+UEX,1309,Urlaubs-Express,1,9
+UEX,1370,Urlaubs-Express,1,10
+UEX,1371,Urlaubs-Express,1,11
+UEX,1383,Urlaubs-Express,1,17
+UEX,1387,Urlaubs-Express,1,20
+UEX,1388,Urlaubs-Express,1,24
+UEX,1389,Urlaubs-Express,1,25
+UEX,1390,Urlaubs-Express,1,10
+UEX,1391,Urlaubs-Express,1,11
+UEX,1392,Urlaubs-Express,1,7
+UEX,1393,Urlaubs-Express,1,20
+UEX,1397,Urlaubs-Express,1,22
+UEX,1398,Urlaubs-Express,1,21
+UEX,1399,Urlaubs-Express,1,50
+UEX,1499,Urlaubs-Express,1,7
+UEX,1842,Urlaubs-Express,1,7
+UEX,1843,Urlaubs-Express,1,7
+UEX,1846,Urlaubs-Express,1,8
+UEX,1849,Urlaubs-Express,1,7
+UEX,1852,Urlaubs-Express,1,35
+UEX,1853,Urlaubs-Express,1,34
+UEX,1859,Urlaubs-Express,1,6
+EN,344,BahnTouristikExpress/SJ,2,347
+EN,345,BahnTouristikExpress/SJ,2,1392
+EN,414,"HZPP/Österreichische Bundesbahnen, HZPP",2,3715
+EN,415,Österreichische Bundesbahnen,1,2506
+EN,462,"MAV, Österreichische Bundesbahnen",1,1925
+EN,476,"MAV, ZSSK, Österreichische Bundesbahnen",1,18
+EN,1272,Österreichische Bundesbahnen,1,210
+EN,1276,"Österreichische Bundesbahnen, KZC Doprava s.r.o., PKP Intercity",1,40
+EN,1277,"PKP Intercity, KZC Doprava s.r.o., Österreichische Bundesbahnen/Österreichische Bundesbahnen",2,54
+EN,3441,SJ,1,36
+EN,3451,SJ,1,3
+EN,13401,SJ,1,15
+EN,13402,SJ,1,36
+EN,13403,SJ,1,30
+EN,13404,SJ,1,12
+EN,13405,SJ,1,24
+EN,13408,SJ,1,13
+EN,13416,SJ,1,12
+EN,13418,SJ,1,12
+EN,13420,SJ,1,12
+EN,13422,SJ,1,12
+EN,13424,SJ,1,12
+EN,13425,SJ,1,12
+EN,13471,SJ,1,253
+EN,20177,SJ,1,3
+EN,20703,SJ,1,12
+EN,40237,HZPP,1,3607
+EN,40406,(none),0,198
+EN,40407,PKP Intercity,1,3904
+EN,40414,"Österreichische Bundesbahnen, Schweizerische Bundesbahnen",1,3024
+EN,40416,(none),0,315
+EN,40417,"PKP Intercity/PKP Intercity, Ceske Drahy, Österreichische Bundesbahnen, DB Fernverkehr AG",2,6292
+EN,40457,MAV,1,3074
+EN,40458,Österreichische Bundesbahnen,1,2998
+EN,40459,Österreichische Bundesbahnen,1,2809
+EN,40462,"Österreichische Bundesbahnen, Schweizerische Bundesbahnen",1,1720
+EN,40465,"Schweizerische Bundesbahnen, Österreichische Bundesbahnen",1,2330
+EN,40467,"Schweizerische Bundesbahnen, Österreichische Bundesbahnen, MAV",1,1396
+EN,40476,MAV,1,3089
+EN,50237,MAV,1,2996
+EN,50462,MAV,1,3029
+EN,93505,SJ,1,35
+EN,93580,BahnTouristikExpress,1,3
+EN,93701,(none),0,40
+DBK,1798,(none),0,8
+DBK,1799,DBK Historische Bahn e.V.,1,33
+DBK,74311,(none),0,2
+DBK,74312,(none),0,2
+DBK,74313,(none),0,2
+DBK,74314,(none),0,2
+DBK,74315,(none),0,2
+DBK,74316,(none),0,2
+DBK,74317,(none),0,2
+DBK,74318,(none),0,2
+MSM,331,MSM Partyzug,1,11
+MSM,333,MSM Partyzug,1,10
+DZ,21306,Train Charter Services B.V.,1,9
+BTE,1792,(none),0,6
+BTE,1793,BahnTouristikExpress,1,78
+BTE,92606,(none),0,3
+BTE,93745,(none),0,9

@@ -1,0 +1,2969 @@
+routeType,routeNumber,operators,operatorCount,records
+D,14,Nahreisezug,1,5
+D,18,Nahreisezug/Slovenske zeleznice,2,1524
+D,38,Nahreisezug/Slovenske zeleznice,2,645
+D,216,Nahreisezug,1,828
+D,217,Nahreisezug,1,715
+D,305,Snälltåget,1,21
+D,310,Nahreisezug/Slovenske zeleznice,2,2340
+D,312,Nahreisezug/Slovenske zeleznice,2,1608
+D,314,Nahreisezug/Slovenske zeleznice,2,2430
+D,316,Nahreisezug/Slovenske zeleznice,2,2376
+D,346,Nahreisezug,1,4123
+D,347,Nahreisezug,1,3488
+D,812,Nahreisezug,1,406
+D,816,Nahreisezug,1,720
+D,817,Nahreisezug,1,1965
+D,819,Nahreisezug,1,3300
+D,1100,Nahreisezug,1,270
+D,1101,Nahreisezug,1,274
+D,1122,Nahreisezug,1,414
+D,1123,Nahreisezug,1,522
+D,1130,Nahreisezug,1,395
+D,1133,Nahreisezug,1,381
+D,1140,Nahreisezug,1,361
+D,1141,Nahreisezug,1,450
+D,1146,Nahreisezug,1,48
+D,1821,Nahreisezug,1,1670
+D,1823,Nahreisezug,1,294
+D,14512,Nahreisezug,1,49
+D,14513,Nahreisezug,1,40
+D,14514,Nahreisezug,1,24
+D,14515,Nahreisezug,1,24
+D,14691,Nahreisezug,1,14
+D,14692,Nahreisezug,1,14
+D,14699,Nahreisezug,1,7
+D,14700,Nahreisezug,1,7
+D,16123,Nahreisezug,1,14
+D,16126,Nahreisezug,1,14
+D,16129,Nahreisezug,1,14
+D,16132,Nahreisezug,1,14
+D,16135,Nahreisezug,1,7
+D,16138,Nahreisezug,1,7
+D,16346,Nahreisezug,1,2
+D,16358,Nahreisezug,1,2
+D,16362,Nahreisezug,1,2
+D,16366,Nahreisezug,1,4
+D,16372,Nahreisezug,1,4
+D,16374,Nahreisezug,1,2
+D,16376,Nahreisezug,1,2
+D,16378,Nahreisezug,1,2
+D,16380,Nahreisezug,1,2
+D,16382,Nahreisezug,1,2
+D,16384,Nahreisezug,1,4
+D,16386,Nahreisezug,1,4
+D,16390,Nahreisezug,1,4
+D,16396,Nahreisezug,1,4
+D,16402,Nahreisezug,1,2
+D,16404,Nahreisezug,1,2
+D,16408,Nahreisezug,1,2
+D,16410,Nahreisezug,1,2
+D,16412,Nahreisezug,1,2
+D,16416,Nahreisezug,1,2
+D,16420,Nahreisezug,1,2
+D,17000,Nahreisezug,1,8
+D,17001,Nahreisezug,1,8
+D,17002,Nahreisezug,1,8
+D,17003,Nahreisezug,1,8
+D,17004,Nahreisezug,1,32
+D,17005,Nahreisezug,1,33
+D,17008,Nahreisezug,1,8
+D,17009,Nahreisezug,1,8
+D,18502,Nahreisezug,1,14
+D,18505,Nahreisezug,1,14
+D,18506,Nahreisezug,1,7
+D,18511,Nahreisezug,1,4
+D,18514,Nahreisezug,1,4
+D,18516,Nahreisezug,1,10
+D,18519,Nahreisezug,1,10
+D,18520,Nahreisezug,1,5
+D,19101,Nahreisezug,1,13
+D,19780,Nahreisezug,1,52
+D,19781,Nahreisezug,1,76
+D,19782,Nahreisezug,1,59
+D,19783,Nahreisezug,1,15
+D,19812,Nahreisezug,1,270
+D,40007,Nahreisezug,1,2312
+D,40347,Nahreisezug,1,714
+D,40749,Nahreisezug,1,714
+D,50347,Nahreisezug,1,1785
+D,94759,Nahreisezug,1,2
+CAT,9011,CAT - CityAirportTrain,1,202
+CAT,9012,CAT - CityAirportTrain,1,30
+CAT,9013,CAT - CityAirportTrain,1,196
+CAT,9014,CAT - CityAirportTrain,1,30
+CAT,9015,CAT - CityAirportTrain,1,202
+CAT,9016,CAT - CityAirportTrain,1,30
+CAT,9017,CAT - CityAirportTrain,1,196
+CAT,9018,CAT - CityAirportTrain,1,30
+CAT,9019,CAT - CityAirportTrain,1,214
+CAT,9020,CAT - CityAirportTrain,1,30
+CAT,9021,CAT - CityAirportTrain,1,201
+CAT,9022,CAT - CityAirportTrain,1,30
+CAT,9023,CAT - CityAirportTrain,1,212
+CAT,9024,CAT - CityAirportTrain,1,30
+CAT,9025,CAT - CityAirportTrain,1,198
+CAT,9026,CAT - CityAirportTrain,1,30
+CAT,9027,CAT - CityAirportTrain,1,216
+CAT,9028,CAT - CityAirportTrain,1,30
+CAT,9029,CAT - CityAirportTrain,1,206
+CAT,9030,CAT - CityAirportTrain,1,32
+CAT,9031,CAT - CityAirportTrain,1,204
+CAT,9032,CAT - CityAirportTrain,1,32
+CAT,9033,CAT - CityAirportTrain,1,200
+CAT,9034,CAT - CityAirportTrain,1,32
+CAT,9035,CAT - CityAirportTrain,1,204
+CAT,9036,CAT - CityAirportTrain,1,32
+CAT,9037,CAT - CityAirportTrain,1,198
+CAT,9038,CAT - CityAirportTrain,1,32
+CAT,9039,CAT - CityAirportTrain,1,204
+CAT,9040,CAT - CityAirportTrain,1,32
+CAT,9041,CAT - CityAirportTrain,1,204
+CAT,9042,CAT - CityAirportTrain,1,32
+CAT,9043,CAT - CityAirportTrain,1,200
+CAT,9044,CAT - CityAirportTrain,1,32
+CAT,9045,CAT - CityAirportTrain,1,198
+CAT,9046,CAT - CityAirportTrain,1,32
+CAT,9047,CAT - CityAirportTrain,1,198
+CAT,9048,CAT - CityAirportTrain,1,32
+CAT,9049,CAT - CityAirportTrain,1,202
+CAT,9050,CAT - CityAirportTrain,1,30
+CAT,9051,CAT - CityAirportTrain,1,210
+CAT,9052,CAT - CityAirportTrain,1,30
+CAT,9053,CAT - CityAirportTrain,1,196
+CAT,9054,CAT - CityAirportTrain,1,32
+CAT,9055,CAT - CityAirportTrain,1,202
+CAT,9056,CAT - CityAirportTrain,1,32
+CAT,9057,CAT - CityAirportTrain,1,196
+CAT,9058,CAT - CityAirportTrain,1,32
+CAT,9059,CAT - CityAirportTrain,1,204
+CAT,9060,CAT - CityAirportTrain,1,32
+CAT,9061,CAT - CityAirportTrain,1,198
+CAT,9062,CAT - CityAirportTrain,1,32
+CAT,9063,CAT - CityAirportTrain,1,208
+CAT,9064,CAT - CityAirportTrain,1,32
+CAT,9065,CAT - CityAirportTrain,1,202
+CAT,9066,CAT - CityAirportTrain,1,32
+CAT,9067,CAT - CityAirportTrain,1,202
+CAT,9068,CAT - CityAirportTrain,1,32
+CAT,9069,CAT - CityAirportTrain,1,198
+CAT,9070,CAT - CityAirportTrain,1,32
+CAT,9071,CAT - CityAirportTrain,1,208
+CAT,9072,CAT - CityAirportTrain,1,32
+CAT,9073,CAT - CityAirportTrain,1,200
+CAT,9074,CAT - CityAirportTrain,1,32
+CAT,9075,CAT - CityAirportTrain,1,208
+CAT,9076,CAT - CityAirportTrain,1,30
+CAT,9077,CAT - CityAirportTrain,1,196
+CAT,9078,CAT - CityAirportTrain,1,32
+CAT,9079,CAT - CityAirportTrain,1,202
+CAT,9080,CAT - CityAirportTrain,1,30
+CAT,9081,CAT - CityAirportTrain,1,158
+CAT,9082,CAT - CityAirportTrain,1,32
+IC,207,PKP Intercity,1,272
+IC,350,MAV/Nahreisezug,2,4350
+IC,351,Nahreisezug/Slovenske zeleznice,2,4224
+IC,354,MAV/Nahreisezug,2,2764
+IC,355,Nahreisezug,1,792
+IC,406,DB Fernverkehr AG,1,3136
+IC,407,Nahreisezug,1,3161
+IC,416,DB Fernverkehr AG,1,4860
+IC,417,PKP Intercity,1,3596
+IC,460,Nahreisezug,1,945
+IC,532,Nahreisezug,1,680
+IC,533,Nahreisezug,1,712
+IC,534,Nahreisezug,1,460
+IC,535,Nahreisezug,1,461
+IC,536,Nahreisezug,1,72
+IC,537,Nahreisezug,1,114
+IC,538,Nahreisezug,1,458
+IC,540,Nahreisezug,1,1640
+IC,541,Nahreisezug,1,1485
+IC,542,Nahreisezug,1,1397
+IC,543,Nahreisezug,1,1755
+IC,544,Nahreisezug,1,1764
+IC,545,Nahreisezug,1,1768
+IC,546,Nahreisezug,1,1725
+IC,547,Nahreisezug,1,1744
+IC,548,Nahreisezug,1,1406
+IC,549,Nahreisezug,1,1420
+IC,558,Nahreisezug,1,952
+IC,559,Nahreisezug,1,966
+IC,640,Nahreisezug,1,1712
+IC,641,Nahreisezug,1,1729
+IC,642,Nahreisezug,1,1726
+IC,643,Nahreisezug,1,1398
+IC,644,Nahreisezug,1,1791
+IC,645,Nahreisezug,1,1782
+IC,646,Nahreisezug,1,1767
+IC,647,Nahreisezug,1,1781
+IC,648,Nahreisezug,1,1767
+IC,649,Nahreisezug,1,1755
+IC,651,Nahreisezug,1,814
+IC,740,Nahreisezug,1,1739
+IC,741,Nahreisezug,1,1820
+IC,742,Nahreisezug,1,1751
+IC,743,Nahreisezug,1,1755
+IC,744,Nahreisezug,1,1739
+IC,745,Nahreisezug,1,1794
+IC,746,Nahreisezug,1,1401
+IC,747,Nahreisezug,1,1781
+IC,748,Nahreisezug,1,1764
+IC,749,Nahreisezug,1,1769
+IC,756,Nahreisezug,1,1781
+IC,759,Nahreisezug,1,1782
+IC,790,Nahreisezug,1,1442
+IC,791,Nahreisezug,1,1454
+IC,792,Nahreisezug,1,1509
+IC,793,Nahreisezug,1,1419
+IC,794,Nahreisezug,1,1441
+IC,795,Nahreisezug,1,1463
+IC,796,Nahreisezug,1,1409
+IC,797,Nahreisezug,1,1496
+IC,798,Nahreisezug,1,1419
+IC,799,Nahreisezug,1,1496
+IC,840,Nahreisezug,1,1452
+IC,841,Nahreisezug,1,1264
+IC,842,Nahreisezug,1,248
+IC,843,Nahreisezug,1,1595
+IC,847,Nahreisezug,1,1056
+IC,848,Nahreisezug,1,1604
+IC,850,Nahreisezug,1,920
+IC,890,Nahreisezug,1,1899
+IC,891,Nahreisezug,1,1853
+IC,896,Nahreisezug,1,1430
+IC,897,Nahreisezug,1,1584
+IC,898,Nahreisezug,1,1474
+IC,899,Nahreisezug,1,1430
+IC,1110,Nahreisezug,1,829
+IC,1111,Nahreisezug,1,285
+IC,1112,Nahreisezug,1,480
+IC,1113,Nahreisezug,1,473
+IC,1114,Nahreisezug,1,84
+IC,1115,Nahreisezug,1,567
+IC,1118,Nahreisezug,1,1943
+IC,1119,Nahreisezug,1,2012
+IC,1131,Nahreisezug,1,2002
+IC,1132,Nahreisezug,1,2000
+IC,1135,Nahreisezug,1,2693
+IC,1136,Nahreisezug,1,784
+IC,1138,Nahreisezug,1,2837
+IC,1142,Nahreisezug,1,999
+IC,1143,Nahreisezug,1,1049
+IC,1151,Nahreisezug,1,209
+IC,1244,Nahreisezug,1,252
+IC,1249,Nahreisezug,1,254
+IC,19011,Nahreisezug,1,13
+IC,19100,Nahreisezug,1,13
+IC,19103,Nahreisezug,1,13
+IC,19936,Nahreisezug,1,947
+IC,19939,Nahreisezug,1,876
+EC,70,Nahreisezug/Slovenske zeleznice,2,2120
+EC,71,Nahreisezug,1,2029
+EC,78,HZPP/Nahreisezug,2,2398
+EC,79,Nahreisezug,1,2309
+EC,80,DB Fernverkehr AG,1,907
+EC,81,DB Fernverkehr AG,1,631
+EC,94,DB Fernverkehr AG/Nahreisezug,2,1056
+EC,95,Schweizerische Bundesbahnen SBB,1,999
+EC,96,DB Fernverkehr AG/Nahreisezug,2,1246
+EC,97,Schweizerische Bundesbahnen SBB,1,1268
+EC,98,DB Fernverkehr AG/Nahreisezug,2,1246
+EC,99,Schweizerische Bundesbahnen SBB,1,1224
+EC,100,Nahreisezug,1,2233
+EC,101,PKP Intercity,1,2235
+EC,102,Nahreisezug,1,3385
+EC,103,PKP Intercity,1,3228
+EC,106,Nahreisezug,1,3307
+EC,107,PKP Intercity,1,3340
+EC,114,Nahreisezug,1,1821
+EC,115,DB Fernverkehr AG,1,3063
+EC,140,MAV/Nahreisezug,2,2261
+EC,141,Nahreisezug,1,1144
+EC,142,MAV/Nahreisezug,2,1162
+EC,143,Nahreisezug,1,2718
+EC,144,MAV/Nahreisezug,2,1206
+EC,145,Nahreisezug,1,1170
+EC,146,Nahreisezug,1,2812
+EC,147,Nahreisezug,1,1206
+EC,148,MAV/Nahreisezug,2,1170
+EC,149,Nahreisezug,1,1890
+EC,163,Nahreisezug/Schweizerische Bundesbahnen SBB,2,2685
+EC,164,Nahreisezug,1,2686
+EC,190,DB Fernverkehr AG/Nahreisezug,2,1282
+EC,191,Schweizerische Bundesbahnen SBB,1,1255
+EC,192,DB Fernverkehr AG/Nahreisezug,2,1299
+EC,193,Schweizerische Bundesbahnen SBB,1,1299
+EC,194,DB Fernverkehr AG/Nahreisezug,2,1268
+EC,195,Schweizerische Bundesbahnen SBB,1,1273
+EC,196,DB Fernverkehr AG/Nahreisezug,2,1198
+EC,197,Schweizerische Bundesbahnen SBB,1,1098
+EC,198,DB Fernverkehr AG/Nahreisezug,2,1225
+EC,199,Schweizerische Bundesbahnen SBB,1,1207
+EC,202,Nahreisezug,1,2220
+EC,203,PKP Intercity,1,2510
+EC,204,Nahreisezug,1,2513
+EC,205,PKP Intercity,1,2565
+EC,206,Nahreisezug,1,2423
+EC,207,PKP Intercity,1,2342
+EC,212,Nahreisezug,1,2565
+EC,213,DB Fernverkehr AG,1,1836
+EC,214,HZPP/Nahreisezug,2,1260
+EC,290,Nahreisezug,1,763
+EC,330,Nahreisezug,1,294
+EC,331,Ceske Drahy,1,770
+EC,332,Nahreisezug,1,323
+EC,333,Ceske Drahy,1,803
+EC,334,Nahreisezug,1,269
+EC,335,Ceske Drahy/Nahreisezug,2,841
+EC,336,Nahreisezug,1,268
+EC,337,Ceske Drahy/Nahreisezug,2,1031
+EC,340,MAV/Nahreisezug,2,1215
+EC,341,Nahreisezug,1,1161
+EC,342,MAV/Nahreisezug,2,1170
+EC,343,Nahreisezug,1,1179
+EC,462,MAV/Nahreisezug,2,1485
+EC,463,Nahreisezug,1,1444
+EC,687,Nahreisezug,1,58
+EC,1210,Nahreisezug,1,724
+EC,1213,DB Fernverkehr AG/Nahreisezug,2,737
+EC,1216,Nahreisezug,1,672
+EC,1217,DB Fernverkehr AG/Nahreisezug,2,727
+EC,1218,Nahreisezug,1,674
+EC,1219,DB Fernverkehr AG,1,667
+EC,1281,DB Fernverkehr AG,1,262
+EC,13472,Nahreisezug,1,396
+EC,13473,Schweizerische Bundesbahnen SBB,1,905
+EN,414,HZPP/Nahreisezug,2,2892
+EN,1272,Nahreisezug,1,660
+EN,1276,Nahreisezug,1,1600
+EN,1277,PKP Intercity,1,986
+EN,40237,HZPP/Nahreisezug,2,2806
+EN,40406,PKP Intercity,1,2955
+EN,40407,PKP Intercity,1,2964
+EN,40414,Nahreisezug,1,2984
+EN,40416,PKP Intercity,1,4654
+EN,40417,PKP Intercity,1,3494
+EN,40462,Nahreisezug,1,2229
+EN,40465,Nahreisezug,1,3001
+EN,40467,Nahreisezug,1,909
+EN,50237,MAV/Nahreisezug,2,2280
+Bus,330,Ceske Drahy,1,20
+Bus,331,Ceske Drahy/Nahreisezug,2,41
+Bus,332,Ceske Drahy,1,20
+Bus,333,Ceske Drahy,1,27
+Bus,334,Ceske Drahy,1,18
+Bus,335,Ceske Drahy,1,27
+Bus,336,Ceske Drahy,1,18
+Bus,337,Ceske Drahy,1,27
+Bus,447,Österreichische Postbus Aktiengesellschaft,1,300
+Bus,449,Österreichische Postbus Aktiengesellschaft,1,264
+Bus,451,Österreichische Postbus Aktiengesellschaft,1,62
+Bus,453,Österreichische Postbus Aktiengesellschaft,1,75
+Bus,454,Österreichische Postbus Aktiengesellschaft,1,290
+Bus,455,Österreichische Postbus Aktiengesellschaft,1,70
+Bus,456,Österreichische Postbus Aktiengesellschaft,1,302
+Bus,458,Österreichische Postbus Aktiengesellschaft,1,240
+Bus,459,Österreichische Postbus Aktiengesellschaft,1,296
+Bus,460,Österreichische Postbus Aktiengesellschaft,1,100
+Bus,461,Österreichische Postbus Aktiengesellschaft,1,50
+Bus,462,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,463,Österreichische Postbus Aktiengesellschaft,1,93
+Bus,465,Österreichische Postbus Aktiengesellschaft,1,290
+Bus,467,Österreichische Postbus Aktiengesellschaft,1,58
+Bus,471,Österreichische Postbus Aktiengesellschaft,1,304
+Bus,472,Österreichische Postbus Aktiengesellschaft,1,140
+Bus,488,Österreichische Postbus Aktiengesellschaft,1,344
+Bus,492,Österreichische Postbus Aktiengesellschaft,1,336
+Bus,543,Österreichische Postbus Aktiengesellschaft,1,87
+Bus,544,Österreichische Postbus Aktiengesellschaft,1,320
+Bus,557,Österreichische Postbus Aktiengesellschaft,1,304
+Bus,558,Österreichische Postbus Aktiengesellschaft,1,342
+Bus,559,Österreichische Postbus Aktiengesellschaft,1,380
+Bus,564,Österreichische Postbus Aktiengesellschaft,1,323
+Bus,565,Österreichische Postbus Aktiengesellschaft,1,380
+Bus,566,Österreichische Postbus Aktiengesellschaft,1,323
+Bus,567,Österreichische Postbus Aktiengesellschaft,1,304
+Bus,568,Österreichische Postbus Aktiengesellschaft,1,136
+Bus,569,Österreichische Postbus Aktiengesellschaft,1,136
+Bus,570,Österreichische Postbus Aktiengesellschaft,1,323
+Bus,571,Österreichische Postbus Aktiengesellschaft,1,136
+Bus,572,Österreichische Postbus Aktiengesellschaft,1,380
+Bus,573,Österreichische Postbus Aktiengesellschaft,1,144
+Bus,574,Österreichische Postbus Aktiengesellschaft,1,209
+Bus,575,Österreichische Postbus Aktiengesellschaft,1,456
+Bus,581,Österreichische Postbus Aktiengesellschaft,1,380
+Bus,582,Österreichische Postbus Aktiengesellschaft,1,418
+Bus,583,Österreichische Postbus Aktiengesellschaft,1,304
+Bus,584,Österreichische Postbus Aktiengesellschaft,1,380
+Bus,588,Österreichische Postbus Aktiengesellschaft,1,304
+Bus,589,Österreichische Postbus Aktiengesellschaft,1,247
+Bus,590,Österreichische Postbus Aktiengesellschaft,1,361
+Bus,591,Österreichische Postbus Aktiengesellschaft,1,361
+Bus,592,Österreichische Postbus Aktiengesellschaft,1,380
+Bus,593,Österreichische Postbus Aktiengesellschaft,1,399
+Bus,594,Österreichische Postbus Aktiengesellschaft,1,399
+Bus,595,Österreichische Postbus Aktiengesellschaft,1,344
+Bus,596,Österreichische Postbus Aktiengesellschaft,1,304
+Bus,597,Österreichische Postbus Aktiengesellschaft,1,136
+Bus,604,Österreichische Postbus Aktiengesellschaft,1,136
+Bus,605,Österreichische Postbus Aktiengesellschaft,1,304
+Bus,606,Österreichische Postbus Aktiengesellschaft,1,467
+Bus,607,Österreichische Postbus Aktiengesellschaft,1,475
+Bus,608,Österreichische Postbus Aktiengesellschaft,1,152
+Bus,609,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,611,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,618,Österreichische Postbus Aktiengesellschaft,1,171
+Bus,620,Österreichische Postbus Aktiengesellschaft,1,171
+Bus,626,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,630,Österreichische Postbus Aktiengesellschaft,1,126
+Bus,632,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,634,Österreichische Postbus Aktiengesellschaft,1,162
+Bus,635,Österreichische Postbus Aktiengesellschaft,1,171
+Bus,636,Österreichische Postbus Aktiengesellschaft,1,180
+Bus,645,Österreichische Postbus Aktiengesellschaft,1,547
+Bus,646,Österreichische Postbus Aktiengesellschaft,1,400
+Bus,647,Österreichische Postbus Aktiengesellschaft,1,329
+Bus,648,Österreichische Postbus Aktiengesellschaft,1,452
+Bus,649,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,650,Österreichische Postbus Aktiengesellschaft,1,294
+Bus,651,Österreichische Postbus Aktiengesellschaft,1,477
+Bus,652,Österreichische Postbus Aktiengesellschaft,1,90
+Bus,653,Österreichische Postbus Aktiengesellschaft,1,110
+Bus,654,Österreichische Postbus Aktiengesellschaft,1,100
+Bus,655,Österreichische Postbus Aktiengesellschaft,1,115
+Bus,656,Österreichische Postbus Aktiengesellschaft,1,105
+Bus,657,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,658,Österreichische Postbus Aktiengesellschaft,1,272
+Bus,659,Österreichische Postbus Aktiengesellschaft,1,304
+Bus,660,Österreichische Postbus Aktiengesellschaft,1,185
+Bus,661,Österreichische Postbus Aktiengesellschaft,1,232
+Bus,662,Österreichische Postbus Aktiengesellschaft,1,264
+Bus,663,Österreichische Postbus Aktiengesellschaft,1,248
+Bus,664,Österreichische Postbus Aktiengesellschaft,1,105
+Bus,665,Österreichische Postbus Aktiengesellschaft,1,288
+Bus,666,Österreichische Postbus Aktiengesellschaft,1,184
+Bus,667,Österreichische Postbus Aktiengesellschaft,1,375
+Bus,668,Österreichische Postbus Aktiengesellschaft,1,116
+Bus,669,Österreichische Postbus Aktiengesellschaft,1,288
+Bus,670,Österreichische Postbus Aktiengesellschaft,1,312
+Bus,671,Österreichische Postbus Aktiengesellschaft,1,264
+Bus,672,Österreichische Postbus Aktiengesellschaft,1,238
+Bus,674,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,676,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,678,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,681,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,683,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,685,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,686,Österreichische Postbus Aktiengesellschaft,1,104
+Bus,688,Österreichische Postbus Aktiengesellschaft,1,171
+Bus,690,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,691,Österreichische Postbus Aktiengesellschaft,1,189
+Bus,692,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,693,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,694,Österreichische Postbus Aktiengesellschaft,1,153
+Bus,699,Österreichische Postbus Aktiengesellschaft,1,108
+Bus,701,Österreichische Postbus Aktiengesellschaft,1,171
+Bus,702,Österreichische Postbus Aktiengesellschaft,1,231
+Bus,704,Österreichische Postbus Aktiengesellschaft,1,198
+Bus,705,Österreichische Postbus Aktiengesellschaft,1,297
+Bus,706,Österreichische Postbus Aktiengesellschaft,1,86
+Bus,707,Österreichische Postbus Aktiengesellschaft,1,245
+Bus,708,Österreichische Postbus Aktiengesellschaft,1,423
+Bus,709,Österreichische Postbus Aktiengesellschaft,1,278
+Bus,710,Österreichische Postbus Aktiengesellschaft,1,412
+Bus,711,Österreichische Postbus Aktiengesellschaft,1,271
+Bus,712,Österreichische Postbus Aktiengesellschaft,1,439
+Bus,713,Österreichische Postbus Aktiengesellschaft,1,227
+Bus,714,Österreichische Postbus Aktiengesellschaft,1,327
+Bus,715,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,716,Österreichische Postbus Aktiengesellschaft,1,529
+Bus,717,Österreichische Postbus Aktiengesellschaft,1,276
+Bus,718,Österreichische Postbus Aktiengesellschaft,1,187
+Bus,719,Österreichische Postbus Aktiengesellschaft,1,355
+Bus,720,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,721,Österreichische Postbus Aktiengesellschaft,1,335
+Bus,722,Österreichische Postbus Aktiengesellschaft,1,330
+Bus,724,Österreichische Postbus Aktiengesellschaft,1,399
+Bus,726,Österreichische Postbus Aktiengesellschaft,1,303
+Bus,727,Österreichische Postbus Aktiengesellschaft,1,104
+Bus,728,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,729,Österreichische Postbus Aktiengesellschaft,1,162
+Bus,730,Österreichische Postbus Aktiengesellschaft,1,220
+Bus,731,Österreichische Postbus Aktiengesellschaft,1,286
+Bus,732,Österreichische Postbus Aktiengesellschaft,1,267
+Bus,733,Österreichische Postbus Aktiengesellschaft,1,286
+Bus,734,Österreichische Postbus Aktiengesellschaft,1,321
+Bus,738,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,739,Österreichische Postbus Aktiengesellschaft,1,171
+Bus,740,Österreichische Postbus Aktiengesellschaft,1,260
+Bus,831,Österreichische Postbus Aktiengesellschaft,1,110
+Bus,832,Österreichische Postbus Aktiengesellschaft,1,240
+Bus,833,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,834,Österreichische Postbus Aktiengesellschaft,1,50
+Bus,835,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,840,Österreichische Postbus Aktiengesellschaft,1,240
+Bus,841,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,842,Österreichische Postbus Aktiengesellschaft,1,110
+Bus,843,Österreichische Postbus Aktiengesellschaft,1,250
+Bus,847,Österreichische Postbus Aktiengesellschaft,1,230
+Bus,903,Österreichische Postbus Aktiengesellschaft,1,260
+Bus,905,Österreichische Postbus Aktiengesellschaft,1,260
+Bus,908,Österreichische Postbus Aktiengesellschaft,1,162
+Bus,951,Österreichische Postbus Aktiengesellschaft,1,96
+Bus,957,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,973,(none),0,2
+Bus,979,(none),0,4
+Bus,987,Österreichische Postbus Aktiengesellschaft,1,172
+Bus,992,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,996,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,1000,Österreichische Postbus Aktiengesellschaft,1,104
+Bus,1003,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,1004,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,1005,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,1006,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,1007,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,1008,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,1009,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,1010,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,1011,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,1012,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,1013,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,1014,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,1015,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,1016,Österreichische Postbus Aktiengesellschaft,1,128
+Bus,1018,Österreichische Postbus Aktiengesellschaft,1,152
+Bus,1019,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,1020,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,1021,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,1022,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,1023,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,1024,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,1025,Österreichische Postbus Aktiengesellschaft,1,23
+Bus,1026,Österreichische Postbus Aktiengesellschaft,1,112
+Bus,1028,Österreichische Postbus Aktiengesellschaft,1,54
+Bus,1029,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,1030,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,1031,Österreichische Postbus Aktiengesellschaft,1,54
+Bus,1032,Österreichische Postbus Aktiengesellschaft,1,82
+Bus,1033,Österreichische Postbus Aktiengesellschaft,1,71
+Bus,1034,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,1035,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,1036,Österreichische Postbus Aktiengesellschaft,1,54
+Bus,1037,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,1038,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,1039,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,1040,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,1041,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,1042,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,1043,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,1044,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,1050,Österreichische Postbus Aktiengesellschaft,1,39
+Bus,1055,Österreichische Postbus Aktiengesellschaft,1,98
+Bus,1062,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,1063,Österreichische Postbus Aktiengesellschaft,1,88
+Bus,1067,Österreichische Postbus Aktiengesellschaft,1,117
+Bus,1068,Österreichische Postbus Aktiengesellschaft,1,26
+Bus,1070,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,1073,Österreichische Postbus Aktiengesellschaft,1,26
+Bus,1074,Österreichische Postbus Aktiengesellschaft,1,228
+Bus,1075,Österreichische Postbus Aktiengesellschaft,1,533
+Bus,1076,Österreichische Postbus Aktiengesellschaft,1,520
+Bus,1077,Österreichische Postbus Aktiengesellschaft,1,252
+Bus,1078,Österreichische Postbus Aktiengesellschaft,1,546
+Bus,1079,Österreichische Postbus Aktiengesellschaft,1,104
+Bus,1080,Österreichische Postbus Aktiengesellschaft,1,559
+Bus,1081,Österreichische Postbus Aktiengesellschaft,1,310
+Bus,1082,Österreichische Postbus Aktiengesellschaft,1,2
+Bus,1083,Österreichische Postbus Aktiengesellschaft,1,312
+Bus,1084,Österreichische Postbus Aktiengesellschaft,1,509
+Bus,1085,Österreichische Postbus Aktiengesellschaft,1,266
+Bus,1086,Österreichische Postbus Aktiengesellschaft,1,252
+Bus,1087,Österreichische Postbus Aktiengesellschaft,1,258
+Bus,1088,Österreichische Postbus Aktiengesellschaft,1,303
+Bus,1089,Österreichische Postbus Aktiengesellschaft,1,285
+Bus,1090,Österreichische Postbus Aktiengesellschaft,1,252
+Bus,1091,Österreichische Postbus Aktiengesellschaft,1,240
+Bus,1094,Österreichische Postbus Aktiengesellschaft,1,240
+Bus,1095,Österreichische Postbus Aktiengesellschaft,1,240
+Bus,1096,Österreichische Postbus Aktiengesellschaft,1,105
+Bus,1097,Österreichische Postbus Aktiengesellschaft,1,90
+Bus,1100,Österreichische Postbus Aktiengesellschaft,1,114
+Bus,1101,Österreichische Postbus Aktiengesellschaft,1,26
+Bus,1111,Österreichische Postbus Aktiengesellschaft,1,136
+Bus,1112,Österreichische Postbus Aktiengesellschaft,1,18
+Bus,1113,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,1114,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,1117,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,1118,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,1132,Österreichische Postbus Aktiengesellschaft,1,26
+Bus,1144,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,1150,Österreichische Postbus Aktiengesellschaft,1,26
+Bus,1151,Österreichische Postbus Aktiengesellschaft,1,104
+Bus,1165,Österreichische Postbus Aktiengesellschaft,1,84
+Bus,1176,Österreichische Postbus Aktiengesellschaft,1,112
+Bus,1178,Österreichische Postbus Aktiengesellschaft,1,156
+Bus,1179,Österreichische Postbus Aktiengesellschaft,1,162
+Bus,1180,Österreichische Postbus Aktiengesellschaft,1,126
+Bus,1181,Österreichische Postbus Aktiengesellschaft,1,162
+Bus,1182,Österreichische Postbus Aktiengesellschaft,1,168
+Bus,1183,Österreichische Postbus Aktiengesellschaft,1,174
+Bus,1184,Österreichische Postbus Aktiengesellschaft,1,174
+Bus,1185,Österreichische Postbus Aktiengesellschaft,1,174
+Bus,1186,Österreichische Postbus Aktiengesellschaft,1,186
+Bus,1187,Österreichische Postbus Aktiengesellschaft,1,132
+Bus,1188,Österreichische Postbus Aktiengesellschaft,1,162
+Bus,1189,Österreichische Postbus Aktiengesellschaft,1,210
+Bus,1190,Österreichische Postbus Aktiengesellschaft,1,156
+Bus,1191,Österreichische Postbus Aktiengesellschaft,1,133
+Bus,1192,Österreichische Postbus Aktiengesellschaft,1,150
+Bus,1193,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,1194,Österreichische Postbus Aktiengesellschaft,1,162
+Bus,1195,Österreichische Postbus Aktiengesellschaft,1,162
+Bus,1196,Österreichische Postbus Aktiengesellschaft,1,162
+Bus,1197,Österreichische Postbus Aktiengesellschaft,1,166
+Bus,1198,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,1199,Österreichische Postbus Aktiengesellschaft,1,150
+Bus,1200,Österreichische Postbus Aktiengesellschaft,1,168
+Bus,1201,Österreichische Postbus Aktiengesellschaft,1,162
+Bus,1202,Österreichische Postbus Aktiengesellschaft,1,156
+Bus,1203,Österreichische Postbus Aktiengesellschaft,1,162
+Bus,1204,Österreichische Postbus Aktiengesellschaft,1,162
+Bus,1205,Österreichische Postbus Aktiengesellschaft,1,304
+Bus,1206,Österreichische Postbus Aktiengesellschaft,1,174
+Bus,1207,Österreichische Postbus Aktiengesellschaft,1,180
+Bus,1208,Österreichische Postbus Aktiengesellschaft,1,138
+Bus,1209,Österreichische Postbus Aktiengesellschaft,1,280
+Bus,1210,Österreichische Postbus Aktiengesellschaft,1,184
+Bus,1211,Österreichische Postbus Aktiengesellschaft,1,162
+Bus,1212,Österreichische Postbus Aktiengesellschaft,1,133
+Bus,1213,Österreichische Postbus Aktiengesellschaft,1,156
+Bus,1214,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,1215,Österreichische Postbus Aktiengesellschaft,1,252
+Bus,1216,Österreichische Postbus Aktiengesellschaft,1,132
+Bus,1217,Österreichische Postbus Aktiengesellschaft,1,171
+Bus,1218,Österreichische Postbus Aktiengesellschaft,1,171
+Bus,1219,Österreichische Postbus Aktiengesellschaft,1,198
+Bus,1220,Österreichische Postbus Aktiengesellschaft,1,126
+Bus,1221,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,1222,Österreichische Postbus Aktiengesellschaft,1,114
+Bus,1223,Österreichische Postbus Aktiengesellschaft,1,114
+Bus,1224,Österreichische Postbus Aktiengesellschaft,1,114
+Bus,1225,Österreichische Postbus Aktiengesellschaft,1,108
+Bus,1226,Österreichische Postbus Aktiengesellschaft,1,114
+Bus,1227,Österreichische Postbus Aktiengesellschaft,1,201
+Bus,1228,Österreichische Postbus Aktiengesellschaft,1,108
+Bus,1229,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,1230,Österreichische Postbus Aktiengesellschaft,1,78
+Bus,1231,Österreichische Postbus Aktiengesellschaft,1,114
+Bus,1232,Österreichische Postbus Aktiengesellschaft,1,203
+Bus,1233,Österreichische Postbus Aktiengesellschaft,1,192
+Bus,1234,Österreichische Postbus Aktiengesellschaft,1,243
+Bus,1235,Österreichische Postbus Aktiengesellschaft,1,267
+Bus,1236,Österreichische Postbus Aktiengesellschaft,1,231
+Bus,1237,Österreichische Postbus Aktiengesellschaft,1,114
+Bus,1238,Österreichische Postbus Aktiengesellschaft,1,78
+Bus,1239,Österreichische Postbus Aktiengesellschaft,1,114
+Bus,1240,Österreichische Postbus Aktiengesellschaft,1,108
+Bus,1241,Österreichische Postbus Aktiengesellschaft,1,108
+Bus,1242,Österreichische Postbus Aktiengesellschaft,1,108
+Bus,1243,Österreichische Postbus Aktiengesellschaft,1,240
+Bus,1244,Österreichische Postbus Aktiengesellschaft,1,153
+Bus,1245,Österreichische Postbus Aktiengesellschaft,1,370
+Bus,1246,Österreichische Postbus Aktiengesellschaft,1,222
+Bus,1247,Österreichische Postbus Aktiengesellschaft,1,114
+Bus,1248,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,1249,Österreichische Postbus Aktiengesellschaft,1,114
+Bus,1250,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,1251,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,1252,Österreichische Postbus Aktiengesellschaft,1,84
+Bus,1253,Österreichische Postbus Aktiengesellschaft,1,114
+Bus,1254,Österreichische Postbus Aktiengesellschaft,1,84
+Bus,1255,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,1256,Österreichische Postbus Aktiengesellschaft,1,78
+Bus,1257,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,1258,Österreichische Postbus Aktiengesellschaft,1,78
+Bus,1259,Österreichische Postbus Aktiengesellschaft,1,114
+Bus,1260,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,1261,Österreichische Postbus Aktiengesellschaft,1,114
+Bus,1262,Österreichische Postbus Aktiengesellschaft,1,174
+Bus,1263,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,1264,Österreichische Postbus Aktiengesellschaft,1,78
+Bus,1265,Österreichische Postbus Aktiengesellschaft,1,114
+Bus,1266,Österreichische Postbus Aktiengesellschaft,1,78
+Bus,1267,Österreichische Postbus Aktiengesellschaft,1,114
+Bus,1268,Österreichische Postbus Aktiengesellschaft,1,78
+Bus,1269,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,1270,Österreichische Postbus Aktiengesellschaft,1,84
+Bus,1271,Österreichische Postbus Aktiengesellschaft,1,114
+Bus,1272,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,1273,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,1311,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,1330,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,1331,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,1332,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,1333,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,1334,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,1335,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,1336,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,1337,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,1338,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,1339,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,1340,Österreichische Postbus Aktiengesellschaft,1,49
+Bus,1341,Österreichische Postbus Aktiengesellschaft,1,49
+Bus,1342,Österreichische Postbus Aktiengesellschaft,1,42
+Bus,1343,Österreichische Postbus Aktiengesellschaft,1,42
+Bus,1344,Österreichische Postbus Aktiengesellschaft,1,49
+Bus,1345,Österreichische Postbus Aktiengesellschaft,1,49
+Bus,1346,Österreichische Postbus Aktiengesellschaft,1,49
+Bus,1347,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,1348,Österreichische Postbus Aktiengesellschaft,1,63
+Bus,1349,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,1350,Österreichische Postbus Aktiengesellschaft,1,49
+Bus,1351,Österreichische Postbus Aktiengesellschaft,1,63
+Bus,1352,Österreichische Postbus Aktiengesellschaft,1,63
+Bus,1353,Österreichische Postbus Aktiengesellschaft,1,63
+Bus,1354,Österreichische Postbus Aktiengesellschaft,1,63
+Bus,1355,Österreichische Postbus Aktiengesellschaft,1,70
+Bus,1356,Österreichische Postbus Aktiengesellschaft,1,174
+Bus,1357,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,1358,Österreichische Postbus Aktiengesellschaft,1,63
+Bus,1359,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,1360,Österreichische Postbus Aktiengesellschaft,1,77
+Bus,1361,Österreichische Postbus Aktiengesellschaft,1,63
+Bus,1362,Österreichische Postbus Aktiengesellschaft,1,77
+Bus,1363,Österreichische Postbus Aktiengesellschaft,1,63
+Bus,1364,Österreichische Postbus Aktiengesellschaft,1,63
+Bus,1365,Österreichische Postbus Aktiengesellschaft,1,63
+Bus,1366,Österreichische Postbus Aktiengesellschaft,1,70
+Bus,1367,Österreichische Postbus Aktiengesellschaft,1,63
+Bus,1368,Österreichische Postbus Aktiengesellschaft,1,63
+Bus,1369,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,1370,Österreichische Postbus Aktiengesellschaft,1,63
+Bus,1371,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,1372,Österreichische Postbus Aktiengesellschaft,1,49
+Bus,1373,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,1374,Österreichische Postbus Aktiengesellschaft,1,63
+Bus,1375,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,1376,Österreichische Postbus Aktiengesellschaft,1,63
+Bus,1377,Österreichische Postbus Aktiengesellschaft,1,63
+Bus,1378,Österreichische Postbus Aktiengesellschaft,1,63
+Bus,1379,Österreichische Postbus Aktiengesellschaft,1,63
+Bus,1380,Österreichische Postbus Aktiengesellschaft,1,70
+Bus,1381,Österreichische Postbus Aktiengesellschaft,1,70
+Bus,1382,Österreichische Postbus Aktiengesellschaft,1,70
+Bus,1383,Österreichische Postbus Aktiengesellschaft,1,63
+Bus,1384,Österreichische Postbus Aktiengesellschaft,1,70
+Bus,1385,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,1387,Österreichische Postbus Aktiengesellschaft,1,14
+Bus,1388,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,1392,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,1400,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,1404,(none),0,8
+Bus,1410,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,1412,Österreichische Postbus Aktiengesellschaft,1,220
+Bus,1413,Österreichische Postbus Aktiengesellschaft,1,341
+Bus,1414,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,1415,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,1418,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,1419,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,1444,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,1468,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,1469,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,1471,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,1472,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,1473,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,1474,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,1475,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,1476,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,1477,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,1478,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,1479,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,1481,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,1482,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,1483,Österreichische Postbus Aktiengesellschaft,1,47
+Bus,1484,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,1486,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,1487,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,1488,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,1489,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,1490,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,1491,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,1493,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,1494,Österreichische Postbus Aktiengesellschaft,1,47
+Bus,1495,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,1496,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,1497,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,1498,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,1499,Österreichische Postbus Aktiengesellschaft,1,148
+Bus,1500,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,1501,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,1502,Österreichische Postbus Aktiengesellschaft,1,46
+Bus,1503,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,1504,Österreichische Postbus Aktiengesellschaft,1,46
+Bus,1505,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,1507,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,1508,Österreichische Postbus Aktiengesellschaft,1,42
+Bus,1509,Österreichische Postbus Aktiengesellschaft,1,46
+Bus,1511,Österreichische Postbus Aktiengesellschaft,1,44
+Bus,1514,Österreichische Postbus Aktiengesellschaft,1,44
+Bus,1517,Österreichische Postbus Aktiengesellschaft,1,22
+Bus,1519,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,1521,Österreichische Postbus Aktiengesellschaft,1,3
+Bus,1522,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,1523,Österreichische Postbus Aktiengesellschaft,1,27
+Bus,1524,Österreichische Postbus Aktiengesellschaft,1,27
+Bus,1525,Österreichische Postbus Aktiengesellschaft,1,27
+Bus,1526,Österreichische Postbus Aktiengesellschaft,1,39
+Bus,1527,Österreichische Postbus Aktiengesellschaft,1,21
+Bus,1528,Österreichische Postbus Aktiengesellschaft,1,27
+Bus,1529,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,1530,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,1531,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,1532,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,1533,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,1534,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,1535,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,1536,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,1537,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,1538,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,1539,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,1540,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,1541,Österreichische Postbus Aktiengesellschaft,1,27
+Bus,1542,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,1543,Österreichische Postbus Aktiengesellschaft,1,27
+Bus,1544,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,1545,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,1546,Österreichische Postbus Aktiengesellschaft,1,27
+Bus,1547,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,1548,Österreichische Postbus Aktiengesellschaft,1,27
+Bus,1549,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,1550,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,1551,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,1552,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,1553,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,1554,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,1555,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,1556,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,1557,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,1558,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,1559,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,1560,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,1561,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,1562,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,1563,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,1564,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,1565,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,1566,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,1567,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,1568,Österreichische Postbus Aktiengesellschaft,1,44
+Bus,1569,Österreichische Postbus Aktiengesellschaft,1,44
+Bus,1570,Österreichische Postbus Aktiengesellschaft,1,22
+Bus,1573,Österreichische Postbus Aktiengesellschaft,1,126
+Bus,1576,Österreichische Postbus Aktiengesellschaft,1,104
+Bus,1578,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,1581,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,1585,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,1588,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,1590,Österreichische Postbus Aktiengesellschaft,1,11
+Bus,1591,Österreichische Postbus Aktiengesellschaft,1,11
+Bus,1592,Österreichische Postbus Aktiengesellschaft,1,11
+Bus,1594,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,1595,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,1596,Österreichische Postbus Aktiengesellschaft,1,3
+Bus,1597,Österreichische Postbus Aktiengesellschaft,1,3
+Bus,1598,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,1600,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,1602,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,1604,Österreichische Postbus Aktiengesellschaft,1,28
+Bus,1605,Österreichische Postbus Aktiengesellschaft,1,39
+Bus,1606,Österreichische Postbus Aktiengesellschaft,1,151
+Bus,1607,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,1608,Österreichische Postbus Aktiengesellschaft,1,61
+Bus,1609,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,1610,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,1611,Österreichische Postbus Aktiengesellschaft,1,25
+Bus,1612,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,1613,Österreichische Postbus Aktiengesellschaft,1,58
+Bus,1614,Österreichische Postbus Aktiengesellschaft,1,3
+Bus,1615,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,1616,Österreichische Postbus Aktiengesellschaft,1,52
+Bus,1618,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,1619,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,1620,Österreichische Postbus Aktiengesellschaft,1,38
+Bus,1621,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,1622,Österreichische Postbus Aktiengesellschaft,1,46
+Bus,1623,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,1624,Österreichische Postbus Aktiengesellschaft,1,3
+Bus,1627,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,1628,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,1629,Österreichische Postbus Aktiengesellschaft,1,11
+Bus,1630,Österreichische Postbus Aktiengesellschaft,1,41
+Bus,1631,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,1634,Österreichische Postbus Aktiengesellschaft,1,34
+Bus,1635,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,1638,Österreichische Postbus Aktiengesellschaft,1,34
+Bus,1641,Österreichische Postbus Aktiengesellschaft,1,34
+Bus,1642,Österreichische Postbus Aktiengesellschaft,1,2
+Bus,1643,Österreichische Postbus Aktiengesellschaft,1,34
+Bus,1644,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,1645,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,1652,Österreichische Postbus Aktiengesellschaft,1,34
+Bus,1678,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,1679,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,1720,Österreichische Postbus Aktiengesellschaft,1,34
+Bus,1721,Österreichische Postbus Aktiengesellschaft,1,34
+Bus,1724,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,1734,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,1735,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,1736,Österreichische Postbus Aktiengesellschaft,1,26
+Bus,1738,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,1742,Österreichische Postbus Aktiengesellschaft,1,28
+Bus,1743,Österreichische Postbus Aktiengesellschaft,1,28
+Bus,1745,Österreichische Postbus Aktiengesellschaft,1,28
+Bus,1747,Österreichische Postbus Aktiengesellschaft,1,336
+Bus,1761,(none),0,8
+Bus,1767,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,1775,Österreichische Postbus Aktiengesellschaft,1,52
+Bus,1776,Nahreisezug,1,13
+Bus,1777,Österreichische Postbus Aktiengesellschaft,1,136
+Bus,1781,Nahreisezug,1,13
+Bus,1784,Österreichische Postbus Aktiengesellschaft,1,533
+Bus,1785,Nahreisezug/Österreichische Postbus Aktiengesellschaft,2,385
+Bus,1786,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,1790,Österreichische Postbus Aktiengesellschaft,1,28
+Bus,1812,Österreichische Postbus Aktiengesellschaft,1,320
+Bus,1816,Österreichische Postbus Aktiengesellschaft,1,336
+Bus,1817,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,1823,Nahreisezug,1,5
+Bus,1824,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,1827,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,1839,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,1846,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,1847,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,1848,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,1849,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,1850,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,1852,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,1854,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,1856,Nahreisezug,1,10
+Bus,1863,Nahreisezug,1,10
+Bus,1865,Österreichische Postbus Aktiengesellschaft,1,408
+Bus,1866,Österreichische Postbus Aktiengesellschaft,1,442
+Bus,1867,Österreichische Postbus Aktiengesellschaft,1,256
+Bus,1869,Österreichische Postbus Aktiengesellschaft,1,572
+Bus,1871,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,1872,Österreichische Postbus Aktiengesellschaft,1,246
+Bus,1873,Österreichische Postbus Aktiengesellschaft,1,546
+Bus,1874,Österreichische Postbus Aktiengesellschaft,1,559
+Bus,1876,Nahreisezug/Österreichische Postbus Aktiengesellschaft,2,127
+Bus,1877,Österreichische Postbus Aktiengesellschaft,1,264
+Bus,1879,Österreichische Postbus Aktiengesellschaft,1,270
+Bus,1880,Österreichische Postbus Aktiengesellschaft,1,429
+Bus,1881,Österreichische Postbus Aktiengesellschaft,1,559
+Bus,1882,Österreichische Postbus Aktiengesellschaft,1,559
+Bus,1883,Österreichische Postbus Aktiengesellschaft,1,130
+Bus,1884,Österreichische Postbus Aktiengesellschaft,1,572
+Bus,1885,Österreichische Postbus Aktiengesellschaft,1,455
+Bus,1886,Österreichische Postbus Aktiengesellschaft,1,533
+Bus,1887,Österreichische Postbus Aktiengesellschaft,1,240
+Bus,1888,Österreichische Postbus Aktiengesellschaft,1,246
+Bus,1889,Österreichische Postbus Aktiengesellschaft,1,252
+Bus,1890,Österreichische Postbus Aktiengesellschaft,1,130
+Bus,1891,Österreichische Postbus Aktiengesellschaft,1,429
+Bus,1893,Österreichische Postbus Aktiengesellschaft,1,559
+Bus,1896,Österreichische Postbus Aktiengesellschaft,1,546
+Bus,1897,Österreichische Postbus Aktiengesellschaft,1,130
+Bus,1898,Österreichische Postbus Aktiengesellschaft,1,258
+Bus,1899,Österreichische Postbus Aktiengesellschaft,1,442
+Bus,1900,Österreichische Postbus Aktiengesellschaft,1,258
+Bus,1901,Österreichische Postbus Aktiengesellschaft,1,520
+Bus,1902,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,1903,Österreichische Postbus Aktiengesellschaft,1,619
+Bus,1904,Österreichische Postbus Aktiengesellschaft,1,631
+Bus,1905,Österreichische Postbus Aktiengesellschaft,1,584
+Bus,1906,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,1907,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,1910,Österreichische Postbus Aktiengesellschaft,1,258
+Bus,1911,Österreichische Postbus Aktiengesellschaft,1,520
+Bus,1912,Österreichische Postbus Aktiengesellschaft,1,546
+Bus,1913,Österreichische Postbus Aktiengesellschaft,1,520
+Bus,1914,Österreichische Postbus Aktiengesellschaft,1,559
+Bus,1919,Österreichische Postbus Aktiengesellschaft,1,533
+Bus,1920,Österreichische Postbus Aktiengesellschaft,1,546
+Bus,1921,Österreichische Postbus Aktiengesellschaft,1,559
+Bus,1922,Österreichische Postbus Aktiengesellschaft,1,546
+Bus,1923,Österreichische Postbus Aktiengesellschaft,1,246
+Bus,1924,Österreichische Postbus Aktiengesellschaft,1,252
+Bus,1925,Österreichische Postbus Aktiengesellschaft,1,258
+Bus,1926,Österreichische Postbus Aktiengesellschaft,1,252
+Bus,1927,Österreichische Postbus Aktiengesellschaft,1,258
+Bus,1928,(none),0,7
+Bus,1930,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,1931,Nahreisezug,1,4
+Bus,1933,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,1935,Österreichische Postbus Aktiengesellschaft,1,42
+Bus,1937,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,1938,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,1940,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,1941,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,1942,Österreichische Postbus Aktiengesellschaft,1,39
+Bus,1943,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,1944,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,1946,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,1990,Nahreisezug,1,8
+Bus,1991,Österreichische Postbus Aktiengesellschaft,1,284
+Bus,1992,Österreichische Postbus Aktiengesellschaft,1,286
+Bus,1993,Österreichische Postbus Aktiengesellschaft,1,275
+Bus,1994,Österreichische Postbus Aktiengesellschaft,1,322
+Bus,1995,Österreichische Postbus Aktiengesellschaft,1,308
+Bus,1996,Österreichische Postbus Aktiengesellschaft,1,253
+Bus,1997,Österreichische Postbus Aktiengesellschaft,1,315
+Bus,1998,Österreichische Postbus Aktiengesellschaft,1,70
+Bus,2000,Österreichische Postbus Aktiengesellschaft,1,486
+Bus,2001,Österreichische Postbus Aktiengesellschaft,1,308
+Bus,2002,Österreichische Postbus Aktiengesellschaft,1,512
+Bus,2003,Österreichische Postbus Aktiengesellschaft,1,234
+Bus,2004,Österreichische Postbus Aktiengesellschaft,1,453
+Bus,2005,Österreichische Postbus Aktiengesellschaft,1,225
+Bus,2006,Österreichische Postbus Aktiengesellschaft,1,180
+Bus,2007,Österreichische Postbus Aktiengesellschaft,1,252
+Bus,2008,Österreichische Postbus Aktiengesellschaft,1,216
+Bus,2009,Österreichische Postbus Aktiengesellschaft,1,286
+Bus,2012,Österreichische Postbus Aktiengesellschaft,1,242
+Bus,2014,Österreichische Postbus Aktiengesellschaft,1,308
+Bus,2023,Österreichische Postbus Aktiengesellschaft,1,84
+Bus,2024,Österreichische Postbus Aktiengesellschaft,1,280
+Bus,2031,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,2039,Österreichische Postbus Aktiengesellschaft,1,286
+Bus,2044,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,2045,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,2046,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,2047,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,2049,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,2050,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,2051,Österreichische Postbus Aktiengesellschaft,1,100
+Bus,2052,Österreichische Postbus Aktiengesellschaft,1,110
+Bus,2053,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,2054,Österreichische Postbus Aktiengesellschaft,1,5
+Bus,2055,Österreichische Postbus Aktiengesellschaft,1,110
+Bus,2056,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,2057,Österreichische Postbus Aktiengesellschaft,1,25
+Bus,2058,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,2059,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,2060,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,2061,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,2062,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,2063,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,2064,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,2065,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,2066,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,2068,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,2069,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,2070,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,2075,Österreichische Postbus Aktiengesellschaft,1,11
+Bus,2081,Österreichische Postbus Aktiengesellschaft,1,11
+Bus,2084,Österreichische Postbus Aktiengesellschaft,1,11
+Bus,2089,(none),0,7
+Bus,2091,Österreichische Postbus Aktiengesellschaft,1,9
+Bus,2095,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,2108,Nahreisezug/Österreichische Postbus Aktiengesellschaft,2,32
+Bus,2118,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,2125,Österreichische Postbus Aktiengesellschaft,1,70
+Bus,2141,Österreichische Postbus Aktiengesellschaft,1,44
+Bus,2142,Österreichische Postbus Aktiengesellschaft,1,11
+Bus,2145,Österreichische Postbus Aktiengesellschaft,1,127
+Bus,2146,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,2147,Österreichische Postbus Aktiengesellschaft,1,9
+Bus,2148,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,2152,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,2154,Österreichische Postbus Aktiengesellschaft,1,44
+Bus,2155,Österreichische Postbus Aktiengesellschaft,1,27
+Bus,2158,Österreichische Postbus Aktiengesellschaft,1,44
+Bus,2159,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,2160,Österreichische Postbus Aktiengesellschaft,1,44
+Bus,2162,Österreichische Postbus Aktiengesellschaft,1,44
+Bus,2164,Österreichische Postbus Aktiengesellschaft,1,44
+Bus,2166,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,2168,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,2169,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,2170,Österreichische Postbus Aktiengesellschaft,1,9
+Bus,2172,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,2178,Österreichische Postbus Aktiengesellschaft,1,22
+Bus,2179,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,2180,Österreichische Postbus Aktiengesellschaft,1,81
+Bus,2182,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,2183,Österreichische Postbus Aktiengesellschaft,1,44
+Bus,2184,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,2189,Österreichische Postbus Aktiengesellschaft,1,27
+Bus,2190,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,2191,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,2192,Österreichische Postbus Aktiengesellschaft,1,21
+Bus,2194,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,2195,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,2196,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,2199,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,2200,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,2202,Österreichische Postbus Aktiengesellschaft,1,14
+Bus,2203,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,2204,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,2205,Österreichische Postbus Aktiengesellschaft,1,11
+Bus,2206,Österreichische Postbus Aktiengesellschaft,1,2
+Bus,2207,Österreichische Postbus Aktiengesellschaft,1,78
+Bus,2208,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,2211,Österreichische Postbus Aktiengesellschaft,1,34
+Bus,2213,Österreichische Postbus Aktiengesellschaft,1,54
+Bus,2215,Österreichische Postbus Aktiengesellschaft,1,28
+Bus,2216,Österreichische Postbus Aktiengesellschaft,1,22
+Bus,2218,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,2219,Österreichische Postbus Aktiengesellschaft,1,22
+Bus,2237,Österreichische Postbus Aktiengesellschaft,1,155
+Bus,2240,(none),0,7
+Bus,2259,(none),0,14
+Bus,2329,Österreichische Postbus Aktiengesellschaft,1,28
+Bus,2354,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,2386,Österreichische Postbus Aktiengesellschaft,1,155
+Bus,2387,Österreichische Postbus Aktiengesellschaft,1,22
+Bus,2392,Österreichische Postbus Aktiengesellschaft,1,42
+Bus,2396,Österreichische Postbus Aktiengesellschaft,1,344
+Bus,2397,Österreichische Postbus Aktiengesellschaft,1,28
+Bus,2411,Österreichische Postbus Aktiengesellschaft,1,35
+Bus,2414,Österreichische Postbus Aktiengesellschaft,1,28
+Bus,2419,Österreichische Postbus Aktiengesellschaft,1,3
+Bus,2424,Österreichische Postbus Aktiengesellschaft,1,5
+Bus,2427,Österreichische Postbus Aktiengesellschaft,1,150
+Bus,2431,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,2432,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,2433,Österreichische Postbus Aktiengesellschaft,1,55
+Bus,2436,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,2438,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,2440,Österreichische Postbus Aktiengesellschaft,1,27
+Bus,2444,Österreichische Postbus Aktiengesellschaft,1,150
+Bus,2445,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,2446,Österreichische Postbus Aktiengesellschaft,1,149
+Bus,2447,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,2448,Österreichische Postbus Aktiengesellschaft,1,105
+Bus,2449,Österreichische Postbus Aktiengesellschaft,1,135
+Bus,2450,Österreichische Postbus Aktiengesellschaft,1,165
+Bus,2451,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,2452,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,2454,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,2455,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,2457,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,2458,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,2459,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,2460,Nahreisezug/Österreichische Postbus Aktiengesellschaft,2,53
+Bus,2461,Österreichische Postbus Aktiengesellschaft,1,117
+Bus,2462,Österreichische Postbus Aktiengesellschaft,1,110
+Bus,2463,Österreichische Postbus Aktiengesellschaft,1,90
+Bus,2464,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,2465,Österreichische Postbus Aktiengesellschaft,1,23
+Bus,2466,Österreichische Postbus Aktiengesellschaft,1,23
+Bus,2467,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,2468,Österreichische Postbus Aktiengesellschaft,1,160
+Bus,2469,Österreichische Postbus Aktiengesellschaft,1,168
+Bus,2470,Österreichische Postbus Aktiengesellschaft,1,155
+Bus,2471,Österreichische Postbus Aktiengesellschaft,1,155
+Bus,2472,Österreichische Postbus Aktiengesellschaft,1,273
+Bus,2473,Österreichische Postbus Aktiengesellschaft,1,305
+Bus,2474,Österreichische Postbus Aktiengesellschaft,1,295
+Bus,2475,Österreichische Postbus Aktiengesellschaft,1,257
+Bus,2476,Österreichische Postbus Aktiengesellschaft,1,273
+Bus,2477,Österreichische Postbus Aktiengesellschaft,1,180
+Bus,2478,Österreichische Postbus Aktiengesellschaft,1,28
+Bus,2479,Österreichische Postbus Aktiengesellschaft,1,28
+Bus,2480,Österreichische Postbus Aktiengesellschaft,1,68
+Bus,2481,Österreichische Postbus Aktiengesellschaft,1,68
+Bus,2482,Österreichische Postbus Aktiengesellschaft,1,68
+Bus,2483,Österreichische Postbus Aktiengesellschaft,1,63
+Bus,2484,Österreichische Postbus Aktiengesellschaft,1,63
+Bus,2485,Österreichische Postbus Aktiengesellschaft,1,63
+Bus,2486,Österreichische Postbus Aktiengesellschaft,1,35
+Bus,2487,Österreichische Postbus Aktiengesellschaft,1,35
+Bus,2488,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,2489,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,2490,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,2491,Österreichische Postbus Aktiengesellschaft,1,35
+Bus,2492,Österreichische Postbus Aktiengesellschaft,1,35
+Bus,2493,Österreichische Postbus Aktiengesellschaft,1,35
+Bus,2494,Österreichische Postbus Aktiengesellschaft,1,35
+Bus,2495,Österreichische Postbus Aktiengesellschaft,1,135
+Bus,2496,Österreichische Postbus Aktiengesellschaft,1,178
+Bus,2499,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,2500,Österreichische Postbus Aktiengesellschaft,1,70
+Bus,2501,Österreichische Postbus Aktiengesellschaft,1,70
+Bus,2502,Österreichische Postbus Aktiengesellschaft,1,105
+Bus,2503,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,2504,Österreichische Postbus Aktiengesellschaft,1,105
+Bus,2505,Österreichische Postbus Aktiengesellschaft,1,150
+Bus,2506,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,2507,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,2508,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,2509,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,2511,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,2512,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,2513,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,2514,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,2515,Österreichische Postbus Aktiengesellschaft,1,144
+Bus,2516,Österreichische Postbus Aktiengesellschaft,1,112
+Bus,2517,Österreichische Postbus Aktiengesellschaft,1,144
+Bus,2518,Österreichische Postbus Aktiengesellschaft,1,144
+Bus,2519,Österreichische Postbus Aktiengesellschaft,1,176
+Bus,2520,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,2521,Österreichische Postbus Aktiengesellschaft,1,144
+Bus,2523,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,2524,Österreichische Postbus Aktiengesellschaft,1,23
+Bus,2525,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,2526,Österreichische Postbus Aktiengesellschaft,1,43
+Bus,2527,Österreichische Postbus Aktiengesellschaft,1,65
+Bus,2528,Österreichische Postbus Aktiengesellschaft,1,58
+Bus,2529,Österreichische Postbus Aktiengesellschaft,1,63
+Bus,2530,Österreichische Postbus Aktiengesellschaft,1,73
+Bus,2531,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,2532,Österreichische Postbus Aktiengesellschaft,1,38
+Bus,2533,Österreichische Postbus Aktiengesellschaft,1,28
+Bus,2534,Österreichische Postbus Aktiengesellschaft,1,38
+Bus,2535,Österreichische Postbus Aktiengesellschaft,1,53
+Bus,2536,Österreichische Postbus Aktiengesellschaft,1,5
+Bus,2537,Österreichische Postbus Aktiengesellschaft,1,5
+Bus,2538,Österreichische Postbus Aktiengesellschaft,1,5
+Bus,2539,Österreichische Postbus Aktiengesellschaft,1,5
+Bus,2540,Österreichische Postbus Aktiengesellschaft,1,5
+Bus,2542,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,2545,Österreichische Postbus Aktiengesellschaft,1,28
+Bus,2546,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,2548,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,2558,Österreichische Postbus Aktiengesellschaft,1,368
+Bus,2559,Österreichische Postbus Aktiengesellschaft,1,238
+Bus,2560,Österreichische Postbus Aktiengesellschaft,1,352
+Bus,2561,Österreichische Postbus Aktiengesellschaft,1,231
+Bus,2562,Österreichische Postbus Aktiengesellschaft,1,368
+Bus,2563,Österreichische Postbus Aktiengesellschaft,1,231
+Bus,2564,Österreichische Postbus Aktiengesellschaft,1,336
+Bus,2565,Österreichische Postbus Aktiengesellschaft,1,224
+Bus,2566,Österreichische Postbus Aktiengesellschaft,1,336
+Bus,2567,Österreichische Postbus Aktiengesellschaft,1,217
+Bus,2568,Österreichische Postbus Aktiengesellschaft,1,328
+Bus,2569,Österreichische Postbus Aktiengesellschaft,1,231
+Bus,2570,Österreichische Postbus Aktiengesellschaft,1,328
+Bus,2571,Österreichische Postbus Aktiengesellschaft,1,336
+Bus,2572,Österreichische Postbus Aktiengesellschaft,1,344
+Bus,2573,Österreichische Postbus Aktiengesellschaft,1,352
+Bus,2576,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,2577,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,2605,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,2606,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,2608,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,2628,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,2644,Nahreisezug,1,8
+Bus,2689,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,2691,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,2692,Österreichische Postbus Aktiengesellschaft,1,5
+Bus,2695,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,2697,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,2699,Österreichische Postbus Aktiengesellschaft,1,3
+Bus,2702,Österreichische Postbus Aktiengesellschaft,1,5
+Bus,2704,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,2709,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,2730,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,2731,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,2732,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,2733,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,2734,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,2735,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,2736,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,2737,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,2738,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,2739,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,2740,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,2741,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,2742,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,2743,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,2744,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,2745,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,2746,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,2747,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,2748,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,2749,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,2792,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,2793,Österreichische Postbus Aktiengesellschaft,1,90
+Bus,2794,Österreichische Postbus Aktiengesellschaft,1,51
+Bus,2795,Österreichische Postbus Aktiengesellschaft,1,39
+Bus,2797,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,2798,Österreichische Postbus Aktiengesellschaft,1,204
+Bus,2799,Österreichische Postbus Aktiengesellschaft,1,216
+Bus,2800,Österreichische Postbus Aktiengesellschaft,1,216
+Bus,2801,Österreichische Postbus Aktiengesellschaft,1,35
+Bus,2802,Österreichische Postbus Aktiengesellschaft,1,228
+Bus,2803,Österreichische Postbus Aktiengesellschaft,1,78
+Bus,2804,Österreichische Postbus Aktiengesellschaft,1,168
+Bus,2805,Österreichische Postbus Aktiengesellschaft,1,156
+Bus,2806,Österreichische Postbus Aktiengesellschaft,1,304
+Bus,2807,Österreichische Postbus Aktiengesellschaft,1,272
+Bus,2808,Österreichische Postbus Aktiengesellschaft,1,91
+Bus,2809,Österreichische Postbus Aktiengesellschaft,1,98
+Bus,2810,Österreichische Postbus Aktiengesellschaft,1,9
+Bus,2811,Österreichische Postbus Aktiengesellschaft,1,98
+Bus,2812,Österreichische Postbus Aktiengesellschaft,1,228
+Bus,2813,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,2814,Österreichische Postbus Aktiengesellschaft,1,240
+Bus,2815,Österreichische Postbus Aktiengesellschaft,1,243
+Bus,2816,Österreichische Postbus Aktiengesellschaft,1,388
+Bus,2817,Österreichische Postbus Aktiengesellschaft,1,162
+Bus,2818,Österreichische Postbus Aktiengesellschaft,1,201
+Bus,2819,Österreichische Postbus Aktiengesellschaft,1,261
+Bus,2820,Österreichische Postbus Aktiengesellschaft,1,100
+Bus,2821,Österreichische Postbus Aktiengesellschaft,1,87
+Bus,2822,Österreichische Postbus Aktiengesellschaft,1,3
+Bus,2823,Österreichische Postbus Aktiengesellschaft,1,54
+Bus,2824,Österreichische Postbus Aktiengesellschaft,1,42
+Bus,2826,Österreichische Postbus Aktiengesellschaft,1,168
+Bus,2827,Österreichische Postbus Aktiengesellschaft,1,84
+Bus,2828,Österreichische Postbus Aktiengesellschaft,1,251
+Bus,2829,Österreichische Postbus Aktiengesellschaft,1,256
+Bus,2830,Österreichische Postbus Aktiengesellschaft,1,85
+Bus,2831,Österreichische Postbus Aktiengesellschaft,1,279
+Bus,2832,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,2833,Österreichische Postbus Aktiengesellschaft,1,46
+Bus,2834,Österreichische Postbus Aktiengesellschaft,1,26
+Bus,2835,Österreichische Postbus Aktiengesellschaft,1,3
+Bus,2836,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,2837,Österreichische Postbus Aktiengesellschaft,1,62
+Bus,2838,Österreichische Postbus Aktiengesellschaft,1,239
+Bus,2839,Österreichische Postbus Aktiengesellschaft,1,84
+Bus,2840,Österreichische Postbus Aktiengesellschaft,1,246
+Bus,2841,Österreichische Postbus Aktiengesellschaft,1,35
+Bus,2842,Österreichische Postbus Aktiengesellschaft,1,265
+Bus,2843,Österreichische Postbus Aktiengesellschaft,1,168
+Bus,2844,Österreichische Postbus Aktiengesellschaft,1,29
+Bus,2845,Österreichische Postbus Aktiengesellschaft,1,192
+Bus,2846,Österreichische Postbus Aktiengesellschaft,1,194
+Bus,2847,Österreichische Postbus Aktiengesellschaft,1,216
+Bus,2848,Österreichische Postbus Aktiengesellschaft,1,335
+Bus,2849,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,2850,Österreichische Postbus Aktiengesellschaft,1,102
+Bus,2851,Österreichische Postbus Aktiengesellschaft,1,321
+Bus,2852,Österreichische Postbus Aktiengesellschaft,1,97
+Bus,2853,Österreichische Postbus Aktiengesellschaft,1,365
+Bus,2854,Österreichische Postbus Aktiengesellschaft,1,844
+Bus,2855,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,2856,Österreichische Postbus Aktiengesellschaft,1,316
+Bus,2857,Österreichische Postbus Aktiengesellschaft,1,250
+Bus,2858,Österreichische Postbus Aktiengesellschaft,1,44
+Bus,2859,Österreichische Postbus Aktiengesellschaft,1,333
+Bus,2860,Österreichische Postbus Aktiengesellschaft,1,139
+Bus,2861,Österreichische Postbus Aktiengesellschaft,1,254
+Bus,2862,Österreichische Postbus Aktiengesellschaft,1,57
+Bus,2864,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,2865,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,2866,Österreichische Postbus Aktiengesellschaft,1,84
+Bus,2867,Österreichische Postbus Aktiengesellschaft,1,302
+Bus,2868,Österreichische Postbus Aktiengesellschaft,1,200
+Bus,2869,Österreichische Postbus Aktiengesellschaft,1,265
+Bus,2870,Österreichische Postbus Aktiengesellschaft,1,301
+Bus,2871,Österreichische Postbus Aktiengesellschaft,1,319
+Bus,2872,Österreichische Postbus Aktiengesellschaft,1,186
+Bus,2873,Österreichische Postbus Aktiengesellschaft,1,265
+Bus,2874,Österreichische Postbus Aktiengesellschaft,1,266
+Bus,2875,Österreichische Postbus Aktiengesellschaft,1,252
+Bus,2876,Österreichische Postbus Aktiengesellschaft,1,254
+Bus,2877,Österreichische Postbus Aktiengesellschaft,1,168
+Bus,2878,Österreichische Postbus Aktiengesellschaft,1,29
+Bus,2879,Österreichische Postbus Aktiengesellschaft,1,315
+Bus,2880,Österreichische Postbus Aktiengesellschaft,1,156
+Bus,2881,Österreichische Postbus Aktiengesellschaft,1,274
+Bus,2882,Österreichische Postbus Aktiengesellschaft,1,35
+Bus,2883,Österreichische Postbus Aktiengesellschaft,1,228
+Bus,2884,Österreichische Postbus Aktiengesellschaft,1,230
+Bus,2885,Österreichische Postbus Aktiengesellschaft,1,111
+Bus,2886,Österreichische Postbus Aktiengesellschaft,1,37
+Bus,2887,Österreichische Postbus Aktiengesellschaft,1,244
+Bus,2888,Österreichische Postbus Aktiengesellschaft,1,192
+Bus,2889,Österreichische Postbus Aktiengesellschaft,1,74
+Bus,2890,Österreichische Postbus Aktiengesellschaft,1,295
+Bus,2891,Österreichische Postbus Aktiengesellschaft,1,223
+Bus,2892,Österreichische Postbus Aktiengesellschaft,1,213
+Bus,2893,Österreichische Postbus Aktiengesellschaft,1,288
+Bus,2894,Österreichische Postbus Aktiengesellschaft,1,107
+Bus,2895,Österreichische Postbus Aktiengesellschaft,1,400
+Bus,2896,Österreichische Postbus Aktiengesellschaft,1,318
+Bus,2897,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,2898,Österreichische Postbus Aktiengesellschaft,1,200
+Bus,2899,Österreichische Postbus Aktiengesellschaft,1,246
+Bus,2900,Österreichische Postbus Aktiengesellschaft,1,220
+Bus,2901,Österreichische Postbus Aktiengesellschaft,1,66
+Bus,2902,Österreichische Postbus Aktiengesellschaft,1,84
+Bus,2903,Österreichische Postbus Aktiengesellschaft,1,85
+Bus,2904,Österreichische Postbus Aktiengesellschaft,1,84
+Bus,2905,Österreichische Postbus Aktiengesellschaft,1,98
+Bus,2906,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,2907,Österreichische Postbus Aktiengesellschaft,1,98
+Bus,2908,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,2909,Österreichische Postbus Aktiengesellschaft,1,84
+Bus,2910,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,2911,Österreichische Postbus Aktiengesellschaft,1,58
+Bus,2912,Österreichische Postbus Aktiengesellschaft,1,94
+Bus,2913,Österreichische Postbus Aktiengesellschaft,1,34
+Bus,2914,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,2915,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,2916,Österreichische Postbus Aktiengesellschaft,1,34
+Bus,2917,Österreichische Postbus Aktiengesellschaft,1,19
+Bus,2918,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,2919,Österreichische Postbus Aktiengesellschaft,1,46
+Bus,2920,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,2921,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,2922,Österreichische Postbus Aktiengesellschaft,1,34
+Bus,2923,Österreichische Postbus Aktiengesellschaft,1,52
+Bus,2924,Österreichische Postbus Aktiengesellschaft,1,29
+Bus,2925,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,2926,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,2927,Österreichische Postbus Aktiengesellschaft,1,52
+Bus,2928,Österreichische Postbus Aktiengesellschaft,1,3
+Bus,2929,Österreichische Postbus Aktiengesellschaft,1,52
+Bus,2930,Österreichische Postbus Aktiengesellschaft,1,67
+Bus,2931,Österreichische Postbus Aktiengesellschaft,1,138
+Bus,2932,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,2933,Österreichische Postbus Aktiengesellschaft,1,27
+Bus,2934,Österreichische Postbus Aktiengesellschaft,1,43
+Bus,2935,Österreichische Postbus Aktiengesellschaft,1,107
+Bus,2936,Österreichische Postbus Aktiengesellschaft,1,54
+Bus,2937,Österreichische Postbus Aktiengesellschaft,1,65
+Bus,2940,Österreichische Postbus Aktiengesellschaft,1,27
+Bus,2942,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,2943,Österreichische Postbus Aktiengesellschaft,1,64
+Bus,2948,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,2954,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,2960,Österreichische Postbus Aktiengesellschaft,1,707
+Bus,2973,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,3003,Nahreisezug,1,8
+Bus,3014,Österreichische Postbus Aktiengesellschaft,1,19
+Bus,3020,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,3021,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,3022,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,3028,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,3034,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,3059,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,3060,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,3061,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,3064,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,3065,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,3066,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,3067,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,3068,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,3069,Österreichische Postbus Aktiengesellschaft,1,28
+Bus,3070,Österreichische Postbus Aktiengesellschaft,1,39
+Bus,3071,Österreichische Postbus Aktiengesellschaft,1,39
+Bus,3072,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,3073,Österreichische Postbus Aktiengesellschaft,1,11
+Bus,3074,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,3075,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,3076,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,3077,Österreichische Postbus Aktiengesellschaft,1,49
+Bus,3078,Österreichische Postbus Aktiengesellschaft,1,22
+Bus,3079,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,3080,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,3081,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,3082,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,3083,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,3084,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,3085,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,3086,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,3087,Österreichische Postbus Aktiengesellschaft,1,41
+Bus,3088,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,3089,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,3090,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,3091,Österreichische Postbus Aktiengesellschaft,1,11
+Bus,3092,Österreichische Postbus Aktiengesellschaft,1,11
+Bus,3093,Österreichische Postbus Aktiengesellschaft,1,22
+Bus,3094,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,3095,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,3096,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,3097,Österreichische Postbus Aktiengesellschaft,1,22
+Bus,3098,Österreichische Postbus Aktiengesellschaft,1,22
+Bus,3099,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,3100,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,3101,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,3102,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,3103,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,3104,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,3105,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,3106,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,3107,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,3108,Österreichische Postbus Aktiengesellschaft,1,22
+Bus,3109,Österreichische Postbus Aktiengesellschaft,1,22
+Bus,3110,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,3112,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,3113,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,3114,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,3115,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,3116,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,3117,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,3158,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,3279,Nahreisezug,1,6
+Bus,3280,Nahreisezug,1,6
+Bus,3281,Nahreisezug,1,6
+Bus,3282,Nahreisezug,1,6
+Bus,3283,Nahreisezug,1,6
+Bus,3406,Nahreisezug,1,12
+Bus,3431,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,3433,Österreichische Postbus Aktiengesellschaft,1,3
+Bus,3434,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,3435,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,3436,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,3437,Österreichische Postbus Aktiengesellschaft,1,3
+Bus,3438,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,3439,Österreichische Postbus Aktiengesellschaft,1,3
+Bus,3440,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,3442,Österreichische Postbus Aktiengesellschaft,1,2
+Bus,3443,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,3444,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,3445,Österreichische Postbus Aktiengesellschaft,1,3
+Bus,3446,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,3447,Österreichische Postbus Aktiengesellschaft,1,3
+Bus,3477,Nahreisezug,1,10
+Bus,3479,Nahreisezug,1,10
+Bus,3528,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,3529,Österreichische Postbus Aktiengesellschaft,1,2
+Bus,3530,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,3531,Österreichische Postbus Aktiengesellschaft,1,2
+Bus,3532,Österreichische Postbus Aktiengesellschaft,1,2
+Bus,3535,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,3538,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,3540,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,3541,Österreichische Postbus Aktiengesellschaft,1,2
+Bus,3602,Nahreisezug,1,15
+Bus,3627,Nahreisezug,1,7
+Bus,3640,Nahreisezug,1,8
+Bus,3641,Nahreisezug,1,14
+Bus,3751,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,3752,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,3755,Österreichische Postbus Aktiengesellschaft,1,42
+Bus,3756,Österreichische Postbus Aktiengesellschaft,1,9
+Bus,3759,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,3760,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,3761,Österreichische Postbus Aktiengesellschaft,1,9
+Bus,3762,Österreichische Postbus Aktiengesellschaft,1,39
+Bus,3763,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,3783,Nahreisezug,1,9
+Bus,3834,Österreichische Postbus Aktiengesellschaft,1,39
+Bus,3835,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,3837,Österreichische Postbus Aktiengesellschaft,1,42
+Bus,3838,Österreichische Postbus Aktiengesellschaft,1,42
+Bus,3839,Österreichische Postbus Aktiengesellschaft,1,39
+Bus,3842,Österreichische Postbus Aktiengesellschaft,1,39
+Bus,3844,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,3845,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,3850,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,3851,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,3853,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,3854,Österreichische Postbus Aktiengesellschaft,1,39
+Bus,3856,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,3857,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,3858,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,3859,Österreichische Postbus Aktiengesellschaft,1,125
+Bus,3860,Österreichische Postbus Aktiengesellschaft,1,39
+Bus,3861,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,3863,Nahreisezug/Österreichische Postbus Aktiengesellschaft,2,133
+Bus,3865,Nahreisezug/Österreichische Postbus Aktiengesellschaft,2,140
+Bus,3866,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,3867,Österreichische Postbus Aktiengesellschaft,1,84
+Bus,3868,Österreichische Postbus Aktiengesellschaft,1,198
+Bus,3869,Österreichische Postbus Aktiengesellschaft,1,130
+Bus,3871,Österreichische Postbus Aktiengesellschaft,1,270
+Bus,3873,Österreichische Postbus Aktiengesellschaft,1,84
+Bus,3874,Österreichische Postbus Aktiengesellschaft,1,153
+Bus,3875,Österreichische Postbus Aktiengesellschaft,1,243
+Bus,3876,Österreichische Postbus Aktiengesellschaft,1,73
+Bus,3877,Österreichische Postbus Aktiengesellschaft,1,14
+Bus,3878,Österreichische Postbus Aktiengesellschaft,1,207
+Bus,3879,Österreichische Postbus Aktiengesellschaft,1,90
+Bus,3880,Österreichische Postbus Aktiengesellschaft,1,130
+Bus,3881,Österreichische Postbus Aktiengesellschaft,1,243
+Bus,3902,Nahreisezug,1,12
+Bus,3920,Nahreisezug,1,11
+Bus,3930,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,3932,Österreichische Postbus Aktiengesellschaft,1,3
+Bus,3940,Nahreisezug,1,16
+Bus,3985,Österreichische Postbus Aktiengesellschaft,1,26
+Bus,4083,Nahreisezug,1,6
+Bus,4273,Österreichische Postbus Aktiengesellschaft,1,2
+Bus,4275,Österreichische Postbus Aktiengesellschaft,1,2
+Bus,4289,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,4290,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,4291,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,4292,Österreichische Postbus Aktiengesellschaft,1,18
+Bus,4293,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,4294,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,4297,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,4298,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,4299,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,4301,Österreichische Postbus Aktiengesellschaft,1,2
+Bus,4305,Nahreisezug,1,10
+Bus,4364,Österreichische Postbus Aktiengesellschaft,1,14
+Bus,4365,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,4366,Österreichische Postbus Aktiengesellschaft,1,14
+Bus,4367,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,4369,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,4370,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,4371,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,4372,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,4373,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,4374,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,4398,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,4399,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,4400,Österreichische Postbus Aktiengesellschaft,1,2
+Bus,4405,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,4406,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,4597,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,4598,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,4599,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,4603,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,4605,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,4609,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,4611,Österreichische Postbus Aktiengesellschaft,1,39
+Bus,4617,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,4639,Nahreisezug,1,8
+Bus,4695,Österreichische Postbus Aktiengesellschaft,1,225
+Bus,4713,Österreichische Postbus Aktiengesellschaft,1,225
+Bus,4714,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,4716,Österreichische Postbus Aktiengesellschaft,1,135
+Bus,4717,Österreichische Postbus Aktiengesellschaft,1,125
+Bus,4831,Österreichische Postbus Aktiengesellschaft,1,52
+Bus,4832,Österreichische Postbus Aktiengesellschaft,1,200
+Bus,4833,Österreichische Postbus Aktiengesellschaft,1,208
+Bus,4856,Österreichische Postbus Aktiengesellschaft,1,55
+Bus,4857,Österreichische Postbus Aktiengesellschaft,1,50
+Bus,4860,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,4861,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,4862,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,4863,Österreichische Postbus Aktiengesellschaft,1,5
+Bus,4864,Österreichische Postbus Aktiengesellschaft,1,117
+Bus,4866,Österreichische Postbus Aktiengesellschaft,1,70
+Bus,4867,Österreichische Postbus Aktiengesellschaft,1,50
+Bus,4868,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,4869,Österreichische Postbus Aktiengesellschaft,1,108
+Bus,4870,Österreichische Postbus Aktiengesellschaft,1,81
+Bus,4995,Nahreisezug,1,6
+Bus,5065,Nahreisezug,1,6
+Bus,5074,Österreichische Postbus Aktiengesellschaft,1,26
+Bus,5075,Österreichische Postbus Aktiengesellschaft,1,26
+Bus,5076,Österreichische Postbus Aktiengesellschaft,1,22
+Bus,5078,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,5081,Österreichische Postbus Aktiengesellschaft,1,28
+Bus,5083,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,5084,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,5086,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,5087,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,5088,Österreichische Postbus Aktiengesellschaft,1,26
+Bus,5089,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,5091,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,5092,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,5094,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,5095,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,5097,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,5098,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,5099,Österreichische Postbus Aktiengesellschaft,1,2
+Bus,5100,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,5101,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,5103,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,5104,Österreichische Postbus Aktiengesellschaft,1,2
+Bus,5105,Österreichische Postbus Aktiengesellschaft,1,18
+Bus,5106,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,5108,Österreichische Postbus Aktiengesellschaft,1,28
+Bus,5109,Österreichische Postbus Aktiengesellschaft,1,2
+Bus,5110,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,5112,Österreichische Postbus Aktiengesellschaft,1,26
+Bus,5114,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,5118,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,5119,Österreichische Postbus Aktiengesellschaft,1,34
+Bus,5122,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,5150,Nahreisezug,1,20
+Bus,5187,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,5188,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,5189,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,5190,Österreichische Postbus Aktiengesellschaft,1,5
+Bus,5191,Österreichische Postbus Aktiengesellschaft,1,5
+Bus,5192,Österreichische Postbus Aktiengesellschaft,1,5
+Bus,5193,Österreichische Postbus Aktiengesellschaft,1,5
+Bus,5194,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,5195,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,5203,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,5204,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,5205,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,5212,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,5213,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,5217,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,5218,Österreichische Postbus Aktiengesellschaft,1,91
+Bus,5219,Österreichische Postbus Aktiengesellschaft,1,70
+Bus,5220,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,5221,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,5222,Österreichische Postbus Aktiengesellschaft,1,100
+Bus,5223,Österreichische Postbus Aktiengesellschaft,1,55
+Bus,5224,Österreichische Postbus Aktiengesellschaft,1,114
+Bus,5225,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,5226,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,5227,Österreichische Postbus Aktiengesellschaft,1,117
+Bus,5228,Österreichische Postbus Aktiengesellschaft,1,55
+Bus,5229,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,5230,Österreichische Postbus Aktiengesellschaft,1,65
+Bus,5234,Österreichische Postbus Aktiengesellschaft,1,101
+Bus,5235,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,5236,Österreichische Postbus Aktiengesellschaft,1,5
+Bus,5237,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,5238,Österreichische Postbus Aktiengesellschaft,1,55
+Bus,5239,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,5240,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,5241,Österreichische Postbus Aktiengesellschaft,1,117
+Bus,5242,Österreichische Postbus Aktiengesellschaft,1,117
+Bus,5245,Österreichische Postbus Aktiengesellschaft,1,99
+Bus,5247,Österreichische Postbus Aktiengesellschaft,1,26
+Bus,5250,Nahreisezug,1,9
+Bus,5251,Nahreisezug,1,3
+Bus,5253,Nahreisezug,1,3
+Bus,5255,Nahreisezug,1,3
+Bus,5259,Nahreisezug,1,3
+Bus,5263,Nahreisezug,1,3
+Bus,5267,Nahreisezug,1,3
+Bus,5271,Nahreisezug,1,3
+Bus,5277,Nahreisezug,1,6
+Bus,5314,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,5403,Nahreisezug,1,9
+Bus,5413,Nahreisezug,1,9
+Bus,5417,Nahreisezug,1,9
+Bus,5443,Nahreisezug,1,11
+Bus,5447,Nahreisezug,1,9
+Bus,5449,Nahreisezug,1,11
+Bus,5520,Österreichische Postbus Aktiengesellschaft,1,385
+Bus,5521,Österreichische Postbus Aktiengesellschaft,1,105
+Bus,5522,Österreichische Postbus Aktiengesellschaft,1,385
+Bus,5523,Österreichische Postbus Aktiengesellschaft,1,442
+Bus,5524,Österreichische Postbus Aktiengesellschaft,1,332
+Bus,5525,Österreichische Postbus Aktiengesellschaft,1,296
+Bus,5526,Österreichische Postbus Aktiengesellschaft,1,50
+Bus,5527,Österreichische Postbus Aktiengesellschaft,1,405
+Bus,5528,Österreichische Postbus Aktiengesellschaft,1,144
+Bus,5529,Österreichische Postbus Aktiengesellschaft,1,132
+Bus,5530,Österreichische Postbus Aktiengesellschaft,1,144
+Bus,5531,Österreichische Postbus Aktiengesellschaft,1,105
+Bus,5532,Österreichische Postbus Aktiengesellschaft,1,87
+Bus,5533,Österreichische Postbus Aktiengesellschaft,1,136
+Bus,5534,Österreichische Postbus Aktiengesellschaft,1,378
+Bus,5535,Österreichische Postbus Aktiengesellschaft,1,136
+Bus,5536,Österreichische Postbus Aktiengesellschaft,1,14
+Bus,5537,Österreichische Postbus Aktiengesellschaft,1,21
+Bus,5538,Österreichische Postbus Aktiengesellschaft,1,357
+Bus,5594,Österreichische Postbus Aktiengesellschaft,1,44
+Bus,5595,Österreichische Postbus Aktiengesellschaft,1,44
+Bus,5596,Österreichische Postbus Aktiengesellschaft,1,50
+Bus,5598,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,5599,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,5600,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,5601,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,5602,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,5603,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,5604,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,5605,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,5606,Österreichische Postbus Aktiengesellschaft,1,88
+Bus,5607,Österreichische Postbus Aktiengesellschaft,1,88
+Bus,5608,Österreichische Postbus Aktiengesellschaft,1,64
+Bus,5609,Österreichische Postbus Aktiengesellschaft,1,96
+Bus,5610,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,5611,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,5612,Österreichische Postbus Aktiengesellschaft,1,88
+Bus,5613,Österreichische Postbus Aktiengesellschaft,1,88
+Bus,5614,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,5615,Österreichische Postbus Aktiengesellschaft,1,88
+Bus,5616,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,5617,Österreichische Postbus Aktiengesellschaft,1,88
+Bus,5618,Österreichische Postbus Aktiengesellschaft,1,104
+Bus,5619,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,5620,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,5621,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,5622,Österreichische Postbus Aktiengesellschaft,1,64
+Bus,5623,Österreichische Postbus Aktiengesellschaft,1,64
+Bus,5624,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,5625,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,5626,Österreichische Postbus Aktiengesellschaft,1,96
+Bus,5627,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,5628,Österreichische Postbus Aktiengesellschaft,1,209
+Bus,5629,Österreichische Postbus Aktiengesellschaft,1,114
+Bus,5630,Österreichische Postbus Aktiengesellschaft,1,171
+Bus,5631,Österreichische Postbus Aktiengesellschaft,1,209
+Bus,5632,Österreichische Postbus Aktiengesellschaft,1,95
+Bus,5633,Österreichische Postbus Aktiengesellschaft,1,228
+Bus,5634,Österreichische Postbus Aktiengesellschaft,1,190
+Bus,5635,Österreichische Postbus Aktiengesellschaft,1,190
+Bus,5636,Österreichische Postbus Aktiengesellschaft,1,143
+Bus,5637,Österreichische Postbus Aktiengesellschaft,1,154
+Bus,5638,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,5639,Österreichische Postbus Aktiengesellschaft,1,22
+Bus,5640,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,5641,Österreichische Postbus Aktiengesellschaft,1,198
+Bus,5642,Österreichische Postbus Aktiengesellschaft,1,198
+Bus,5643,Österreichische Postbus Aktiengesellschaft,1,216
+Bus,5644,Österreichische Postbus Aktiengesellschaft,1,64
+Bus,5645,Österreichische Postbus Aktiengesellschaft,1,88
+Bus,5646,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,5647,Österreichische Postbus Aktiengesellschaft,1,133
+Bus,5648,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,5649,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,5650,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,5651,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,5652,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,5653,Österreichische Postbus Aktiengesellschaft,1,64
+Bus,5654,Österreichische Postbus Aktiengesellschaft,1,96
+Bus,5655,Österreichische Postbus Aktiengesellschaft,1,209
+Bus,5656,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,5657,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,5658,Österreichische Postbus Aktiengesellschaft,1,133
+Bus,5659,Österreichische Postbus Aktiengesellschaft,1,88
+Bus,5660,Österreichische Postbus Aktiengesellschaft,1,88
+Bus,5661,Österreichische Postbus Aktiengesellschaft,1,154
+Bus,5662,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,5663,Österreichische Postbus Aktiengesellschaft,1,96
+Bus,5664,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,5665,Österreichische Postbus Aktiengesellschaft,1,88
+Bus,5666,Österreichische Postbus Aktiengesellschaft,1,88
+Bus,5667,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,5668,Österreichische Postbus Aktiengesellschaft,1,154
+Bus,5669,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,5670,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,5671,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,5672,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,5673,Österreichische Postbus Aktiengesellschaft,1,96
+Bus,5674,Österreichische Postbus Aktiengesellschaft,1,152
+Bus,5675,Österreichische Postbus Aktiengesellschaft,1,64
+Bus,5676,Österreichische Postbus Aktiengesellschaft,1,64
+Bus,5677,Österreichische Postbus Aktiengesellschaft,1,88
+Bus,5678,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,5679,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,5680,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,5681,Österreichische Postbus Aktiengesellschaft,1,96
+Bus,5682,Österreichische Postbus Aktiengesellschaft,1,82
+Bus,5683,Österreichische Postbus Aktiengesellschaft,1,65
+Bus,5684,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,5685,Österreichische Postbus Aktiengesellschaft,1,75
+Bus,5686,Österreichische Postbus Aktiengesellschaft,1,70
+Bus,5687,Österreichische Postbus Aktiengesellschaft,1,260
+Bus,5688,Österreichische Postbus Aktiengesellschaft,1,187
+Bus,5689,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,5690,Österreichische Postbus Aktiengesellschaft,1,210
+Bus,5691,Österreichische Postbus Aktiengesellschaft,1,155
+Bus,5692,Österreichische Postbus Aktiengesellschaft,1,294
+Bus,5693,Österreichische Postbus Aktiengesellschaft,1,289
+Bus,5694,Österreichische Postbus Aktiengesellschaft,1,281
+Bus,5695,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,5696,Österreichische Postbus Aktiengesellschaft,1,70
+Bus,5697,Österreichische Postbus Aktiengesellschaft,1,75
+Bus,5698,Österreichische Postbus Aktiengesellschaft,1,65
+Bus,5699,Österreichische Postbus Aktiengesellschaft,1,65
+Bus,5700,Österreichische Postbus Aktiengesellschaft,1,65
+Bus,5701,Österreichische Postbus Aktiengesellschaft,1,70
+Bus,5702,Österreichische Postbus Aktiengesellschaft,1,65
+Bus,5703,Österreichische Postbus Aktiengesellschaft,1,55
+Bus,5704,Österreichische Postbus Aktiengesellschaft,1,50
+Bus,5705,Österreichische Postbus Aktiengesellschaft,1,50
+Bus,5706,Österreichische Postbus Aktiengesellschaft,1,55
+Bus,5707,Österreichische Postbus Aktiengesellschaft,1,55
+Bus,5709,Österreichische Postbus Aktiengesellschaft,1,52
+Bus,5710,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,5711,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,5712,Österreichische Postbus Aktiengesellschaft,1,52
+Bus,5713,Österreichische Postbus Aktiengesellschaft,1,52
+Bus,5714,Österreichische Postbus Aktiengesellschaft,1,52
+Bus,5715,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,5716,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,5717,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,5718,Österreichische Postbus Aktiengesellschaft,1,52
+Bus,5719,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,5720,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,5721,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,5722,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,5723,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,5724,Österreichische Postbus Aktiengesellschaft,1,52
+Bus,5725,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,5726,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,5727,Österreichische Postbus Aktiengesellschaft,1,44
+Bus,5728,Österreichische Postbus Aktiengesellschaft,1,52
+Bus,5729,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,5730,Österreichische Postbus Aktiengesellschaft,1,52
+Bus,5731,Österreichische Postbus Aktiengesellschaft,1,52
+Bus,5732,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,5733,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,5734,Österreichische Postbus Aktiengesellschaft,1,52
+Bus,5735,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,5736,Österreichische Postbus Aktiengesellschaft,1,52
+Bus,5737,Österreichische Postbus Aktiengesellschaft,1,52
+Bus,5819,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,5820,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,5933,Nahreisezug,1,10
+Bus,5973,Nahreisezug,1,8
+Bus,5974,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,5977,Nahreisezug,1,8
+Bus,5981,Nahreisezug,1,2
+Bus,5992,Nahreisezug,1,13
+Bus,6035,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,6036,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,6038,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,6039,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,6040,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,6043,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,6044,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,6046,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,6048,Österreichische Postbus Aktiengesellschaft,1,18
+Bus,6050,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,6052,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,6055,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,6056,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,6060,Österreichische Postbus Aktiengesellschaft,1,385
+Bus,6061,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,6062,Österreichische Postbus Aktiengesellschaft,1,385
+Bus,6063,Österreichische Postbus Aktiengesellschaft,1,408
+Bus,6064,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,6067,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,6072,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,6075,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,6077,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,6079,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,6082,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,6084,Österreichische Postbus Aktiengesellschaft,1,18
+Bus,6086,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,6087,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,6088,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,6089,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,6090,Österreichische Postbus Aktiengesellschaft,1,208
+Bus,6135,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,6136,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,6138,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,6140,Österreichische Postbus Aktiengesellschaft,1,17
+Bus,6141,Österreichische Postbus Aktiengesellschaft,1,63
+Bus,6143,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,6144,Österreichische Postbus Aktiengesellschaft,1,5
+Bus,6145,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,6146,Österreichische Postbus Aktiengesellschaft,1,69
+Bus,6147,Österreichische Postbus Aktiengesellschaft,1,90
+Bus,6148,Österreichische Postbus Aktiengesellschaft,1,123
+Bus,6149,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,6150,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,6151,Österreichische Postbus Aktiengesellschaft,1,117
+Bus,6152,Österreichische Postbus Aktiengesellschaft,1,26
+Bus,6153,Österreichische Postbus Aktiengesellschaft,1,99
+Bus,6154,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,6155,Österreichische Postbus Aktiengesellschaft,1,54
+Bus,6156,Österreichische Postbus Aktiengesellschaft,1,25
+Bus,6158,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,6160,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,6161,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,6162,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,6163,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,6164,Österreichische Postbus Aktiengesellschaft,1,117
+Bus,6165,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,6166,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,6168,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,6169,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,6170,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,6171,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,6172,Österreichische Postbus Aktiengesellschaft,1,5
+Bus,6173,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,6174,Österreichische Postbus Aktiengesellschaft,1,65
+Bus,6176,Österreichische Postbus Aktiengesellschaft,1,117
+Bus,6178,Österreichische Postbus Aktiengesellschaft,1,108
+Bus,6179,Österreichische Postbus Aktiengesellschaft,1,108
+Bus,6180,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,6181,Österreichische Postbus Aktiengesellschaft,1,65
+Bus,6182,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,6184,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,6185,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,6186,Österreichische Postbus Aktiengesellschaft,1,5
+Bus,6187,Österreichische Postbus Aktiengesellschaft,1,108
+Bus,6188,Österreichische Postbus Aktiengesellschaft,1,108
+Bus,6189,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,6190,Österreichische Postbus Aktiengesellschaft,1,117
+Bus,6191,Österreichische Postbus Aktiengesellschaft,1,50
+Bus,6192,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,6194,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,6196,Österreichische Postbus Aktiengesellschaft,1,18
+Bus,6197,Österreichische Postbus Aktiengesellschaft,1,5
+Bus,6199,Österreichische Postbus Aktiengesellschaft,1,42
+Bus,6200,Österreichische Postbus Aktiengesellschaft,1,90
+Bus,6201,Österreichische Postbus Aktiengesellschaft,1,91
+Bus,6202,Österreichische Postbus Aktiengesellschaft,1,125
+Bus,6204,Österreichische Postbus Aktiengesellschaft,1,117
+Bus,6209,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,6211,Österreichische Postbus Aktiengesellschaft,1,42
+Bus,6215,Österreichische Postbus Aktiengesellschaft,1,42
+Bus,6220,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,6222,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,6225,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,6230,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,6234,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,6238,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,6241,Österreichische Postbus Aktiengesellschaft,1,54
+Bus,6246,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,6250,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,6254,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,6258,Österreichische Postbus Aktiengesellschaft,1,54
+Bus,6262,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,6265,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,6269,Österreichische Postbus Aktiengesellschaft,1,54
+Bus,6273,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,6276,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,6277,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,6281,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,6284,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,6287,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,6289,Österreichische Postbus Aktiengesellschaft,1,54
+Bus,6291,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,6292,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,6295,Österreichische Postbus Aktiengesellschaft,1,21
+Bus,6297,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,6298,Österreichische Postbus Aktiengesellschaft,1,27
+Bus,6301,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,6302,Österreichische Postbus Aktiengesellschaft,1,27
+Bus,6305,Nahreisezug/Österreichische Postbus Aktiengesellschaft,2,43
+Bus,6306,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,6307,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,6308,Österreichische Postbus Aktiengesellschaft,1,204
+Bus,6309,Österreichische Postbus Aktiengesellschaft,1,200
+Bus,6310,Österreichische Postbus Aktiengesellschaft,1,144
+Bus,6311,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,6312,Österreichische Postbus Aktiengesellschaft,1,144
+Bus,6313,Österreichische Postbus Aktiengesellschaft,1,156
+Bus,6314,Österreichische Postbus Aktiengesellschaft,1,148
+Bus,6315,Österreichische Postbus Aktiengesellschaft,1,156
+Bus,6316,Österreichische Postbus Aktiengesellschaft,1,152
+Bus,6317,Österreichische Postbus Aktiengesellschaft,1,152
+Bus,6318,Österreichische Postbus Aktiengesellschaft,1,144
+Bus,6319,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,6323,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,6324,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,6327,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,6328,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,6331,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,6332,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,6336,Österreichische Postbus Aktiengesellschaft,1,204
+Bus,6337,Österreichische Postbus Aktiengesellschaft,1,152
+Bus,6340,Österreichische Postbus Aktiengesellschaft,1,148
+Bus,6341,Österreichische Postbus Aktiengesellschaft,1,156
+Bus,6344,Österreichische Postbus Aktiengesellschaft,1,152
+Bus,6345,Österreichische Postbus Aktiengesellschaft,1,152
+Bus,6346,Österreichische Postbus Aktiengesellschaft,1,152
+Bus,6347,Österreichische Postbus Aktiengesellschaft,1,148
+Bus,6348,Österreichische Postbus Aktiengesellschaft,1,148
+Bus,6349,Österreichische Postbus Aktiengesellschaft,1,9
+Bus,6375,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,6376,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,6377,Österreichische Postbus Aktiengesellschaft,1,27
+Bus,6378,Österreichische Postbus Aktiengesellschaft,1,27
+Bus,6379,Österreichische Postbus Aktiengesellschaft,1,43
+Bus,6380,Österreichische Postbus Aktiengesellschaft,1,27
+Bus,6381,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,6382,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,6383,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,6384,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,6385,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,6386,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,6387,Österreichische Postbus Aktiengesellschaft,1,46
+Bus,6422,Österreichische Postbus Aktiengesellschaft,1,192
+Bus,6423,Österreichische Postbus Aktiengesellschaft,1,108
+Bus,6548,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,6549,Österreichische Postbus Aktiengesellschaft,1,65
+Bus,6550,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,6558,Österreichische Postbus Aktiengesellschaft,1,176
+Bus,6559,Österreichische Postbus Aktiengesellschaft,1,176
+Bus,6562,Österreichische Postbus Aktiengesellschaft,1,160
+Bus,6563,Österreichische Postbus Aktiengesellschaft,1,112
+Bus,6949,Nahreisezug,1,3
+Bus,7007,Nahreisezug,1,11
+Bus,7582,Nahreisezug,1,5
+Bus,7583,Nahreisezug,1,5
+Bus,7584,Nahreisezug,1,5
+Bus,7585,Nahreisezug,1,5
+Bus,7586,Nahreisezug,1,5
+Bus,7587,Nahreisezug,1,5
+Bus,7588,Nahreisezug,1,5
+Bus,7589,Nahreisezug,1,5
+Bus,7590,Nahreisezug,1,5
+Bus,7591,Nahreisezug,1,5
+Bus,7776,Nahreisezug,1,22
+Bus,8568,Österreichische Postbus Aktiengesellschaft,1,9
+Bus,8569,Österreichische Postbus Aktiengesellschaft,1,9
+Bus,8570,Österreichische Postbus Aktiengesellschaft,1,9
+Bus,8571,Österreichische Postbus Aktiengesellschaft,1,9
+Bus,8572,Österreichische Postbus Aktiengesellschaft,1,9
+Bus,8573,Österreichische Postbus Aktiengesellschaft,1,9
+Bus,8574,Österreichische Postbus Aktiengesellschaft,1,9
+Bus,8576,Österreichische Postbus Aktiengesellschaft,1,9
+Bus,8577,Österreichische Postbus Aktiengesellschaft,1,9
+Bus,8578,Österreichische Postbus Aktiengesellschaft,1,9
+Bus,8579,Österreichische Postbus Aktiengesellschaft,1,9
+Bus,8580,Österreichische Postbus Aktiengesellschaft,1,9
+Bus,8581,Österreichische Postbus Aktiengesellschaft,1,9
+Bus,8582,Österreichische Postbus Aktiengesellschaft,1,9
+Bus,8724,Österreichische Postbus Aktiengesellschaft,1,65
+Bus,8725,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,8726,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,8727,Österreichische Postbus Aktiengesellschaft,1,50
+Bus,8728,Österreichische Postbus Aktiengesellschaft,1,65
+Bus,8729,Österreichische Postbus Aktiengesellschaft,1,65
+Bus,8730,Österreichische Postbus Aktiengesellschaft,1,75
+Bus,8731,Österreichische Postbus Aktiengesellschaft,1,70
+Bus,8732,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,8733,Österreichische Postbus Aktiengesellschaft,1,65
+Bus,8734,Österreichische Postbus Aktiengesellschaft,1,55
+Bus,8743,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,8744,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,8745,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,8746,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,8747,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,8748,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,8749,Österreichische Postbus Aktiengesellschaft,1,2
+Bus,8756,Österreichische Postbus Aktiengesellschaft,1,65
+Bus,8757,Österreichische Postbus Aktiengesellschaft,1,50
+Bus,8758,Österreichische Postbus Aktiengesellschaft,1,55
+Bus,8761,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,8762,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,8763,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,8765,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,8788,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,8789,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,8804,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,8838,Österreichische Postbus Aktiengesellschaft,1,52
+Bus,8839,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,8840,Österreichische Postbus Aktiengesellschaft,1,56
+Bus,8843,Österreichische Postbus Aktiengesellschaft,1,14
+Bus,8844,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,8845,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,8847,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,8849,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,8851,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,8853,Österreichische Postbus Aktiengesellschaft,1,82
+Bus,8854,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,8855,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,8856,Österreichische Postbus Aktiengesellschaft,1,112
+Bus,8857,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,8858,Österreichische Postbus Aktiengesellschaft,1,104
+Bus,8859,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,8860,Österreichische Postbus Aktiengesellschaft,1,96
+Bus,9011,CAT - CityAirportTrain,1,8
+Bus,9012,CAT - CityAirportTrain,1,14
+Bus,9013,CAT - CityAirportTrain,1,8
+Bus,9014,CAT - CityAirportTrain,1,14
+Bus,9015,CAT - CityAirportTrain,1,8
+Bus,9016,CAT - CityAirportTrain,1,14
+Bus,9017,CAT - CityAirportTrain,1,8
+Bus,9018,CAT - CityAirportTrain,1,11
+Bus,9019,CAT - CityAirportTrain,1,5
+Bus,9020,CAT - CityAirportTrain,1,11
+Bus,9021,CAT - CityAirportTrain,1,5
+Bus,9022,CAT - CityAirportTrain,1,11
+Bus,9023,CAT - CityAirportTrain,1,5
+Bus,9024,CAT - CityAirportTrain,1,11
+Bus,9025,CAT - CityAirportTrain,1,5
+Bus,9026,CAT - CityAirportTrain,1,11
+Bus,9027,CAT - CityAirportTrain,1,5
+Bus,9028,CAT - CityAirportTrain,1,11
+Bus,9029,CAT - CityAirportTrain,1,5
+Bus,9030,CAT - CityAirportTrain,1,11
+Bus,9031,CAT - CityAirportTrain,1,5
+Bus,9032,CAT - CityAirportTrain,1,11
+Bus,9033,CAT - CityAirportTrain,1,5
+Bus,9034,CAT - CityAirportTrain,1,11
+Bus,9035,CAT - CityAirportTrain,1,5
+Bus,9036,CAT - CityAirportTrain,1,13
+Bus,9037,CAT - CityAirportTrain,1,5
+Bus,9038,CAT - CityAirportTrain,1,15
+Bus,9039,CAT - CityAirportTrain,1,9
+Bus,9040,CAT - CityAirportTrain,1,15
+Bus,9041,CAT - CityAirportTrain,1,5
+Bus,9042,CAT - CityAirportTrain,1,11
+Bus,9043,CAT - CityAirportTrain,1,5
+Bus,9044,CAT - CityAirportTrain,1,13
+Bus,9045,CAT - CityAirportTrain,1,7
+Bus,9046,CAT - CityAirportTrain,1,15
+Bus,9047,CAT - CityAirportTrain,1,5
+Bus,9048,CAT - CityAirportTrain,1,17
+Bus,9049,CAT - CityAirportTrain,1,5
+Bus,9050,CAT - CityAirportTrain,1,17
+Bus,9051,CAT - CityAirportTrain,1,7
+Bus,9052,CAT - CityAirportTrain,1,19
+Bus,9053,CAT - CityAirportTrain,1,7
+Bus,9054,CAT - CityAirportTrain,1,19
+Bus,9055,CAT - CityAirportTrain,1,7
+Bus,9056,CAT - CityAirportTrain,1,19
+Bus,9057,CAT - CityAirportTrain,1,7
+Bus,9058,CAT - CityAirportTrain,1,17
+Bus,9059,CAT - CityAirportTrain,1,5
+Bus,9060,CAT - CityAirportTrain,1,17
+Bus,9061,CAT - CityAirportTrain,1,5
+Bus,9062,CAT - CityAirportTrain,1,17
+Bus,9063,CAT - CityAirportTrain,1,6
+Bus,9064,CAT - CityAirportTrain,1,17
+Bus,9065,CAT - CityAirportTrain,1,8
+Bus,9066,CAT - CityAirportTrain,1,18
+Bus,9067,CAT - CityAirportTrain,1,8
+Bus,9068,CAT - CityAirportTrain,1,18
+Bus,9069,CAT - CityAirportTrain,1,8
+Bus,9070,CAT - CityAirportTrain,1,18
+Bus,9071,CAT - CityAirportTrain,1,8
+Bus,9072,CAT - CityAirportTrain,1,18
+Bus,9073,CAT - CityAirportTrain,1,8
+Bus,9074,CAT - CityAirportTrain,1,18
+Bus,9075,CAT - CityAirportTrain,1,8
+Bus,9076,CAT - CityAirportTrain,1,18
+Bus,9077,CAT - CityAirportTrain,1,8
+Bus,9078,CAT - CityAirportTrain,1,18
+Bus,9079,CAT - CityAirportTrain,1,8
+Bus,9080,CAT - CityAirportTrain,1,18
+Bus,9081,CAT - CityAirportTrain,1,8
+Bus,9082,CAT - CityAirportTrain,1,18
+Bus,9423,Nahreisezug,1,6
+Bus,9424,Nahreisezug,1,6
+Bus,9435,Nahreisezug,1,6
+Bus,9436,Nahreisezug,1,6
+Bus,10043,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,10044,Österreichische Postbus Aktiengesellschaft,1,65
+Bus,10045,Österreichische Postbus Aktiengesellschaft,1,65
+Bus,10046,Österreichische Postbus Aktiengesellschaft,1,65
+Bus,10047,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,10048,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,10085,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,10091,Österreichische Postbus Aktiengesellschaft,1,385
+Bus,10093,Österreichische Postbus Aktiengesellschaft,1,378
+Bus,10097,Österreichische Postbus Aktiengesellschaft,1,378
+Bus,10099,Österreichische Postbus Aktiengesellschaft,1,378
+Bus,10104,Österreichische Postbus Aktiengesellschaft,1,371
+Bus,10105,Österreichische Postbus Aktiengesellschaft,1,364
+Bus,10106,Österreichische Postbus Aktiengesellschaft,1,378
+Bus,10107,Österreichische Postbus Aktiengesellschaft,1,357
+Bus,10108,Österreichische Postbus Aktiengesellschaft,1,371
+Bus,10109,Österreichische Postbus Aktiengesellschaft,1,357
+Bus,10110,Österreichische Postbus Aktiengesellschaft,1,371
+Bus,10111,Österreichische Postbus Aktiengesellschaft,1,357
+Bus,10112,Österreichische Postbus Aktiengesellschaft,1,364
+Bus,10113,Österreichische Postbus Aktiengesellschaft,1,371
+Bus,10114,Österreichische Postbus Aktiengesellschaft,1,371
+Bus,10127,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,10229,Österreichische Postbus Aktiengesellschaft,1,44
+Bus,10230,Österreichische Postbus Aktiengesellschaft,1,70
+Bus,10231,Österreichische Postbus Aktiengesellschaft,1,65
+Bus,10390,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,10393,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,10394,Österreichische Postbus Aktiengesellschaft,1,96
+Bus,10395,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,10396,Österreichische Postbus Aktiengesellschaft,1,112
+Bus,10714,Österreichische Postbus Aktiengesellschaft,1,63
+Bus,10747,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,10748,Österreichische Postbus Aktiengesellschaft,1,18
+Bus,10749,Österreichische Postbus Aktiengesellschaft,1,66
+Bus,10750,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,10751,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,10767,Österreichische Postbus Aktiengesellschaft,1,9
+Bus,10769,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,10779,Österreichische Postbus Aktiengesellschaft,1,27
+Bus,10795,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,11213,DB Fernverkehr AG,1,2
+Bus,11217,DB Fernverkehr AG,1,2
+Bus,11976,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,11977,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,11978,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,11979,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,11980,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,12162,Österreichische Postbus Aktiengesellschaft,1,132
+Bus,12167,Österreichische Postbus Aktiengesellschaft,1,154
+Bus,12168,Österreichische Postbus Aktiengesellschaft,1,288
+Bus,12272,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,12273,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,12274,Österreichische Postbus Aktiengesellschaft,1,88
+Bus,12276,Österreichische Postbus Aktiengesellschaft,1,99
+Bus,12277,Österreichische Postbus Aktiengesellschaft,1,96
+Bus,12278,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,12279,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,12280,Österreichische Postbus Aktiengesellschaft,1,96
+Bus,12281,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,12282,Österreichische Postbus Aktiengesellschaft,1,96
+Bus,12283,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,12284,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,12285,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,12286,Österreichische Postbus Aktiengesellschaft,1,88
+Bus,12308,Österreichische Postbus Aktiengesellschaft,1,154
+Bus,12309,Österreichische Postbus Aktiengesellschaft,1,143
+Bus,12312,Österreichische Postbus Aktiengesellschaft,1,221
+Bus,12313,Österreichische Postbus Aktiengesellschaft,1,121
+Bus,12322,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,12323,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,12364,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,12369,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,12370,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,12371,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,13247,Österreichische Postbus Aktiengesellschaft,1,364
+Bus,13248,Österreichische Postbus Aktiengesellschaft,1,336
+Bus,13249,Österreichische Postbus Aktiengesellschaft,1,336
+Bus,13250,Österreichische Postbus Aktiengesellschaft,1,378
+Bus,13251,Österreichische Postbus Aktiengesellschaft,1,336
+Bus,13252,Österreichische Postbus Aktiengesellschaft,1,336
+Bus,13253,Österreichische Postbus Aktiengesellschaft,1,343
+Bus,13265,Österreichische Postbus Aktiengesellschaft,1,357
+Bus,13266,Österreichische Postbus Aktiengesellschaft,1,357
+Bus,13267,Österreichische Postbus Aktiengesellschaft,1,336
+Bus,13275,Österreichische Postbus Aktiengesellschaft,1,329
+Bus,13276,Österreichische Postbus Aktiengesellschaft,1,336
+Bus,13283,Österreichische Postbus Aktiengesellschaft,1,378
+Bus,13286,Österreichische Postbus Aktiengesellschaft,1,154
+Bus,13287,Österreichische Postbus Aktiengesellschaft,1,143
+Bus,13288,Österreichische Postbus Aktiengesellschaft,1,143
+Bus,13293,Österreichische Postbus Aktiengesellschaft,1,132
+Bus,13294,Österreichische Postbus Aktiengesellschaft,1,154
+Bus,13302,Österreichische Postbus Aktiengesellschaft,1,110
+Bus,13311,Österreichische Postbus Aktiengesellschaft,1,66
+Bus,13483,Nahreisezug,1,2
+Bus,13687,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,13733,Österreichische Postbus Aktiengesellschaft,1,153
+Bus,13734,Österreichische Postbus Aktiengesellschaft,1,261
+Bus,13789,Österreichische Postbus Aktiengesellschaft,1,108
+Bus,14996,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,14997,Österreichische Postbus Aktiengesellschaft,1,50
+Bus,14998,Österreichische Postbus Aktiengesellschaft,1,55
+Bus,14999,Österreichische Postbus Aktiengesellschaft,1,55
+Bus,15000,Österreichische Postbus Aktiengesellschaft,1,55
+Bus,15001,Österreichische Postbus Aktiengesellschaft,1,60
+Bus,15002,Österreichische Postbus Aktiengesellschaft,1,50
+Bus,15003,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,15004,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,15005,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,15006,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,15007,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,15008,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,15009,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,15010,Österreichische Postbus Aktiengesellschaft,1,50
+Bus,15011,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,15012,Österreichische Postbus Aktiengesellschaft,1,35
+Bus,15013,Österreichische Postbus Aktiengesellschaft,1,35
+Bus,15014,Österreichische Postbus Aktiengesellschaft,1,35
+Bus,15015,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,15016,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,15017,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,15018,Österreichische Postbus Aktiengesellschaft,1,50
+Bus,15019,Österreichische Postbus Aktiengesellschaft,1,55
+Bus,15020,Österreichische Postbus Aktiengesellschaft,1,50
+Bus,15021,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,15022,Österreichische Postbus Aktiengesellschaft,1,50
+Bus,15023,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,15024,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,15025,Österreichische Postbus Aktiengesellschaft,1,25
+Bus,15026,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,15078,Österreichische Postbus Aktiengesellschaft,1,70
+Bus,15079,Österreichische Postbus Aktiengesellschaft,1,20
+Bus,15080,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,15081,Österreichische Postbus Aktiengesellschaft,1,50
+Bus,15082,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,15083,Österreichische Postbus Aktiengesellschaft,1,55
+Bus,15084,Österreichische Postbus Aktiengesellschaft,1,50
+Bus,15085,Österreichische Postbus Aktiengesellschaft,1,35
+Bus,15086,Österreichische Postbus Aktiengesellschaft,1,50
+Bus,15087,Österreichische Postbus Aktiengesellschaft,1,55
+Bus,15088,Österreichische Postbus Aktiengesellschaft,1,50
+Bus,15089,Österreichische Postbus Aktiengesellschaft,1,55
+Bus,15090,Österreichische Postbus Aktiengesellschaft,1,45
+Bus,15091,Österreichische Postbus Aktiengesellschaft,1,50
+Bus,15111,Österreichische Postbus Aktiengesellschaft,1,44
+Bus,15112,Österreichische Postbus Aktiengesellschaft,1,52
+Bus,15113,Österreichische Postbus Aktiengesellschaft,1,44
+Bus,15114,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,15115,Österreichische Postbus Aktiengesellschaft,1,52
+Bus,15116,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,15117,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,15118,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,15119,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,15120,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,15121,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,15122,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,15123,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,15124,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,15125,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,15126,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,15127,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,15128,Österreichische Postbus Aktiengesellschaft,1,28
+Bus,15129,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,15130,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,15131,Österreichische Postbus Aktiengesellschaft,1,44
+Bus,15132,Österreichische Postbus Aktiengesellschaft,1,44
+Bus,15133,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,15134,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,15135,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,15136,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,15137,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,15196,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,15197,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,15198,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,15199,Österreichische Postbus Aktiengesellschaft,1,16
+Bus,15200,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,15201,Österreichische Postbus Aktiengesellschaft,1,32
+Bus,15202,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,15203,Österreichische Postbus Aktiengesellschaft,1,28
+Bus,15204,Österreichische Postbus Aktiengesellschaft,1,28
+Bus,15205,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,15206,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,15207,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,15208,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,15209,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,15210,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,15862,Österreichische Postbus Aktiengesellschaft,1,7
+Bus,15863,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,15864,Österreichische Postbus Aktiengesellschaft,1,80
+Bus,15865,Österreichische Postbus Aktiengesellschaft,1,96
+Bus,15866,Österreichische Postbus Aktiengesellschaft,1,96
+Bus,15867,Österreichische Postbus Aktiengesellschaft,1,88
+Bus,15868,Österreichische Postbus Aktiengesellschaft,1,96
+Bus,15869,Österreichische Postbus Aktiengesellschaft,1,112
+Bus,15870,Österreichische Postbus Aktiengesellschaft,1,104
+Bus,15871,Österreichische Postbus Aktiengesellschaft,1,96
+Bus,15872,Österreichische Postbus Aktiengesellschaft,1,104
+Bus,15873,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,15874,Österreichische Postbus Aktiengesellschaft,1,96
+Bus,15875,Österreichische Postbus Aktiengesellschaft,1,96
+Bus,15892,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,15899,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15900,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15901,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15902,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15903,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15904,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15905,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15906,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15907,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15909,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15910,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15911,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15912,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15913,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15914,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15915,Österreichische Postbus Aktiengesellschaft,1,17
+Bus,15916,Österreichische Postbus Aktiengesellschaft,1,17
+Bus,15917,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15918,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15919,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,15924,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,15941,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15942,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15943,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15944,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15945,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15946,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15947,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15948,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15949,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15950,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15951,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15953,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15954,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15956,Österreichische Postbus Aktiengesellschaft,1,13
+Bus,15977,Österreichische Postbus Aktiengesellschaft,1,8
+Bus,15978,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,15979,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,15980,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,15981,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,15982,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,15983,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,15984,Österreichische Postbus Aktiengesellschaft,1,4
+Bus,15985,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,15987,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,15989,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,15990,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,16961,Österreichische Postbus Aktiengesellschaft,1,57
+Bus,16962,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,16966,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,16967,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,16968,Österreichische Postbus Aktiengesellschaft,1,78
+Bus,16969,Österreichische Postbus Aktiengesellschaft,1,72
+Bus,16970,Österreichische Postbus Aktiengesellschaft,1,38
+Bus,16971,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,16972,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,16973,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,20045,Bayerische Regiobahn,1,50
+Bus,20047,Bayerische Regiobahn,1,58
+Bus,20049,Bayerische Regiobahn,1,58
+Bus,20093,Bayerische Regiobahn,1,20
+Bus,22710,Nahreisezug,1,10
+Bus,26026,Nahreisezug,1,5
+Bus,27017,Nahreisezug,1,6
+Bus,27027,Nahreisezug,1,6
+Bus,27037,Nahreisezug,1,6
+Bus,27089,Nahreisezug,1,7
+Bus,29045,Bayerische Regiobahn,1,50
+Bus,29093,Bayerische Regiobahn,1,40
+Bus,30331,(none),0,5
+Bus,58941,Österreichische Postbus Aktiengesellschaft,1,17
+Bus,58942,Österreichische Postbus Aktiengesellschaft,1,17
+Bus,58943,Österreichische Postbus Aktiengesellschaft,1,17
+Bus,58944,Österreichische Postbus Aktiengesellschaft,1,17
+Bus,58945,Österreichische Postbus Aktiengesellschaft,1,17
+Bus,58946,Österreichische Postbus Aktiengesellschaft,1,17
+Bus,58947,Österreichische Postbus Aktiengesellschaft,1,17
+Bus,58967,(none),0,20
+Bus,58968,(none),0,10
+Bus,58969,(none),0,20
+Bus,58970,(none),0,20
+Bus,58971,(none),0,20
+Bus,58972,(none),0,20
+Bus,58973,(none),0,20
+Bus,58974,(none),0,20
+Bus,58975,(none),0,20
+Bus,58976,(none),0,20
+Bus,58977,(none),0,20
+Bus,58978,(none),0,20
+Bus,58979,(none),0,20
+Bus,58980,(none),0,20
+Bus,58982,(none),0,20
+Bus,58984,(none),0,20
+Bus,59028,Österreichische Postbus Aktiengesellschaft,1,220
+Bus,59029,Österreichische Postbus Aktiengesellschaft,1,230
+Bus,59030,Österreichische Postbus Aktiengesellschaft,1,90
+Bus,59031,Österreichische Postbus Aktiengesellschaft,1,250
+Bus,59032,Österreichische Postbus Aktiengesellschaft,1,240
+Bus,59033,Österreichische Postbus Aktiengesellschaft,1,240
+Bus,59034,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,59035,Österreichische Postbus Aktiengesellschaft,1,50
+Bus,59036,Österreichische Postbus Aktiengesellschaft,1,50
+Bus,59037,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,59038,Österreichische Postbus Aktiengesellschaft,1,10
+Bus,59039,(none),0,10
+Bus,59040,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,59042,Österreichische Postbus Aktiengesellschaft,1,230
+Bus,59043,Österreichische Postbus Aktiengesellschaft,1,40
+Bus,59044,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,59045,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,59046,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,59047,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,59048,Österreichische Postbus Aktiengesellschaft,1,120
+Bus,59050,(none),0,10
+Bus,59051,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,59052,Österreichische Postbus Aktiengesellschaft,1,34
+Bus,59053,Österreichische Postbus Aktiengesellschaft,1,34
+Bus,59054,Österreichische Postbus Aktiengesellschaft,1,34
+Bus,59055,Österreichische Postbus Aktiengesellschaft,1,34
+Bus,59056,Österreichische Postbus Aktiengesellschaft,1,34
+Bus,59057,Österreichische Postbus Aktiengesellschaft,1,34
+Bus,59058,Österreichische Postbus Aktiengesellschaft,1,34
+Bus,59059,Österreichische Postbus Aktiengesellschaft,1,34
+Bus,59060,Österreichische Postbus Aktiengesellschaft,1,34
+Bus,59061,Österreichische Postbus Aktiengesellschaft,1,34
+Bus,59062,Österreichische Postbus Aktiengesellschaft,1,51
+Bus,59063,Österreichische Postbus Aktiengesellschaft,1,51
+Bus,59064,Österreichische Postbus Aktiengesellschaft,1,34
+Bus,59065,Österreichische Postbus Aktiengesellschaft,1,51
+Bus,59075,Österreichische Postbus Aktiengesellschaft,1,93
+Bus,59076,Österreichische Postbus Aktiengesellschaft,1,69
+Bus,59077,Österreichische Postbus Aktiengesellschaft,1,156
+Bus,59078,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,59079,Österreichische Postbus Aktiengesellschaft,1,147
+Bus,59080,Österreichische Postbus Aktiengesellschaft,1,159
+Bus,59081,Österreichische Postbus Aktiengesellschaft,1,159
+Bus,59082,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,59083,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,59084,Österreichische Postbus Aktiengesellschaft,1,30
+Bus,59085,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,59086,Österreichische Postbus Aktiengesellschaft,1,42
+Bus,59087,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,59088,Österreichische Postbus Aktiengesellschaft,1,36
+Bus,59089,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,59090,Österreichische Postbus Aktiengesellschaft,1,51
+Bus,59091,Österreichische Postbus Aktiengesellschaft,1,51
+Bus,59092,Österreichische Postbus Aktiengesellschaft,1,51
+Bus,59093,Österreichische Postbus Aktiengesellschaft,1,48
+Bus,59094,Österreichische Postbus Aktiengesellschaft,1,51
+Bus,59095,Österreichische Postbus Aktiengesellschaft,1,51
+Bus,59096,Österreichische Postbus Aktiengesellschaft,1,12
+Bus,59097,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,59098,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,59099,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,59100,Österreichische Postbus Aktiengesellschaft,1,3
+Bus,59101,Österreichische Postbus Aktiengesellschaft,1,117
+Bus,59102,Österreichische Postbus Aktiengesellschaft,1,114
+Bus,59103,Österreichische Postbus Aktiengesellschaft,1,93
+Bus,59104,Österreichische Postbus Aktiengesellschaft,1,96
+Bus,59105,Österreichische Postbus Aktiengesellschaft,1,57
+Bus,59106,Österreichische Postbus Aktiengesellschaft,1,99
+Bus,59107,Österreichische Postbus Aktiengesellschaft,1,159
+Bus,59108,Österreichische Postbus Aktiengesellschaft,1,156
+Bus,59109,Österreichische Postbus Aktiengesellschaft,1,147
+Bus,59110,Österreichische Postbus Aktiengesellschaft,1,144
+Bus,59111,Österreichische Postbus Aktiengesellschaft,1,150
+Bus,59112,Österreichische Postbus Aktiengesellschaft,1,156
+Bus,59113,Österreichische Postbus Aktiengesellschaft,1,147
+Bus,59114,Österreichische Postbus Aktiengesellschaft,1,132
+Bus,59115,Österreichische Postbus Aktiengesellschaft,1,33
+Bus,59116,Österreichische Postbus Aktiengesellschaft,1,24
+Bus,59117,Österreichische Postbus Aktiengesellschaft,1,27
+Bus,59118,Österreichische Postbus Aktiengesellschaft,1,15
+Bus,59199,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,59200,Österreichische Postbus Aktiengesellschaft,1,6
+Bus,59201,Österreichische Postbus Aktiengesellschaft,1,3
+Bus,59207,Österreichische Postbus Aktiengesellschaft,1,2
+Bus,900013,Salzburg AG - Salzburger Lokalbahn,1,72
+Bus,900014,Salzburg AG - Salzburger Lokalbahn,1,126
+Bus,900015,Salzburg AG - Salzburger Lokalbahn,1,108
+Bus,900016,Salzburg AG - Salzburger Lokalbahn,1,72
+Bus,900078,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900079,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900080,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900081,Salzburg AG - Salzburger Lokalbahn,1,36
+Bus,900082,Salzburg AG - Salzburger Lokalbahn,1,36
+Bus,900083,Salzburg AG - Salzburger Lokalbahn,1,36
+Bus,900085,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900086,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900087,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900088,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900089,Salzburg AG - Salzburger Lokalbahn,1,36
+Bus,900095,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900096,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900097,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900098,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900099,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900100,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900101,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900102,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900103,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900104,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900105,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900106,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900108,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900110,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900112,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900113,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900114,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900115,Salzburg AG - Salzburger Lokalbahn,1,36
+Bus,900116,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900117,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900118,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900119,Salzburg AG - Salzburger Lokalbahn,1,36
+Bus,900120,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900121,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900122,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900123,Salzburg AG - Salzburger Lokalbahn,1,36
+Bus,900124,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900125,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900172,Salzburg AG - Salzburger Lokalbahn,1,468
+Bus,900173,Salzburg AG - Salzburger Lokalbahn,1,558
+Bus,900174,Salzburg AG - Salzburger Lokalbahn,1,630
+Bus,900175,Salzburg AG - Salzburger Lokalbahn,1,576
+Bus,900176,Salzburg AG - Salzburger Lokalbahn,1,576
+Bus,900177,Salzburg AG - Salzburger Lokalbahn,1,450
+Bus,900178,Salzburg AG - Salzburger Lokalbahn,1,486
+Bus,900179,Salzburg AG - Salzburger Lokalbahn,1,468
+Bus,900180,Salzburg AG - Salzburger Lokalbahn,1,450
+Bus,900181,Salzburg AG - Salzburger Lokalbahn,1,396
+Bus,900182,Salzburg AG - Salzburger Lokalbahn,1,414
+Bus,900183,Salzburg AG - Salzburger Lokalbahn,1,414
+Bus,900184,Salzburg AG - Salzburger Lokalbahn,1,360
+Bus,900185,Salzburg AG - Salzburger Lokalbahn,1,396
+Bus,900186,Salzburg AG - Salzburger Lokalbahn,1,468
+Bus,900187,Salzburg AG - Salzburger Lokalbahn,1,504
+Bus,900188,Salzburg AG - Salzburger Lokalbahn,1,432
+Bus,900189,Salzburg AG - Salzburger Lokalbahn,1,450
+Bus,900190,Salzburg AG - Salzburger Lokalbahn,1,396
+Bus,900191,Salzburg AG - Salzburger Lokalbahn,1,378
+Bus,900192,Salzburg AG - Salzburger Lokalbahn,1,468
+Bus,900193,Salzburg AG - Salzburger Lokalbahn,1,414
+Bus,900194,Salzburg AG - Salzburger Lokalbahn,1,306
+Bus,900195,Salzburg AG - Salzburger Lokalbahn,1,324
+Bus,900196,Salzburg AG - Salzburger Lokalbahn,1,342
+Bus,900197,Salzburg AG - Salzburger Lokalbahn,1,414
+Bus,900198,Salzburg AG - Salzburger Lokalbahn,1,450
+Bus,900199,Salzburg AG - Salzburger Lokalbahn,1,540
+Bus,900200,Salzburg AG - Salzburger Lokalbahn,1,432
+Bus,900201,Salzburg AG - Salzburger Lokalbahn,1,378
+Bus,900202,Salzburg AG - Salzburger Lokalbahn,1,432
+Bus,900203,Salzburg AG - Salzburger Lokalbahn,1,324
+Bus,900204,Salzburg AG - Salzburger Lokalbahn,1,360
+Bus,900205,Salzburg AG - Salzburger Lokalbahn,1,576
+Bus,900206,Salzburg AG - Salzburger Lokalbahn,1,360
+Bus,900207,Salzburg AG - Salzburger Lokalbahn,1,450
+Bus,900208,Salzburg AG - Salzburger Lokalbahn,1,360
+Bus,900209,Salzburg AG - Salzburger Lokalbahn,1,414
+Bus,900210,Salzburg AG - Salzburger Lokalbahn,1,522
+Bus,900211,Salzburg AG - Salzburger Lokalbahn,1,540
+Bus,900212,Salzburg AG - Salzburger Lokalbahn,1,504
+Bus,900213,Salzburg AG - Salzburger Lokalbahn,1,432
+Bus,900214,Salzburg AG - Salzburger Lokalbahn,1,378
+Bus,900215,Salzburg AG - Salzburger Lokalbahn,1,468
+Bus,900216,Salzburg AG - Salzburger Lokalbahn,1,432
+Bus,900217,Salzburg AG - Salzburger Lokalbahn,1,468
+Bus,900218,Salzburg AG - Salzburger Lokalbahn,1,432
+Bus,900219,Salzburg AG - Salzburger Lokalbahn,1,432
+Bus,900220,Salzburg AG - Salzburger Lokalbahn,1,378
+Bus,900221,Salzburg AG - Salzburger Lokalbahn,1,432
+Bus,900222,Salzburg AG - Salzburger Lokalbahn,1,486
+Bus,900223,Salzburg AG - Salzburger Lokalbahn,1,288
+Bus,900224,Salzburg AG - Salzburger Lokalbahn,1,342
+Bus,900294,StB - Steiermarkbahn und Bus GmbH | Region Graz,1,68
+Bus,900295,StB - Steiermarkbahn und Bus GmbH | Region Graz,1,45
+Bus,900296,StB - Steiermarkbahn und Bus GmbH | Region Graz,1,54
+Bus,900297,StB - Steiermarkbahn und Bus GmbH | Region Graz,1,25
+Bus,900298,StB - Steiermarkbahn und Bus GmbH | Region Graz,1,30
+Bus,900299,StB - Steiermarkbahn und Bus GmbH | Region Graz,1,95
+Bus,900354,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900355,Salzburg AG - Salzburger Lokalbahn,1,18
+Bus,900421,Salzburg AG - Salzburger Lokalbahn,1,48
+Bus,900422,Salzburg AG - Salzburger Lokalbahn,1,48
+Bus,900423,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900428,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900429,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900430,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900431,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900432,Salzburg AG - Salzburger Lokalbahn,1,48
+Bus,900433,Salzburg AG - Salzburger Lokalbahn,1,48
+Bus,900434,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900435,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900436,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900437,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900438,Salzburg AG - Salzburger Lokalbahn,1,72
+Bus,900439,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900440,Salzburg AG - Salzburger Lokalbahn,1,48
+Bus,900444,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900449,Salzburg AG - Salzburger Lokalbahn,1,48
+Bus,900450,Salzburg AG - Salzburger Lokalbahn,1,48
+Bus,900451,Salzburg AG - Salzburger Lokalbahn,1,48
+Bus,900452,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900453,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900454,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900455,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900456,Salzburg AG - Salzburger Lokalbahn,1,48
+Bus,900457,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900458,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900459,Salzburg AG - Salzburger Lokalbahn,1,48
+Bus,900460,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900461,Salzburg AG - Salzburger Lokalbahn,1,48
+Bus,900462,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900463,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900464,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900465,Salzburg AG - Salzburger Lokalbahn,1,48
+Bus,900466,Salzburg AG - Salzburger Lokalbahn,1,48
+Bus,900467,Salzburg AG - Salzburger Lokalbahn,1,48
+Bus,900468,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900469,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900470,Salzburg AG - Salzburger Lokalbahn,1,48
+Bus,900471,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900472,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900473,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900474,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900475,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900476,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900477,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900478,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900479,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900481,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900482,Salzburg AG - Salzburger Lokalbahn,1,24
+Bus,900483,Salzburg AG - Salzburger Lokalbahn,1,48
+Bus,900548,Salzburg AG - Salzburger Lokalbahn,1,672
+Bus,900549,Salzburg AG - Salzburger Lokalbahn,1,696
+Bus,900550,Salzburg AG - Salzburger Lokalbahn,1,672
+Bus,900551,Salzburg AG - Salzburger Lokalbahn,1,672
+Bus,900552,Salzburg AG - Salzburger Lokalbahn,1,480
+Bus,900553,Salzburg AG - Salzburger Lokalbahn,1,552
+Bus,900554,Salzburg AG - Salzburger Lokalbahn,1,504
+Bus,900555,Salzburg AG - Salzburger Lokalbahn,1,528
+Bus,900556,Salzburg AG - Salzburger Lokalbahn,1,504
+Bus,900557,Salzburg AG - Salzburger Lokalbahn,1,576
+Bus,900558,Salzburg AG - Salzburger Lokalbahn,1,504
+Bus,900559,Salzburg AG - Salzburger Lokalbahn,1,216
+Bus,900560,Salzburg AG - Salzburger Lokalbahn,1,408
+Bus,900561,Salzburg AG - Salzburger Lokalbahn,1,312
+Bus,900562,Salzburg AG - Salzburger Lokalbahn,1,360
+Bus,900563,Salzburg AG - Salzburger Lokalbahn,1,336
+Bus,900564,Salzburg AG - Salzburger Lokalbahn,1,240
+Bus,900565,Salzburg AG - Salzburger Lokalbahn,1,456
+Bus,900566,Salzburg AG - Salzburger Lokalbahn,1,360
+Bus,900567,Salzburg AG - Salzburger Lokalbahn,1,432
+Bus,900568,Salzburg AG - Salzburger Lokalbahn,1,408
+Bus,900569,Salzburg AG - Salzburger Lokalbahn,1,528
+Bus,900570,Salzburg AG - Salzburger Lokalbahn,1,504
+Bus,900571,Salzburg AG - Salzburger Lokalbahn,1,480
+Bus,900572,Salzburg AG - Salzburger Lokalbahn,1,384
+Bus,900573,Salzburg AG - Salzburger Lokalbahn,1,456
+Bus,900574,Salzburg AG - Salzburger Lokalbahn,1,480
+Bus,900575,Salzburg AG - Salzburger Lokalbahn,1,480
+Bus,900576,Salzburg AG - Salzburger Lokalbahn,1,408
+Bus,900577,Salzburg AG - Salzburger Lokalbahn,1,576
+Bus,900578,Salzburg AG - Salzburger Lokalbahn,1,600
+Bus,900579,Salzburg AG - Salzburger Lokalbahn,1,576
+Bus,900580,Salzburg AG - Salzburger Lokalbahn,1,432
+Bus,900581,Salzburg AG - Salzburger Lokalbahn,1,528
+Bus,900582,Salzburg AG - Salzburger Lokalbahn,1,432
+Bus,900583,Salzburg AG - Salzburger Lokalbahn,1,456
+Bus,900584,Salzburg AG - Salzburger Lokalbahn,1,456
+Bus,900585,Salzburg AG - Salzburger Lokalbahn,1,720
+Bus,900586,Salzburg AG - Salzburger Lokalbahn,1,624
+Bus,900587,Salzburg AG - Salzburger Lokalbahn,1,576
+Bus,900588,Salzburg AG - Salzburger Lokalbahn,1,600
+Bus,900589,Salzburg AG - Salzburger Lokalbahn,1,384
+Bus,900590,Salzburg AG - Salzburger Lokalbahn,1,672
+Bus,900591,Salzburg AG - Salzburger Lokalbahn,1,648
+Bus,900592,Salzburg AG - Salzburger Lokalbahn,1,792
+Bus,900593,Salzburg AG - Salzburger Lokalbahn,1,552
+Bus,900594,Salzburg AG - Salzburger Lokalbahn,1,504
+Bus,900595,Salzburg AG - Salzburger Lokalbahn,1,264
+Bus,900596,Salzburg AG - Salzburger Lokalbahn,1,432
+Bus,900597,Salzburg AG - Salzburger Lokalbahn,1,408
+Bus,900598,Salzburg AG - Salzburger Lokalbahn,1,528
+Bus,900599,Salzburg AG - Salzburger Lokalbahn,1,552
+Bus,900600,Salzburg AG - Salzburger Lokalbahn,1,360
+Bus,900601,Salzburg AG - Salzburger Lokalbahn,1,408
+Bus,900602,Salzburg AG - Salzburger Lokalbahn,1,336
+Bus,900603,Salzburg AG - Salzburger Lokalbahn,1,312
+Bus,900604,Salzburg AG - Salzburger Lokalbahn,1,456
+Bus,900605,Salzburg AG - Salzburger Lokalbahn,1,456
+Bus,900606,Salzburg AG - Salzburger Lokalbahn,1,360
+Bus,900607,Salzburg AG - Salzburger Lokalbahn,1,504
+Bus,900608,Salzburg AG - Salzburger Lokalbahn,1,384
+Bus,900609,Salzburg AG - Salzburger Lokalbahn,1,456
+Bus,900610,Salzburg AG - Salzburger Lokalbahn,1,624
+Bus,900611,Salzburg AG - Salzburger Lokalbahn,1,288
+Bus,900612,Salzburg AG - Salzburger Lokalbahn,1,240
+Bus,900613,Salzburg AG - Salzburger Lokalbahn,1,648
+Bus,900614,Salzburg AG - Salzburger Lokalbahn,1,504
+Bus,901567,Stern & Hafferl Verkehrsgesellschaft mbH,1,8
+Bus,901571,Stern & Hafferl Verkehrsgesellschaft mbH,1,24
+Bus,901573,Stern & Hafferl Verkehrsgesellschaft mbH,1,8
+Bus,901577,Stern & Hafferl Verkehrsgesellschaft mbH,1,8
+Bus,901579,Stern & Hafferl Verkehrsgesellschaft mbH,1,8
+Bus,901593,Stern & Hafferl Verkehrsgesellschaft mbH,1,8
+Bus,901596,Stern & Hafferl Verkehrsgesellschaft mbH,1,8
+Bus,901605,Stern & Hafferl Verkehrsgesellschaft mbH,1,8
+Bus,901610,Stern & Hafferl Verkehrsgesellschaft mbH,1,8
+Bus,901631,Stern & Hafferl Verkehrsgesellschaft mbH,1,16
+Bus,901634,Stern & Hafferl Verkehrsgesellschaft mbH,1,8
+Bus,901635,Stern & Hafferl Verkehrsgesellschaft mbH,1,8
+IR,510,Nahreisezug,1,4278
+IR,511,Nahreisezug,1,1519
+IR,512,Nahreisezug,1,4253
+IR,513,Nahreisezug,1,4065
+IR,514,Nahreisezug,1,4156
+IR,515,Nahreisezug,1,4095
+IR,518,Nahreisezug,1,4131
+IR,519,Nahreisezug,1,4184
+IR,572,Nahreisezug/Slovenske zeleznice,2,1215
+IR,573,Nahreisezug,1,396
+IR,574,Nahreisezug/Slovenske zeleznice,2,1188
+IR,575,Nahreisezug,1,541
+IR,576,Nahreisezug/Slovenske zeleznice,2,1664
+IR,577,Nahreisezug,1,596
+IR,580,Nahreisezug,1,2936
+IR,581,Nahreisezug,1,2850
+IR,582,Nahreisezug,1,2848
+IR,583,Nahreisezug,1,2805
+IR,584,Nahreisezug,1,2804
+IR,585,Nahreisezug,1,2979
+IR,586,Nahreisezug,1,2784
+IR,587,Nahreisezug,1,2891
+IR,588,Nahreisezug,1,2849
+IR,589,Nahreisezug,1,2870
+IR,610,Nahreisezug,1,4294
+IR,611,Nahreisezug,1,4186
+IR,612,Nahreisezug,1,2903
+IR,613,Nahreisezug,1,4451
+IR,614,Nahreisezug,1,1788
+IR,615,Nahreisezug,1,1382
+IR,616,Nahreisezug,1,2882
+IR,617,Nahreisezug,1,1330
+IR,618,Nahreisezug,1,3886
+IR,619,Nahreisezug,1,3014
+IR,670,Nahreisezug/Slovenske zeleznice,2,1161
+IR,671,Nahreisezug,1,374
+IR,672,Nahreisezug/Slovenske zeleznice,2,1179
+IR,673,Nahreisezug,1,344
+IR,676,Nahreisezug/Slovenske zeleznice,2,1064
+IR,677,Nahreisezug,1,387
+IR,678,Nahreisezug/Slovenske zeleznice,2,1215
+IR,679,Nahreisezug,1,378
+IR,680,Nahreisezug,1,2981
+IR,681,Nahreisezug,1,2828
+IR,682,Nahreisezug,1,395
+IR,683,Nahreisezug,1,395
+IR,686,Nahreisezug,1,2894
+IR,687,Nahreisezug,1,3271
+IR,688,Nahreisezug,1,2870
+IR,689,Nahreisezug,1,2873
+IR,700,Nahreisezug,1,2430
+IR,701,Nahreisezug,1,2341
+IR,702,Nahreisezug,1,2467
+IR,703,Nahreisezug,1,2376
+IR,704,Nahreisezug,1,2413
+IR,705,Nahreisezug,1,2413
+IR,706,Nahreisezug,1,2413
+IR,707,Nahreisezug,1,2375
+IR,708,Nahreisezug,1,2430
+IR,709,Nahreisezug,1,2483
+IR,710,Nahreisezug,1,1150
+IR,711,Nahreisezug,1,3225
+IR,712,Nahreisezug,1,1201
+IR,713,Nahreisezug,1,3202
+IR,714,Nahreisezug,1,1175
+IR,715,Nahreisezug,1,3226
+IR,716,Nahreisezug,1,1150
+IR,717,Nahreisezug,1,3300
+IR,718,Nahreisezug,1,1100
+IR,719,Nahreisezug,1,3377
+IR,770,Nahreisezug/Slovenske zeleznice,2,1040
+IR,771,Nahreisezug,1,405
+IR,774,Nahreisezug/Slovenske zeleznice,2,1161
+IR,775,Nahreisezug,1,414
+IR,778,Nahreisezug/Slovenske zeleznice,2,1170
+IR,779,Nahreisezug,1,387
+IR,780,Nahreisezug,1,2482
+IR,781,Nahreisezug,1,2675
+IR,782,Nahreisezug,1,948
+IR,783,Nahreisezug,1,2987
+IR,784,Nahreisezug,1,908
+IR,785,Nahreisezug,1,2758
+IR,786,Nahreisezug,1,888
+IR,787,Nahreisezug,1,3006
+IR,788,Nahreisezug,1,3023
+IR,789,Nahreisezug,1,2760
+IR,800,Nahreisezug,1,1819
+IR,801,Nahreisezug,1,2447
+IR,803,Nahreisezug,1,601
+IR,804,Nahreisezug,1,2324
+IR,806,Nahreisezug,1,2375
+IR,807,Nahreisezug,1,2358
+IR,808,Nahreisezug,1,2411
+IR,809,Nahreisezug,1,2358
+IR,810,Nahreisezug,1,1125
+IR,811,Nahreisezug,1,3275
+IR,813,Nahreisezug,1,3307
+IR,814,Nahreisezug,1,2376
+IR,818,Nahreisezug,1,1125
+IR,872,Nahreisezug/Slovenske zeleznice,2,1188
+IR,873,Nahreisezug,1,405
+IR,876,Nahreisezug/Slovenske zeleznice,2,1056
+IR,877,Nahreisezug,1,378
+IR,880,Nahreisezug,1,888
+IR,881,Nahreisezug,1,2696
+IR,882,Nahreisezug,1,404
+IR,883,Nahreisezug,1,413
+IR,884,Nahreisezug,1,1356
+IR,886,Nahreisezug,1,2319
+IR,887,Nahreisezug,1,2718
+IR,888,Nahreisezug,1,929
+IR,889,Nahreisezug,1,2655
+IR,15511,Nahreisezug,1,2425
+IR,15772,Nahreisezug,1,917
+IR,15773,Nahreisezug,1,315
+IR,15776,Nahreisezug,1,875
+IR,15777,Nahreisezug,1,308
+IR,15878,Nahreisezug,1,903
+IR,15879,Nahreisezug,1,301
+IR,19589,(none),0,22
+UEX,343,Urlaubs-Express,1,17
+UEX,349,Urlaubs-Express,1,14
+UEX,1309,Urlaubs-Express,1,7
+UEX,1371,Urlaubs-Express,1,7
+UEX,1377,Urlaubs-Express,1,14
+UEX,1383,Urlaubs-Express,1,12
+UEX,1385,Urlaubs-Express,1,6
+UEX,1387,Urlaubs-Express,1,14
+UEX,1389,Urlaubs-Express,1,19
+UEX,1391,Urlaubs-Express,1,7
+UEX,1393,Urlaubs-Express,1,13
+UEX,1397,Urlaubs-Express,1,14
+UEX,1399,Urlaubs-Express,1,36
