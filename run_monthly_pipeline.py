@@ -6,7 +6,8 @@ output history), which is what makes the full year fit in RAM. The notebook's `p
 notebook is saved to papermill_runs/ with its outputs, including the failed ones (the failing cell
 is highlighted at the top). A failing month doesn't stop the next ones.
 
-The monthly enriched parquet files can then be stacked with merge_processed_parquet.py.
+The monthly enriched parquet files are written to the shared-drive processed_data/ folder (see
+chuuchuu_paths.py) and can then be stacked with 8_Chuuchuu_merge_monthly_summary.ipynb.
 
 Usage (chuuchuu conda env):
 
