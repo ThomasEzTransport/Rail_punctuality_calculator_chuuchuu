@@ -25,6 +25,8 @@ stoppage would not repeat identically on four ordinary days, so this is treated 
 | shared drive (raw) | `delay_records_full_2025_april.parquet` | 122,706 |
 | shared drive (raw) | `delay_records_full_2025_NS.parquet` | 239,293 |
 | shared drive (raw) | `delay_records_full_2025.parquet` | 239,293 |
+| shared drive (raw CSV) | `delay_records_full_2025.csv` | 239,293 lines (of 85,236,926 records) |
+| shared drive (raw CSV) | `delay_records_2025.csv.gz` | 239,293 lines (of 85,236,926 records) |
 | shared drive `processed_data/` (enriched) | `data_chuuchuu_2025_02_enriched.parquet` | 112,464 |
 | shared drive `processed_data/` (enriched) | `data_chuuchuu_2025_04_enriched.parquet` | 119,443 |
 | shared drive `processed_data/` (enriched) | `data_chuuchuu_2025_01_to_2025_12_enriched.parquet` | 231,904 |
@@ -39,13 +41,19 @@ were not rewritten: the script's final file swap was refused with "Access denied
 or copy the cleaned files down from `processed_data/`.
 
 **Not changed.**
-- Raw CSV files (`delay_records_2025.csv.gz`, `delay_records_full_2025.csv`): they still contain these rows; anything
-  re-converted from them must be filtered again (rerun the script, it is idempotent).
+- Other raw CSVs: `delay_records_FR_2025.csv`, `delay_records_sbb_2025.csv` (single agency, no NS) and the 2026 test
+  exports have no NS rows for these dates.
 - `processed_data/old runs/` (archive of earlier runs) and the legacy local files
   `data_chuuchuu_full_enriched_04_09.parquet` and `data_chuuchuu_full_2025_april_enriched.parquet`.
 - Summary xlsx files in `summary_stats/` still reflect the data **before** this removal and must be regenerated.
 - 2025-04-23 (5 NS rows, collector outage) and the June days with elevated NS cancellations (6, 10, 12, 13, 17, 24 June)
   were not touched: the latter may be real strikes and have not been verified.
 
-**Reversibility.** The removed rows were saved (one parquet per file) in the scratchpad of the session that made the change;
-they can also be regenerated from the raw CSV.
+**CSV method.** The CSVs hold one record per line, so the NS lines of the four dates were dropped by streaming and every
+other byte was copied unchanged (the header, line endings and the quoted JSON `extra` field are untouched). The number
+of removed lines (239,293) was required to equal the number of rows removed from `delay_records_full_2025.parquet`
+before the original was replaced; the rewritten files were then re-read to check integrity and that no artifact line remains.
+Anything re-exported from the source or regenerated from an older copy must be filtered again (rerun the script, it is idempotent).
+
+**Reversibility.** The removed rows were saved (one parquet per parquet file, one `.csv.gz` per CSV) in the scratchpad of
+the session that made the change; they are not stored in the repo or on the drive.
