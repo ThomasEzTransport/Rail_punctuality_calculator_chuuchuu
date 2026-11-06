@@ -37,3 +37,13 @@ ENRICHED_DIR = CHUUCHUU_DIR / "processed_data"
 def output_path(data_selection):
     """Path of the enriched parquet file for a data_selection, e.g. "2025_01" or "2025_01_to_2025_12"."""
     return ENRICHED_DIR / f"data_chuuchuu_{data_selection}_enriched.parquet"
+
+
+# Swiss open data (SBB "Ist-Daten", one parquet per month), a sibling folder of the Chuuchuu one.
+# Used by Swiss_pipeline.ipynb.
+SWISS_OPEN_DATA_DIR = CHUUCHUU_DIR.parent / "Swiss open data"
+
+
+def swiss_raw_path(data_selection):
+    """Path of the raw Swiss open-data parquet for a month, e.g. "2025_01" -> ist-daten-2025-01.parquet."""
+    return SWISS_OPEN_DATA_DIR / f"ist-daten-{data_selection.replace('_', '-')}.parquet"
