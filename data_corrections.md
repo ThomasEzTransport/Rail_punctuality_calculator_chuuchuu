@@ -3,6 +3,29 @@
 The parquet files are not tracked in git (they live on the shared drive and in `intermediate_outputs/`), so every
 change made directly to the data is recorded here.
 
+## 2026-11-05 : OEBB trains with no delay data at all dropped in the pipeline
+
+**Issue.** Some OEBB trains have no `arrivalDelay` at any stop and no cancellation flag. Step 7 counts them in
+`N total train` as not delayed (i.e. on time). For OEBB long-distance day trains with a known journey type that is 5,600 of
+126,777 units (4.4%); 5,502 of them have no measured arrival anywhere in Austria. Other operators are much less affected
+(SBB 2.0%, Trenitalia 0.8%, DB 0.2%), except Westbahn (71.8%, not treated).
+
+**Change.** The parquet/CSV files are **not** modified: `Chuuchuu_pipeline.ipynb` (right after `OEBB_EXCLUDED_DAYS`)
+drops every OEBB-agency train except Westbahn (`routeType` `WB`) (key: `routeType`, `routeNumber`, `date`) where no stop has an `arrivalDelay` and none is
+cancelled. Trains with at least one measured delay or a cancellation are kept. Applied to all route types of the OEBB agency, not only long distance: on the raw 2025 OEBB file it removes ~37,000 of ~177,000 non-Westbahn trains, mostly CAT airport trains (23,829), buses and GEP. The row count is reported in the final
+"Summary of the process" cell.
+
+## 2026-11-04 : OEBB outage / missing-delay days excluded in the pipeline
+
+**Issue (confirmed by the data provider, no backup data exists).** OEBB: no data 22-31 Oct; only partly recorded on
+27 Jan, 23-24 Apr and 1 Nov; on 24-25 Jul, 8-9 Nov and 22-23 Nov (and slightly 24 Nov) 41-70% of the rows have no delay.
+
+**Change.** Unlike NS, the parquet/CSV files are **not** modified: `Chuuchuu_pipeline.ipynb` (right after Step 0's
+invalid-timestamp filter, `OEBB_EXCLUDED_DAYS`) drops the OEBB rows of these 11 days, nothing else. October OEBB is a
+21-day month. The DB-agency `81...` stop rows are deliberately not used as a substitute (double count with DB, ~10% of
+volume, international trains only). Other OEBB findings (Westbahn / foreign-operator missing delays, new IR type) are
+not treated.
+
 ## 2026-11-04 : NS "all trains cancelled" artifact days removed
 
 **Issue.** On 2025-02-06, 2025-02-20, 2025-04-03 and 2025-04-08 the NS feed flags ~99% of the stops as cancelled
