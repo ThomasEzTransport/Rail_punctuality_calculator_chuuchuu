@@ -47,3 +47,9 @@ SWISS_OPEN_DATA_DIR = CHUUCHUU_DIR.parent / "Swiss open data"
 def swiss_raw_path(data_selection):
     """Path of the raw Swiss open-data parquet for a month, e.g. "2025_01" -> ist-daten-2025-01.parquet."""
     return SWISS_OPEN_DATA_DIR / f"ist-daten-{data_selection.replace('_', '-')}.parquet"
+
+
+# German raw punctuality data (DB, Mobilithek), a sibling folder of the Chuuchuu one: one tar holding one
+# parquet per service day (2025-01-01.parquet ... 2025-12-31.parquet). Used by German_pipeline.ipynb.
+DB_MOBILITHEK_DIR = CHUUCHUU_DIR.parent / "DB Mobilithek data"
+DB_MOBILITHEK_TAR = DB_MOBILITHEK_DIR / "DB_punctuality_2025.tar"
