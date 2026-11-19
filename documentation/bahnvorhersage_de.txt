@@ -1,0 +1,5 @@
+Field explanation of DB open data
+
+Careful, it's not official sources from DB, but it is funded by Bundesministerium fur Bildung und Forschung
+
+https://bahnvorhersage.de/open-data/parsed-train-delays/
